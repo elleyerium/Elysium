@@ -98,7 +98,7 @@ public class LoginPage : MonoBehaviour {
 
         if (confirm == registerpass && Regex.IsMatch(email, format, RegexOptions.IgnoreCase) && registerpass.Length >= 8)
         {
-            string url = "http://dev.itvegas.ru/Reg.php";
+            string url = "xxx.xxx";
             using (var webClient = new WebClient())
             {
                 var registerdata = new NameValueCollection();
