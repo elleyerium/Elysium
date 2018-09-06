@@ -3283,7 +3283,7 @@ MonoBehaviour:
   pitchvalue: 53.975594
   VisualModifier: 40
   smoothspeed: 3
-  maxVisualScale: 4
+  maxVisualScale: 5
   KeepPercentage: 0.1
   amountVisual: 64
 --- !u!114 &519420038
@@ -14804,7 +14804,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1379203126}
   m_LocalRotation: {x: -0, y: -0, z: 0.5893732, w: -0.8078609}
-  m_LocalPosition: {x: 6.33, y: 3.79, z: 9.525}
+  m_LocalPosition: {x: 6.14, y: 3.93, z: 9.525}
   m_LocalScale: {x: 0.010000001, y: 0.01, z: 0}
   m_Children: []
   m_Father: {fileID: 519420033}
@@ -14845,10 +14845,10 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7ed61b376435ea64b93d5e3a976f1ac1, type: 3}
-  m_Color: {r: 0, g: 0.8595505, b: 1, a: 0.37254903}
-  m_FlipX: 0
-  m_FlipY: 0
+  m_Sprite: {fileID: 21300000, guid: d4ee67e7c2be38a4b92dca9585ae7180, type: 3}
+  m_Color: {r: 0, g: 0.8595505, b: 1, a: 0.35686275}
+  m_FlipX: 1
+  m_FlipY: 1
   m_DrawMode: 0
   m_Size: {x: 2.56, y: 2.56}
   m_AdaptiveModeThreshold: 0.5
