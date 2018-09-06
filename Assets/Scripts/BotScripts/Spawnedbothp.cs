@@ -4,10 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Spawnedbothp: MonoBehaviour {
-    public float hp;
-    private float maxbothp = 100f;
+    public int hp;
+    public static byte Countofkilled = 0;
+    private int maxbothp = 100;
     public GameObject bot;
-    public int boxdropchance;
+    public byte boxdropchance;
 
     void Start () {
         hp = maxbothp;
@@ -16,7 +17,8 @@ public class Spawnedbothp: MonoBehaviour {
 	void Update () {
       if (hp <= 0)
         {
-           Destroy(bot);
+            Countofkilled += 1;
+            Destroy(bot);
         }
 
     }

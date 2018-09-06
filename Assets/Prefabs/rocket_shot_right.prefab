@@ -223,6 +223,8 @@ MonoBehaviour:
   target: []
   missle: {fileID: 1359630943974224}
   bulletfife: 5
+  Explosion: {fileID: 198100709318745246, guid: 1d43abef16b043245a4126886859e468,
+    type: 2}
 --- !u!198 &198276832964972984
 ParticleSystem:
   m_ObjectHideFlags: 1

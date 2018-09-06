@@ -11,6 +11,7 @@ public class Missle : MonoBehaviour
     Rigidbody2D rb;
     public GameObject missle;
     public float bulletfife = 5f;
+    public ParticleSystem Explosion;
 
     void Start()
     {
@@ -56,6 +57,9 @@ public class Missle : MonoBehaviour
     {
         if (other.gameObject.tag == "bot")
         {
+            Instantiate(Explosion, other.transform.position, other.transform.rotation);
+            //Explosion.transform.position = missle.transform.position
+            Explosion.Play();
             Scores.Scoreup += Random.Range(3.7f, 5.2f);
             Destroy(missle);
         }

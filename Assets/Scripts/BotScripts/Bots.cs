@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class Bots : MonoBehaviour
 {
     public float maxbothp = 100f;
-    public static float botCounter =0;//хп бота(максимальне)
+    public static float botCounter =0;
     public Transform Spawn1;
     public Transform Spawn2;
     public GameObject Botprefabclone;
