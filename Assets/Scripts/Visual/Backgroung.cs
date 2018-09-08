@@ -7,7 +7,7 @@ public class Backgroung : MonoBehaviour {
     public float Speed;
 
 	void Update () {
-        Vector2 offset = new Vector2(Time.time * Speed, 0);
+        Vector2 offset = new Vector2(Time.time * Speed, Time.time * 0.2f);
         GetComponent<Renderer>().material.mainTextureOffset = offset;
     }
 }
