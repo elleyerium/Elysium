@@ -734,7 +734,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4578487722578210, guid: 14128183501528844a7cbc90d58ae01f, type: 2}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1308673525002922, guid: 14128183501528844a7cbc90d58ae01f, type: 2}
       propertyPath: m_Name
@@ -8359,7 +8359,6 @@ GameObject:
   - component: {fileID: 1017227929}
   - component: {fileID: 1017227928}
   - component: {fileID: 1017227927}
-  - component: {fileID: 1017227930}
   m_Layer: 5
   m_Name: Rocketshot
   m_TagString: Untagged
@@ -8466,7 +8465,7 @@ MonoBehaviour:
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
-  m_FillClockwise: 0
+  m_FillClockwise: 1
   m_FillOrigin: 0
 --- !u!222 &1017227929
 CanvasRenderer:
@@ -8474,24 +8473,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1017227925}
---- !u!95 &1017227930
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1017227925}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9f038ed6b891869469792edda14b4f89, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1063185240
 GameObject:
   m_ObjectHideFlags: 0
@@ -10315,7 +10296,7 @@ MonoBehaviour:
   rPos02: {fileID: 646245557}
   BotRocketHit: {fileID: 1738638403}
   BotHitClip: {fileID: 8300000, guid: f40bb6b9efd69014db806bf4603e5dbd, type: 3}
-  myBody: {fileID: 0}
+  Fill: {fileID: 1017227928}
 --- !u!50 &1738638396
 Rigidbody2D:
   serializedVersion: 4
@@ -10350,6 +10331,7 @@ MonoBehaviour:
   lazer1: {fileID: 1700060689}
   lazer: {fileID: 1125961423760066, guid: 3dd4a6179fed64f49bd3c54cfd5b9176, type: 2}
   lazerammo: 0
+  Fill: {fileID: 0}
 --- !u!212 &1738638398
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11687,7 +11669,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2084587178
 GameObject:
