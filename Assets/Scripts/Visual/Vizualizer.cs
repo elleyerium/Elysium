@@ -39,7 +39,8 @@ public class Vizualizer : MonoBehaviour {
         visualList = new Transform[amountVisual];
         for (int i = 0; i < amountVisual; i++)
         {
-            GameObject go = GameObject.CreatePrimitive(PrimitiveType.Cube) as GameObject;
+            GameObject go = GameObject.Instantiate(line, line.transform.position, line.transform.rotation) as GameObject;
+            line.transform.localScale = new Vector3(0.2f, 0.2f, 0);
             visualList[i] = go.transform;
             visualList[i].position = Vector3.right * i;
         }
@@ -48,7 +49,7 @@ public class Vizualizer : MonoBehaviour {
     {
         int visualIndex = 0;
         int spectrumIndex = 0;
-        int averageSize = (int)((SampleSize * KeepPercentage) / amountVisual);
+        int averageSize = (int)((SampleSize * KeepPercentage) / amountVisual );
         while (visualIndex < amountVisual)
         {
             int j = 0;
@@ -67,9 +68,9 @@ public class Vizualizer : MonoBehaviour {
                 if (VisualScale[visualIndex] > maxVisualScale)
                     VisualScale[visualIndex] = maxVisualScale;
 
-            //visualList[visualIndex].localScale = Vector3.one + Vector3.up * VisualScale[visualIndex];
-            visualList[visualIndex].localScale = new Vector3(0.2F, 0.25F, 0) + Vector3.up * VisualScale[visualIndex];
-            visualIndex++;
+           //visualList[visualIndex].localScale = Vector3.one + Vector3.up * VisualScale[visualIndex];
+           visualList[visualIndex].localScale = new Vector3(0.2F, 0.25F, 0) + Vector3.up * VisualScale[visualIndex];
+           visualIndex++;
 
         }
     }
@@ -82,11 +83,11 @@ public class Vizualizer : MonoBehaviour {
         float radius = 1f;
         for (int i = 0; i < amountVisual; i++)
         {
-            float angle = i * 1.0f / amountVisual;
-            angle = angle * Mathf.PI * 2;// * 2;
+            float angle = i * 1f / amountVisual;
+            angle = angle * Mathf.PI;
             float x = center.x + Mathf.Cos(angle) * radius;
             float y = center.x + Mathf.Sin(angle) * radius;
-            Vector3 pos = center + new Vector3(x,y,60);
+            Vector3 pos = center + new Vector3(x,y,10);
             GameObject go = GameObject.Instantiate(line, line.transform.position, line.transform.rotation) as GameObject;
             line.transform.localScale = new Vector3(0.2f, 0.2f, 0);
             go.transform.rotation = Quaternion.LookRotation(Vector3.forward ,pos);

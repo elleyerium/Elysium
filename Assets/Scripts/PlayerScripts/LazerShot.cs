@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LazerShot : MonoBehaviour
 {
@@ -9,6 +10,11 @@ public class LazerShot : MonoBehaviour
     public GameObject lazer;
     public float lazerammo;
     public static bool isblaster;
+    [SerializeField]
+    private Image Fill;
+
+
+    
 
     public void Lazershoot()
         

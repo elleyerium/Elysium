@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class Player2DControl : MonoBehaviour
 {
     public float MoveForce = 5;
+    [SerializeField]
     public GameObject shot;
     public Transform rPos01;
     public GameObject shot1;
@@ -16,7 +17,9 @@ public class Player2DControl : MonoBehaviour
     public AudioSource BotRocketHit;
     public AudioClip BotHitClip;
     [SerializeField]
-    Rigidbody2D myBody;
+    private Image Fill;
+    private Rigidbody2D myBody;
+    bool IsPressed = true;
     void Start()
     {
         myBody = this.GetComponent<Rigidbody2D>();
@@ -33,11 +36,10 @@ public class Player2DControl : MonoBehaviour
             transform.rotation = Quaternion.LookRotation(lookVec, Vector3.back);
         myBody.AddForce(moveVec);
         myBody.AddForce(lookVec);
-
     }
     public void shoot()
     {
-        if (Time.time >= nextFire && AmmoCounter.AmmodownRocket > 0)
+        if (Time.time >= nextFire)
         {
             nextFire = Time.time + 5;
             GameObject clone = Instantiate(shot, rPos01.position, rPos01.rotation);
@@ -47,8 +49,11 @@ public class Player2DControl : MonoBehaviour
             Destroy(clone, 5f);
             Destroy(clone2, 5f);
             AmmoCounter.AmmodownRocket -= 1;
+            Fill.fillAmount = 0.2f * Time.time;
         }
     }
+
+
     void OnTriggerEnter2D(Collider2D col)
     {
 

@@ -10,6 +10,7 @@ public class Misslebotscript : MonoBehaviour
     Rigidbody2D rb;
     public GameObject missle;
     public float bulletfife = 5f;
+    public ParticleSystem Explosion;
     
     void Start()
     {
@@ -45,6 +46,8 @@ public class Misslebotscript : MonoBehaviour
     {
         if (col.gameObject.tag == "player")
         {
+            Instantiate(Explosion, col.transform.position, col.transform.rotation);
+            Explosion.Play();
             HealthbarScript.health -= 2;
             Destroy(missle);
         }
