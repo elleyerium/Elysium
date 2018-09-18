@@ -7,7 +7,7 @@ using System.Collections.Specialized;
 using System.Text.RegularExpressions;
 
 public class LoginPage : MonoBehaviour {
-    public GameObject registerinputs, login_inputs, registerbtn, loginbtn;
+    public GameObject registerinputs, login_inputs, registerbtn, loginbtn, settings;
     public InputField username_input,registerusername_input, email_input;
     public InputField password_input, registerpass_input, confirm_input;
     public string userID, email, RegisterID, registerpass;
@@ -90,6 +90,7 @@ public class LoginPage : MonoBehaviour {
         loginpanel.SetActive(true);
         username_input.text = "";
         password_input.text = "";
+        
     }
     public void RegisterEnter()
     {
@@ -98,7 +99,9 @@ public class LoginPage : MonoBehaviour {
 
         if (confirm == registerpass && Regex.IsMatch(email, format, RegexOptions.IgnoreCase) && registerpass.Length >= 8)
         {
-            string url = "xxx.xxx";
+            PlayerPrefs.SetString("username", RegisterID);
+            PlayerPrefs.SetString("password", registerpass);
+            string url = "http://dev.itvegas.ru/Reg.php";
             using (var webClient = new WebClient())
             {
                 var registerdata = new NameValueCollection();
