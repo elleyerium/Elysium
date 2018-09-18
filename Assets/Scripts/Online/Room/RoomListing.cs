@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class RoomListing : MonoBehaviour {
+public class RoomListing : MonoBehaviour
+{
     [SerializeField]
     private Text _roomnametext;
     private Text Roomnametext
     {
-    get {return _roomnametext;}
+        get { return _roomnametext; }
 
     }
-    public string RoomName { get; private set;}
+    public string RoomName { get; private set; }
     public bool Updated { get; set; }
-	void Start()
+    void Start()
     {
         GameObject lobbyCanvasobj = MainCanvasManager.Instance.LobbyCanvas.gameObject;
         if (lobbyCanvasobj == null)
@@ -21,11 +22,17 @@ public class RoomListing : MonoBehaviour {
         LobbyCanvas lobbycanvas = lobbyCanvasobj.GetComponent<LobbyCanvas>();
         Button button = GetComponent<Button>();
         button.onClick.AddListener(() => lobbycanvas.OnClickJoinRoom(Roomnametext.text));
-	}
+    }
     public void SetRoomNameText(string text)
     {
         RoomName = text;
         Roomnametext.text = RoomName;
     }
-     
+    
+    
+    public void RoomSelected()
+    {
+        bool selected = true;
+        
+    } 
 }

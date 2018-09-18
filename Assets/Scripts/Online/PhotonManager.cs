@@ -8,18 +8,16 @@ public class PhotonManager : Photon.MonoBehaviour {
     [SerializeField] public GameObject Player;
     [SerializeField] private Transform SpawnPoint;
     [SerializeField] private GameObject lobbycamera;
-   private void Start()
-    { 
-        PhotonNetwork.JoinLobby();
+    private void Start()
+    {
+        PhotonNetwork.automaticallySyncScene = true;
+        OnJoinedRoom();
     }
-    void Update () {
+    void Update()
+    {
         test.text = PhotonNetwork.connectionStateDetailed.ToString();
-	}
-    public virtual void OnJoinedLobby()
-    {   
-        Debug.Log(" We have joined to lobby");
-        PhotonNetwork.JoinOrCreateRoom("Deathmatch", null, null);
     }
+  
     public virtual void OnJoinedRoom()
     {
         PhotonNetwork.Instantiate(Player.name, SpawnPoint.position, SpawnPoint.rotation, 0);
