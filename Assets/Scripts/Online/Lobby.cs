@@ -4,9 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 public class Lobby : Photon.MonoBehaviour {
-    public Toggle tvst, raid, survival;
+    //public Toggle tvst, raid, survival;
     public Transform RoomParent;
     public GameObject RoomPrefabUI;
+
     void Awake()
     {
        PhotonNetwork.automaticallySyncScene = true;
@@ -31,13 +32,5 @@ public class Lobby : Photon.MonoBehaviour {
     {
         Debug.Log("room created");
     }
-
-
-
-    private void TeamvsTeam()
-        {
-            PhotonNetwork.maxConnections = 20;
-
-        }
     
 }
