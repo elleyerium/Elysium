@@ -24,6 +24,7 @@ public class PauseBTN : MonoBehaviour
     }
     public void MainMenu()
     {
+        Bots.botCounter = 0;
         Blastercount.Ammodownlazer = 90;
         AmmoCounter.AmmodownRocket = 20;
         Initiate.Fade("Main", Color.black, 2.5f);
@@ -47,6 +48,7 @@ public class PauseBTN : MonoBehaviour
     }
     public void Restart()
     {
+        Bots.botCounter = 0;
         Blastercount.Ammodownlazer = 90;
         AmmoCounter.AmmodownRocket = 20;
         

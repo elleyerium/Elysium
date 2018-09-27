@@ -82,7 +82,7 @@ public class Settings : MonoBehaviour
         ModeVisual = true;
         ModeStats = false;
         ModeNetwork = false;
-        Line.transform.position = new Vector3(-3.373f, 1.571f, -55f);
+        Line.transform.position = new Vector3(-3.373f, 1.571f, -11.63f);
         toggles.SetActive(true);
 
     }
@@ -91,14 +91,14 @@ public class Settings : MonoBehaviour
         ModeStats = true;
         ModeVisual = false;
         ModeNetwork = false;
-        Line.transform.position = new Vector3(-3.373f, 0.50f, -55f);
+        Line.transform.position = new Vector3(-3.373f, 0.50f, -11.63f);
     }
     public void NetworkSettings()
     {
         ModeNetwork = true;
         ModeVisual = false;
         ModeStats = false;
-        Line.transform.position = new Vector3(-3.373f, -0.60f, -55f);
+        Line.transform.position = new Vector3(-3.373f, -0.60f, -11.63f);
     }
     public void LogOut()
     {

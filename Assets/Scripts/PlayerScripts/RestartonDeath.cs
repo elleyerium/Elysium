@@ -16,6 +16,7 @@ public class RestartonDeath : MonoBehaviour
     }
     public void RestartGame()
     {
+        Bots.botCounter = 0;
         Initiate.Fade("bots", Color.black, 4.5f);
         Time.timeScale = 1;
         Blastercount.Ammodownlazer = 90;
@@ -23,7 +24,7 @@ public class RestartonDeath : MonoBehaviour
     }
     public void Mainmenu()
     {
-
+        Bots.botCounter = 0;
         Initiate.Fade("Main", Color.black, 2.5f);
         Time.timeScale = 1;
         Blastercount.Ammodownlazer = 90;

@@ -9,7 +9,7 @@ public class Player2DControl : MonoBehaviour
 {
     public float MoveForce = 5;
     [SerializeField]
-    public GameObject shot;
+    public GameObject shot, Zero_ammo;
     public Transform rPos01;
     public GameObject shot1;
     public Transform rPos02;
@@ -39,7 +39,7 @@ public class Player2DControl : MonoBehaviour
     }
     public void shoot()
     {
-        if (Time.time >= nextFire)
+        if (Time.time >= nextFire && AmmoCounter.AmmodownRocket >0)
         {
             nextFire = Time.time + 5;
             GameObject clone = Instantiate(shot, rPos01.position, rPos01.rotation);
@@ -50,6 +50,12 @@ public class Player2DControl : MonoBehaviour
             Destroy(clone2, 5f);
             AmmoCounter.AmmodownRocket -= 1;
             Fill.fillAmount = 0.2f * Time.time;
+        }
+        if(AmmoCounter.AmmodownRocket <= 0)
+        {
+
+            Zero_ammo.SetActive(true);
+           
         }
     }
 

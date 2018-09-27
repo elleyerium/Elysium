@@ -4,17 +4,20 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Bots : MonoBehaviour
 {
+    [SerializeField]
+    private Text Alive;
     public float maxbothp = 100f;
-    public static float botCounter =0;
+    public static int botCounter =0;
     public Transform Spawn1;
     public Transform Spawn2;
     public GameObject Botprefabclone;
     [SerializeField]
-    private float SpawnDelay;
-    private float SpawnMultiplier;
+    private float SpawnDelay, SpawnMultiplier;
+    public static int Alive_Counter;
 
-   public void Update()
+    public void Update()
    {
+        Alive.text = ("bots alive : " + botCounter);
 
         if (Time.time >= SpawnMultiplier && botCounter <=10)
         {
@@ -32,5 +35,6 @@ public class Bots : MonoBehaviour
         GameObject SpawnItbot1 = Instantiate(Botprefabclone, Spawn1.position, Spawn1.rotation) as GameObject;
         GameObject SpawnItbot2 = Instantiate(Botprefabclone, Spawn2.position, Spawn2.rotation) as GameObject;
         Debug.Log("Spawned from pos1");
+        //Alive_Counter += 2;
     }
 }

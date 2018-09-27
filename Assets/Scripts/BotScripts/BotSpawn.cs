@@ -14,6 +14,7 @@ public class BotSpawn : MonoBehaviour
     private float SpawnMultiplier;
     public GameObject Botprefabclone;
 
+
     public void Update()
     {
         if(Time.time >= SpawnMultiplier)
@@ -28,5 +29,6 @@ public class BotSpawn : MonoBehaviour
         Botprefabclone = Instantiate(SpawnItbot, Spawn1.position, Spawn1.rotation) as GameObject;
         Destroy(Botprefabclone, 4);
         Debug.Log("Spawned from pos1");
+
     }
 }
