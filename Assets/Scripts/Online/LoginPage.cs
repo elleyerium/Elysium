@@ -10,7 +10,8 @@ public class LoginPage : MonoBehaviour {
     public GameObject registerinputs, login_inputs, registerbtn, loginbtn, settings;
     public InputField username_input,registerusername_input, email_input;
     public InputField password_input, registerpass_input, confirm_input;
-    public string userID, email, RegisterID, registerpass;
+    public string userID;
+    public string email, RegisterID, registerpass;
     public string pass, confirm;
     public GameObject errormessage, Guest, waystoconnect, loginpanel, bordersignin, borderregister;
     public GameObject connectedtoaccount, Connected, Connecting, Disconnected;
@@ -40,7 +41,7 @@ public class LoginPage : MonoBehaviour {
         if (PhotonNetwork.connected == true)
         {
            
-            hellouser.text = ("logged as :  " + PlayerPrefs.GetString("username"));
+            hellouser.text = (PlayerPrefs.GetString("username") + "   #137");
             loginpanel.SetActive(false);
         }
     }
@@ -115,7 +116,7 @@ public class LoginPage : MonoBehaviour {
                 if (str.Contains(":1"))
                 {
                     loginpanel.SetActive(false);
-                    hellouser.text = "Logged as : " + RegisterID;
+                    hellouser.text = (RegisterID + " - 0 lvl");
                     Connecting.SetActive(false);
                     Connected.SetActive(true);
                     registered.SetActive(true);
