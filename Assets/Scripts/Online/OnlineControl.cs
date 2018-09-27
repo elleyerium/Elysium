@@ -6,6 +6,7 @@ using UnityStandardAssets.CrossPlatformInput;
 public class OnlineControl : Photon.MonoBehaviour
 {
     public float MoveForce = 5;
+    PhotonView pv;
     public GameObject shot;
     public Transform rPos01;
     public GameObject shot1;
@@ -14,13 +15,14 @@ public class OnlineControl : Photon.MonoBehaviour
     private float lastSynchronizationTime = 0f;
     private float syncDelay;
     private float syncTime;
-    private Vector3 SyncStartPos = Vector3.zero;
-    private Vector3 SyncEndPos = Vector3.zero;
+    private Vector3 TargetPosition;
+    private Quaternion TargetRotation;
     [SerializeField]
     Rigidbody2D myBody;
     void Start()
     {
-        
+        pv = GetComponent<PhotonView>();
+
         myBody = this.GetComponent<Rigidbody2D>();
     }
    
@@ -54,23 +56,26 @@ public class OnlineControl : Photon.MonoBehaviour
     }
     void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
-        if (stream.isWriting)
+        if (stream.isReading)
         {
-            stream.SendNext(myBody.position);
-            stream.SendNext(myBody.rotation);
+            if (!pv.isMine)
+                this.TargetPosition = (Vector3)stream.ReceiveNext();
+                this.TargetRotation = (Quaternion)stream.ReceiveNext();
         }
         else
-        {
-            SyncEndPos = (Vector3)stream.ReceiveNext();
-            SyncStartPos = myBody.position;
-            syncTime = 0f;
-            syncDelay = Time.time - lastSynchronizationTime;
-            lastSynchronizationTime = Time.time;
+        { if (pv.isMine)
+                stream.SendNext(transform.position);
+                stream.SendNext(transform.rotation);
         }
     
     }
     void Update()
-    {
+    {     if (!pv.isMine)
+            {
+                transform.position = Vector3.Lerp(transform.position, TargetPosition, Time.deltaTime * 5);
+                transform.rotation = Quaternion.Lerp(transform.rotation, TargetRotation, Time.deltaTime * 5);
+            }
+        
         if (photonView.isMine)
         {
             Input();
@@ -82,8 +87,8 @@ public class OnlineControl : Photon.MonoBehaviour
     }
     private void SyncedMovement()
     {
-        syncTime += Time.deltaTime;
-        myBody.position = Vector3.Lerp(SyncStartPos, SyncEndPos, syncTime / syncDelay);
+          transform.position = Vector3.Lerp(transform.position, TargetPosition, Time.deltaTime * 5);
+          transform.rotation = Quaternion.RotateTowards(transform.rotation, TargetRotation, 0.25f);
 
     }
 
