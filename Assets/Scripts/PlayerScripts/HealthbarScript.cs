@@ -18,6 +18,12 @@ public class HealthbarScript : MonoBehaviour
     }
     void Update()
     {
+                
+        if (health < 100 && BotDifficult.noob) //if noob activated - health gonna repair
+        {
+            health += 1f * Time.deltaTime;
+        }
+
         Healthbar.fillAmount = health / maxHealth;
         if (health <= 0)
             Destroy(player);

@@ -4,12 +4,18 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Blastercount : MonoBehaviour {
-    public static int Ammodownlazer = 90;
+    public static int Ammodownlazer;
     public static Text lazercount;
 
 
     void Start ()
     {
+        if (BotDifficult.noob)
+            Ammodownlazer = 250;
+        if (BotDifficult.abitharder)
+            Ammodownlazer = 90;
+        if (BotDifficult.impossible)
+            Ammodownlazer = 60;
         lazercount = GetComponent<Text>();
     }
 

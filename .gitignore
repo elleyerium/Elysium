@@ -51,3 +51,4 @@ Elleyer.keystore
 ProjectSettings/ProjectSettings.asset
 ProjectSettings/ProjectSettings.asset
 Assets/Prefabs/Spaceship.prefab
+Assets/Scripts/BotScripts/HealthBar.cs

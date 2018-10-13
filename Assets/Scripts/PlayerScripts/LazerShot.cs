@@ -10,8 +10,6 @@ public class LazerShot : MonoBehaviour
     public Transform lazer1;
     public GameObject lazer, Zero_ammo;
     public float lazerammo;
-    //public static bool isblaster;
-    [SerializeField]
     private Image Fill;
 
 
@@ -35,6 +33,18 @@ public class LazerShot : MonoBehaviour
             Zero_ammo.SetActive(true);
         }
     }
+
+    public void OnlineBlaster()
+    {
+        if(Time.time > lazernextFire)
+        {
+            lazernextFire = Time.time + 1;
+            GameObject lazer = PhotonNetwork.Instantiate("PlayerBlaster", lazer1.position, lazer1.rotation, 0);
+            lazer.SetActive(true);
+            
+        }
+    }
+
 
 
 }

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class AmmoCounter : MonoBehaviour
 {
-    public static int AmmodownRocket = 20;
+    public static int AmmodownRocket;
     [SerializeField]
     public static Text rocketcount;
 
@@ -13,8 +13,16 @@ public class AmmoCounter : MonoBehaviour
    
     void Start ()
     {
+        if (BotDifficult.noob)
+            AmmodownRocket = 100;
+        if (BotDifficult.abitharder)
+            AmmodownRocket = 50;
+        if (BotDifficult.impossible)
+            AmmodownRocket = 30;
+
+
         rocketcount = GetComponent<Text>();
-     }
+    }
 
     void Update ()
     {

@@ -39,9 +39,15 @@ public class Player2DControl : MonoBehaviour
     }
     public void shoot()
     {
-        if (Time.time >= nextFire && AmmoCounter.AmmodownRocket >0)
+        if (Time.time >= nextFire && AmmoCounter.AmmodownRocket > 0)
         {
-            nextFire = Time.time + 5;
+            if(BotDifficult.noob)
+                nextFire = Time.time + 3;
+            if (BotDifficult.abitharder)
+                nextFire = Time.time + 5;
+            if (BotDifficult.impossible)
+                nextFire = Time.time + 7;
+
             GameObject clone = Instantiate(shot, rPos01.position, rPos01.rotation);
             GameObject clone2 = Instantiate(shot1, rPos02.position, rPos02.rotation);
             clone.SetActive(true);
