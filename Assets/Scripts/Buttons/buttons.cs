@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class buttons : MonoBehaviour {
-    public GameObject gamemodechoose;
-    public GameObject Settingspanel;
+    public GameObject gamemodechoose,Settingspanel;
 
     public void StartGame()
     {
