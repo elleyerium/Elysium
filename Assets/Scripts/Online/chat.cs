@@ -15,6 +15,7 @@ public class chat : MonoBehaviour, IChatClientListener {
 
     void Start()
     {
+        SenderName.text = (PlayerPrefs.GetString("username"));
         UserID.text = (PlayerPrefs.GetString("username"));
         GetConnected();
         ChatChannel = "world";
