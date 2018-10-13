@@ -24,9 +24,16 @@ public class PauseBTN : MonoBehaviour
     }
     public void MainMenu()
     {
+        BotDifficult.abitharder = false;
+        BotDifficult.noob = false;
+        BotDifficult.impossible = false;
         Bots.botCounter = 0;
-        Blastercount.Ammodownlazer = 90;
-        AmmoCounter.AmmodownRocket = 20;
+        if (BotDifficult.noob)
+            AmmoCounter.AmmodownRocket = 999;
+        if (BotDifficult.abitharder)
+            AmmoCounter.AmmodownRocket = 20;
+        if (BotDifficult.impossible)
+            AmmoCounter.AmmodownRocket = 10;
         Initiate.Fade("Main", Color.black, 2.5f);
         Time.timeScale = 1;
 
@@ -49,10 +56,14 @@ public class PauseBTN : MonoBehaviour
     public void Restart()
     {
         Bots.botCounter = 0;
-        Blastercount.Ammodownlazer = 90;
-        AmmoCounter.AmmodownRocket = 20;
-        
-        
+        if (BotDifficult.noob)
+            AmmoCounter.AmmodownRocket = 999;
+        if (BotDifficult.abitharder)
+            AmmoCounter.AmmodownRocket = 20;
+        if (BotDifficult.impossible)
+            AmmoCounter.AmmodownRocket = 10;
+
+
         Initiate.Fade("bots", Color.black, 4.5f);
         Time.timeScale = 1;
     }
