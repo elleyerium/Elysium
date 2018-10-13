@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Missle : MonoBehaviour
 {
-    
     public float speed = 5;
     public float rotationspeed = 200;
     public GameObject[] target;
@@ -58,7 +57,7 @@ public class Missle : MonoBehaviour
         {
             Instantiate(Explosion, other.transform.position, other.transform.rotation);
             Explosion.Play();
-            Scores.Scoreup += Random.Range(3.7f, 5.2f);
+            Scores.Scoreup += (Random.Range(3.7f, 5.2f)* Scores.ScoreMultipliyer);
             Destroy(missle);
         }
         else
