@@ -11,18 +11,20 @@ public class Settings : MonoBehaviour
 
     public GameObject start,styling,scores,Settingspanel,text,Particlesky, toggles;
     public Toggle Checkboxparticle;
-    public Text HighestScore, Times_Played, Ping;
+    public Text HighestScore, Times_Played,TotalScore,Ping;
     public Image Line;
     public static int PlayedCount;
     bool ModeVisual, ModeStats, ModeNetwork = false;
 
     void Start()
-    { 
+    {
+        TotalScore.text = ("Total  score :  " + PlayerPrefs.GetFloat("TotalScore"));
         HighestScore.text = ("Highest  score :  " + PlayerPrefs.GetFloat("Highest score"));
         Times_Played.text = ("Times  played :  " + PlayerPrefs.GetInt("Play Counter"));
         HighestScore.enabled = false;
         Times_Played.enabled = false;
         Ping.enabled = false;
+        TotalScore.enabled = false;
 
     }
     
@@ -34,12 +36,13 @@ public class Settings : MonoBehaviour
             HighestScore.enabled = false;
             Times_Played.enabled = false;
             Ping.enabled = false;
-            
-           
+            TotalScore.enabled = false;
+
+
         }
         if(ModeStats)
         {
-
+            TotalScore.enabled = true;
             HighestScore.enabled = true;
             Times_Played.enabled = true;
             Ping.enabled = false;
@@ -47,6 +50,7 @@ public class Settings : MonoBehaviour
         }
         if(ModeNetwork)
         {
+            TotalScore.enabled = false;
             HighestScore.enabled = false;
             Times_Played.enabled = false;
             Ping.enabled = true;
