@@ -683,10 +683,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lazer1: {fileID: 224014492806181952}
-  lazer: {fileID: 1125961423760066, guid: 3dd4a6179fed64f49bd3c54cfd5b9176, type: 2}
+  lazer: {fileID: 1789744111346378, guid: 4433d08c04fbfda43b1f89ba63c749e8, type: 2}
   Zero_ammo: {fileID: 0}
   lazerammo: 0
-  Fill: {fileID: 0}
 --- !u!198 &198464818012530544
 ParticleSystem:
   m_ObjectHideFlags: 1

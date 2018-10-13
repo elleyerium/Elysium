@@ -505,10 +505,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveForce: 2
   shot: {fileID: 1359630943974224, guid: 7d6fdee691b464140aff3cc727b72c90, type: 2}
+  Zero_ammo: {fileID: 0}
   rPos01: {fileID: 224661989322974138}
   shot1: {fileID: 1434066341904590, guid: 0aca280250465e1469173251de06263d, type: 2}
   rPos02: {fileID: 224789447816999482}
-  myBody: {fileID: 0}
+  BotRocketHit: {fileID: 0}
+  BotHitClip: {fileID: 0}
+  Fill: {fileID: 0}
 --- !u!114 &114476759748282352
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -520,8 +523,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c92e2a4d06dad9a42b6e8c980a33a3f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lazer1: {fileID: 224477225307678444}
+  lazer1: {fileID: 224547882702709532, guid: c3626659df8dfba43ad6a9b8ac8c9e8e, type: 2}
   lazer: {fileID: 1125961423760066, guid: 3dd4a6179fed64f49bd3c54cfd5b9176, type: 2}
+  Zero_ammo: {fileID: 0}
   lazerammo: 0
 --- !u!114 &114943599886726652
 MonoBehaviour:
