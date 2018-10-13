@@ -6,8 +6,11 @@ using UnityEngine.UI;
 public class HealthBar : MonoBehaviour {
     [SerializeField]
     Image HealthBarFill;
+
     public int hp;
+
     int MaxBotHp = 100;
+
     void Start()
     {
         hp = MaxBotHp;

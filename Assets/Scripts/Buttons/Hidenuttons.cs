@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Hidenuttons : MonoBehaviour
 {
-    public GameObject start, lobby, gamemodechoose, styling, scores, text, allbuttons;
+    public GameObject start, lobby, gamemodechoose, styling, scores, text, allbuttons, paneldifficult;
     void Update()
     {
         Whattodoonline();
@@ -21,10 +21,7 @@ public class Hidenuttons : MonoBehaviour
     }
     public void Offline()
     {
-        Initiate.Fade("bots", Color.black, 4.5f);
-        gamemodechoose.SetActive(false);
-        text.SetActive(true);
-        PlayerPrefs.SetInt("Play Counter", Settings.PlayedCount +=1);
+        paneldifficult.SetActive(true);
     }
     public void Back()
     {
