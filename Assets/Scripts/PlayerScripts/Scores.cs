@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Scores : MonoBehaviour {
+    public static float ScoreMultipliyer;
     public static float Currently_score;
     public static float Scoreup = 0f;
     public Text Score;
@@ -11,11 +12,21 @@ public class Scores : MonoBehaviour {
 
 	void Start ()
     {
+       
+        if (BotDifficult.noob)
+            ScoreMultipliyer = 0.3f;
+        if (BotDifficult.abitharder)
+            ScoreMultipliyer = 1.1f;
+        if (BotDifficult.impossible)
+            ScoreMultipliyer = 2.3f;
+
         Score = GetComponent<Text>();
     }
 
     public void Update()
     {
+        Currently_score.ToString("0, 00");
+        Scoreup.ToString("0,00");
         Currently_score = Scoreup;
         Score.text = "Score : " + Currently_score;
 
