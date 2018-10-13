@@ -15,7 +15,8 @@ public class Createroom : Photon.MonoBehaviour
     {
         if (PhotonNetwork.inRoom)
         {
-            Initiate.Fade("deathmatch", Color.black, 2.0f);
+            PhotonNetwork.LoadLevel("deathmatch");
+                //Initiate.Fade("deathmatch", Color.black, 2.0f);
         }
 
         maxplayers = (byte)maxPlayers.value;

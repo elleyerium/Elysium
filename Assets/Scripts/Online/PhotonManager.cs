@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class PhotonManager : Photon.MonoBehaviour
 {
     public PhotonManager Instance;
+    public GameObject Panel;
     [SerializeField] private Text test;
     [SerializeField] public GameObject Player;
     [SerializeField] public GameObject Camera;
@@ -13,18 +14,24 @@ public class PhotonManager : Photon.MonoBehaviour
     [SerializeField] private GameObject lobbycamera;
     private void Awake()
     {
-        PhotonNetwork.Instantiate(Player.name, Playerpoint.position, Playerpoint.rotation, 0);
+        
         Instance = this;
         PhotonNetwork.sendRate = 60;
         PhotonNetwork.sendRateOnSerialize = 30;
     }
     private void Start()
     {
+        PhotonNetwork.Instantiate(Player.name, Playerpoint.position, Playerpoint.rotation, 0);
         PhotonNetwork.automaticallySyncScene = true;
         
     }
     void Update()
     {
+        if (PhotonNetwork.room.PlayerCount <= 1)
+            Panel.SetActive(true);
+        else
+            Panel.SetActive(false);
+
         Playerpoint.transform.position = new Vector3(Random.Range(0, 2000), (Random.Range(1000, 2000)), -12);
     }
     public virtual void OnJoinedRoom()

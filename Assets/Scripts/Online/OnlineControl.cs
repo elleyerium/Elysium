@@ -11,7 +11,7 @@ public class OnlineControl : Photon.MonoBehaviour
     public Transform rPos01;
     public GameObject shot1;
     public Transform rPos02;
-    public static float nextFire;
+    private static float nextFire;
     private float lastSynchronizationTime = 0f;
     private float syncDelay;
     private float syncTime;
