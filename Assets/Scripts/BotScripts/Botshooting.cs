@@ -10,22 +10,28 @@ public class Botshooting : MonoBehaviour
     public GameObject shot2; //Компонент 2 ракети
     public Transform pos1; //позиція 1 ракети
     public Transform pos2; //позиція 2 ракети
-    public GameObject player; //Гравець
-    private int range = 2500;
+    public GameObject player, bot; //Гравець
+    private float range = 2500;
 
-    public void Update()
+    public void FixedUpdate()
     {
-        if (Vector3.Distance(pos1.position, player.transform.position) <= range && (Vector3.Distance(pos2.position, player.transform.position) <= range && Time.time > nextrocket))
+        if (Vector3.Distance(bot.transform.position, player.transform.position) < range && Time.time > nextrocket)
         {
-           nextrocket = Time.time + Random.Range(7,15);
-           GameObject clone = Instantiate(shot1, pos1.position, pos1.rotation);
-           GameObject clone2 = Instantiate(shot1, pos2.position, pos2.rotation);
-           clone.SetActive(true);
-           clone2.SetActive(true);
-           Destroy(clone, 5f);
-           Destroy(clone2, 5f);
-           Debug.Log("I h've been shooted from rocket missile");    
-        }              
+            if (BotDifficult.noob)
+                nextrocket = Time.time + Random.Range(6, 7);
+            if (BotDifficult.abitharder)
+                nextrocket = Time.time + Random.Range(8, 9);
+            if (BotDifficult.impossible)
+                nextrocket = Time.time + Random.Range(9, 10);
+
+            GameObject clone = Instantiate(shot1, pos1.position, pos1.rotation);
+            GameObject clone2 = Instantiate(shot1, pos2.position, pos2.rotation);
+            clone.SetActive(true);
+            clone2.SetActive(true);
+            Destroy(clone, 5f);
+            Destroy(clone2, 5f);
+            Debug.Log("I h've been shooted from rocket missile");
+        }          
     }
 }
 

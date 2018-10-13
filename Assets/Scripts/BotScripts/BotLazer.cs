@@ -26,7 +26,12 @@ public class BotLazer : MonoBehaviour {
 
         if (col.gameObject.tag == "player")
         {
-            HealthbarScript.health -= 14;
+            if (BotDifficult.impossible)
+                HealthbarScript.health -= 30;
+            if (BotDifficult.abitharder)
+                HealthbarScript.health -= 15;
+            if (BotDifficult.noob)
+                HealthbarScript.health -= 10;
             Destroy(botlazer);
         }
 
