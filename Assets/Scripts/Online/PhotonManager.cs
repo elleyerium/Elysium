@@ -13,20 +13,20 @@ public class PhotonManager : Photon.MonoBehaviour
     [SerializeField] private GameObject lobbycamera;
     private void Awake()
     {
+        PhotonNetwork.Instantiate(Player.name, Playerpoint.position, Playerpoint.rotation, 0);
         Instance = this;
         PhotonNetwork.sendRate = 60;
         PhotonNetwork.sendRateOnSerialize = 30;
     }
     private void Start()
-    { if (Createroom.HostPlayer == true)
-        {
-            PhotonNetwork.Instantiate(Player.name, Playerpoint.position, Playerpoint.rotation, 0);
-        }
-        Playerpoint.transform.position = new Vector3(Random.Range(300, 600), (Random.Range(300, 600)), -12);
+    {
         PhotonNetwork.automaticallySyncScene = true;
         
     }
-
+    void Update()
+    {
+        Playerpoint.transform.position = new Vector3(Random.Range(0, 2000), (Random.Range(1000, 2000)), -12);
+    }
     public virtual void OnJoinedRoom()
     {
         PhotonNetwork.Instantiate(Player.name, Playerpoint.position, Playerpoint.rotation, 0);
