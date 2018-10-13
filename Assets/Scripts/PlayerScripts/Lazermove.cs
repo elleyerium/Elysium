@@ -6,8 +6,7 @@ public class Lazermove : MonoBehaviour {
     public float speed;
     public GameObject lazer;
     Rigidbody2D rb;
-    public float lazernextFire;
-    public Transform lazer1;
+
 
     void Start() {
         rb = GetComponent<Rigidbody2D>();
@@ -28,7 +27,7 @@ public class Lazermove : MonoBehaviour {
         if (col.gameObject.tag == "bot")
         {
             Destroy(lazer);
-            Scores.Scoreup += Random.Range(9.0f, 11.30f);
+            Scores.Scoreup += (Random.Range(9.0f, 11.30f) * Scores.ScoreMultipliyer);
         }
 
         if(col.gameObject.tag == "border")
