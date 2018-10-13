@@ -13,10 +13,12 @@ public class LoginPage : MonoBehaviour {
     public string userID;
     public string email, RegisterID, registerpass;
     public string pass, confirm;
-    public GameObject errormessage, Guest, waystoconnect, loginpanel, bordersignin, borderregister;
+    public GameObject errormessage, Guest, waystoconnect, loginpanel, bordersignin, borderregister, gamemenu;
     public GameObject connectedtoaccount, Connected, Connecting, Disconnected;
     public GameObject registered, Usernametaken, userandmailtaken, emailtaken, passdontmatch, incorrectmail, passlessthan8;
     public Text hellouser;
+    [SerializeField]
+    private ScrollRect Scroll;
     void Awake()
     {
             PhotonNetwork.automaticallySyncScene = true;
@@ -79,12 +81,15 @@ public class LoginPage : MonoBehaviour {
     }
     public void AsGuest()
     {
+        //Scroll.enabled = true;
+        Connected.SetActive(false);
         loginpanel.SetActive(false);
         Guest.SetActive(true);
 
     }
     public void LogOut()
     {
+        //Scroll.enabled = false;
         PlayerPrefs.DeleteKey("username");
         PlayerPrefs.DeleteKey("password");
         PhotonNetwork.Disconnect();
@@ -102,7 +107,7 @@ public class LoginPage : MonoBehaviour {
         {
             PlayerPrefs.SetString("username", RegisterID);
             PlayerPrefs.SetString("password", registerpass);
-            string url = "http://dev.itvegas.ru/Reg.php";
+            string url = "http://elysium.lh1.in/Reg.php";
             using (var webClient = new WebClient())
             {
                 var registerdata = new NameValueCollection();
@@ -160,6 +165,7 @@ public class LoginPage : MonoBehaviour {
     }
     public void LoginAttempt()
     {
+
         PlayerPrefs.SetString("username", userID);
         PlayerPrefs.SetString("password", pass);
 
@@ -172,7 +178,7 @@ public class LoginPage : MonoBehaviour {
     }
     void  OnConnectedToPhoton()
     {
-        
+       //Scroll.enabled = true;
         Connected.SetActive(true);
         Connecting.SetActive(false);
 

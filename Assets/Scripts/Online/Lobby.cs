@@ -7,7 +7,6 @@ public class Lobby : Photon.MonoBehaviour {
     //public Toggle tvst, raid, survival;
     public Transform RoomParent;
     public GameObject RoomPrefabUI;
-
     void Awake()
     {
        PhotonNetwork.automaticallySyncScene = true;
