@@ -10,7 +10,6 @@ public class Createroom : Photon.MonoBehaviour
     [SerializeField]
     private Slider maxPlayers;
     private byte maxplayers;
-    public static bool HostPlayer = false;
     void Update()
     {
         if (PhotonNetwork.inRoom)
@@ -26,7 +25,6 @@ public class Createroom : Photon.MonoBehaviour
 
     public void CreateRoom()
     {
-        HostPlayer = true;
         RoomOptions roomOptions = new RoomOptions()
         {
             IsVisible = true,
