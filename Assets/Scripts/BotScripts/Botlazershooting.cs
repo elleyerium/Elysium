@@ -18,7 +18,6 @@ public class Botlazershooting : MonoBehaviour
                 GameObject cloneshot = Instantiate(botlazer, lazerpos.position, lazerpos.rotation);
                 cloneshot.SetActive(true);
                 Destroy(cloneshot, 3f);
-                Debug.Log("shot");
             }
 
      }

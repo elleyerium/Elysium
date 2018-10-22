@@ -30,7 +30,6 @@ public class Botshooting : MonoBehaviour
             clone2.SetActive(true);
             Destroy(clone, 5f);
             Destroy(clone2, 5f);
-            Debug.Log("I h've been shooted from rocket missile");
         }          
     }
 }

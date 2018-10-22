@@ -17,7 +17,6 @@ public class Spawnedbothp: MonoBehaviour {
 	}
 	void Update ()
     {
-        Debug.Log(HealthBarFill.fillAmount);
         HealthBarFill.fillAmount = hp / maxbothp;
         if (hp <= 0)
         {
