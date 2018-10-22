@@ -11,8 +11,7 @@ public class Scores : MonoBehaviour {
     public static int Reset = 0;
 
 	void Start ()
-    {
-       
+	{
         if (BotDifficult.noob)
             ScoreMultipliyer = 0.3f;
         if (BotDifficult.abitharder)
@@ -25,11 +24,8 @@ public class Scores : MonoBehaviour {
 
     public void Update()
     {
-        Currently_score.ToString("0, 00");
-        Scoreup.ToString("0,00");
         Currently_score = Scoreup;
         Score.text = "Score : " + Currently_score;
-
         if (Currently_score >= PlayerPrefs.GetFloat("Highest score"))
         {
             PlayerPrefs.SetFloat("Highest score", Currently_score);

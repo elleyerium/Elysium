@@ -1,8 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.Configuration;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
+using System.Net;
+using System.Net.Sockets;
+using System.Runtime.Remoting.Messaging;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class RestartonDeath : MonoBehaviour
 {
@@ -11,6 +16,13 @@ public class RestartonDeath : MonoBehaviour
     Text CountOfKills, TotalScore;
     void Start()
     {
+        var ScoreDatas = Scores.Currently_score.ToString();
+        WWWForm Server = new WWWForm();
+        Server.AddField("scores", ScoreDatas);
+        Server.AddField("username", PlayerPrefs.GetString("username"));
+        string url = "http://elysium.lh1.in/ScoreParse.php";
+        WWW www = new WWW(url, Server);
+        
         PlayerPrefs.SetFloat("TotalScore", (PlayerPrefs.GetFloat("TotalScore") + Scores.Currently_score));
     }
     void Update()
