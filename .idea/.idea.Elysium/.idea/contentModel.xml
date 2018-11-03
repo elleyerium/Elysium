@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="\ae03fcf7" t="IncludeRecursive" />
+    <e p="\app" t="IncludeRecursive" />
+    <e p="C:\Users\Elliot Alderson\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Elliot Alderson\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_Elysium.-1279233579.00" t="ExcludeRecursive" />
+    <e p="G:\Elysium" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Camera Aspect Ratio Rectifier" t="Include">
+          <e p="cameraZoomController.cs" t="Include" />
+        </e>
+        <e p="GooglePlayGames" t="Include">
+          <e p="BasicApi" t="Include">
+            <e p="Achievement.cs" t="Include" />
+            <e p="CommonStatusCodes.cs" t="Include" />
+            <e p="CommonTypes.cs" t="Include" />
+            <e p="DummyClient.cs" t="Include" />
+            <e p="Events" t="Include">
+              <e p="IEvent.cs" t="Include" />
+              <e p="IEventsClient.cs" t="Include" />
+            </e>
+            <e p="IPlayGamesClient.cs" t="Include" />
+            <e p="LeaderboardScoreData.cs" t="Include" />
+            <e p="Multiplayer" t="Include">
+              <e p="Invitation.cs" t="Include" />
+              <e p="IRealTimeMultiplayerClient.cs" t="Include" />
+              <e p="ITurnBasedMultiplayerClient.cs" t="Include" />
+              <e p="MatchOutcome.cs" t="Include" />
+              <e p="Participant.cs" t="Include" />
+              <e p="Player.cs" t="Include" />
+              <e p="RealTimeMultiplayerListener.cs" t="Include" />
+              <e p="TurnBasedMatch.cs" t="Include" />
+            </e>
+            <e p="Nearby" t="Include">
+              <e p="AdvertisingResult.cs" t="Include" />
+              <e p="ConnectionRequest.cs" t="Include" />
+              <e p="ConnectionResponse.cs" t="Include" />
+              <e p="DummyNearbyConnectionClient.cs" t="Include" />
+              <e p="EndpointDetails.cs" t="Include" />
+              <e p="INearbyConnectionClient.cs" t="Include" />
+              <e p="NearbyConnectionConfiguration.cs" t="Include" />
+            </e>
+            <e p="PlayerStats.cs" t="Include" />
+            <e p="PlayGamesClientConfiguration.cs" t="Include" />
+            <e p="SavedGame" t="Include">
+              <e p="ISavedGameClient.cs" t="Include" />
+              <e p="ISavedGameMetadata.cs" t="Include" />
+              <e p="SavedGameMetadataUpdate.cs" t="Include" />
+            </e>
+            <e p="ScorePageToken.cs" t="Include" />
+            <e p="Video" t="Include">
+              <e p="CaptureOverlayStateListener.cs" t="Include" />
+              <e p="iVideoClient.cs" t="Include" />
+              <e p="VideoCapabilities.cs" t="Include" />
+              <e p="VideoCaptureState.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Editor" t="Include">
+            <e p="ForceNoGpgsForIOS.cs" t="Include" />
+            <e p="GooglePlayGamesPlugin_v0.9.50.txt" t="Include" />
+            <e p="GooglePlayGamesPluginDependencies.xml" t="Include" />
+            <e p="GPGSAndroidSetupUI.cs" t="Include" />
+            <e p="GPGSDocsUI.cs" t="Include" />
+            <e p="GPGSPostBuild.cs" t="Include" />
+            <e p="GPGSProjectSettings.cs" t="Include" />
+            <e p="GPGSStrings.cs" t="Include" />
+            <e p="GPGSUpgrader.cs" t="Include" />
+            <e p="GPGSUtil.cs" t="Include" />
+            <e p="m2repository" t="Include">
+              <e p="com" t="Include">
+                <e p="google" t="Include">
+                  <e p="Games" t="Include">
+                    <e p="gpgs-plugin-support" t="Include">
+                      <e p="maven-metadata.xml" t="Include" />
+                    </e>
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="NearbyConnectionUI.cs" t="Include" />
+            <e p="template-AndroidManifest.txt" t="Include" />
+            <e p="template-Constants.txt" t="Include" />
+            <e p="template-GameInfo.txt" t="Include" />
+          </e>
+          <e p="GameInfo.cs" t="Include" />
+          <e p="ISocialPlatform" t="Include">
+            <e p="PlayGamesAchievement.cs" t="Include" />
+            <e p="PlayGamesLeaderboard.cs" t="Include" />
+            <e p="PlayGamesLocalUser.cs" t="Include" />
+            <e p="PlayGamesPlatform.cs" t="Include" />
+            <e p="PlayGamesScore.cs" t="Include" />
+            <e p="PlayGamesUserProfile.cs" t="Include" />
+          </e>
+          <e p="OurUtils" t="Include">
+            <e p="Logger.cs" t="Include" />
+            <e p="Misc.cs" t="Include" />
+            <e p="PlatformUtils.cs" t="Include" />
+            <e p="PlayGamesHelperObject.cs" t="Include" />
+          </e>
+          <e p="Platforms" t="Include">
+            <e p="Android" t="Include">
+              <e p="AndroidClient.cs" t="Include" />
+              <e p="AndroidTokenClient.cs" t="Include" />
+              <e p="Developers" t="Include">
+                <e p="JavaInterfaceProxy.cs" t="Include" />
+                <e p="JavaObjWrapper.cs" t="Include" />
+              </e>
+              <e p="Gms" t="Include">
+                <e p="Common" t="Include">
+                  <e p="Api" t="Include">
+                    <e p="GoogleApiClient.cs" t="Include" />
+                    <e p="PendingResult.cs" t="Include" />
+                    <e p="Result.cs" t="Include" />
+                    <e p="ResultCallback.cs" t="Include" />
+                    <e p="ResultCallbackProxy.cs" t="Include" />
+                    <e p="Status.cs" t="Include" />
+                  </e>
+                  <e p="ConnectionResult.cs" t="Include" />
+                </e>
+                <e p="Games" t="Include">
+                  <e p="Games.cs" t="Include" />
+                  <e p="Stats" t="Include">
+                    <e p="LoadPlayerStatsResultObject.cs" t="Include" />
+                    <e p="PlayerStats.cs" t="Include" />
+                    <e p="PlayerStatsObject.cs" t="Include" />
+                    <e p="Stats.cs" t="Include" />
+                    <e p="StatsObject.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="IClientImpl.cs" t="Include" />
+            <e p="IOS" t="Include">
+              <e p="IOSClient.cs" t="Include" />
+              <e p="IOSTokenClient.cs" t="Include" />
+            </e>
+            <e p="Native" t="Include">
+              <e p="CallbackUtils.cs" t="Include" />
+              <e p="ConversionUtils.cs" t="Include" />
+              <e p="Cwrapper" t="Include">
+                <e p="Achievement.cs" t="Include" />
+                <e p="AchievementManager.cs" t="Include" />
+                <e p="AndroidPlatformConfiguration.cs" t="Include" />
+                <e p="Builder.cs" t="Include" />
+                <e p="CaptureOverlayStateListenerHelper.cs" t="Include" />
+                <e p="CommonErrorStatus.cs" t="Include" />
+                <e p="EndpointDiscoveryListenerHelper.cs" t="Include" />
+                <e p="Event.cs" t="Include" />
+                <e p="EventManager.cs" t="Include" />
+                <e p="GameServices.cs" t="Include" />
+                <e p="InternalHooks.cs" t="Include" />
+                <e p="IosPlatformConfiguration.cs" t="Include" />
+                <e p="Leaderboard.cs" t="Include" />
+                <e p="LeaderboardManager.cs" t="Include" />
+                <e p="MessageListenerHelper.cs" t="Include" />
+                <e p="MultiplayerInvitation.cs" t="Include" />
+                <e p="MultiplayerParticipant.cs" t="Include" />
+                <e p="NearbyConnections.cs" t="Include" />
+                <e p="NearbyConnectionsBuilder.cs" t="Include" />
+                <e p="NearbyConnectionsStatus.cs" t="Include" />
+                <e p="NearbyConnectionTypes.cs" t="Include" />
+                <e p="ParticipantResults.cs" t="Include" />
+                <e p="Player.cs" t="Include" />
+                <e p="PlayerManager.cs" t="Include" />
+                <e p="PlayerStats.cs" t="Include" />
+                <e p="RealTimeEventListenerHelper.cs" t="Include" />
+                <e p="RealTimeMultiplayerManager.cs" t="Include" />
+                <e p="RealTimeRoom.cs" t="Include" />
+                <e p="RealTimeRoomConfig.cs" t="Include" />
+                <e p="RealTimeRoomConfigBuilder.cs" t="Include" />
+                <e p="Score.cs" t="Include" />
+                <e p="ScorePage.cs" t="Include" />
+                <e p="ScoreSummary.cs" t="Include" />
+                <e p="Sentinels.cs" t="Include" />
+                <e p="SnapshotManager.cs" t="Include" />
+                <e p="SnapshotMetadata.cs" t="Include" />
+                <e p="SnapshotMetadataChange.cs" t="Include" />
+                <e p="SnapshotMetadataChangeBuilder.cs" t="Include" />
+                <e p="StatsManager.cs" t="Include" />
+                <e p="Status.cs" t="Include" />
+                <e p="SymbolLocation.cs" t="Include" />
+                <e p="TurnBasedMatch.cs" t="Include" />
+                <e p="TurnBasedMatchConfig.cs" t="Include" />
+                <e p="TurnBasedMatchConfigBuilder.cs" t="Include" />
+                <e p="TurnBasedMultiplayerManager.cs" t="Include" />
+                <e p="Types.cs" t="Include" />
+                <e p="VideoCapabilities.cs" t="Include" />
+                <e p="VideoCaptureState.cs" t="Include" />
+                <e p="VideoManager.cs" t="Include" />
+              </e>
+              <e p="JavaUtils.cs" t="Include" />
+              <e p="NativeClient.cs" t="Include" />
+              <e p="NativeEventClient.cs" t="Include" />
+              <e p="NativeNearbyConnectionClientFactory.cs" t="Include" />
+              <e p="NativeNearbyConnectionsClient.cs" t="Include" />
+              <e p="NativeRealtimeMultiplayerClient.cs" t="Include" />
+              <e p="NativeSavedGameClient.cs" t="Include" />
+              <e p="NativeTurnBasedMultiplayerClient.cs" t="Include" />
+              <e p="NativeVideoClient.cs" t="Include" />
+              <e p="PInvoke" t="Include">
+                <e p="AchievementManager.cs" t="Include" />
+                <e p="AndroidPlatformConfiguration.cs" t="Include" />
+                <e p="BaseReferenceHolder.cs" t="Include" />
+                <e p="Callbacks.cs" t="Include" />
+                <e p="CaptureOverlayStateListenerHelper.cs" t="Include" />
+                <e p="EventManager.cs" t="Include" />
+                <e p="GameServices.cs" t="Include" />
+                <e p="GameServicesBuilder.cs" t="Include" />
+                <e p="IosPlatformConfiguration.cs" t="Include" />
+                <e p="LeaderboardManager.cs" t="Include" />
+                <e p="MultiplayerInvitation.cs" t="Include" />
+                <e p="MultiplayerParticipant.cs" t="Include" />
+                <e p="NativeAchievement.cs" t="Include" />
+                <e p="NativeAppIdentifier.cs" t="Include" />
+                <e p="NativeConnectionRequest.cs" t="Include" />
+                <e p="NativeConnectionResponse.cs" t="Include" />
+                <e p="NativeEndpointDetails.cs" t="Include" />
+                <e p="NativeEndpointDiscoveryListenerHelper.cs" t="Include" />
+                <e p="NativeEvent.cs" t="Include" />
+                <e p="NativeLeaderboard.cs" t="Include" />
+                <e p="NativeMessageListenerHelper.cs" t="Include" />
+                <e p="NativePlayer.cs" t="Include" />
+                <e p="NativePlayerStats.cs" t="Include" />
+                <e p="NativeRealTimeRoom.cs" t="Include" />
+                <e p="NativeScore.cs" t="Include" />
+                <e p="NativeScoreEntry.cs" t="Include" />
+                <e p="NativeScorePage.cs" t="Include" />
+                <e p="NativeScorePageToken.cs" t="Include" />
+                <e p="NativeScoreSummary.cs" t="Include" />
+                <e p="NativeSnapshotMetadata.cs" t="Include" />
+                <e p="NativeSnapshotMetadataChange.cs" t="Include" />
+                <e p="NativeStartAdvertisingResult.cs" t="Include" />
+                <e p="NativeTurnBasedMatch.cs" t="Include" />
+                <e p="NativeVideoCapabilities.cs" t="Include" />
+                <e p="NativeVideoCaptureState.cs" t="Include" />
+                <e p="NearbyConnectionsManager.cs" t="Include" />
+                <e p="NearbyConnectionsManagerBuilder.cs" t="Include" />
+                <e p="ParticipantResults.cs" t="Include" />
+                <e p="PInvokeUtilities.cs" t="Include" />
+                <e p="PlatformConfiguration.cs" t="Include" />
+                <e p="PlayerManager.cs" t="Include" />
+                <e p="PlayerSelectUIResponse.cs" t="Include" />
+                <e p="RealTimeEventListenerHelper.cs" t="Include" />
+                <e p="RealtimeManager.cs" t="Include" />
+                <e p="RealTimeRoomConfig.cs" t="Include" />
+                <e p="RealTimeRoomConfigBuilder.cs" t="Include" />
+                <e p="SnapshotManager.cs" t="Include" />
+                <e p="StatsManager.cs" t="Include" />
+                <e p="TurnBasedManager.cs" t="Include" />
+                <e p="TurnBasedMatchConfig.cs" t="Include" />
+                <e p="TurnBasedMatchConfigBuilder.cs" t="Include" />
+                <e p="VideoManager.cs" t="Include" />
+              </e>
+              <e p="UnsupportedSavedGamesClient.cs" t="Include" />
+            </e>
+            <e p="NearbyConnectionClientFactory.cs" t="Include" />
+            <e p="PlayGamesClientFactory.cs" t="Include" />
+            <e p="TokenClient.cs" t="Include" />
+          </e>
+          <e p="Plugins" t="Include">
+            <e p="Android" t="Include">
+              <e p="GooglePlayGamesManifest.plugin" t="Include">
+                <e p="AndroidManifest.xml" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="PluginVersion.cs" t="Include" />
+        </e>
+        <e p="Photon Unity Networking" t="Include">
+          <e p="changelog.txt" t="Include" />
+          <e p="Demos" t="Include">
+            <e p="Demo2DJumpAndRunWithPhysics" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Demo2DJumpAndRun.cs" t="Include" />
+                <e p="JumpAndRunMovement.cs" t="Include" />
+              </e>
+            </e>
+            <e p="DemoBoxes" t="Include">
+              <e p="ColorPerPlayer.cs" t="Include" />
+              <e p="ColorPerPlayerApply.cs" t="Include" />
+              <e p="DemoBoxesGui.cs" t="Include" />
+              <e p="OnAwakePhysicsSettings.cs" t="Include" />
+              <e p="OnClickFlashRpc.cs" t="Include" />
+              <e p="OnDoubleclickDestroy.cs" t="Include" />
+              <e p="Resources" t="Include">
+                <e p="eurof_tt.txt" t="Include" />
+              </e>
+            </e>
+            <e p="DemoChangeOwner" t="Include">
+              <e p="ClickAndDrag.cs" t="Include" />
+              <e p="DemoOwnershipGui.cs" t="Include" />
+              <e p="HighlightOwnedGameObj.cs" t="Include" />
+              <e p="InstantiateCube.cs" t="Include" />
+              <e p="MaterialPerOwner.cs" t="Include" />
+              <e p="OnClickDisableObj.cs" t="Include" />
+              <e p="OnClickRequestOwnership.cs" t="Include" />
+              <e p="OnClickRightDestroy.cs" t="Include" />
+              <e p="ShowInfoOfPlayer.cs" t="Include" />
+            </e>
+            <e p="DemoChat" t="Include">
+              <e p="ChannelSelector.cs" t="Include" />
+              <e p="ChatAppIdCheckerUI.cs" t="Include" />
+              <e p="ChatGui.cs" t="Include" />
+              <e p="FriendItem.cs" t="Include" />
+              <e p="IgnoreUiRaycastWhenInactive.cs" t="Include" />
+              <e p="NamePickGui.cs" t="Include" />
+            </e>
+            <e p="DemoFriendsAndCustomAuth" t="Include">
+              <e p="GUICustomAuth.cs" t="Include" />
+              <e p="GUIFriendFinding.cs" t="Include" />
+              <e p="GUIFriendsInRoom.cs" t="Include" />
+              <e p="OnClickCallMethod.cs" t="Include" />
+            </e>
+            <e p="DemoHub" t="Include">
+              <e p="Editor" t="Include">
+                <e p="PunStartup.cs" t="Include" />
+              </e>
+              <e p="HubGui.cs" t="Include" />
+              <e p="MoveCam.cs" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="DemoHubManager.cs" t="Include" />
+                <e p="ToDemoHubButton.cs" t="Include" />
+              </e>
+              <e p="ToHubButton.cs" t="Include" />
+            </e>
+            <e p="DemoMecanim" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="DemoMecanimGUI.cs" t="Include" />
+              </e>
+            </e>
+            <e p="DemoPickup" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MessageOverlay.cs" t="Include" />
+                <e p="OnCollideSwitchTeam.cs" t="Include" />
+                <e p="OnPickedUpScript.cs" t="Include" />
+                <e p="PickupCamera.cs" t="Include" />
+                <e p="PickupController.cs" t="Include" />
+                <e p="PickupDemoGui.cs" t="Include" />
+                <e p="PickupTriggerForward.cs" t="Include" />
+              </e>
+            </e>
+            <e p="DemoRockPaperScissors" t="Include">
+              <e p="Assets" t="Include">
+                <e p="OpenSans" t="Include">
+                  <e p="Apache License.txt" t="Include" />
+                </e>
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="RpsCore.cs" t="Include" />
+                <e p="RpsDebug.cs" t="Include" />
+                <e p="RpsDemoConnect.cs" t="Include" />
+              </e>
+            </e>
+            <e p="DemoRPGMovement" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="DemoRPGMovement.cs" t="Include" />
+                <e p="RPGCamera.cs" t="Include" />
+                <e p="RPGMovement.cs" t="Include" />
+              </e>
+            </e>
+            <e p="DemoSynchronization" t="Include">
+              <e p="CubeExtra.cs" t="Include" />
+              <e p="CubeInter.cs" t="Include" />
+              <e p="CubeLerp.cs" t="Include" />
+              <e p="DragToMove.cs" t="Include" />
+              <e p="IELdemo.cs" t="Include" />
+            </e>
+            <e p="DemoWorker" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Game" t="Include">
+                  <e p="Player" t="Include">
+                    <e p="ThirdPersonCamera.cs" t="Include" />
+                    <e p="ThirdPersonController.cs" t="Include" />
+                    <e p="ThirdPersonNetwork.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="WorkerInGame.cs" t="Include" />
+                <e p="WorkerMenu.cs" t="Include" />
+              </e>
+            </e>
+            <e p="MarcoPolo-Tutorial" t="Include">
+              <e p="AudioRpc.cs" t="Include" />
+              <e p="ClickDetector.cs" t="Include" />
+              <e p="GameLogic.cs" t="Include" />
+              <e p="marcopolo-readme.txt" t="Include" />
+              <e p="Monstergame" t="Include">
+                <e p="Resources" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="myThirdPersonController.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="NetworkCharacter.cs" t="Include" />
+              <e p="OnClickLoadSomething.cs" t="Include" />
+              <e p="RandomMatchmaker.cs" t="Include" />
+            </e>
+            <e p="PunBasics-Tutorial" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="CameraWork.cs" t="Include" />
+                <e p="GameManager.cs" t="Include" />
+                <e p="Launcher.cs" t="Include" />
+                <e p="LoaderAnime.cs" t="Include" />
+                <e p="PlayerAnimatorManager.cs" t="Include" />
+                <e p="PlayerManager.cs" t="Include" />
+                <e p="PlayerNameInputField.cs" t="Include" />
+                <e p="PlayerUI.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Shared Assets" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="IdleRunJump.cs" t="Include" />
+                <e p="PlayerDiamond.cs" t="Include" />
+                <e p="PlayerVariables.cs" t="Include" />
+              </e>
+              <e p="Skin" t="Include">
+                <e p="3dText.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Editor" t="Include">
+            <e p="PhotonNetwork" t="Include">
+              <e p="AccountService.cs" t="Include" />
+              <e p="CullAreaEditor.cs" t="Include" />
+              <e p="PhotonConverter.cs" t="Include" />
+              <e p="PhotonEditor.cs" t="Include" />
+              <e p="PhotonEditorUtils.cs" t="Include" />
+              <e p="PhotonGUI.cs" t="Include" />
+              <e p="PhotonViewHandler.cs" t="Include" />
+              <e p="PhotonViewInspector.cs" t="Include" />
+              <e p="PunSceneSettings.cs" t="Include" />
+              <e p="ReorderableListResources.cs" t="Include" />
+              <e p="ServerSettingsInspector.cs" t="Include" />
+              <e p="Views" t="Include">
+                <e p="PhotonAnimatorViewEditor.cs" t="Include" />
+                <e p="PhotonRigidbody2DViewEditor.cs" t="Include" />
+                <e p="PhotonRigidbodyViewEditor.cs" t="Include" />
+                <e p="PhotonTransformViewEditor.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="link.xml" t="Include" />
+          <e p="Plugins" t="Include">
+            <e p="PhotonNetwork" t="Include">
+              <e p="CustomTypes.cs" t="Include" />
+              <e p="Enums.cs" t="Include" />
+              <e p="Extensions.cs" t="Include" />
+              <e p="FriendInfo.cs" t="Include" />
+              <e p="GizmoType.cs" t="Include" />
+              <e p="LoadbalancingPeer.cs" t="Include" />
+              <e p="NetworkingPeer.cs" t="Include" />
+              <e p="PhotonClasses.cs" t="Include" />
+              <e p="PhotonHandler.cs" t="Include" />
+              <e p="PhotonLagSimulationGui.cs" t="Include" />
+              <e p="PhotonNetwork.cs" t="Include" />
+              <e p="PhotonPlayer.cs" t="Include" />
+              <e p="PhotonStatsGui.cs" t="Include" />
+              <e p="PhotonStreamQueue.cs" t="Include" />
+              <e p="PhotonView.cs" t="Include" />
+              <e p="PingCloudRegions.cs" t="Include" />
+              <e p="Room.cs" t="Include" />
+              <e p="RoomInfo.cs" t="Include" />
+              <e p="RPC.cs" t="Include" />
+              <e p="ServerSettings.cs" t="Include" />
+              <e p="SocketUdp.cs" t="Include" />
+              <e p="SocketWebTcp.cs" t="Include" />
+              <e p="Views" t="Include">
+                <e p="PhotonAnimatorView.cs" t="Include" />
+                <e p="PhotonRigidbody2DView.cs" t="Include" />
+                <e p="PhotonRigidbodyView.cs" t="Include" />
+                <e p="PhotonTransformView.cs" t="Include" />
+                <e p="PhotonTransformViewPositionControl.cs" t="Include" />
+                <e p="PhotonTransformViewPositionModel.cs" t="Include" />
+                <e p="PhotonTransformViewRotationControl.cs" t="Include" />
+                <e p="PhotonTransformViewRotationModel.cs" t="Include" />
+                <e p="PhotonTransformViewScaleControl.cs" t="Include" />
+                <e p="PhotonTransformViewScaleModel.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="readme.txt" t="Include" />
+          <e p="UtilityScripts" t="Include">
+            <e p="ConnectAndJoinRandom.cs" t="Include" />
+            <e p="CullArea.cs" t="Include" />
+            <e p="InputToEvent.cs" t="Include" />
+            <e p="InRoomChat.cs" t="Include" />
+            <e p="ManualPhotonViewAllocator.cs" t="Include" />
+            <e p="MoveByKeys.cs" t="Include" />
+            <e p="NetworkCullingHandler.cs" t="Include" />
+            <e p="OnClickDestroy.cs" t="Include" />
+            <e p="OnClickInstantiate.cs" t="Include" />
+            <e p="OnJoinedInstantiate.cs" t="Include" />
+            <e p="OnStartDelete.cs" t="Include" />
+            <e p="PhotonPlayer" t="Include">
+              <e p="Editor" t="Include">
+                <e p="PlayerRoomIndexingInspector.cs" t="Include" />
+                <e p="PunTeamsInspector.cs" t="Include" />
+              </e>
+              <e p="PlayerRoomIndexing.cs" t="Include" />
+            </e>
+            <e p="PickupItem.cs" t="Include" />
+            <e p="PickupItemSimple.cs" t="Include" />
+            <e p="PickupItemSyncer.cs" t="Include" />
+            <e p="PointedAtGameObjectInfo.cs" t="Include" />
+            <e p="PunPlayerScores.cs" t="Include" />
+            <e p="PunTeams.cs" t="Include" />
+            <e p="PunTurnManager.cs" t="Include" />
+            <e p="QuitOnEscapeOrBack.cs" t="Include" />
+            <e p="ShowStatusWhenConnecting.cs" t="Include" />
+            <e p="SmoothSyncMovement.cs" t="Include" />
+            <e p="SupportLogger.cs" t="Include" />
+            <e p="TimeKeeper.cs" t="Include" />
+            <e p="UI" t="Include">
+              <e p="ButtonInsideScrollList.cs" t="Include" />
+              <e p="TextButtonTransition.cs" t="Include" />
+              <e p="TextToggleIsOnTransition.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PhotonChatApi" t="Include">
+          <e p="ChatChannel.cs" t="Include" />
+          <e p="ChatClient.cs" t="Include" />
+          <e p="ChatDisconnectCause.cs" t="Include" />
+          <e p="ChatEventCode.cs" t="Include" />
+          <e p="ChatOperationCode.cs" t="Include" />
+          <e p="ChatParameterCode.cs" t="Include" />
+          <e p="ChatPeer.cs" t="Include" />
+          <e p="ChatState.cs" t="Include" />
+          <e p="ChatUserStatus.cs" t="Include" />
+          <e p="IChatClientListener.cs" t="Include" />
+        </e>
+        <e p="PlayServicesResolver" t="Include">
+          <e p="Editor" t="Include">
+            <e p="play-services-resolver_v1.2.61.0.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Android" t="Include">
+            <e p="com.google.android.gms.play-services-auth-api-phone-license-11.6.2" t="Include">
+              <e p="AndroidManifest.xml" t="Include" />
+              <e p="third_party_licenses.txt" t="Include" />
+            </e>
+            <e p="com.google.android.gms.play-services-auth-base-license-11.6.2" t="Include">
+              <e p="AndroidManifest.xml" t="Include" />
+              <e p="third_party_licenses.txt" t="Include" />
+            </e>
+            <e p="com.google.android.gms.play-services-base-license-11.6.2" t="Include">
+              <e p="AndroidManifest.xml" t="Include" />
+              <e p="third_party_licenses.txt" t="Include" />
+            </e>
+            <e p="com.google.android.gms.play-services-basement-license-11.6.2" t="Include">
+              <e p="AndroidManifest.xml" t="Include" />
+              <e p="third_party_licenses.txt" t="Include" />
+            </e>
+            <e p="com.google.android.gms.play-services-drive-license-11.6.2" t="Include">
+              <e p="AndroidManifest.xml" t="Include" />
+              <e p="third_party_licenses.txt" t="Include" />
+            </e>
+            <e p="com.google.android.gms.play-services-games-license-11.6.2" t="Include">
+              <e p="AndroidManifest.xml" t="Include" />
+              <e p="third_party_licenses.txt" t="Include" />
+            </e>
+            <e p="com.google.android.gms.play-services-nearby-license-11.6.2" t="Include">
+              <e p="AndroidManifest.xml" t="Include" />
+              <e p="third_party_licenses.txt" t="Include" />
+            </e>
+            <e p="com.google.android.gms.play-services-tasks-license-11.6.2" t="Include">
+              <e p="AndroidManifest.xml" t="Include" />
+              <e p="third_party_licenses.txt" t="Include" />
+            </e>
+            <e p="com.google.games.gpgs-plugin-support-0.9.50" t="Include">
+              <e p="AndroidManifest.xml" t="Include" />
+              <e p="R.txt" t="Include" />
+              <e p="res" t="Include">
+                <e p="values" t="Include">
+                  <e p="values.xml" t="Include" />
+                </e>
+                <e p="values-v11" t="Include">
+                  <e p="values-v11.xml" t="Include" />
+                </e>
+                <e p="values-v14" t="Include">
+                  <e p="values-v14.xml" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Photon3Unity3D.xml" t="Include" />
+          <e p="release_history.txt" t="Include" />
+          <e p="WebSocket" t="Include">
+            <e p="WebSocket.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="BotScripts" t="Include">
+            <e p="BotLazer.cs" t="Include" />
+            <e p="Botlazershooting.cs" t="Include" />
+            <e p="BotMove.cs" t="Include" />
+            <e p="Bots.cs" t="Include" />
+            <e p="Botshooting.cs" t="Include" />
+            <e p="BotSpawn.cs" t="Include" />
+            <e p="Drophp.cs" t="Include" />
+            <e p="HealthBar.cs" t="Include" />
+            <e p="Healthbox.cs" t="Include" />
+            <e p="Misslebotscript.cs" t="Include" />
+            <e p="Spawnedbothp.cs" t="Include" />
+          </e>
+          <e p="Buttons" t="Include">
+            <e p="buttons.cs" t="Include" />
+            <e p="FPSTarget.cs" t="Include" />
+            <e p="Hidenuttons.cs" t="Include" />
+            <e p="PauseBTN.cs" t="Include" />
+            <e p="Settings.cs" t="Include" />
+          </e>
+          <e p="Minimap" t="Include">
+            <e p="Minimap.cs" t="Include" />
+          </e>
+          <e p="Online" t="Include">
+            <e p="chat.cs" t="Include" />
+            <e p="Createroom.cs" t="Include" />
+            <e p="ElleyerGitHub.cs" t="Include" />
+            <e p="Lobby.cs" t="Include" />
+            <e p="LoginPage.cs" t="Include" />
+            <e p="Online.cs" t="Include" />
+            <e p="OnlineControl.cs" t="Include" />
+            <e p="PhotonManager.cs" t="Include" />
+            <e p="Room" t="Include">
+              <e p="LobbyCanvas.cs" t="Include" />
+              <e p="MainCanvasManager.cs" t="Include" />
+              <e p="RoomLayoutGroup.cs" t="Include" />
+              <e p="RoomListing.cs" t="Include" />
+            </e>
+            <e p="SP Metric" t="Include">
+              <e p="SPCounter.cs" t="Include" />
+            </e>
+          </e>
+          <e p="PlayerScripts" t="Include">
+            <e p="AmmoCounter.cs" t="Include" />
+            <e p="Blastercount.cs" t="Include" />
+            <e p="BotDifficult.cs" t="Include" />
+            <e p="Camerafollow.cs" t="Include" />
+            <e p="Enemy.cs" t="Include" />
+            <e p="ExthensionMethods.cs" t="Include" />
+            <e p="Filllazer.cs" t="Include" />
+            <e p="FollowCamOnline.cs" t="Include" />
+            <e p="HealthbarScript.cs" t="Include" />
+            <e p="Lazermove.cs" t="Include" />
+            <e p="LazerShot.cs" t="Include" />
+            <e p="lowhpWarning.cs" t="Include" />
+            <e p="Missle.cs" t="Include" />
+            <e p="Player2DControl.cs" t="Include" />
+            <e p="RestartonDeath.cs" t="Include" />
+            <e p="Scoreinmenu.cs" t="Include" />
+            <e p="Scores.cs" t="Include" />
+            <e p="Spacecontrol.cs" t="Include" />
+          </e>
+          <e p="Visual" t="Include">
+            <e p="Backgroung.cs" t="Include" />
+            <e p="ChangeMusicVolume.cs" t="Include" />
+            <e p="FaderStart.cs" t="Include" />
+            <e p="FollowUV.cs" t="Include" />
+            <e p="Initiate.cs" t="Include" />
+            <e p="Scroll.cs" t="Include" />
+            <e p="TouchCursor.cs" t="Include" />
+            <e p="Vizualizer.cs" t="Include" />
+          </e>
+        </e>
+        <e p="SimpleSpectrum" t="Include">
+          <e p="Demos" t="Include">
+            <e p="Demo Assets" t="Include">
+              <e p="SoundFileOpener.cs" t="Include" />
+            </e>
+            <e p="Music credit to Vexento - Check out his stuff!.txt" t="Include" />
+          </e>
+          <e p="Misc" t="Include">
+            <e p="lightweightGradientLerp.shader" t="Include" />
+            <e p="lightweightGradientLerpSprite.shader" t="Include" />
+            <e p="SurfaceGradientLerp.shader" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="OutputVolumeEditor.cs" t="Include" />
+              <e p="SimpleSpectrumEditor.cs" t="Include" />
+            </e>
+            <e p="OutputVolume.cs" t="Include" />
+            <e p="SimpleSpectrum.cs" t="Include" />
+          </e>
+          <e p="SimpleSpectrum_Changelog.txt" t="Include" />
+          <e p="SimpleSpectrum_DOCUMENTATION.txt" t="Include" />
+        </e>
+        <e p="Standard Assets" t="Include">
+          <e p="CrossPlatformInput" t="Include">
+            <e p="CrossPlatformInputGuidelines.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="AxisTouchButton.cs" t="Include" />
+              <e p="ButtonHandler.cs" t="Include" />
+              <e p="CrossPlatformInputManager.cs" t="Include" />
+              <e p="InputAxisScrollbar.cs" t="Include" />
+              <e p="Joystick.cs" t="Include" />
+              <e p="MobileControlRig.cs" t="Include" />
+              <e p="PlatformSpecific" t="Include">
+                <e p="MobileInput.cs" t="Include" />
+                <e p="StandaloneInput.cs" t="Include" />
+              </e>
+              <e p="TiltInput.cs" t="Include" />
+              <e p="TouchPad.cs" t="Include" />
+              <e p="VirtualInput.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Editor" t="Include">
+            <e p="CrossPlatformInput" t="Include">
+              <e p="CrossPlatformInputInitialize.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Fonts" t="Include">
+            <e p="OpenSans" t="Include">
+              <e p="License!.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Elysium.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

@@ -21,7 +21,7 @@ public class PhotonManager : Photon.MonoBehaviour
     }
     private void Start()
     {
-        PhotonNetwork.Instantiate(Player.name, Playerpoint.position, Playerpoint.rotation, 0);
+        
         PhotonNetwork.automaticallySyncScene = true;
         
     }
@@ -36,6 +36,7 @@ public class PhotonManager : Photon.MonoBehaviour
     }
     public virtual void OnJoinedRoom()
     {
+        //PhotonNetwork.Instantiate(Player.name, Playerpoint.position, Playerpoint.rotation, 0);
         PhotonNetwork.Instantiate(Player.name, Playerpoint.position, Playerpoint.rotation, 0);
         PhotonNetwork.Instantiate(Camera.name, SpawnPoint.position, SpawnPoint.rotation, 0);
         Debug.Log("Cloned");

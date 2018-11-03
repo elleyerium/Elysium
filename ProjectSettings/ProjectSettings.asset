@@ -241,7 +241,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: G:/Elysium/Elleyer.keystore
+  AndroidKeystoreName: C:/Users/Elliot Alderson/Desktop/Elysium/Web, DB, Server/elleyer.keystore
   AndroidKeyaliasName: elleyer
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
