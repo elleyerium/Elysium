@@ -25,16 +25,17 @@ public class Hidenuttons : MonoBehaviour
     }
     public void Back()
     {
+        WhattodoBack();
         gamemodechoose.SetActive(false);
-        Whattodo();
+        
     }
     public void Onlineback()
     {
-        Whattodo();
         allbuttons.SetActive(true);
+        Back();
         lobby.SetActive(false);
     }
-    private void Whattodo()
+    private void WhattodoBack()
     {
         start.SetActive(true);
         styling.SetActive(true);
