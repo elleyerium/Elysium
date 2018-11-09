@@ -655,6 +655,7 @@
             <e p="RestartonDeath.cs" t="Include" />
             <e p="Scoreinmenu.cs" t="Include" />
             <e p="Scores.cs" t="Include" />
+            <e p="SkinsChecker.cs" t="Include" />
             <e p="Spacecontrol.cs" t="Include" />
           </e>
           <e p="Visual" t="Include">
@@ -664,6 +665,7 @@
             <e p="FollowUV.cs" t="Include" />
             <e p="Initiate.cs" t="Include" />
             <e p="Scroll.cs" t="Include" />
+            <e p="Skins.cs" t="Include" />
             <e p="TouchCursor.cs" t="Include" />
             <e p="Vizualizer.cs" t="Include" />
           </e>
