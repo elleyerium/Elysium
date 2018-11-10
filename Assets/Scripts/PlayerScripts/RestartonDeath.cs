@@ -23,7 +23,13 @@ public class RestartonDeath : MonoBehaviour
         string url = "http://elysium.lh1.in/ScoreParse.php";
         WWW www = new WWW(url, Server);
         
+        //add to db of player
         PlayerPrefs.SetFloat("TotalScore", (PlayerPrefs.GetFloat("TotalScore") + Scores.Currently_score));
+        //add to database list
+        //Scoreinmenu.UserScores.Add(PlayerPrefs.GetString("username"));
+        //Scoreinmenu.scores.Insert(2,Scores.Currently_score.ToString());
+        //Scoreinmenu.scores.Insert(3,System.DateTime.Now.ToString());
+        //Debug.Log(Scoreinmenu.scores);
     }
     void Update()
     {

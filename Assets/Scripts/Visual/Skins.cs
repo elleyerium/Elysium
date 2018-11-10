@@ -2,19 +2,48 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Mime;
+using GooglePlayGames.Native.Cwrapper;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Skins : MonoBehaviour
 {
-	[SerializeField] private Image _materialship;
-	[SerializeField] private Image _default;
-	[SerializeField] private Image _bloodydarkness;
-	[SerializeField] private Text SkinName;
+	[SerializeField] private Text SkinName, SkinPrice;
+	public int price;
+	private bool IsAvailable;
+	public GameObject Error_Log;
+
+	void Start()
+	{
+		if (PlayerPrefs.GetFloat("TotalScore") < price)
+		{
+			IsAvailable = (false);
+			SkinPrice.text = "you need " + (price - PlayerPrefs.GetFloat("TotalScore")) + " points more";
+		}
+		else
+		{
+			IsAvailable = (true);
+			SkinPrice.text = "select skin";
+		}
+	}
 
 	public void SetUpSkin()
 	{
-		PlayerPrefs.SetString("CurrentlySkin", SkinName.text);
-		Debug.Log(PlayerPrefs.GetString("CurrentlySkin"));
+
+		if (IsAvailable)
+		{
+			PlayerPrefs.SetString("CurrentlySkin", SkinName.text);
+			Debug.Log(PlayerPrefs.GetString("CurrentlySkin"));
+		}
+		else
+		{
+			GameObject Clone = Instantiate(Error_Log);
+			Clone.transform.parent = GameObject.FindGameObjectWithTag("SkinsParent").transform;
+			Clone.transform.localScale = new Vector3(1, 1, 1);
+			var z = Clone.transform.position.z;
+			z = -55;
+			Destroy(Clone, 10f);
+		}
+
 	}
 }
