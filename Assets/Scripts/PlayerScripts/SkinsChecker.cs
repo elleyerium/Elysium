@@ -9,6 +9,9 @@ public class SkinsChecker : MonoBehaviour
     [SerializeField] private Sprite _default;
 	[SerializeField] private Sprite _materialship;
 	[SerializeField] private Sprite _bloodydarkness;
+	[SerializeField] private Sprite _void;
+	[SerializeField] private Sprite _auron;
+	[SerializeField] private Color _color, _enginecolor;
 	void Awake()
 	{
 		spriteRenderer = GetComponent<SpriteRenderer>();
@@ -18,6 +21,13 @@ public class SkinsChecker : MonoBehaviour
 			spriteRenderer.sprite = _materialship;
 		if (PlayerPrefs.GetString("CurrentlySkin") == "darkness")
 			spriteRenderer.sprite = _bloodydarkness;
+		if (PlayerPrefs.GetString("CurrentlySkin") == "void")
+		    spriteRenderer.sprite = _void;
+		if (PlayerPrefs.GetString("CurrentlySkin") == "auron")
+		{
+			spriteRenderer.sprite = _auron;
+		}
+
 		Debug.Log(PlayerPrefs.GetString("CurrentlySkin"));
 		
 
