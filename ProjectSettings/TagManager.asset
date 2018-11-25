@@ -10,6 +10,7 @@ TagManager:
   - border
   - blaster
   - botrocket
+  - SkinsParent
   layers:
   - Default
   - TransparentFX
