@@ -24,7 +24,7 @@ public class buttons : MonoBehaviour
 
     public void Scores()
     {
-     //
+     
     }
     public void Styling()
     {
