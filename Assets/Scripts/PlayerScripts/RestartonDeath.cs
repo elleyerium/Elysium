@@ -13,11 +13,31 @@ using Random = System.Random;
 
 public class RestartonDeath : MonoBehaviour
 {
-    public GameObject deathScreen;
+    public GameObject deathScreen, player;
+    [SerializeField] private Transform main;
+    [SerializeField] private AudioSource _AudioSource;
+    [SerializeField] private AudioClip _ReBorn;
+    [SerializeField] private GameObject _exp, AnswerField, _msg; 
     [SerializeField] Text CountOfKills, TotalScore, question, _answerField;
-    public int _summ;
+    private int _summ, _counter = 0;
 
     void Start()
+    {
+        SaveToDataBase();
+        Question();
+    }
+
+    void SaveToDataBase()
+    {
+        //add to db of player
+        //add to database list
+        //Scoreinmenu.UserScores.Add(PlayerPrefs.GetString("username"));
+        //Scoreinmenu.scores.Insert(2,Scores.Currently_score.ToString());
+        //Scoreinmenu.scores.Insert(3,System.DateTime.Now.ToString());
+        //Debug.Log(Scoreinmenu.scores);
+        PlayerPrefs.SetFloat("TotalScore", (PlayerPrefs.GetFloat("TotalScore") + Scores.Currently_score));
+    }
+    void SendData()
     {
         var ScoreDatas = Scores.Currently_score.ToString();
         WWWForm Server = new WWWForm();
@@ -25,19 +45,15 @@ public class RestartonDeath : MonoBehaviour
         Server.AddField("username", PlayerPrefs.GetString("username"));
         string url = "http://elysium.lh1.in/ScoreParse.php";
         WWW www = new WWW(url, Server);
-
-        //add to db of player
-        PlayerPrefs.SetFloat("TotalScore", (PlayerPrefs.GetFloat("TotalScore") + Scores.Currently_score));
-        //add to database list
-        //Scoreinmenu.UserScores.Add(PlayerPrefs.GetString("username"));
-        //Scoreinmenu.scores.Insert(2,Scores.Currently_score.ToString());
-        //Scoreinmenu.scores.Insert(3,System.DateTime.Now.ToString());
-        //Debug.Log(Scoreinmenu.scores);
-        Question();
     }
-
     void Update()
     {
+        if (_counter >=1)
+        {
+            question.text = ("Have no more attempts!");
+            AnswerField.SetActive(false);
+        }
+            
         CountOfKills.text = ("Destroyed bots : " + Spawnedbothp.Countofkilled);
         TotalScore.text = ("Total score : " + Scores.Currently_score);
     }
@@ -53,10 +69,10 @@ public class RestartonDeath : MonoBehaviour
 
     public void Mainmenu()
     {
+        SendData();
         BotDifficult.abitharder = false;
         BotDifficult.noob = false;
         BotDifficult.impossible = false;
-
         Bots.botCounter = 0;
         Initiate.Fade("Main", Color.black, 2.5f);
         Time.timeScale = 1;
@@ -65,7 +81,7 @@ public class RestartonDeath : MonoBehaviour
 
     }
 
-    public void Question()
+    void Question()
     {
         var first = UnityEngine.Random.Range(0, 512);
         var second = UnityEngine.Random.Range(0, 1024);
@@ -78,14 +94,21 @@ public class RestartonDeath : MonoBehaviour
     }
 
     public void Respawn()
-    {
+    { 
         var answer = _answerField;
         if (answer.text == _summ.ToString())
-        { 
+        {   
+            _counter++;
+            _exp.SetActive(true);
+            _AudioSource.PlayOneShot(_ReBorn);
+            HealthbarScript._respawner.SetActive(true);
             deathScreen.SetActive(false);
             HealthbarScript.health = 100;
+            GameObject Error = Instantiate(_msg);
+            Error.transform.SetParent(main, false);
+            Destroy(Error,2.3f);
         }
         else
-         Debug.Log("Please be correct");
+         Debug.Log("Wrong answer. Try again");
     }
 }

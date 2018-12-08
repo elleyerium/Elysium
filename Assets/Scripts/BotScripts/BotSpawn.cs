@@ -17,7 +17,7 @@ public class BotSpawn : MonoBehaviour
 
     public void Update()
     {
-        if(Time.time >= SpawnMultiplier)
+        if(Time.time >= SpawnMultiplier && Bots.botCounter <=12)
         {
             SpawnDelay = Time.time + 2;
             SpawnMultiplier = SpawnDelay * 2;

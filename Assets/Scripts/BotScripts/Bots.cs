@@ -13,7 +13,6 @@ public class Bots : MonoBehaviour
     public GameObject Botprefabclone;
     [SerializeField]
     private float SpawnDelay, SpawnMultiplier;
-    public static int Alive_Counter;
 
     public void Update()
    {

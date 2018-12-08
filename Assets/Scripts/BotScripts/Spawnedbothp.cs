@@ -21,7 +21,7 @@ public class Spawnedbothp: MonoBehaviour {
         if (hp <= 0)
         {
             Countofkilled += 1;
-            Bots.Alive_Counter -= 1;
+            Bots.botCounter -= 1;
             Destroy(bot);
         }
        

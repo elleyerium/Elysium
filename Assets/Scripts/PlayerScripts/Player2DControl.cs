@@ -32,8 +32,10 @@ public class Player2DControl : MonoBehaviour
                   * MoveForce * 10);
         Vector3 lookVec = new Vector3((CrossPlatformInputManager.GetAxis("Horizontal")),
             (CrossPlatformInputManager.GetAxis("Vertical")), 4096);
+        float turn = CrossPlatformInputManager.GetAxis("Horizontal");
         if (lookVec.x != 0 && lookVec.y != 0)
-            transform.rotation = Quaternion.LookRotation(lookVec, Vector3.back);
+            myBody.transform.rotation = Quaternion.LookRotation(lookVec, Vector3.back);
+        var torque = 1;
         myBody.AddForce(moveVec);
         myBody.AddForce(lookVec);
     }

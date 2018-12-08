@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Blastercount : MonoBehaviour {
-    public static int Ammodownlazer;
+    public static float Ammodownlazer;
     public static Text lazercount;
 
 
