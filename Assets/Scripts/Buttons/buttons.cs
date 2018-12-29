@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class buttons : MonoBehaviour
 {
-    public GameObject gamemodechoose, Settingspanel, styling, Rate, Onlinefunc, setpan, welcome, start, scores, connected, stylingBTN;
+    public GameObject gamemodechoose, Settingspanel, styling, Rate, Onlinefunc, setpan, welcome, start, scores, connected, stylingBTN, scoresBTN, MusicManager;
     
 
     public void StartGame()
     {
         gamemodechoose.SetActive(true);
+        MusicManager.SetActive(false);
 
     }
     public void Rating()
@@ -24,32 +25,43 @@ public class buttons : MonoBehaviour
 
     public void Scores()
     {
-     
-    }
-    public void Styling()
-    {
         Rate.SetActive(false);
         Onlinefunc.SetActive(false);
         setpan.SetActive(false);
         welcome.SetActive(false);
         start.SetActive(false);
         scores.SetActive(false);
-        connected.SetActive(false);
+        //connected.SetActive(false);
+        stylingBTN.SetActive(false);
+        //scoresBTN.SetActive(true);
+    }
+    public void Styling()
+    {
+        MusicManager.SetActive(false);
+        Rate.SetActive(false);
+        Onlinefunc.SetActive(false);
+        setpan.SetActive(false);
+        welcome.SetActive(false);
+        start.SetActive(false);
+        //scores.SetActive(false);
+        //connected.SetActive(false);
         stylingBTN.SetActive(false);
         styling.SetActive(true);
     }
 
     public void BackStyling()
     {
+        MusicManager.SetActive(true);
         Rate.SetActive(true);
         Onlinefunc.SetActive(true);
         setpan.SetActive(true);
         welcome.SetActive(true);
         start.SetActive(true);
-        scores.SetActive(true);
-        connected.SetActive(true);
+        //scores.SetActive(true);
+        //connected.SetActive(true);
         stylingBTN.SetActive(true);
         styling.SetActive(false);
+        //scoresBTN.SetActive(false);
     }
 
 }
