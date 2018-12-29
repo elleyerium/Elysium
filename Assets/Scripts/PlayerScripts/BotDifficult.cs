@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class BotDifficult : MonoBehaviour {
     public static bool noob, abitharder,impossible;
     public Slider Difficult;
+    public GameObject Panel;
     
     public void NoobMode()
     {
@@ -86,6 +87,7 @@ public class BotDifficult : MonoBehaviour {
         }
 
     }
+
     public void Play()
     {
         if (abitharder == false && noob == false && impossible == false)
@@ -94,7 +96,14 @@ public class BotDifficult : MonoBehaviour {
             Blastercount.Ammodownlazer = 90;
             AmmoCounter.AmmodownRocket = 20;
         }
+
         Initiate.Fade("bots", Color.black, 4.5f);
         PlayerPrefs.SetInt("Play Counter", Settings.PlayedCount += 1);
+   }
+
+    public void Back()
+    {
+        Panel.SetActive(false);
+        
     }
 }
