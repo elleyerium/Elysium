@@ -5,7 +5,7 @@ using UnityEngine;
 public class Backgroung : MonoBehaviour {
 
     public float Speed;
-    private Renderer r;
+    public static Renderer r;
 
     void Start()
     {
