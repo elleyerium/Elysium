@@ -77,9 +77,6 @@
             <e p="InterpolateVector2.cs" t="Include" />
             <e p="InterpolateVector3.cs" t="Include" />
             <e p="InterpolateVector4.cs" t="Include" />
-            <e p="Logging" t="Include">
-              <e p="BMSLogger.cs" t="Include" />
-            </e>
             <e p="MainThreadManager.cs" t="Include" />
             <e p="Multiplayer Menu" t="Include">
               <e p="MultiplayerMenu.cs" t="Include" />
@@ -672,6 +669,13 @@
               </e>
             </e>
           </e>
+          <e p="GitHub" t="Include">
+            <e p="Editor" t="Include">
+              <e p="credits.txt" t="Include" />
+              <e p="eula.txt" t="Include" />
+              <e p="ExtensionLoader.cs" t="Include" />
+            </e>
+          </e>
           <e p="Photon3Unity3D.xml" t="Include" />
           <e p="release_history.txt" t="Include" />
           <e p="WebSocket" t="Include">
@@ -726,6 +730,7 @@
             <e p="Blastercount.cs" t="Include" />
             <e p="BotDifficult.cs" t="Include" />
             <e p="Camerafollow.cs" t="Include" />
+            <e p="Cannon.cs" t="Include" />
             <e p="Enemy.cs" t="Include" />
             <e p="ExthensionMethods.cs" t="Include" />
             <e p="Filllazer.cs" t="Include" />
@@ -748,6 +753,7 @@
             <e p="FaderStart.cs" t="Include" />
             <e p="FollowUV.cs" t="Include" />
             <e p="Initiate.cs" t="Include" />
+            <e p="MusicManager.cs" t="Include" />
             <e p="Scroll.cs" t="Include" />
             <e p="Skins.cs" t="Include" />
             <e p="TouchCursor.cs" t="Include" />
