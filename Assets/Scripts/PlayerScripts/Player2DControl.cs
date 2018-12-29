@@ -7,9 +7,10 @@ using UnityEngine.UI;
 
 public class Player2DControl : MonoBehaviour
 {
-    public float MoveForce = 5;
+    public float MoveForce = 5, _firstammo;
     [SerializeField]
     public GameObject shot, Zero_ammo;
+    private string ammo;
     public Transform rPos01;
     public GameObject shot1;
     public Transform rPos02;
@@ -19,10 +20,22 @@ public class Player2DControl : MonoBehaviour
     [SerializeField]
     private Image Fill;
     private Rigidbody2D myBody;
-    bool IsPressed = true;
+    private bool IsPressed;
     void Start()
     {
+        _firstammo = AmmoCounter.AmmodownRocket;
         myBody = this.GetComponent<Rigidbody2D>();
+    }
+
+    void Update()
+    {
+        if (IsPressed)
+            shoot();
+        else if (!IsPressed &&  AmmoCounter.AmmodownRocket < _firstammo)
+        {
+            ammo = (AmmoCounter.AmmodownRocket += 0.1f * Time.deltaTime).ToString("F3");
+            AmmoCounter.AmmodownRocket = float.Parse(ammo);
+        }
     }
 
     void FixedUpdate()
@@ -35,9 +48,18 @@ public class Player2DControl : MonoBehaviour
         float turn = CrossPlatformInputManager.GetAxis("Horizontal");
         if (lookVec.x != 0 && lookVec.y != 0)
             myBody.transform.rotation = Quaternion.LookRotation(lookVec, Vector3.back);
-        var torque = 1;
         myBody.AddForce(moveVec);
         myBody.AddForce(lookVec);
+    }
+
+    public void IsClicked()
+    {
+        IsPressed = true;
+    }
+
+    public void UnClicked()
+    {
+        IsPressed = false;
     }
     public void shoot()
     {
@@ -46,9 +68,9 @@ public class Player2DControl : MonoBehaviour
             if(BotDifficult.noob)
                 nextFire = Time.time + 3;
             if (BotDifficult.abitharder)
-                nextFire = Time.time + 5;
+                nextFire = Time.time + 4;
             if (BotDifficult.impossible)
-                nextFire = Time.time + 7;
+                nextFire = Time.time + 5;
 
             GameObject clone = Instantiate(shot, rPos01.position, rPos01.rotation);
             GameObject clone2 = Instantiate(shot1, rPos02.position, rPos02.rotation);
