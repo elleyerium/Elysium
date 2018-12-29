@@ -11,7 +11,7 @@ public class Blastercount : MonoBehaviour {
     void Start ()
     {
         if (BotDifficult.noob)
-            Ammodownlazer = 250;
+            Ammodownlazer = 120;
         if (BotDifficult.abitharder)
             Ammodownlazer = 90;
         if (BotDifficult.impossible)
@@ -22,6 +22,6 @@ public class Blastercount : MonoBehaviour {
 
     void Update ()
     {
-        lazercount.text = "" + Ammodownlazer;
+        lazercount.text = "" + Ammodownlazer.ToString("F0");
     }
 }
