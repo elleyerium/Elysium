@@ -43,7 +43,7 @@ public class LoginPage : MonoBehaviour {
         if (PhotonNetwork.connected == true)
         {
            
-            hellouser.text = (PlayerPrefs.GetString("username") + "   #137");
+            hellouser.text = (PlayerPrefs.GetString("username") + " #1");
             loginpanel.SetActive(false);
         }
     }
