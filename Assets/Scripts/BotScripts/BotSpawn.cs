@@ -17,12 +17,13 @@ public class BotSpawn : MonoBehaviour
 
     public void Update()
     {
-        if(Time.time >= SpawnMultiplier && Bots.botCounter <=12)
-        {
+        if(Time.time >= SpawnMultiplier && Bots.botCounter <=25)
+        {            
             SpawnDelay = Time.time + 2;
-            SpawnMultiplier = SpawnDelay * 2;
+            SpawnMultiplier = SpawnDelay * 1.5f;
             SpawnIt();
         }
+
     }
     public void SpawnIt()
     {
