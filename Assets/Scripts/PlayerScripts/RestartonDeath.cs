@@ -23,23 +23,17 @@ public class RestartonDeath : MonoBehaviour
 
     void Start()
     {
-        SaveToDataBase();
         Question();
     }
 
     void SaveToDataBase()
     {
-        //add to db of player
-        //add to database list
-        //Scoreinmenu.UserScores.Add(PlayerPrefs.GetString("username"));
-        //Scoreinmenu.scores.Insert(2,Scores.Currently_score.ToString());
-        //Scoreinmenu.scores.Insert(3,System.DateTime.Now.ToString());
-        //Debug.Log(Scoreinmenu.scores);
+        Scores.SerializeScore();
         PlayerPrefs.SetFloat("TotalScore", (PlayerPrefs.GetFloat("TotalScore") + Scores.Currently_score));
     }
     void SendData()
     {
-        var ScoreDatas = Scores.Currently_score.ToString();
+        var ScoreDatas = Scores.Currently_score.ToString("F2");
         WWWForm Server = new WWWForm();
         Server.AddField("scores", ScoreDatas);
         Server.AddField("username", PlayerPrefs.GetString("username"));
@@ -55,7 +49,7 @@ public class RestartonDeath : MonoBehaviour
         }
             
         CountOfKills.text = ("Destroyed bots : " + Spawnedbothp.Countofkilled);
-        TotalScore.text = ("Total score : " + Scores.Currently_score);
+        TotalScore.text = ("Total score : " + Scores.Currently_score.ToString("F2"));
     }
 
     public void RestartGame()
@@ -70,6 +64,7 @@ public class RestartonDeath : MonoBehaviour
     public void Mainmenu()
     {
         SendData();
+        SaveToDataBase();
         BotDifficult.abitharder = false;
         BotDifficult.noob = false;
         BotDifficult.impossible = false;
@@ -78,6 +73,10 @@ public class RestartonDeath : MonoBehaviour
         Time.timeScale = 1;
         Blastercount.Ammodownlazer = 90;
         AmmoCounter.AmmodownRocket = 20;
+        if (Scores.Currently_score >= PlayerPrefs.GetFloat("Highest score"))
+        {
+            PlayerPrefs.SetFloat("Highest score", Scores.Currently_score);
+        }
 
     }
 
