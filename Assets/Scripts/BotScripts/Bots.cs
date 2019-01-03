@@ -18,10 +18,10 @@ public class Bots : MonoBehaviour
    {
         Alive.text = ("bots alive : " + botCounter);
 
-        if (Time.time >= SpawnMultiplier && botCounter <=10)
+        if (Time.time >= SpawnMultiplier && botCounter <=20)
         {
             SpawnDelay = Time.time + 2;
-            SpawnMultiplier = SpawnDelay +15;
+            SpawnMultiplier = SpawnDelay +10;
             SpawnIt();
             botCounter += 2;
             Debug.Log(botCounter);
