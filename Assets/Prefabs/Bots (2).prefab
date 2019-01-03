@@ -446,7 +446,7 @@ MonoBehaviour:
   player: {fileID: 1396392812028270, guid: ded13dc8772125147b02968f1d0b11ef, type: 2}
   bot: {fileID: 1603223856638710}
   AmmoSource: {fileID: 82677124311960438}
-  rocketAudio: {fileID: 8300000, guid: faaf74aedcce08f408dccc86923f3480, type: 3}
+  rocketAudio: {fileID: 8300000, guid: 0e0f1d95395b80149a01d6be8b144186, type: 3}
   blasterAudio: {fileID: 8300000, guid: 576d6c6f23be2d34bb60a0d4f26f2bff, type: 3}
 --- !u!114 &114206712070035138
 MonoBehaviour:
@@ -459,10 +459,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f808630c97a1aa04ca33bb33d45682b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _deadClip: {fileID: 8300000, guid: af414214defb28e4c8f6721e0e46376f, type: 3}
   HealthBarFill: {fileID: 114567814903975196}
+  DestroyParticle: {fileID: 198662334640604892, guid: c27fb3510f6ff8649a74ae04ee7698a1,
+    type: 2}
   hp: 0
   maxbothp: 100
   bot: {fileID: 1603223856638710}
+  source: {fileID: 0}
   boxdropchance: 0
 --- !u!114 &114426800662323674
 MonoBehaviour:
@@ -5464,7 +5468,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 226.73299}
   m_AnchorMin: {x: 0.52987504, y: 0.5}
   m_AnchorMax: {x: 0.52987504, y: 0.5}
-  m_AnchoredPosition: {x: -1090.6145, y: -945098.5}
+  m_AnchoredPosition: {x: -1090.6145, y: -1673876.5}
   m_SizeDelta: {x: 0.8, y: 1.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224931451854614932
