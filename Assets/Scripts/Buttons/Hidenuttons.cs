@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Hidenuttons : MonoBehaviour
 {
-    public GameObject start, lobby, gamemodechoose, styling, scores, text, allbuttons, paneldifficult;
+    public GameObject start, lobby, gamemodechoose, styling, scores, text, allbuttons, paneldifficult, MusicManager;
     void Update()
     {
         Whattodoonline();
@@ -40,6 +40,7 @@ public class Hidenuttons : MonoBehaviour
         start.SetActive(true);
         styling.SetActive(true);
         scores.SetActive(true);
+        MusicManager.SetActive(true);
         text.SetActive(true);
     }
     private void Whattodoonline()
