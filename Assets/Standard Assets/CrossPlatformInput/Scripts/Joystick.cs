@@ -1,11 +1,15 @@
 using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Experimental.UIElements;
 
 namespace UnityStandardAssets.CrossPlatformInput
 {
 	public class Joystick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
 	{
+		public static float value;
+		public static bool status;
+
 		public enum AxisOption
 		{
 			// Options for which axes to use
@@ -16,21 +20,37 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 		public int MovementRange = 100;
 		public AxisOption axesToUse = AxisOption.Both; // The options for the axes that the still will use
-		public string horizontalAxisName = "Horizontal"; // The name given to the horizontal axis for the cross platform input
+
+		public string
+			horizontalAxisName = "Horizontal"; // The name given to the horizontal axis for the cross platform input
+
 		public string verticalAxisName = "Vertical"; // The name given to the vertical axis for the cross platform input
 
 		Vector3 m_StartPos;
 		bool m_UseX; // Toggle for using the x axis
 		bool m_UseY; // Toggle for using the Y axis
-		CrossPlatformInputManager.VirtualAxis m_HorizontalVirtualAxis; // Reference to the joystick in the cross platform input
-		CrossPlatformInputManager.VirtualAxis m_VerticalVirtualAxis; // Reference to the joystick in the cross platform input
+
+		CrossPlatformInputManager.VirtualAxis
+			m_HorizontalVirtualAxis; // Reference to the joystick in the cross platform input
+
+		CrossPlatformInputManager.VirtualAxis
+			m_VerticalVirtualAxis; // Reference to the joystick in the cross platform input
 
 		void OnEnable()
 		{
 			CreateVirtualAxes();
 		}
 
-        void Start()
+		public void Hold()
+		{
+			status = true;
+		}
+
+		public void UnHeld()
+		{
+			status = false;
+		}
+	void Start()
         {
             m_StartPos = transform.position;
         }
