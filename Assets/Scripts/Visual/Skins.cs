@@ -18,7 +18,7 @@ public class Skins : MonoBehaviour
 		if (PlayerPrefs.GetFloat("TotalScore") < price)
 		{
 			IsAvailable = (false);
-			SkinPrice.text = "you need " + (price - PlayerPrefs.GetFloat("TotalScore")) + " points more";
+			SkinPrice.text = "you need " + (price - PlayerPrefs.GetFloat("TotalScore")).ToString("2F") + " points more";
 		}
 		else
 		{
