@@ -11,6 +11,7 @@ public class SkinsChecker : MonoBehaviour
 	[SerializeField] private Sprite _bloodydarkness;
 	[SerializeField] private Sprite _void;
 	[SerializeField] private Sprite _auron;
+	[SerializeField] private Sprite _remaker;
 	[SerializeField] private Color _color, _enginecolor;
 	void Awake()
 	{
@@ -23,11 +24,10 @@ public class SkinsChecker : MonoBehaviour
 			spriteRenderer.sprite = _bloodydarkness;
 		if (PlayerPrefs.GetString("CurrentlySkin") == "void")
 		    spriteRenderer.sprite = _void;
-		if (PlayerPrefs.GetString("CurrentlySkin") == "auron")
-		{
+		if (PlayerPrefs.GetString("CurrentlySkin") == "auron")	
 			spriteRenderer.sprite = _auron;
-		}
-
+		if (PlayerPrefs.GetString("CurrentlySkin") == "remaker")	
+			spriteRenderer.sprite = _remaker;
 		Debug.Log(PlayerPrefs.GetString("CurrentlySkin"));
 		
 
