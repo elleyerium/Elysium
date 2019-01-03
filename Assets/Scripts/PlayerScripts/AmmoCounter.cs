@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class AmmoCounter : MonoBehaviour
 {
-    public static int AmmodownRocket;
+    public static float AmmodownRocket;
     [SerializeField]
     public static Text rocketcount;
 
@@ -26,6 +26,6 @@ public class AmmoCounter : MonoBehaviour
 
     void Update ()
     {
-        rocketcount.text = "" + AmmodownRocket; 
+        rocketcount.text = "" + AmmodownRocket.ToString("F0"); 
     }
 }
