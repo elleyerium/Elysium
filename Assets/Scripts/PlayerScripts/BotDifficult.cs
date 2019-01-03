@@ -98,7 +98,11 @@ public class BotDifficult : MonoBehaviour {
         }
 
         Initiate.Fade("bots", Color.black, 4.5f);
+<<<<<<< HEAD
         PlayerPrefs.SetInt("Play Counter", PlayerPrefs.GetInt("Play Counter") + 1);
+=======
+        PlayerPrefs.SetInt("Play Counter", Settings.PlayedCount += 1);
+>>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
    }
 
     public void Back()

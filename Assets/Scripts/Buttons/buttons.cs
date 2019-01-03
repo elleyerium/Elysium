@@ -33,8 +33,12 @@ public class buttons : MonoBehaviour
         scores.SetActive(false);
         //connected.SetActive(false);
         stylingBTN.SetActive(false);
+<<<<<<< HEAD
         scoresBTN.SetActive(true);
         MusicManager.SetActive(false);
+=======
+        //scoresBTN.SetActive(true);
+>>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
     }
     public void Styling()
     {
@@ -44,7 +48,11 @@ public class buttons : MonoBehaviour
         setpan.SetActive(false);
         welcome.SetActive(false);
         start.SetActive(false);
+<<<<<<< HEAD
         scores.SetActive(false);
+=======
+        //scores.SetActive(false);
+>>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
         //connected.SetActive(false);
         stylingBTN.SetActive(false);
         styling.SetActive(true);
@@ -58,11 +66,19 @@ public class buttons : MonoBehaviour
         setpan.SetActive(true);
         welcome.SetActive(true);
         start.SetActive(true);
+<<<<<<< HEAD
         scores.SetActive(true);
         //connected.SetActive(true);
         stylingBTN.SetActive(true);
         styling.SetActive(false);
         scoresBTN.SetActive(false);
+=======
+        //scores.SetActive(true);
+        //connected.SetActive(true);
+        stylingBTN.SetActive(true);
+        styling.SetActive(false);
+        //scoresBTN.SetActive(false);
+>>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
     }
 
 }

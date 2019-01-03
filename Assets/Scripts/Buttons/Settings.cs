@@ -70,7 +70,11 @@ public class Settings : MonoBehaviour
         }
         start.SetActive(false);
         styling.SetActive(false);
+<<<<<<< HEAD
         scores.SetActive(false);
+=======
+        //scores.SetActive(false);
+>>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
         musicManager.SetActive(false);
         text.SetActive(false);
         Ping.text = "Ping :  " + PhotonNetwork.GetPing() + "  ms ";
@@ -82,7 +86,11 @@ public class Settings : MonoBehaviour
         start.SetActive(true);
         styling.SetActive(true);
         musicManager.SetActive(true);
+<<<<<<< HEAD
         scores.SetActive(true);
+=======
+        //scores.SetActive(true);
+>>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
         text.SetActive(true);
         PlayerPrefs.SetFloat("Sensitivity", SensitivityValue);
     }
