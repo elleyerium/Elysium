@@ -9,17 +9,26 @@ using System;
 public class Settings : MonoBehaviour
 {
 
-    public GameObject start,styling,scores,Settingspanel,text,Particlesky, toggles;
+    public GameObject start,styling,scores,Settingspanel,text,Particlesky, toggles, musicManager;
     public Toggle Checkboxparticle;
-    public Text HighestScore, Times_Played,TotalScore,Ping;
+    public Text HighestScore, Times_Played,TotalScore,Ping, sensValue;
     public Image Line;
     public static int PlayedCount;
+    public static float SensitivityValue = 0.2f;
     bool ModeVisual, ModeStats, ModeNetwork = false;
+    public Slider Sensitivity;
 
     void Start()
-    {
-        TotalScore.text = ("Total  score :  " + PlayerPrefs.GetFloat("TotalScore"));
-        HighestScore.text = ("Highest  score :  " + PlayerPrefs.GetFloat("Highest score"));
+    {      
+             Sensitivity.minValue = 0.1f;
+             Sensitivity.maxValue = 1.0f;
+        if (!PlayerPrefs.HasKey("Sensitivity"))
+            Sensitivity.value = 0.2f;
+        else 
+            Sensitivity.value = PlayerPrefs.GetFloat("Sensitivity");
+        
+        TotalScore.text = ("Total  score :  " + PlayerPrefs.GetFloat("TotalScore").ToString("F2"));
+        HighestScore.text = ("Highest  score :  " + PlayerPrefs.GetFloat("Highest score").ToString("F2"));
         Times_Played.text = ("Times  played :  " + PlayerPrefs.GetInt("Play Counter"));
         HighestScore.enabled = false;
         Times_Played.enabled = false;
@@ -30,6 +39,8 @@ public class Settings : MonoBehaviour
     
     void Update()
     {
+        SensitivityValue = Sensitivity.value;
+        sensValue.text = ("Joystick sensitivity : " + SensitivityValue.ToString("F2") + "x");
         PlayedCount = PlayerPrefs.GetInt("Play Counter");
         if (ModeVisual)
         {
@@ -60,6 +71,7 @@ public class Settings : MonoBehaviour
         start.SetActive(false);
         styling.SetActive(false);
         scores.SetActive(false);
+        musicManager.SetActive(false);
         text.SetActive(false);
         Ping.text = "Ping :  " + PhotonNetwork.GetPing() + "  ms ";
         
@@ -69,8 +81,10 @@ public class Settings : MonoBehaviour
         Settingspanel.SetActive(false);
         start.SetActive(true);
         styling.SetActive(true);
+        musicManager.SetActive(true);
         scores.SetActive(true);
         text.SetActive(true);
+        PlayerPrefs.SetFloat("Sensitivity", SensitivityValue);
     }
     public void Particleoff()
     { 
