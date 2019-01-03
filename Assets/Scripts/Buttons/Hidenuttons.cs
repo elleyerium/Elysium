@@ -39,11 +39,7 @@ public class Hidenuttons : MonoBehaviour
     {
         start.SetActive(true);
         styling.SetActive(true);
-<<<<<<< HEAD
         scores.SetActive(true);
-=======
-        //scores.SetActive(true);
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
         MusicManager.SetActive(true);
         text.SetActive(true);
     }
@@ -51,7 +47,7 @@ public class Hidenuttons : MonoBehaviour
     {
         start.SetActive(false);
         styling.SetActive(false);
-        //scores.SetActive(false);
+        scores.SetActive(false);
         text.SetActive(false);
         
     }

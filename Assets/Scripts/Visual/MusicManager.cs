@@ -3,38 +3,24 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using GooglePlayGames;
-<<<<<<< HEAD
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-=======
-using UnityEngine;
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class MusicManager : MonoBehaviour
 {
 	float timeSetter = 0;
-<<<<<<< HEAD
 	public Material backMaterial, GameMaterial;
 	[SerializeField] private Image state;
 	public Slider timearea;
 	public string scenename;
-=======
-	public Material backMaterial;
-	[SerializeField] private Image state;
-	public Slider timearea;
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
 	public static bool IsPlaying, IsPaused, isMoving;
 	private int TrackNum, temp, backnum;
 	public Text Trackname;
 	public Sprite play, pause;
-<<<<<<< HEAD
 	public Texture[] backgrounds, starfield;
-=======
-	public Texture[] backgrounds;
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
 	public GameObject _musicManager, textComponent;
 	public AudioClip click, pauseclick;
 	public AudioClip[] music;
@@ -45,10 +31,7 @@ public class MusicManager : MonoBehaviour
 	{
 		temp = Random.Range(0, music.Count());
 		backnum = Random.Range(0, backgrounds.Count());
-<<<<<<< HEAD
 		backMaterial.SetTexture("_MainTex", backgrounds[backnum]);
-=======
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
 	    TrackNum = temp+1;
 		availableList.text = ((TrackNum) + " of " +music.Length);
 		Trackname.text = music[temp].name;
@@ -57,23 +40,15 @@ public class MusicManager : MonoBehaviour
 		_publicSource.clip = music[temp];
 		_publicSource.Play();		
 		timearea.maxValue = music[temp].length;
-<<<<<<< HEAD
 		ChangeBackground();
 
-=======
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
 	}
 	void Update ()
 	{
 		if (!_publicSource.isPlaying && !IsPaused)
 		   Next();
 		if (!isMoving)
-<<<<<<< HEAD
 		timearea.value = _publicSource.time;
-=======
-		   timearea.value = _publicSource.time;
-		
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
 	}
 
 	public void SliderPointerDown()
@@ -123,19 +98,11 @@ public class MusicManager : MonoBehaviour
 		{
 			backnum = 0;
 		}
-<<<<<<< HEAD
 		availableList.text = ((TrackNum) + " of " + music.Length);
 		Play();		
 	}
 
 	 void Play()
-=======
-		availableList.text = ((TrackNum) + " of " +music.Length);
-		Play();		
-	}
-
-	void Play()
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
 	{
 			state.sprite = pause;
 		_publicSource.time = 0;
@@ -167,13 +134,9 @@ public class MusicManager : MonoBehaviour
 
 	void ChangeBackground()
 	{
-<<<<<<< HEAD
 		if(SceneManager.GetActiveScene().name == "main")
 		Backgroung.r.material.SetTexture("_MainTex", backgrounds[backnum]);
 		else 
 			GameMaterial.SetTexture("_MainTex", starfield[backnum]);
-=======
-		Backgroung.r.material.SetTexture("_MainTex", backgrounds[backnum]);
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
 	}
 }

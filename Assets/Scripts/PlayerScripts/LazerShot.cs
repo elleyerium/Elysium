@@ -22,10 +22,7 @@ public class LazerShot : MonoBehaviour
     private bool pointerDown;
     private Vector3 temp;
     private string ammo;
-<<<<<<< HEAD
     public Image LaserFill;
-=======
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
     [SerializeField] public AudioSource _publicSource, _loopSource;
     public AudioClip _startAudio, _shotAudio, _endAudio;
     [SerializeField] private GameObject particles,cannon;
@@ -49,7 +46,6 @@ void Update()
             particles.SetActive(true);
             
             if (temp.x <=3.28f)  // Animation function for laser.
-<<<<<<< HEAD
             {
                temp.x = (ION_Cannon.size.x) + (18f * Time.deltaTime);
                ION_Cannon.size = temp;
@@ -59,15 +55,6 @@ void Update()
 
             /*if (Time.time > lazernextFire && Blastercount.Ammodownlazer > 0) //TODO:LaserFix
             {
-=======
-            {
-               temp.x = (ION_Cannon.size.x) + (18f * Time.deltaTime);
-               ION_Cannon.size = temp;
-            }
-            Blastercount.Ammodownlazer -= 10 * Time.deltaTime;
-            /*if (Time.time > lazernextFire && Blastercount.Ammodownlazer > 0)
-            {
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
                 lazernextFire = Time.time + 0.5f;
                 GameObject clonelazer = Instantiate(lazer, lazer1.position, lazer1.rotation);
                 clonelazer.SetActive(true);
@@ -92,10 +79,7 @@ void Update()
                 ammo = (Blastercount.Ammodownlazer += 4 * Time.deltaTime).ToString("F2");
 
             Blastercount.Ammodownlazer = float.Parse(ammo);
-<<<<<<< HEAD
             LaserFill.fillAmount = (Blastercount.Ammodownlazer) / _lazerfirstammo;
-=======
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
         }
 
         if (!pointerDown || Blastercount.Ammodownlazer <=0)

@@ -17,11 +17,7 @@ PlayerSettings:
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
-<<<<<<< HEAD
   m_ShowUnitySplashScreen: 1
-=======
-  m_ShowUnitySplashScreen: 0
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
   m_ShowUnitySplashLogo: 0
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 2
@@ -44,17 +40,12 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-<<<<<<< HEAD
   - logo: {fileID: 21300000, guid: 5dff8816bc5ba5e46af9bc64669a0247, type: 3}
     duration: 3
   - logo: {fileID: 21300000, guid: 034f9e3427d6d924ca9381fb958e14ae, type: 3}
     duration: 3
   - logo: {fileID: 21300000, guid: fddf43bd0f787104b98cc74799f65fd2, type: 3}
     duration: 6
-=======
-  - logo: {fileID: 21300000, guid: a5cb12e21cba66446be26757213236ec, type: 3}
-    duration: 2
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
@@ -132,11 +123,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-<<<<<<< HEAD
   bundleVersion: 1.18
-=======
-  bundleVersion: 1.16a
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -172,11 +159,7 @@ PlayerSettings:
     Android: com.Elleyer.Elysium
     Standalone: com.Company.ProductName
   buildNumber: {}
-<<<<<<< HEAD
   AndroidBundleVersionCode: 11
-=======
-  AndroidBundleVersionCode: 9
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
   AndroidMinSdkVersion: 21
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
@@ -677,11 +660,7 @@ PlayerSettings:
   psp2InfoBarOnStartup: 0
   psp2InfoBarColor: 0
   psp2ScriptOptimizationLevel: 0
-<<<<<<< HEAD
   splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: a58f352a51eae8d428ca5fe6bc1c53b7,
-=======
-  splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: a285eb839c251414f969f3f982d5c8ab,
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
     type: 3}
   splashScreenBackgroundSourcePortrait: {fileID: 21300000, guid: e4f1fee3de32377429fd1348fae62b10,
     type: 3}

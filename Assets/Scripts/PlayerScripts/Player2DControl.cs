@@ -9,11 +9,7 @@ using UnityEngine.UI;
 
 public class Player2DControl : MonoBehaviour
 {
-<<<<<<< HEAD
     public float MoveForce = 5, _firstammo, reloadRate, sensitivityRate;
-=======
-    public float MoveForce = 5, _firstammo;
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
     [SerializeField]
     public GameObject shot, Zero_ammo;
     private string ammo;
@@ -26,7 +22,6 @@ public class Player2DControl : MonoBehaviour
     [SerializeField]
     private Image Fill;
     private Rigidbody2D myBody;
-<<<<<<< HEAD
     private bool IsPressed, IsReloading;
     
     void Start()
@@ -36,11 +31,6 @@ public class Player2DControl : MonoBehaviour
         else 
             sensitivityRate = PlayerPrefs.GetFloat("Sensitivity");
         
-=======
-    private bool IsPressed;
-    void Start()
-    {
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
         _firstammo = AmmoCounter.AmmodownRocket;
         myBody = this.GetComponent<Rigidbody2D>();
     }
@@ -54,12 +44,9 @@ public class Player2DControl : MonoBehaviour
             ammo = (AmmoCounter.AmmodownRocket += 0.1f * Time.deltaTime).ToString("F3");
             AmmoCounter.AmmodownRocket = float.Parse(ammo);
         }
-<<<<<<< HEAD
 
         if (IsReloading)
             Fill.fillAmount += ((Time.deltaTime /  reloadRate)) ;
-=======
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
     }
 
     void FixedUpdate()
@@ -75,26 +62,12 @@ public class Player2DControl : MonoBehaviour
             (CrossPlatformInputManager.GetAxis("Vertical"))
             , 4096);
         if (lookVec.x != 0 && lookVec.y != 0)
-<<<<<<< HEAD
         {
             Quaternion targetRotation = Quaternion.LookRotation(lookVec, Vector3.back);
             transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, sensitivityRate /2);
         }
 
-=======
-            myBody.transform.rotation = Quaternion.LookRotation(lookVec, Vector3.back);
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
         myBody.AddForce(moveVec);
-    }
-
-    public void IsClicked()
-    {
-        IsPressed = true;
-    }
-
-    public void UnClicked()
-    {
-        IsPressed = false;
     }
 
     public void IsClicked()
@@ -117,10 +90,7 @@ public class Player2DControl : MonoBehaviour
                 nextFire = Time.time + 4;
             if (BotDifficult.impossible)
                 nextFire = Time.time + 5;
-<<<<<<< HEAD
             reloadRate = nextFire - Time.time;
-=======
->>>>>>> 46f6557c006040dbc335ccb9f08f0d9b60ad214f
 
             GameObject clone = Instantiate(shot, rPos01.position, rPos01.rotation);
             GameObject clone2 = Instantiate(shot1, rPos02.position, rPos02.rotation);
