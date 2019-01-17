@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using System.Net;
 using System.Collections.Specialized;
 using System.Text.RegularExpressions;
+using BeardedManStudios;
 
 public class LoginPage : MonoBehaviour {
     public GameObject registerinputs, login_inputs, registerbtn, loginbtn, settings;
@@ -13,19 +14,19 @@ public class LoginPage : MonoBehaviour {
     public string userID;
     public string email, RegisterID, registerpass;
     public string pass, confirm;
-    public GameObject errormessage, Guest, waystoconnect, loginpanel, bordersignin, borderregister, gamemenu;
+    public GameObject Guest, waystoconnect, loginpanel, bordersignin, borderregister, gamemenu, Choose;
     public GameObject connectedtoaccount, Connected, Connecting, Disconnected;
-    public GameObject registered, Usernametaken, userandmailtaken, emailtaken, passdontmatch, incorrectmail, passlessthan8;
+    public GameObject ErrorManager;
     public Text hellouser;
-    [SerializeField]
-    private ScrollRect Scroll;
+    private string errorInfo;
+    [SerializeField] private Animation ErrorAnim;
     void Awake()
     {
-            PhotonNetwork.automaticallySyncScene = true;
-      
+        PhotonNetwork.automaticallySyncScene = true;     
     }
     void Start()
     {
+        errorInfo = "Waiting some data...";
         Debug.Log(PlayerPrefs.GetString("username"));
         Debug.Log(PlayerPrefs.GetString("password"));
         if (PlayerPrefs.HasKey("username") && PlayerPrefs.HasKey("password"))
@@ -62,7 +63,6 @@ public class LoginPage : MonoBehaviour {
     }
     public void Register()
     {
-        errormessage.SetActive(false);
         registerinputs.SetActive(true);
         login_inputs.SetActive(false);
         registerbtn.SetActive(true);
@@ -121,27 +121,25 @@ public class LoginPage : MonoBehaviour {
                 if (str.Contains(":1"))
                 {
                     loginpanel.SetActive(false);
-                    hellouser.text = (RegisterID + " - 0 lvl");
-                    Connecting.SetActive(false);
-                    Connected.SetActive(true);
-                    registered.SetActive(true);
+                    hellouser.text = (RegisterID + " #1");
                     Debug.Log("Registered");
                 }
                 if (str.Contains(":2"))
                 {
-                    loginpanel.SetActive(true);
-                    emailtaken.SetActive(true);
+                    errorInfo = "EmailTaken";
+                    GotError();
                     Debug.Log("email already taken");
                 }
                 if (str.Contains(":3"))
                 {
-                    loginpanel.SetActive(true);
-                    userandmailtaken.SetActive(true);
+                    errorInfo = "UsernameEmailTaken";
+                    GotError();
                     Debug.Log("Username and Email Already Taken");
                 }
                 if (str.Contains(":4"))
                 {
-                    Usernametaken.SetActive(true);
+                    errorInfo = "UsernameTaken";
+                    GotError();
                     Debug.Log("Username Already Taken");
                 }
                    
@@ -149,18 +147,15 @@ public class LoginPage : MonoBehaviour {
        }
         if (registerpass.Length < 8)
         {
-            passlessthan8.SetActive(true);
+            errorInfo = "PassLess8";
+            GotError();
             Debug.Log("Password less than 8 Symbols");
         }
             if (confirm != registerpass)
         {
-            passdontmatch.SetActive(true);
+            errorInfo = "PassDontmatch";
+            GotError();
             Debug.Log("Passwords do not match");
-        }
-            if (Regex.IsMatch(email, format, RegexOptions.IgnoreCase) == false)
-        {
-            incorrectmail.SetActive(true);
-            Debug.Log("Mail is incorrect");
         }
     }
     public void LoginAttempt()
@@ -174,25 +169,38 @@ public class LoginPage : MonoBehaviour {
         PhotonNetwork.AuthValues.AddAuthParameter("username", userID);
         PhotonNetwork.AuthValues.AddAuthParameter("password", pass);
         PhotonNetwork.ConnectUsingSettings("0.5");
+        Debug.Log(PlayerPrefs.GetString("username"));
+        Debug.Log(PlayerPrefs.GetString("password"));
+        
 
     }
-    void  OnConnectedToPhoton()
-    {
-       //Scroll.enabled = true;
-        Connected.SetActive(true);
-        Connecting.SetActive(false);
 
-    }
-   void OnConnectedToMaster()
+    private void GotError()
     {
-      Connected.SetActive(true);
-      Connecting.SetActive(false);
-      //connectedtoaccount.SetActive(true);
-      Debug.Log("connected to master");
-   }
+        var text = ErrorManager.GetComponent<Text>();
+        if (errorInfo == "UsernameTaken")
+            text.text = "Username already taken!";
+        if (errorInfo == "UsernameEmailTaken")
+            text.text = "Username and email already taken!";
+        if (errorInfo == "EmailTaken")
+            text.text = "Email already taken!";
+        if (errorInfo == "PassLess8")
+            text.text = "Password less than 8 symbols";
+        if (errorInfo == "PassDontmatch")
+            text.text = "Passwords do not match";
+        if (errorInfo == "WrongData")
+            text.text = "Wrong /username/ or password!";
+        GameObject window = Instantiate(ErrorManager);
+        window.transform.SetParent(Choose.transform);
+        window.transform.localPosition = new Vector3(-405, -555);
+        Destroy(window, 4f);
+    }
+
     void OnCustomAuthenticationFailed(string debugMessage)
     {
-        errormessage.SetActive(true);
+        errorInfo = "WrongData";
+        GotError();
+        Debug.Log("Wrong data");
     }
     private void OnDisconnectedFromPhoton()
     {
