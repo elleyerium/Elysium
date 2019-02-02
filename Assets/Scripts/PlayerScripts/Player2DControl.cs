@@ -53,7 +53,7 @@ public class Player2DControl : MonoBehaviour
     {
         
 
-        Vector3 moveVec = new Vector3((CrossPlatformInputManager.GetAxis("Horizontal") * MoveForce * 10), //TODO: Sensitivity Changer
+        Vector3 moveVec = new Vector3((CrossPlatformInputManager.GetAxis("Horizontal") * MoveForce * 10),
                   (CrossPlatformInputManager.GetAxis("Vertical"))
                   * MoveForce * 10);
         Vector3 lookVec = new Vector3(

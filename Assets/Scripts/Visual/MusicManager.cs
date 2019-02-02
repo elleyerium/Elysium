@@ -12,7 +12,7 @@ using Random = UnityEngine.Random;
 public class MusicManager : MonoBehaviour
 {
 	float timeSetter = 0;
-	public Material backMaterial, GameMaterial;
+	//public Material backMaterial, GameMaterial;
 	[SerializeField] private Image state;
 	public Slider timearea;
 	public string scenename;
@@ -21,7 +21,7 @@ public class MusicManager : MonoBehaviour
 	public Text Trackname;
 	public Sprite play, pause;
 	public Texture[] backgrounds, starfield;
-	public GameObject _musicManager, textComponent;
+	public GameObject _musicManager;
 	public AudioClip click, pauseclick;
 	public AudioClip[] music;
 	public AudioSource _publicSource, sfxsource;
@@ -31,17 +31,14 @@ public class MusicManager : MonoBehaviour
 	{
 		temp = Random.Range(0, music.Count());
 		backnum = Random.Range(0, backgrounds.Count());
-		backMaterial.SetTexture("_MainTex", backgrounds[backnum]);
 	    TrackNum = temp+1;
-		availableList.text = ((TrackNum) + " of " +music.Length);
+		availableList.text = TrackNum + " of " + music.Length;
 		Trackname.text = music[temp].name;
 		IsPlaying = true;
 		IsPaused = false;
 		_publicSource.clip = music[temp];
 		_publicSource.Play();		
 		timearea.maxValue = music[temp].length;
-		ChangeBackground();
-
 	}
 	void Update ()
 	{
@@ -80,7 +77,7 @@ public class MusicManager : MonoBehaviour
 			backnum = Convert.ToInt32(backgrounds.Length) -1;
 		}
 
-		availableList.text = ((TrackNum) + " of " +music.Length);
+		availableList.text = TrackNum + " of " + music.Length;
 		Play();
 	}
 	public void Next()
@@ -98,7 +95,7 @@ public class MusicManager : MonoBehaviour
 		{
 			backnum = 0;
 		}
-		availableList.text = ((TrackNum) + " of " + music.Length);
+		availableList.text = TrackNum + " of " + music.Length;
 		Play();		
 	}
 
@@ -112,7 +109,8 @@ public class MusicManager : MonoBehaviour
 			Trackname.text = music[temp].name;
 		_publicSource.clip = music[temp];
 		_publicSource.Play();
-		ChangeBackground();
+		//if (PlayerPrefs.GetString("NeedToChange") == "true")
+		   //ChangeBackground();
 	}
 
 	public void State()
@@ -134,9 +132,10 @@ public class MusicManager : MonoBehaviour
 
 	void ChangeBackground()
 	{
-		if(SceneManager.GetActiveScene().name == "main")
-		Backgroung.r.material.SetTexture("_MainTex", backgrounds[backnum]);
-		else 
-			GameMaterial.SetTexture("_MainTex", starfield[backnum]);
+		if (PlayerPrefs.GetString("NeedToChange") == "true")
+		{
+			if (SceneManager.GetActiveScene().name == "main")
+				Backgroung.r.material.SetTexture("_MainTex", backgrounds[backnum]);
+		}
 	}
 }

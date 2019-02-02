@@ -16997,7 +16997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.75686276}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.7764706}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -17618,6 +17618,7 @@ GameObject:
   - component: {fileID: 774576673}
   - component: {fileID: 774576672}
   - component: {fileID: 774576671}
+  - component: {fileID: 774576674}
   m_Layer: 0
   m_Name: Starfield
   m_TagString: Untagged
@@ -17696,6 +17697,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parralax: 1
+--- !u!114 &774576674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 774576669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fdb8face5e4e90408d8773cba218a04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Emerald: {fileID: 2800000, guid: 525af7a4952172a40927af205bb8b4e7, type: 3}
+  Vertigonta: {fileID: 2800000, guid: a58f352a51eae8d428ca5fe6bc1c53b7, type: 3}
+  Aurora: {fileID: 2800000, guid: a285eb839c251414f969f3f982d5c8ab, type: 3}
+  BlueHorizon: {fileID: 2800000, guid: ee7593a916a9691499d7479a1b0fc32c, type: 3}
+  BackgroundMat: {fileID: 2100000, guid: 188d8a5f80f00af4bbc131a1f4a4d0ab, type: 2}
 --- !u!64 &774576675
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18002,6 +18019,8 @@ GameObject:
   - component: {fileID: 817188898}
   - component: {fileID: 817188899}
   - component: {fileID: 817188900}
+  - component: {fileID: 817188904}
+  - component: {fileID: 817188903}
   m_Layer: 5
   m_Name: IfDeadScreen
   m_TagString: Untagged
@@ -18316,6 +18335,33 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &817188903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 817188892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9209988fd3d1fcd428b81143f4754c24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FPS: {fileID: 44538677}
+  target: 75
+  deltaTime: 0
+--- !u!114 &817188904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 817188892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 433bbdaa1352fad47973235b7cfa9a28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetToFollow: {fileID: 1738638393}
+  Bot: {fileID: 1603223856638710, guid: 2c2da795924be9448925ef45ca36d79c, type: 2}
 --- !u!1 &836210755
 GameObject:
   m_ObjectHideFlags: 0
@@ -21037,8 +21083,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff2793ce6a7840247bd9d61a7baf4496, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backMaterial: {fileID: 2100000, guid: 188d8a5f80f00af4bbc131a1f4a4d0ab, type: 2}
-  GameMaterial: {fileID: 2100000, guid: 188d8a5f80f00af4bbc131a1f4a4d0ab, type: 2}
   state: {fileID: 64011812}
   timearea: {fileID: 1487070381}
   scenename: 
@@ -21054,7 +21098,6 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 525af7a4952172a40927af205bb8b4e7, type: 3}
   - {fileID: 2800000, guid: a285eb839c251414f969f3f982d5c8ab, type: 3}
   _musicManager: {fileID: 1557504927}
-  textComponent: {fileID: 108676062}
   click: {fileID: 8300000, guid: 4416f4dbeb6292347b60f1e5efd6689d, type: 3}
   pauseclick: {fileID: 8300000, guid: d2ac35895dfff77408426c2cccf648a7, type: 3}
   music:

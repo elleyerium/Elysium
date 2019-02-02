@@ -57,7 +57,7 @@ public class Skins : MonoBehaviour
 
 		if (PlayerPrefs.GetString("CurrentlySkin") != SkinName.text)
 		{
-            SkinPrice.color = Color.white;
+			SkinPrice.color = Color.white;
 			SkinPrice.text = "select";
 		}
 

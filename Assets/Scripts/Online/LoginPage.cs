@@ -107,7 +107,7 @@ public class LoginPage : MonoBehaviour {
         {
             PlayerPrefs.SetString("username", RegisterID);
             PlayerPrefs.SetString("password", registerpass);
-            string url = "https://elysium.lh1.in/Reg.php";
+            string url = "http://elysium.lh1.in/Reg.php";
             using (var webClient = new WebClient())
             {
                 var registerdata = new NameValueCollection();

@@ -4,104 +4,63 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 using System;
+using BeardedManStudios;
 
 [Serializable]
 public class Settings : MonoBehaviour
 {
 
-    public GameObject start,styling,scores,Settingspanel,text,Particlesky, toggles, musicManager;
+    public GameObject AllItems, MusicManagerUI, Global, Network, PlayerData,SnowSystem;
     public Toggle Checkboxparticle;
-    public Text HighestScore, Times_Played,TotalScore,Ping, sensValue;
-    public Image Line;
-    public static int PlayedCount;
-    public static float SensitivityValue = 0.2f;
-    bool ModeVisual, ModeStats, ModeNetwork = false;
+    public Text HighestScore, Times_Played,TotalScore,Ping, SensText;
+    public Image CurrentlySelection;
+    public static float SensitivityValue = 0.45f;
+    bool ModeVisual, ModeStats, ModeNetwork;
     public Slider Sensitivity;
 
     void Start()
-    {      
+    { 
              Sensitivity.minValue = 0.1f;
              Sensitivity.maxValue = 1.0f;
         if (!PlayerPrefs.HasKey("Sensitivity"))
-            Sensitivity.value = 0.2f;
+            Sensitivity.value = 0.45f;
         else 
             Sensitivity.value = PlayerPrefs.GetFloat("Sensitivity");
         
-        TotalScore.text = ("Total  score :  " + PlayerPrefs.GetFloat("TotalScore").ToString("F2"));
-        HighestScore.text = ("Highest  score :  " + PlayerPrefs.GetFloat("Highest score").ToString("F2"));
-        Times_Played.text = ("Times  played :  " + PlayerPrefs.GetInt("Play Counter"));
-        HighestScore.enabled = false;
-        Times_Played.enabled = false;
-        Ping.enabled = false;
-        TotalScore.enabled = false;
-
+        TotalScore.text = "Total score :  " + PlayerPrefs.GetFloat("TotalScore").ToString("F2");
+        HighestScore.text = "Highest score :  " + PlayerPrefs.GetFloat("Highest score").ToString("F2");
+        Times_Played.text = "Times played :  " + PlayerPrefs.GetInt("Play Counter");
     }
     
     void Update()
     {
         SensitivityValue = Sensitivity.value;
-        sensValue.text = ("Joystick sensitivity : " + SensitivityValue.ToString("F2") + "x");
-        PlayedCount = PlayerPrefs.GetInt("Play Counter");
-        if (ModeVisual)
-        {
-            HighestScore.enabled = false;
-            Times_Played.enabled = false;
-            Ping.enabled = false;
-            TotalScore.enabled = false;
-
-
-        }
-        if(ModeStats)
-        {
-            TotalScore.enabled = true;
-            HighestScore.enabled = true;
-            Times_Played.enabled = true;
-            Ping.enabled = false;
-            toggles.SetActive(false);
-        }
-        if(ModeNetwork)
-        {
-            TotalScore.enabled = false;
-            HighestScore.enabled = false;
-            Times_Played.enabled = false;
-            Ping.enabled = true;
-            toggles.SetActive(false);
-
-        }
-        start.SetActive(false);
-        styling.SetActive(false);
-        scores.SetActive(false);
-        musicManager.SetActive(false);
-        text.SetActive(false);
-        Ping.text = "Ping :  " + PhotonNetwork.GetPing() + "  ms ";
-        
+        Ping.text = "Ping : " + PhotonNetwork.GetPing() + " ms";
+        SensText.text = "Joystick sensitivity value is " + Sensitivity.value.ToString("F2") +"x";
     }
     public void Back()
-    {
-        Settingspanel.SetActive(false);
-        start.SetActive(true);
-        styling.SetActive(true);
-        musicManager.SetActive(true);
-        scores.SetActive(true);
-        text.SetActive(true);
+    {    
         PlayerPrefs.SetFloat("Sensitivity", SensitivityValue);
+        AllItems.SetActive(true);
+        MusicManagerUI.SetActive(true);
+        gameObject.SetActive(false);
+
     }
     public void Particleoff()
-    { 
-            Particlesky.SetActive(false);
-        
-        if (Checkboxparticle.isOn == true)
-        {
-            Particlesky.SetActive(true);
-        }
+    {
+        if (Checkboxparticle.isOn)
+            SnowSystem.SetActive(true);
+        else SnowSystem.SetActive(false);
     }
     public void VisualSettings()
     {
         ModeVisual = true;
         ModeStats = false;
         ModeNetwork = false;
-        Line.transform.position = new Vector3(-3.373f, 1.571f, -11.63f);
-        toggles.SetActive(true);
+        CurrentlySelection.transform.localPosition = new Vector3(0, 172.4f, -55);
+        Global.SetActive(true);
+        Network.SetActive(false);
+        PlayerData.SetActive(false);
 
     }
     public void StatsSettings()
@@ -109,14 +68,20 @@ public class Settings : MonoBehaviour
         ModeStats = true;
         ModeVisual = false;
         ModeNetwork = false;
-        Line.transform.position = new Vector3(-3.373f, 0.50f, -11.63f);
+        CurrentlySelection.transform.localPosition = new Vector3(0, 13.3f, -55);
+        Global.SetActive(false);
+        Network.SetActive(false);
+        PlayerData.SetActive(true);
     }
     public void NetworkSettings()
     {
         ModeNetwork = true;
         ModeVisual = false;
         ModeStats = false;
-        Line.transform.position = new Vector3(-3.373f, -0.60f, -11.63f);
+        CurrentlySelection.transform.localPosition = new Vector3(0, -148.5f, -55);
+        Global.SetActive(false);
+        Network.SetActive(true);
+        PlayerData.SetActive(false);
     }
     public void LogOut()
     {

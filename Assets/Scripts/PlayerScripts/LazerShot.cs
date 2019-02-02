@@ -26,6 +26,7 @@ public class LazerShot : MonoBehaviour
     [SerializeField] public AudioSource _publicSource, _loopSource;
     public AudioClip _startAudio, _shotAudio, _endAudio;
     [SerializeField] private GameObject particles,cannon;
+    
     void Start()
     {
         _loopSource.loop = true;
@@ -40,35 +41,42 @@ public class LazerShot : MonoBehaviour
 void Update()
 {
     delay  += 1*Time.deltaTime;
+    
+    if (PlayerPrefs.GetString("WeaponTag") == "Laser" || !PlayerPrefs.HasKey("WeaponTag"))
+    {
         if (pointerDown && delay > 0.85f)
         {
             cannon.SetActive(true);
             particles.SetActive(true);
-            
-            if (temp.x <=3.28f)  // Animation function for laser.
-            {
-               temp.x = (ION_Cannon.size.x) + (18f * Time.deltaTime);
-               ION_Cannon.size = temp;
-            }
-            Blastercount.Ammodownlazer -= 10 * Time.deltaTime;
-            LaserFill.fillAmount = Blastercount.Ammodownlazer/_lazerfirstammo;
 
-            /*if (Time.time > lazernextFire && Blastercount.Ammodownlazer > 0) //TODO:LaserFix
+            if (temp.x <= 3.28f) // Animation function for laser.
             {
-                lazernextFire = Time.time + 0.5f;
-                GameObject clonelazer = Instantiate(lazer, lazer1.position, lazer1.rotation);
-                clonelazer.SetActive(true);
-                Destroy(clonelazer, 4f);
-                Blastercount.Ammodownlazer -= 1;
-                Debug.Log("Lazer count -1");
-                
-                if (Blastercount.Ammodownlazer <= 0)
-                {
-                    Zero_ammo.SetActive(true);
-                }
-            }*/
+                temp.x = (ION_Cannon.size.x) + (18f * Time.deltaTime);
+                ION_Cannon.size = temp;
+            }
+
+            Blastercount.Ammodownlazer -= 10 * Time.deltaTime;
+            if (PlayerPrefs.GetString("WeaponTag") == "Laser" || !PlayerPrefs.HasKey("WeaponTag"))
+                LaserFill.fillAmount = Blastercount.Ammodownlazer / _lazerfirstammo;
         }
-        else if (Blastercount.Ammodownlazer < _lazerfirstammo && pointerDown == false )
+    }
+    if (PlayerPrefs.GetString("WeaponTag") == "Blaster" && pointerDown)
+    {
+        if (Time.time > lazernextFire && Blastercount.Ammodownlazer > 0)
+        {
+            lazernextFire = Time.time + 0.5f;
+            GameObject clonelazer = Instantiate(lazer, lazer1.position, lazer1.rotation);
+            clonelazer.SetActive(true);
+            Destroy(clonelazer, 4f);
+            Blastercount.Ammodownlazer -= 1;
+            Debug.Log("Lazer count -1");
+        }
+
+        if (Blastercount.Ammodownlazer <= 0)
+            Zero_ammo.SetActive(true);
+    }
+    
+    else if (Blastercount.Ammodownlazer < _lazerfirstammo && !pointerDown)
         {
             
             if (BotDifficult.noob)
@@ -79,7 +87,8 @@ void Update()
                 ammo = (Blastercount.Ammodownlazer += 4 * Time.deltaTime).ToString("F2");
 
             Blastercount.Ammodownlazer = float.Parse(ammo);
-            LaserFill.fillAmount = (Blastercount.Ammodownlazer) / _lazerfirstammo;
+            LaserFill.fillAmount = Blastercount.Ammodownlazer / _lazerfirstammo;
+
         }
 
         if (!pointerDown || Blastercount.Ammodownlazer <=0)
@@ -91,19 +100,22 @@ void Update()
                 particles.SetActive(false);
                 cannon.SetActive(false);
           }
+   
     }
-
+    
     public void IsPressed()
     {
-        _loopSource.Play();
-        
-        for (int i = 0; i <=1 ; i++)
+        if (!PlayerPrefs.HasKey("WeaponTag") || PlayerPrefs.GetString("WeaponTag") == "Laser")
         {
-            delay = 0;
-            _publicSource.PlayOneShot(_startAudio);
+            _loopSource.Play();
+
+            for (int i = 0; i <= 1; i++)
+            {
+                delay = 0;
+                _publicSource.PlayOneShot(_startAudio);
+            }
         }
         pointerDown = true;
-            
     }
 
     public void IsUnPressed()

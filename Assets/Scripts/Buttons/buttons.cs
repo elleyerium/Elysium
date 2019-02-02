@@ -4,21 +4,22 @@ using UnityEngine;
 
 public class buttons : MonoBehaviour
 {
-    public GameObject gamemodechoose, Settingspanel, styling, Rate, Onlinefunc, setpan, welcome, start, scores, connected, stylingBTN, scoresBTN, MusicManager;
+    public GameObject AllItems, MusicManagerUI,gamemodechoose, Settingspanel, styling, Rate, Onlinefunc, setpan, welcome, start, scores, connected, stylingBTN, scoresBTN, MusicManager;
     
 
     public void StartGame()
     {
+        setpan.SetActive(false);
         gamemodechoose.SetActive(true);
         MusicManager.SetActive(false);
-
     }
     public void Rating()
     {
         Application.OpenURL("https://play.google.com/store/apps/details?id=com.Elleyer.Elysium");
     }
     public void Settings()
-    {
+    {   AllItems.SetActive(false);
+        MusicManager.SetActive(false);
         Settingspanel.SetActive(true);
     }
 

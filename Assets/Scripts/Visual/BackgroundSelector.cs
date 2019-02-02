@@ -8,6 +8,7 @@ public class BackgroundSelector : MonoBehaviour
 
 	[SerializeField] private Texture BackSprite;
 	public Text SelectText, Backname;
+	
 	public void  Select() 
 	{
 		PlayerPrefs.SetString("BackgroundName", Backname.text);
@@ -16,6 +17,7 @@ public class BackgroundSelector : MonoBehaviour
 
 	void Update()
 	{
+		
 		if (PlayerPrefs.GetString("BackgroundName") == Backname.text)
 		{
 			SelectText.text = "selected";

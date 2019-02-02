@@ -762,6 +762,7 @@
             <e p="Initiate.cs" t="Include" />
             <e p="MusicManager.cs" t="Include" />
             <e p="Scroll.cs" t="Include" />
+            <e p="SimpleAnimator.cs" t="Include" />
             <e p="Skins.cs" t="Include" />
             <e p="TouchCursor.cs" t="Include" />
             <e p="Vizualizer.cs" t="Include" />
