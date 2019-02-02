@@ -1,0 +1,890 @@
+C:\Users\Elliot Alderson\Documents\New Unity Project\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\Elliot Alderson\Documents\New Unity Project\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\Boo.Lang.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\mscorlib.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\System.Core.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\System.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\System.Runtime.Serialization.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\System.Xml.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\System.Xml.Linq.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\Unity.Locator.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEditor.StandardEvents.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.AIModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.AnimationModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.ARModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.AudioModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.BaselibModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.ClothModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.CloudWebServicesModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.DirectorModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.FacebookModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.GridModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.InputModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.ParticlesLegacyModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.Purchasing.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.StandardEvents.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.TerrainModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.TilemapModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.Timeline.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.TimelineModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.TLSModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UIAutomation.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UIModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UmbraModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UNETModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.VideoModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.VRModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.WebModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.WindModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.XRModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityScript.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityScript.Lang.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\Unity.Cecil.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\ExCSS.Unity.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\Boo.Lang.Parser.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\Boo.Lang.Compiler.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\Unity.IvyParser.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\Boo.Lang.Useful.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\Unity.Cecil.Pdb.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.AIModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.ARModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.AccessibilityModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.AnimationModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.AudioModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.BaselibModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.ClothModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.CloudWebServicesModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.CoreModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.CrashReportingModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.DirectorModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.FacebookModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.GameCenterModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.GridModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.HotReloadModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.InputModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.ParticleSystemModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.ParticlesLegacyModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.SpriteMaskModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.SpriteShapeModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.SubstanceModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.TLSModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.TerrainModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.TilemapModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.TimelineModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UIModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UIElementsModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UNETModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UmbraModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.VRModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.VehiclesModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.VideoModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.WebModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.WindModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.XRModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.Timeline.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.UIAutomation.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
+C:\Users\Elliot Alderson\Documents\New Unity Project\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+C:\Users\Elliot Alderson\Documents\New Unity Project\obj\Debug\Assembly-CSharp.dll
+C:\Users\Elliot Alderson\Documents\New Unity Project\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Elliot Alderson\Documents\New Unity Project\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\Boo.Lang.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\mscorlib.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\System.Core.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\System.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\System.Runtime.Serialization.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\System.Xml.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\System.Xml.Linq.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\Unity.Locator.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEditor.StandardEvents.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.AIModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.AnimationModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.ARModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.AudioModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.BaselibModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.ClothModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.CloudWebServicesModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.DirectorModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.FacebookModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.GridModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.InputModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.ParticlesLegacyModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.Purchasing.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.StandardEvents.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.TerrainModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.TilemapModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.Timeline.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.TimelineModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.TLSModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UIAutomation.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UIModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UmbraModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UNETModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.VideoModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.VRModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.WebModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.WindModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.XRModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityScript.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityScript.Lang.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\Unity.Cecil.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\ExCSS.Unity.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\Boo.Lang.Parser.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\Boo.Lang.Compiler.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\Unity.IvyParser.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\Boo.Lang.Useful.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\Unity.Cecil.Pdb.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.AIModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.ARModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.AccessibilityModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.AnimationModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.AudioModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.BaselibModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.ClothModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.CloudWebServicesModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.CoreModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.CrashReportingModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.DirectorModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.FacebookModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.GameCenterModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.GridModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.HotReloadModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.InputModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.ParticleSystemModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.ParticlesLegacyModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.SpriteMaskModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.SpriteShapeModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.SubstanceModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.TLSModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.TerrainModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.TilemapModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.TimelineModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UIModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UIElementsModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UNETModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UmbraModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.VRModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.VehiclesModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.VideoModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.WebModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.WindModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.XRModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.Timeline.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.UIAutomation.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
+C:\Users\Elliot Alderson\Documents\Elysium\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\Elliot Alderson\Documents\Elysium\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\Elliot Alderson\Documents\Elysium\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+C:\Users\Elliot Alderson\Documents\Elysium\obj\Debug\Assembly-CSharp.dll
+C:\Users\Elliot Alderson\Documents\Elysium\obj\Debug\Assembly-CSharp.pdb
+H:\Elysium\Temp\bin\Debug\Assembly-CSharp.dll
+H:\Elysium\Temp\bin\Debug\Assembly-CSharp.pdb
+H:\Elysium\Temp\bin\Debug\Boo.Lang.dll
+H:\Elysium\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+H:\Elysium\Temp\bin\Debug\mscorlib.dll
+H:\Elysium\Temp\bin\Debug\netstandard.dll
+H:\Elysium\Temp\bin\Debug\Photon3Unity3D.dll
+H:\Elysium\Temp\bin\Debug\System.AppContext.dll
+H:\Elysium\Temp\bin\Debug\System.Collections.Concurrent.dll
+H:\Elysium\Temp\bin\Debug\System.Collections.dll
+H:\Elysium\Temp\bin\Debug\System.Collections.NonGeneric.dll
+H:\Elysium\Temp\bin\Debug\System.Collections.Specialized.dll
+H:\Elysium\Temp\bin\Debug\System.ComponentModel.Annotations.dll
+H:\Elysium\Temp\bin\Debug\System.ComponentModel.dll
+H:\Elysium\Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+H:\Elysium\Temp\bin\Debug\System.ComponentModel.Primitives.dll
+H:\Elysium\Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+H:\Elysium\Temp\bin\Debug\System.Console.dll
+H:\Elysium\Temp\bin\Debug\System.Core.dll
+H:\Elysium\Temp\bin\Debug\System.Data.Common.dll
+H:\Elysium\Temp\bin\Debug\System.Diagnostics.Contracts.dll
+H:\Elysium\Temp\bin\Debug\System.Diagnostics.Debug.dll
+H:\Elysium\Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+H:\Elysium\Temp\bin\Debug\System.Diagnostics.Process.dll
+H:\Elysium\Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+H:\Elysium\Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+H:\Elysium\Temp\bin\Debug\System.Diagnostics.Tools.dll
+H:\Elysium\Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+H:\Elysium\Temp\bin\Debug\System.dll
+H:\Elysium\Temp\bin\Debug\System.Drawing.Primitives.dll
+H:\Elysium\Temp\bin\Debug\System.Dynamic.Runtime.dll
+H:\Elysium\Temp\bin\Debug\System.Globalization.Calendars.dll
+H:\Elysium\Temp\bin\Debug\System.Globalization.dll
+H:\Elysium\Temp\bin\Debug\System.Globalization.Extensions.dll
+H:\Elysium\Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+H:\Elysium\Temp\bin\Debug\System.IO.dll
+H:\Elysium\Temp\bin\Debug\System.IO.FileSystem.dll
+H:\Elysium\Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+H:\Elysium\Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+H:\Elysium\Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+H:\Elysium\Temp\bin\Debug\System.IO.IsolatedStorage.dll
+H:\Elysium\Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+H:\Elysium\Temp\bin\Debug\System.IO.Pipes.dll
+H:\Elysium\Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+H:\Elysium\Temp\bin\Debug\System.Linq.dll
+H:\Elysium\Temp\bin\Debug\System.Linq.Expressions.dll
+H:\Elysium\Temp\bin\Debug\System.Linq.Parallel.dll
+H:\Elysium\Temp\bin\Debug\System.Linq.Queryable.dll
+H:\Elysium\Temp\bin\Debug\System.Net.Http.Rtc.dll
+H:\Elysium\Temp\bin\Debug\System.Net.NameResolution.dll
+H:\Elysium\Temp\bin\Debug\System.Net.NetworkInformation.dll
+H:\Elysium\Temp\bin\Debug\System.Net.Ping.dll
+H:\Elysium\Temp\bin\Debug\System.Net.Primitives.dll
+H:\Elysium\Temp\bin\Debug\System.Net.Requests.dll
+H:\Elysium\Temp\bin\Debug\System.Net.Security.dll
+H:\Elysium\Temp\bin\Debug\System.Net.Sockets.dll
+H:\Elysium\Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+H:\Elysium\Temp\bin\Debug\System.Net.WebSockets.Client.dll
+H:\Elysium\Temp\bin\Debug\System.Net.WebSockets.dll
+H:\Elysium\Temp\bin\Debug\System.ObjectModel.dll
+H:\Elysium\Temp\bin\Debug\System.Reflection.dll
+H:\Elysium\Temp\bin\Debug\System.Reflection.Emit.dll
+H:\Elysium\Temp\bin\Debug\System.Reflection.Emit.ILGeneration.dll
+H:\Elysium\Temp\bin\Debug\System.Reflection.Emit.Lightweight.dll
+H:\Elysium\Temp\bin\Debug\System.Reflection.Extensions.dll
+H:\Elysium\Temp\bin\Debug\System.Reflection.Primitives.dll
+H:\Elysium\Temp\bin\Debug\System.Resources.Reader.dll
+H:\Elysium\Temp\bin\Debug\System.Resources.ResourceManager.dll
+H:\Elysium\Temp\bin\Debug\System.Resources.Writer.dll
+H:\Elysium\Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+H:\Elysium\Temp\bin\Debug\System.Runtime.dll
+H:\Elysium\Temp\bin\Debug\System.Runtime.Extensions.dll
+H:\Elysium\Temp\bin\Debug\System.Runtime.Handles.dll
+H:\Elysium\Temp\bin\Debug\System.Runtime.InteropServices.dll
+H:\Elysium\Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+H:\Elysium\Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+H:\Elysium\Temp\bin\Debug\System.Runtime.Numerics.dll
+H:\Elysium\Temp\bin\Debug\System.Runtime.Serialization.dll
+H:\Elysium\Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+H:\Elysium\Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+H:\Elysium\Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+H:\Elysium\Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+H:\Elysium\Temp\bin\Debug\System.Security.Claims.dll
+H:\Elysium\Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+H:\Elysium\Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+H:\Elysium\Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+H:\Elysium\Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+H:\Elysium\Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+H:\Elysium\Temp\bin\Debug\System.Security.Principal.dll
+H:\Elysium\Temp\bin\Debug\System.Security.SecureString.dll
+H:\Elysium\Temp\bin\Debug\System.ServiceModel.Duplex.dll
+H:\Elysium\Temp\bin\Debug\System.ServiceModel.Http.dll
+H:\Elysium\Temp\bin\Debug\System.ServiceModel.NetTcp.dll
+H:\Elysium\Temp\bin\Debug\System.ServiceModel.Primitives.dll
+H:\Elysium\Temp\bin\Debug\System.ServiceModel.Security.dll
+H:\Elysium\Temp\bin\Debug\System.Text.Encoding.dll
+H:\Elysium\Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+H:\Elysium\Temp\bin\Debug\System.Text.RegularExpressions.dll
+H:\Elysium\Temp\bin\Debug\System.Threading.dll
+H:\Elysium\Temp\bin\Debug\System.Threading.Overlapped.dll
+H:\Elysium\Temp\bin\Debug\System.Threading.Tasks.dll
+H:\Elysium\Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+H:\Elysium\Temp\bin\Debug\System.Threading.Thread.dll
+H:\Elysium\Temp\bin\Debug\System.Threading.ThreadPool.dll
+H:\Elysium\Temp\bin\Debug\System.Threading.Timer.dll
+H:\Elysium\Temp\bin\Debug\System.ValueTuple.dll
+H:\Elysium\Temp\bin\Debug\System.Xml.dll
+H:\Elysium\Temp\bin\Debug\System.Xml.Linq.dll
+H:\Elysium\Temp\bin\Debug\System.Xml.ReaderWriter.dll
+H:\Elysium\Temp\bin\Debug\System.Xml.XDocument.dll
+H:\Elysium\Temp\bin\Debug\System.Xml.XmlDocument.dll
+H:\Elysium\Temp\bin\Debug\System.Xml.XmlSerializer.dll
+H:\Elysium\Temp\bin\Debug\System.Xml.XPath.dll
+H:\Elysium\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+H:\Elysium\Temp\bin\Debug\Unity.Locator.dll
+H:\Elysium\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+H:\Elysium\Temp\bin\Debug\UnityEditor.dll
+H:\Elysium\Temp\bin\Debug\UnityEditor.StandardEvents.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.AIModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.Analytics.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.AnimationModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.ARModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.AudioModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.BaselibModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.ClothModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.CloudWebServicesModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.CoreModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.DirectorModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.FacebookModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.GridModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.HoloLens.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.InputModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.Networking.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.ParticlesLegacyModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.Purchasing.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.StandardEvents.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.TerrainModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.TilemapModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.Timeline.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.TimelineModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.TLSModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.UI.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.UIAutomation.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.UIModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.UmbraModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.UNETModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.VideoModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.VRModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.WebModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.WindModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.XRModule.dll
+H:\Elysium\Temp\bin\Debug\UnityScript.dll
+H:\Elysium\Temp\bin\Debug\UnityScript.Lang.dll
+H:\Elysium\Temp\bin\Debug\websocket-sharp.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+H:\Elysium\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+H:\Elysium\Temp\bin\Debug\Unity.Cecil.dll
+H:\Elysium\Temp\bin\Debug\Unity.SerializationLogic.dll
+H:\Elysium\Temp\bin\Debug\Unity.DataContract.dll
+H:\Elysium\Temp\bin\Debug\ExCSS.Unity.dll
+H:\Elysium\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+H:\Elysium\Temp\bin\Debug\Boo.Lang.Parser.dll
+H:\Elysium\Temp\bin\Debug\Boo.Lang.Compiler.dll
+H:\Elysium\Temp\bin\Debug\Unity.UNetWeaver.dll
+H:\Elysium\Temp\bin\Debug\Unity.IvyParser.dll
+H:\Elysium\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
+H:\Elysium\Temp\bin\Debug\Boo.Lang.Useful.dll
+H:\Elysium\Temp\bin\Debug\Unity.CecilTools.dll
+H:\Elysium\Temp\bin\Debug\Unity.Cecil.Pdb.dll
+H:\Elysium\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+H:\Elysium\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+H:\Elysium\Temp\bin\Debug\UnityEngine.xml
+H:\Elysium\Temp\bin\Debug\UnityEditor.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.AIModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.ARModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.AccessibilityModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.AnimationModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.AudioModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.BaselibModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.ClothModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.CloudWebServicesModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.CoreModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.CrashReportingModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.DirectorModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.FacebookModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.GameCenterModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.GridModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.HotReloadModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.InputModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.ParticleSystemModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.ParticlesLegacyModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.SpriteMaskModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.SpriteShapeModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.SubstanceModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.TLSModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.TerrainModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.TilemapModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.TimelineModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.UIModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.UIElementsModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.UNETModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.UmbraModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.VRModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.VehiclesModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.VideoModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.WebModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.WindModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.XRModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.UI.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.Networking.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.Timeline.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.UIAutomation.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.HoloLens.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
+H:\Elysium\Temp\bin\Debug\Photon3Unity3D.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+H:\Elysium\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
+H:\Elysium\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+H:\Elysium\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+H:\Elysium\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+H:\Elysium\obj\Debug\Assembly-CSharp.dll
+H:\Elysium\obj\Debug\Assembly-CSharp.pdb
+G:\Elysium\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+G:\Elysium\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+G:\Elysium\obj\Debug\Assembly-CSharp.dll
+G:\Elysium\obj\Debug\Assembly-CSharp.pdb
+G:\Elysium\Temp\bin\Debug\Assembly-CSharp.dll
+G:\Elysium\Temp\bin\Debug\Assembly-CSharp.pdb
+G:\Elysium\Temp\bin\Debug\Boo.Lang.dll
+G:\Elysium\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+G:\Elysium\Temp\bin\Debug\mscorlib.dll
+G:\Elysium\Temp\bin\Debug\netstandard.dll
+G:\Elysium\Temp\bin\Debug\Photon3Unity3D.dll
+G:\Elysium\Temp\bin\Debug\System.AppContext.dll
+G:\Elysium\Temp\bin\Debug\System.Collections.Concurrent.dll
+G:\Elysium\Temp\bin\Debug\System.Collections.dll
+G:\Elysium\Temp\bin\Debug\System.Collections.NonGeneric.dll
+G:\Elysium\Temp\bin\Debug\System.Collections.Specialized.dll
+G:\Elysium\Temp\bin\Debug\System.ComponentModel.Annotations.dll
+G:\Elysium\Temp\bin\Debug\System.ComponentModel.dll
+G:\Elysium\Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+G:\Elysium\Temp\bin\Debug\System.ComponentModel.Primitives.dll
+G:\Elysium\Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+G:\Elysium\Temp\bin\Debug\System.Console.dll
+G:\Elysium\Temp\bin\Debug\System.Core.dll
+G:\Elysium\Temp\bin\Debug\System.Data.Common.dll
+G:\Elysium\Temp\bin\Debug\System.Diagnostics.Contracts.dll
+G:\Elysium\Temp\bin\Debug\System.Diagnostics.Debug.dll
+G:\Elysium\Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+G:\Elysium\Temp\bin\Debug\System.Diagnostics.Process.dll
+G:\Elysium\Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+G:\Elysium\Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+G:\Elysium\Temp\bin\Debug\System.Diagnostics.Tools.dll
+G:\Elysium\Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+G:\Elysium\Temp\bin\Debug\System.dll
+G:\Elysium\Temp\bin\Debug\System.Drawing.Primitives.dll
+G:\Elysium\Temp\bin\Debug\System.Dynamic.Runtime.dll
+G:\Elysium\Temp\bin\Debug\System.Globalization.Calendars.dll
+G:\Elysium\Temp\bin\Debug\System.Globalization.dll
+G:\Elysium\Temp\bin\Debug\System.Globalization.Extensions.dll
+G:\Elysium\Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+G:\Elysium\Temp\bin\Debug\System.IO.dll
+G:\Elysium\Temp\bin\Debug\System.IO.FileSystem.dll
+G:\Elysium\Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+G:\Elysium\Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+G:\Elysium\Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+G:\Elysium\Temp\bin\Debug\System.IO.IsolatedStorage.dll
+G:\Elysium\Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+G:\Elysium\Temp\bin\Debug\System.IO.Pipes.dll
+G:\Elysium\Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+G:\Elysium\Temp\bin\Debug\System.Linq.dll
+G:\Elysium\Temp\bin\Debug\System.Linq.Expressions.dll
+G:\Elysium\Temp\bin\Debug\System.Linq.Parallel.dll
+G:\Elysium\Temp\bin\Debug\System.Linq.Queryable.dll
+G:\Elysium\Temp\bin\Debug\System.Net.Http.Rtc.dll
+G:\Elysium\Temp\bin\Debug\System.Net.NameResolution.dll
+G:\Elysium\Temp\bin\Debug\System.Net.NetworkInformation.dll
+G:\Elysium\Temp\bin\Debug\System.Net.Ping.dll
+G:\Elysium\Temp\bin\Debug\System.Net.Primitives.dll
+G:\Elysium\Temp\bin\Debug\System.Net.Requests.dll
+G:\Elysium\Temp\bin\Debug\System.Net.Security.dll
+G:\Elysium\Temp\bin\Debug\System.Net.Sockets.dll
+G:\Elysium\Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+G:\Elysium\Temp\bin\Debug\System.Net.WebSockets.Client.dll
+G:\Elysium\Temp\bin\Debug\System.Net.WebSockets.dll
+G:\Elysium\Temp\bin\Debug\System.ObjectModel.dll
+G:\Elysium\Temp\bin\Debug\System.Reflection.dll
+G:\Elysium\Temp\bin\Debug\System.Reflection.Emit.dll
+G:\Elysium\Temp\bin\Debug\System.Reflection.Emit.ILGeneration.dll
+G:\Elysium\Temp\bin\Debug\System.Reflection.Emit.Lightweight.dll
+G:\Elysium\Temp\bin\Debug\System.Reflection.Extensions.dll
+G:\Elysium\Temp\bin\Debug\System.Reflection.Primitives.dll
+G:\Elysium\Temp\bin\Debug\System.Resources.Reader.dll
+G:\Elysium\Temp\bin\Debug\System.Resources.ResourceManager.dll
+G:\Elysium\Temp\bin\Debug\System.Resources.Writer.dll
+G:\Elysium\Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+G:\Elysium\Temp\bin\Debug\System.Runtime.dll
+G:\Elysium\Temp\bin\Debug\System.Runtime.Extensions.dll
+G:\Elysium\Temp\bin\Debug\System.Runtime.Handles.dll
+G:\Elysium\Temp\bin\Debug\System.Runtime.InteropServices.dll
+G:\Elysium\Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\Elysium\Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+G:\Elysium\Temp\bin\Debug\System.Runtime.Numerics.dll
+G:\Elysium\Temp\bin\Debug\System.Runtime.Serialization.dll
+G:\Elysium\Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+G:\Elysium\Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+G:\Elysium\Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+G:\Elysium\Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+G:\Elysium\Temp\bin\Debug\System.Security.Claims.dll
+G:\Elysium\Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+G:\Elysium\Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+G:\Elysium\Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+G:\Elysium\Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+G:\Elysium\Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+G:\Elysium\Temp\bin\Debug\System.Security.Principal.dll
+G:\Elysium\Temp\bin\Debug\System.Security.SecureString.dll
+G:\Elysium\Temp\bin\Debug\System.ServiceModel.Duplex.dll
+G:\Elysium\Temp\bin\Debug\System.ServiceModel.Http.dll
+G:\Elysium\Temp\bin\Debug\System.ServiceModel.NetTcp.dll
+G:\Elysium\Temp\bin\Debug\System.ServiceModel.Primitives.dll
+G:\Elysium\Temp\bin\Debug\System.ServiceModel.Security.dll
+G:\Elysium\Temp\bin\Debug\System.Text.Encoding.dll
+G:\Elysium\Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+G:\Elysium\Temp\bin\Debug\System.Text.RegularExpressions.dll
+G:\Elysium\Temp\bin\Debug\System.Threading.dll
+G:\Elysium\Temp\bin\Debug\System.Threading.Overlapped.dll
+G:\Elysium\Temp\bin\Debug\System.Threading.Tasks.dll
+G:\Elysium\Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+G:\Elysium\Temp\bin\Debug\System.Threading.Thread.dll
+G:\Elysium\Temp\bin\Debug\System.Threading.ThreadPool.dll
+G:\Elysium\Temp\bin\Debug\System.Threading.Timer.dll
+G:\Elysium\Temp\bin\Debug\System.ValueTuple.dll
+G:\Elysium\Temp\bin\Debug\System.Xml.dll
+G:\Elysium\Temp\bin\Debug\System.Xml.Linq.dll
+G:\Elysium\Temp\bin\Debug\System.Xml.ReaderWriter.dll
+G:\Elysium\Temp\bin\Debug\System.Xml.XDocument.dll
+G:\Elysium\Temp\bin\Debug\System.Xml.XmlDocument.dll
+G:\Elysium\Temp\bin\Debug\System.Xml.XmlSerializer.dll
+G:\Elysium\Temp\bin\Debug\System.Xml.XPath.dll
+G:\Elysium\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+G:\Elysium\Temp\bin\Debug\Unity.Locator.dll
+G:\Elysium\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+G:\Elysium\Temp\bin\Debug\UnityEditor.dll
+G:\Elysium\Temp\bin\Debug\UnityEditor.StandardEvents.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.AIModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.Analytics.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.AnimationModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.ARModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.AudioModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.BaselibModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.ClothModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.CloudWebServicesModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.CoreModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.DirectorModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.FacebookModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.GridModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.HoloLens.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.InputModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.Networking.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.ParticlesLegacyModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.Purchasing.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.StandardEvents.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.TerrainModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.TilemapModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.Timeline.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.TimelineModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.TLSModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.UI.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.UIAutomation.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.UIModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.UmbraModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.UNETModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.VideoModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.VRModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.WebModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.WindModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.XRModule.dll
+G:\Elysium\Temp\bin\Debug\UnityScript.dll
+G:\Elysium\Temp\bin\Debug\UnityScript.Lang.dll
+G:\Elysium\Temp\bin\Debug\websocket-sharp.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+G:\Elysium\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+G:\Elysium\Temp\bin\Debug\Unity.Cecil.dll
+G:\Elysium\Temp\bin\Debug\Unity.SerializationLogic.dll
+G:\Elysium\Temp\bin\Debug\Unity.DataContract.dll
+G:\Elysium\Temp\bin\Debug\ExCSS.Unity.dll
+G:\Elysium\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+G:\Elysium\Temp\bin\Debug\Boo.Lang.Parser.dll
+G:\Elysium\Temp\bin\Debug\Boo.Lang.Compiler.dll
+G:\Elysium\Temp\bin\Debug\Unity.UNetWeaver.dll
+G:\Elysium\Temp\bin\Debug\Unity.IvyParser.dll
+G:\Elysium\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
+G:\Elysium\Temp\bin\Debug\Boo.Lang.Useful.dll
+G:\Elysium\Temp\bin\Debug\Unity.CecilTools.dll
+G:\Elysium\Temp\bin\Debug\Unity.Cecil.Pdb.dll
+G:\Elysium\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+G:\Elysium\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+G:\Elysium\Temp\bin\Debug\UnityEngine.xml
+G:\Elysium\Temp\bin\Debug\UnityEditor.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.AIModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.ARModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.AccessibilityModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.AnimationModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.AudioModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.BaselibModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.ClothModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.CloudWebServicesModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.CoreModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.CrashReportingModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.DirectorModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.FacebookModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.GameCenterModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.GridModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.HotReloadModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.InputModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.ParticleSystemModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.ParticlesLegacyModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.SpriteMaskModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.SpriteShapeModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.SubstanceModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.TLSModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.TerrainModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.TilemapModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.TimelineModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.UIModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.UIElementsModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.UNETModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.UmbraModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.VRModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.VehiclesModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.VideoModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.WebModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.WindModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.XRModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.UI.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.Networking.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.Timeline.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.UIAutomation.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.HoloLens.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
+G:\Elysium\Temp\bin\Debug\Photon3Unity3D.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+G:\Elysium\Temp\bin\Debug\UnityEngine.ClusterRendererModule.xml
+G:\Elysium\obj\Debug\Assembly-CSharp.csproj.CopyComplete
