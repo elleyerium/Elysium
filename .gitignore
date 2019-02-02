@@ -15,7 +15,6 @@ sysinfo.txt
 
 # Builds
 *.apk
-*.unitypackage
 APKs/Build22082018.rar
 xxx.xxx
 Assets/CameraAspectRatioScaler/Readme.txt
@@ -31,7 +30,3 @@ Assets/Sprites/Stat.png.meta
 Elleyer.keystore
 ProjectSettings/ProjectSettings.asset
 ProjectSettings/ProjectSettings.asset
-Assets/Prefabs/Spaceship.prefab
-Assets/Scripts/BotScripts/HealthBar.cs
-Assets/Sprites/Icon 1.png
-Assets/Sprites/Icon 1.png
