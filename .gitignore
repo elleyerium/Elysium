@@ -1,14 +1,8 @@
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Mm]eta/
-Assets/AssetStoreTools*
+-[Ll]ibrary/
 
+-[Tt]emp/
 # Visual Studio cache directory
 .vs/
-
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
@@ -30,3 +24,4 @@ Assets/Sprites/Stat.png.meta
 Elleyer.keystore
 ProjectSettings/ProjectSettings.asset
 ProjectSettings/ProjectSettings.asset
+Temp/UnityLockfile
