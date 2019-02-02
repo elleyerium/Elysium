@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Mime;
-using GooglePlayGames.Native.Cwrapper;
 using UnityEngine;
 using UnityEngine.UI;
 
