@@ -12,11 +12,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-02-02T13:49:02.408+02:00
-  initializedAtString: 2019-02-02T13:47:37.145+02:00
-  localBranches: []
+  lastUpdatedAtString: 2019-02-02T16:26:27.690+02:00
+  initializedAtString: 2019-02-02T16:26:27.534+02:00
+  localBranches:
+  - name: master
+    tracking: origin/master
   remoteBranches:
   - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/master
     tracking: '[None]'
   remotes:
   - name: origin
@@ -27,17 +31,29 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - master
+    values:
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/elleyer/Elysium.git
+      trackingBranch: master
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
       - HEAD
+      - master
     subKeyValues:
     - Values:
       - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/elleyer/Elysium.git
+        trackingBranch: 
+      - name: master
         remote:
           name: origin
           url: https://github.com/elleyer/Elysium.git
