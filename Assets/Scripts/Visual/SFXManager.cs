@@ -6,15 +6,15 @@ using UnityEngine;
 public class SFXManager : MonoBehaviour
 {
 
-	public AudioSource AudioSource;
-	public AudioClip[] AudioClips;
-	public static void PlaySound(AudioClip clip)
+	public AudioSource SFXSource;
+    public AudioClip buttonClick;
+	public void PlaySound(AudioClip clip)
 	{
-//
+        SFXSource.PlayOneShot(clip);
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	public void ClickSound()
+    {
+        SFXSource.PlayOneShot(buttonClick);
+    }
 }
