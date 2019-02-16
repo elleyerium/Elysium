@@ -12,72 +12,360 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-02-16T14:24:11.666+02:00
-  initializedAtString: 2019-02-16T13:18:15.876+02:00
+  lastUpdatedAtString: 2019-02-16T14:34:04.953+02:00
+  initializedAtString: 2019-02-16T14:01:53.354+02:00
   entries:
-  - path: .gitignore
-    fullPath: C:\Projects\Elysium\.gitignore
-    projectPath: .gitignore
+  - path: Assets\Plugins\Android\com.google.games.gpgs-plugin-support-0.9.50\aidl.meta
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Assets\Plugins\Android\com.google.games.gpgs-plugin-support-0.9.50\aidl.meta
+    projectPath: Assets\Plugins\Android\com.google.games.gpgs-plugin-support-0.9.50\aidl.meta
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
-  - path: APKs\Build22082018.rar
-    fullPath: C:\Projects\Elysium\APKs\Build22082018.rar
-    projectPath: APKs\Build22082018.rar
+  - path: Assets\Plugins\Android\com.google.games.gpgs-plugin-support-0.9.50\assets.meta
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Assets\Plugins\Android\com.google.games.gpgs-plugin-support-0.9.50\assets.meta
+    projectPath: Assets\Plugins\Android\com.google.games.gpgs-plugin-support-0.9.50\assets.meta
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
-  - path: Assets\Sprites\Ico.jpg
-    fullPath: C:\Projects\Elysium\Assets\Sprites\Ico.jpg
-    projectPath: Assets\Sprites\Ico.jpg
+  - path: Assets\Scripts\Online\OnlinePlayer.meta
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Assets\Scripts\Online\OnlinePlayer.meta
+    projectPath: Assets\Scripts\Online\OnlinePlayer.meta
     originalPath: 
-    status: 1
+    status: 5
     staged: 0
-  - path: Assets\Sprites\Ico.jpg.meta
-    fullPath: C:\Projects\Elysium\Assets\Sprites\Ico.jpg.meta
-    projectPath: Assets\Sprites\Ico.jpg.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\Stat.png
-    fullPath: C:\Projects\Elysium\Assets\Sprites\Stat.png
-    projectPath: Assets\Sprites\Stat.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\Stat.png.meta
-    fullPath: C:\Projects\Elysium\Assets\Sprites\Stat.png.meta
-    projectPath: Assets\Sprites\Stat.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: C:\Projects\Elysium\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
+  - path: Library\assetDatabase3
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
     originalPath: 
     status: 3
     staged: 0
   - path: Library\gfu\cache\gitlocks.yaml
-    fullPath: C:\Projects\Elysium\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Projects\Elysium\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\gfu\cache\gitstatusentries.yaml
-    fullPath: C:\Projects\Elysium\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     status: 3
     staged: 0
   - path: Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: C:\Projects\Elysium\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\99\99a98a9fad2992e47959dd0172edf783.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\99\99a98a9fad2992e47959dd0172edf783.info
+    projectPath: Library\metadata\99\99a98a9fad2992e47959dd0172edf783.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\9a\9ad381ed8492840ab9f165df743e4826
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\9a\9ad381ed8492840ab9f165df743e4826
+    projectPath: Library\metadata\9a\9ad381ed8492840ab9f165df743e4826
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\9b\9b13303e92274854c9c61f9eb51f2182.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\9b\9b13303e92274854c9c61f9eb51f2182.info
+    projectPath: Library\metadata\9b\9b13303e92274854c9c61f9eb51f2182.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\9b\9b3f34a2bba13428789d02b53fd89a47
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\9b\9b3f34a2bba13428789d02b53fd89a47
+    projectPath: Library\metadata\9b\9b3f34a2bba13428789d02b53fd89a47
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\9b\9b3f34a2bba13428789d02b53fd89a47.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\9b\9b3f34a2bba13428789d02b53fd89a47.info
+    projectPath: Library\metadata\9b\9b3f34a2bba13428789d02b53fd89a47.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\9b\9b68962325568458da71b7303409a124
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\9b\9b68962325568458da71b7303409a124
+    projectPath: Library\metadata\9b\9b68962325568458da71b7303409a124
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\9b\9b68962325568458da71b7303409a124.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\9b\9b68962325568458da71b7303409a124.info
+    projectPath: Library\metadata\9b\9b68962325568458da71b7303409a124.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\9c\9c6977a9ecda14e4e96ea3a71c749c2c.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\9c\9c6977a9ecda14e4e96ea3a71c749c2c.info
+    projectPath: Library\metadata\9c\9c6977a9ecda14e4e96ea3a71c749c2c.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\b4\b424e3916379b794db938648c47152a1.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\b4\b424e3916379b794db938648c47152a1.info
+    projectPath: Library\metadata\b4\b424e3916379b794db938648c47152a1.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\b4\b428940126c92a04da9792fec3fab197.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\b4\b428940126c92a04da9792fec3fab197.info
+    projectPath: Library\metadata\b4\b428940126c92a04da9792fec3fab197.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\b5\b51a3e520f9164da198dc59c8acfccd6.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\b5\b51a3e520f9164da198dc59c8acfccd6.info
+    projectPath: Library\metadata\b5\b51a3e520f9164da198dc59c8acfccd6.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\b5\b5442649d0c1648958bc938ed2769b8d
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\b5\b5442649d0c1648958bc938ed2769b8d
+    projectPath: Library\metadata\b5\b5442649d0c1648958bc938ed2769b8d
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ce\ce69d7d1d67cbc94f8f13493777adfda
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\ce\ce69d7d1d67cbc94f8f13493777adfda
+    projectPath: Library\metadata\ce\ce69d7d1d67cbc94f8f13493777adfda
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ce\ce69d7d1d67cbc94f8f13493777adfda.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\ce\ce69d7d1d67cbc94f8f13493777adfda.info
+    projectPath: Library\metadata\ce\ce69d7d1d67cbc94f8f13493777adfda.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ce\ce8b50a33bc9942aa815c3e877cc53da
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\ce\ce8b50a33bc9942aa815c3e877cc53da
+    projectPath: Library\metadata\ce\ce8b50a33bc9942aa815c3e877cc53da
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\e5\e53083b6904a24b629443e34f6223e2c
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\e5\e53083b6904a24b629443e34f6223e2c
+    projectPath: Library\metadata\e5\e53083b6904a24b629443e34f6223e2c
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\e5\e53083b6904a24b629443e34f6223e2c.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\e5\e53083b6904a24b629443e34f6223e2c.info
+    projectPath: Library\metadata\e5\e53083b6904a24b629443e34f6223e2c.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\e5\e5354c32a5dc64372ba5102f7f787adf
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\e5\e5354c32a5dc64372ba5102f7f787adf
+    projectPath: Library\metadata\e5\e5354c32a5dc64372ba5102f7f787adf
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\e5\e5354c32a5dc64372ba5102f7f787adf.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\e5\e5354c32a5dc64372ba5102f7f787adf.info
+    projectPath: Library\metadata\e5\e5354c32a5dc64372ba5102f7f787adf.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\e6\e6cda9cd290282b40a3a43ea0eb4169b
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\e6\e6cda9cd290282b40a3a43ea0eb4169b
+    projectPath: Library\metadata\e6\e6cda9cd290282b40a3a43ea0eb4169b
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\e6\e6cda9cd290282b40a3a43ea0eb4169b.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\e6\e6cda9cd290282b40a3a43ea0eb4169b.info
+    projectPath: Library\metadata\e6\e6cda9cd290282b40a3a43ea0eb4169b.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\e7\e7dd71800c84ee84b891c4918349ffee.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\e7\e7dd71800c84ee84b891c4918349ffee.info
+    projectPath: Library\metadata\e7\e7dd71800c84ee84b891c4918349ffee.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\e9\e97c14fbb5ea04c3a902cc533d7fc5d1
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\e9\e97c14fbb5ea04c3a902cc533d7fc5d1
+    projectPath: Library\metadata\e9\e97c14fbb5ea04c3a902cc533d7fc5d1
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\e9\e9d816497596b46c0a989c9df3aff865
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\e9\e9d816497596b46c0a989c9df3aff865
+    projectPath: Library\metadata\e9\e9d816497596b46c0a989c9df3aff865
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\e9\e9d816497596b46c0a989c9df3aff865.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\e9\e9d816497596b46c0a989c9df3aff865.info
+    projectPath: Library\metadata\e9\e9d816497596b46c0a989c9df3aff865.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\e9\e9e021332bcb3a646bc389205bba392e.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\e9\e9e021332bcb3a646bc389205bba392e.info
+    projectPath: Library\metadata\e9\e9e021332bcb3a646bc389205bba392e.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ea\ea5873cfd9158664f89459f0c9e1d853
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\ea\ea5873cfd9158664f89459f0c9e1d853
+    projectPath: Library\metadata\ea\ea5873cfd9158664f89459f0c9e1d853
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\eb\eb0ac2d9ccaf14d83b10bdc0cb8ccdd2
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\eb\eb0ac2d9ccaf14d83b10bdc0cb8ccdd2
+    projectPath: Library\metadata\eb\eb0ac2d9ccaf14d83b10bdc0cb8ccdd2
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\eb\eb0ac2d9ccaf14d83b10bdc0cb8ccdd2.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\eb\eb0ac2d9ccaf14d83b10bdc0cb8ccdd2.info
+    projectPath: Library\metadata\eb\eb0ac2d9ccaf14d83b10bdc0cb8ccdd2.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\eb\eb5f6e2757c821940b69cf1456f7865a
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\eb\eb5f6e2757c821940b69cf1456f7865a
+    projectPath: Library\metadata\eb\eb5f6e2757c821940b69cf1456f7865a
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ec\ecc2f06fc2caa884cb2026ef608ef669.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\ec\ecc2f06fc2caa884cb2026ef608ef669.info
+    projectPath: Library\metadata\ec\ecc2f06fc2caa884cb2026ef608ef669.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ee\ee322ca5516913b499c935474de84a0c.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\ee\ee322ca5516913b499c935474de84a0c.info
+    projectPath: Library\metadata\ee\ee322ca5516913b499c935474de84a0c.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ee\ee4017d68c30574438261b1951b82b71.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\ee\ee4017d68c30574438261b1951b82b71.info
+    projectPath: Library\metadata\ee\ee4017d68c30574438261b1951b82b71.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ee\ee52269f55933442fa5ea52e688ebec2
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\ee\ee52269f55933442fa5ea52e688ebec2
+    projectPath: Library\metadata\ee\ee52269f55933442fa5ea52e688ebec2
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ee\ee52269f55933442fa5ea52e688ebec2.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\ee\ee52269f55933442fa5ea52e688ebec2.info
+    projectPath: Library\metadata\ee\ee52269f55933442fa5ea52e688ebec2.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ee\ee7593a916a9691499d7479a1b0fc32c.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\ee\ee7593a916a9691499d7479a1b0fc32c.info
+    projectPath: Library\metadata\ee\ee7593a916a9691499d7479a1b0fc32c.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ee\eeb384796a0c2dd44b2808cba57c7943
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\ee\eeb384796a0c2dd44b2808cba57c7943
+    projectPath: Library\metadata\ee\eeb384796a0c2dd44b2808cba57c7943
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\f0\f0dfd678d170f684097174e6fbe15ac4
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\f0\f0dfd678d170f684097174e6fbe15ac4
+    projectPath: Library\metadata\f0\f0dfd678d170f684097174e6fbe15ac4
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\f0\f0dfd678d170f684097174e6fbe15ac4.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\f0\f0dfd678d170f684097174e6fbe15ac4.info
+    projectPath: Library\metadata\f0\f0dfd678d170f684097174e6fbe15ac4.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\f1\f1a143ae01f1344d59c6b033c195acf5
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\f1\f1a143ae01f1344d59c6b033c195acf5
+    projectPath: Library\metadata\f1\f1a143ae01f1344d59c6b033c195acf5
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\f1\f1a143ae01f1344d59c6b033c195acf5.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\f1\f1a143ae01f1344d59c6b033c195acf5.info
+    projectPath: Library\metadata\f1\f1a143ae01f1344d59c6b033c195acf5.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\f3\f3401b01f5b834fefb925d6e4ef73ba2.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\f3\f3401b01f5b834fefb925d6e4ef73ba2.info
+    projectPath: Library\metadata\f3\f3401b01f5b834fefb925d6e4ef73ba2.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\f3\f3d3bfa4f916c4c7daa671a2012fa952
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\f3\f3d3bfa4f916c4c7daa671a2012fa952
+    projectPath: Library\metadata\f3\f3d3bfa4f916c4c7daa671a2012fa952
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\f3\f3d3bfa4f916c4c7daa671a2012fa952.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\f3\f3d3bfa4f916c4c7daa671a2012fa952.info
+    projectPath: Library\metadata\f3\f3d3bfa4f916c4c7daa671a2012fa952.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\fd\fd01714f9ee99447996b878b1ac67540
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\fd\fd01714f9ee99447996b878b1ac67540
+    projectPath: Library\metadata\fd\fd01714f9ee99447996b878b1ac67540
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\fd\fd01714f9ee99447996b878b1ac67540.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\fd\fd01714f9ee99447996b878b1ac67540.info
+    projectPath: Library\metadata\fd\fd01714f9ee99447996b878b1ac67540.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\fe\feb25ecf90a8d8b4ab922a455249997b.info
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\fe\feb25ecf90a8d8b4ab922a455249997b.info
+    projectPath: Library\metadata\fe\feb25ecf90a8d8b4ab922a455249997b.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ff\ff1201bd0205943ba9c881e50e38156b
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\metadata\ff\ff1201bd0205943ba9c881e50e38156b
+    projectPath: Library\metadata\ff\ff1201bd0205943ba9c881e50e38156b
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll.mdb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
+    projectPath: Library\ScriptAssemblies\UnityEditor.StandardEvents.dll.mdb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     status: 3
     staged: 0
