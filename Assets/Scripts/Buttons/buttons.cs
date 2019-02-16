@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class buttons : MonoBehaviour
 {
-    public GameObject AllItems, MusicManagerUI,gamemodechoose, Settingspanel, styling, Rate, Onlinefunc, setpan, welcome, start, scores, connected, stylingBTN, scoresBTN, MusicManager;
+    public GameObject AllItems, MusicManagerUI,gamemodechoose, Settingspanel, styling, Rate, Onlinefunc, setpan, welcome, start, scores, connected, stylingBTN, scoresBTN, MusicManager,PlayerStatus;
     
 
     public void StartGame()
@@ -12,13 +12,15 @@ public class buttons : MonoBehaviour
         setpan.SetActive(false);
         gamemodechoose.SetActive(true);
         MusicManager.SetActive(false);
+        PlayerStatus.SetActive(false);
     }
     public void Rating()
     {
         Application.OpenURL("https://play.google.com/store/apps/details?id=com.Elleyer.Elysium");
     }
     public void Settings()
-    {   AllItems.SetActive(false);
+    {   
+        AllItems.SetActive(false);
         MusicManager.SetActive(false);
         Settingspanel.SetActive(true);
     }
@@ -29,13 +31,13 @@ public class buttons : MonoBehaviour
         Rate.SetActive(false);
         Onlinefunc.SetActive(false);
         setpan.SetActive(false);
-        welcome.SetActive(false);
+        //welcome.SetActive(false);
         start.SetActive(false);
         scores.SetActive(false);
-        //connected.SetActive(false);
         stylingBTN.SetActive(false);
         scoresBTN.SetActive(true);
         MusicManager.SetActive(false);
+        PlayerStatus.SetActive(false);
     }
     public void Styling()
     {
@@ -43,12 +45,13 @@ public class buttons : MonoBehaviour
         Rate.SetActive(false);
         Onlinefunc.SetActive(false);
         setpan.SetActive(false);
-        welcome.SetActive(false);
+        //welcome.SetActive(false);
         start.SetActive(false);
         scores.SetActive(false);
         //connected.SetActive(false);
         stylingBTN.SetActive(false);
         styling.SetActive(true);
+        PlayerStatus.SetActive(false);
     }
 
     public void BackStyling()
@@ -57,13 +60,14 @@ public class buttons : MonoBehaviour
         Rate.SetActive(true);
         Onlinefunc.SetActive(true);
         setpan.SetActive(true);
-        welcome.SetActive(true);
+        //welcome.SetActive(true);
         start.SetActive(true);
         scores.SetActive(true);
         //connected.SetActive(true);
         stylingBTN.SetActive(true);
         styling.SetActive(false);
         scoresBTN.SetActive(false);
+        PlayerStatus.SetActive(true);
     }
 
 }
