@@ -12,9 +12,111 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-02-02T17:10:41.383+02:00
-  initializedAtString: 2019-02-02T15:52:50.859+02:00
+  lastUpdatedAtString: 2019-02-16T13:18:31.834+02:00
+  initializedAtString: 2019-02-16T13:18:15.876+02:00
   entries:
+  - path: .idea\.idea.Elysium\.idea\contentModel.xml
+    fullPath: C:\Projects\Elysium\.idea\.idea.Elysium\.idea\contentModel.xml
+    projectPath: .idea\.idea.Elysium\.idea\contentModel.xml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: .idea\.idea.Elysium\.idea\workspace.xml
+    fullPath: C:\Projects\Elysium\.idea\.idea.Elysium\.idea\workspace.xml
+    projectPath: .idea\.idea.Elysium\.idea\workspace.xml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\Projects\Elysium\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Prefabs\Bots (2).prefab
+    fullPath: C:\Projects\Elysium\Assets\Prefabs\Bots (2).prefab
+    projectPath: Assets\Prefabs\Bots (2).prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scenes\bots.unity
+    fullPath: C:\Projects\Elysium\Assets\Scenes\bots.unity
+    projectPath: Assets\Scenes\bots.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scenes\main.unity
+    fullPath: C:\Projects\Elysium\Assets\Scenes\main.unity
+    projectPath: Assets\Scenes\main.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\Buttons\buttons.cs
+    fullPath: C:\Projects\Elysium\Assets\Scripts\Buttons\buttons.cs
+    projectPath: Assets\Scripts\Buttons\buttons.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\Buttons\Hidenuttons.cs
+    fullPath: C:\Projects\Elysium\Assets\Scripts\Buttons\Hidenuttons.cs
+    projectPath: Assets\Scripts\Buttons\Hidenuttons.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\Online\PhotonManager.cs
+    fullPath: C:\Projects\Elysium\Assets\Scripts\Online\PhotonManager.cs
+    projectPath: Assets\Scripts\Online\PhotonManager.cs
+    originalPath: 
+    status: 5
+    staged: 1
+  - path: Assets\Scripts\Online\PhotonManager.cs.meta
+    fullPath: C:\Projects\Elysium\Assets\Scripts\Online\PhotonManager.cs.meta
+    projectPath: Assets\Scripts\Online\PhotonManager.cs.meta
+    originalPath: 
+    status: 5
+    staged: 1
+  - path: Assets\Scripts\PlayerScripts\LazerShot.cs
+    fullPath: C:\Projects\Elysium\Assets\Scripts\PlayerScripts\LazerShot.cs
+    projectPath: Assets\Scripts\PlayerScripts\LazerShot.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\Visual\SFXManager.cs
+    fullPath: C:\Projects\Elysium\Assets\Scripts\Visual\SFXManager.cs
+    projectPath: Assets\Scripts\Visual\SFXManager.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Visual\SFXManager.cs.meta
+    fullPath: C:\Projects\Elysium\Assets\Scripts\Visual\SFXManager.cs.meta
+    projectPath: Assets\Scripts\Visual\SFXManager.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Visual\Skins.cs
+    fullPath: C:\Projects\Elysium\Assets\Scripts\Visual\Skins.cs
+    projectPath: Assets\Scripts\Visual\Skins.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Songs\Buttons\ButtonClick.mp3
+    fullPath: C:\Projects\Elysium\Assets\Songs\Buttons\ButtonClick.mp3
+    projectPath: Assets\Songs\Buttons\ButtonClick.mp3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Songs\Buttons\ButtonClick.mp3.meta
+    fullPath: C:\Projects\Elysium\Assets\Songs\Buttons\ButtonClick.mp3.meta
+    projectPath: Assets\Songs\Buttons\ButtonClick.mp3.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Materials\Starfield1.mat
+    fullPath: C:\Projects\Elysium\Assets\Sprites\Materials\Starfield1.mat
+    projectPath: Assets\Sprites\Materials\Starfield1.mat
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library\assetDatabase3
     fullPath: C:\Projects\Elysium\Library\assetDatabase3
     projectPath: Library\assetDatabase3
@@ -30,6 +132,18 @@ MonoBehaviour:
   - path: Library\EditorInstance.json
     fullPath: C:\Projects\Elysium\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\EditorUserBuildSettings.asset
+    fullPath: C:\Projects\Elysium\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\expandedItems
+    fullPath: C:\Projects\Elysium\Library\expandedItems
+    projectPath: Library\expandedItems
     originalPath: 
     status: 3
     staged: 0
@@ -63,9 +177,375 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Library\gfu\cache\gituser.yaml
+    fullPath: C:\Projects\Elysium\Library\gfu\cache\gituser.yaml
+    projectPath: Library\gfu\cache\gituser.yaml
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: C:\Projects\Elysium\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Projects\Elysium\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\LastBuild.buildreport
+    fullPath: C:\Projects\Elysium\Library\LastBuild.buildreport
+    projectPath: Library\LastBuild.buildreport
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\12\120ffecfab7ac6e4186c1e01e36f3a01
+    fullPath: C:\Projects\Elysium\Library\metadata\12\120ffecfab7ac6e4186c1e01e36f3a01
+    projectPath: Library\metadata\12\120ffecfab7ac6e4186c1e01e36f3a01
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\12\120ffecfab7ac6e4186c1e01e36f3a01.info
+    fullPath: C:\Projects\Elysium\Library\metadata\12\120ffecfab7ac6e4186c1e01e36f3a01.info
+    projectPath: Library\metadata\12\120ffecfab7ac6e4186c1e01e36f3a01.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\12\120ffecfab7ac6e4186c1e01e36f3a01.resource
+    fullPath: C:\Projects\Elysium\Library\metadata\12\120ffecfab7ac6e4186c1e01e36f3a01.resource
+    projectPath: Library\metadata\12\120ffecfab7ac6e4186c1e01e36f3a01.resource
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\18\188d8a5f80f00af4bbc131a1f4a4d0ab.info
+    fullPath: C:\Projects\Elysium\Library\metadata\18\188d8a5f80f00af4bbc131a1f4a4d0ab.info
+    projectPath: Library\metadata\18\188d8a5f80f00af4bbc131a1f4a4d0ab.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\21\210b1257f8ed72242bdc19b09486112d
+    fullPath: C:\Projects\Elysium\Library\metadata\21\210b1257f8ed72242bdc19b09486112d
+    projectPath: Library\metadata\21\210b1257f8ed72242bdc19b09486112d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\38\383881ceb28b5fc4191549f2587a8345
+    fullPath: C:\Projects\Elysium\Library\metadata\38\383881ceb28b5fc4191549f2587a8345
+    projectPath: Library\metadata\38\383881ceb28b5fc4191549f2587a8345
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\46\46be06765e43d904892910e4a62ba30f
+    fullPath: C:\Projects\Elysium\Library\metadata\46\46be06765e43d904892910e4a62ba30f
+    projectPath: Library\metadata\46\46be06765e43d904892910e4a62ba30f
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\51\51571328344b0d04a9bb2907f6fbaa12
+    fullPath: C:\Projects\Elysium\Library\metadata\51\51571328344b0d04a9bb2907f6fbaa12
+    projectPath: Library\metadata\51\51571328344b0d04a9bb2907f6fbaa12
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\51\51571328344b0d04a9bb2907f6fbaa12.info
+    fullPath: C:\Projects\Elysium\Library\metadata\51\51571328344b0d04a9bb2907f6fbaa12.info
+    projectPath: Library\metadata\51\51571328344b0d04a9bb2907f6fbaa12.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\63\638a942980b308f469b58b27b8afab34
+    fullPath: C:\Projects\Elysium\Library\metadata\63\638a942980b308f469b58b27b8afab34
+    projectPath: Library\metadata\63\638a942980b308f469b58b27b8afab34
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\63\638a942980b308f469b58b27b8afab34.info
+    fullPath: C:\Projects\Elysium\Library\metadata\63\638a942980b308f469b58b27b8afab34.info
+    projectPath: Library\metadata\63\638a942980b308f469b58b27b8afab34.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\c9\c92e2a4d06dad9a42b6e8c980a33a3f8
+    fullPath: C:\Projects\Elysium\Library\metadata\c9\c92e2a4d06dad9a42b6e8c980a33a3f8
+    projectPath: Library\metadata\c9\c92e2a4d06dad9a42b6e8c980a33a3f8
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\0000000000000000f000000000000000
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\0000000000000000f000000000000000
+    projectPath: Library\PlayerDataCache\Data\0000000000000000f000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\0699c4cb15a00bf4bb65e8631245bad2
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\0699c4cb15a00bf4bb65e8631245bad2
+    projectPath: Library\PlayerDataCache\Data\0699c4cb15a00bf4bb65e8631245bad2
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\08257633e3910e54a8cc5e8ed9cc9afe
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\08257633e3910e54a8cc5e8ed9cc9afe
+    projectPath: Library\PlayerDataCache\Data\08257633e3910e54a8cc5e8ed9cc9afe
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\0aca280250465e1469173251de06263d
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\0aca280250465e1469173251de06263d
+    projectPath: Library\PlayerDataCache\Data\0aca280250465e1469173251de06263d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\0c55a789949849840bb994e514e8fa71
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\0c55a789949849840bb994e514e8fa71
+    projectPath: Library\PlayerDataCache\Data\0c55a789949849840bb994e514e8fa71
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\14ebb622e6e427a449df28289c7c9d01
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\14ebb622e6e427a449df28289c7c9d01
+    projectPath: Library\PlayerDataCache\Data\14ebb622e6e427a449df28289c7c9d01
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\15fe083e5eaac314d8eea8ef3ed65046
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\15fe083e5eaac314d8eea8ef3ed65046
+    projectPath: Library\PlayerDataCache\Data\15fe083e5eaac314d8eea8ef3ed65046
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\188d8a5f80f00af4bbc131a1f4a4d0ab
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\188d8a5f80f00af4bbc131a1f4a4d0ab
+    projectPath: Library\PlayerDataCache\Data\188d8a5f80f00af4bbc131a1f4a4d0ab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\1ca58104e5ae1cb4990ab7308932c872
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\1ca58104e5ae1cb4990ab7308932c872
+    projectPath: Library\PlayerDataCache\Data\1ca58104e5ae1cb4990ab7308932c872
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\1f109488cb155864c839538b4a5d2133
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\1f109488cb155864c839538b4a5d2133
+    projectPath: Library\PlayerDataCache\Data\1f109488cb155864c839538b4a5d2133
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\21e5cf0a8b0d59c44b3481160e36cc9f
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\21e5cf0a8b0d59c44b3481160e36cc9f
+    projectPath: Library\PlayerDataCache\Data\21e5cf0a8b0d59c44b3481160e36cc9f
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\407bcd0ee8ccf454e904c44132e0634c
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\407bcd0ee8ccf454e904c44132e0634c
+    projectPath: Library\PlayerDataCache\Data\407bcd0ee8ccf454e904c44132e0634c
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\4433d08c04fbfda43b1f89ba63c749e8
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\4433d08c04fbfda43b1f89ba63c749e8
+    projectPath: Library\PlayerDataCache\Data\4433d08c04fbfda43b1f89ba63c749e8
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\4c299da8335ebd746bc4ade9f15d7d93
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\4c299da8335ebd746bc4ade9f15d7d93
+    projectPath: Library\PlayerDataCache\Data\4c299da8335ebd746bc4ade9f15d7d93
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\5fa239dc902776240b919279dd6748f5
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\5fa239dc902776240b919279dd6748f5
+    projectPath: Library\PlayerDataCache\Data\5fa239dc902776240b919279dd6748f5
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\71f9695057c753246adc29fcbd25f30a
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\71f9695057c753246adc29fcbd25f30a
+    projectPath: Library\PlayerDataCache\Data\71f9695057c753246adc29fcbd25f30a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\72ee9cccb2898bd428491db82f55e60a
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\72ee9cccb2898bd428491db82f55e60a
+    projectPath: Library\PlayerDataCache\Data\72ee9cccb2898bd428491db82f55e60a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\7d6fdee691b464140aff3cc727b72c90
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\7d6fdee691b464140aff3cc727b72c90
+    projectPath: Library\PlayerDataCache\Data\7d6fdee691b464140aff3cc727b72c90
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\ac2211405d10cff44855fe2b2d067ae1
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\ac2211405d10cff44855fe2b2d067ae1
+    projectPath: Library\PlayerDataCache\Data\ac2211405d10cff44855fe2b2d067ae1
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\ae31d748c0bbc05448a13e58f8861963
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\ae31d748c0bbc05448a13e58f8861963
+    projectPath: Library\PlayerDataCache\Data\ae31d748c0bbc05448a13e58f8861963
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\b33e456ae548c4d4ca6c71bd1d2c203d
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\b33e456ae548c4d4ca6c71bd1d2c203d
+    projectPath: Library\PlayerDataCache\Data\b33e456ae548c4d4ca6c71bd1d2c203d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\b35bea543177b624b8e504a16956614d
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\b35bea543177b624b8e504a16956614d
+    projectPath: Library\PlayerDataCache\Data\b35bea543177b624b8e504a16956614d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\b38a8c530a7b6864ab3be1edd768b4a5
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\b38a8c530a7b6864ab3be1edd768b4a5
+    projectPath: Library\PlayerDataCache\Data\b38a8c530a7b6864ab3be1edd768b4a5
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\bb733c4e80dbde84eaf61d8aace88c3d
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\bb733c4e80dbde84eaf61d8aace88c3d
+    projectPath: Library\PlayerDataCache\Data\bb733c4e80dbde84eaf61d8aace88c3d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\bfb3bf5b198fe084b924a6cb75bd90eb
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\bfb3bf5b198fe084b924a6cb75bd90eb
+    projectPath: Library\PlayerDataCache\Data\bfb3bf5b198fe084b924a6cb75bd90eb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\bfe5ca06b824b5a45a5ddbe49d40d2ae
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\bfe5ca06b824b5a45a5ddbe49d40d2ae
+    projectPath: Library\PlayerDataCache\Data\bfe5ca06b824b5a45a5ddbe49d40d2ae
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\c387a0e47b4244f2b86c50372341024a
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\c387a0e47b4244f2b86c50372341024a
+    projectPath: Library\PlayerDataCache\Data\c387a0e47b4244f2b86c50372341024a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\cbb67ab5509bfe24dba7db2d65a9632f
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\cbb67ab5509bfe24dba7db2d65a9632f
+    projectPath: Library\PlayerDataCache\Data\cbb67ab5509bfe24dba7db2d65a9632f
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\ce448a8080b4e934b8473badd27be402
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\ce448a8080b4e934b8473badd27be402
+    projectPath: Library\PlayerDataCache\Data\ce448a8080b4e934b8473badd27be402
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\debe92d6197cd1149ae919c2aa5e90ab
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\debe92d6197cd1149ae919c2aa5e90ab
+    projectPath: Library\PlayerDataCache\Data\debe92d6197cd1149ae919c2aa5e90ab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\e1144f1b0d9dd404c9faf6e3c0f3ef20
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\e1144f1b0d9dd404c9faf6e3c0f3ef20
+    projectPath: Library\PlayerDataCache\Data\e1144f1b0d9dd404c9faf6e3c0f3ef20
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\e41946a981c3b444a84d15eb7c608ca4
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\e41946a981c3b444a84d15eb7c608ca4
+    projectPath: Library\PlayerDataCache\Data\e41946a981c3b444a84d15eb7c608ca4
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\edaefbb9ab1add7478dc5d8f314f1a46
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\edaefbb9ab1add7478dc5d8f314f1a46
+    projectPath: Library\PlayerDataCache\Data\edaefbb9ab1add7478dc5d8f314f1a46
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\fe06072e9e7fcb9478ad9b1e843e9148
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\fe06072e9e7fcb9478ad9b1e843e9148
+    projectPath: Library\PlayerDataCache\Data\fe06072e9e7fcb9478ad9b1e843e9148
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\fe764102aa5aa431795da15fa2dec0e2
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\fe764102aa5aa431795da15fa2dec0e2
+    projectPath: Library\PlayerDataCache\Data\fe764102aa5aa431795da15fa2dec0e2
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\globalgamemanagers
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\globalgamemanagers
+    projectPath: Library\PlayerDataCache\Data\globalgamemanagers
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\globalgamemanagers.assets
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\globalgamemanagers.assets
+    projectPath: Library\PlayerDataCache\Data\globalgamemanagers.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\level0
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\level0
+    projectPath: Library\PlayerDataCache\Data\level0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\level1
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\level1
+    projectPath: Library\PlayerDataCache\Data\level1
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\level2
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\level2
+    projectPath: Library\PlayerDataCache\Data\level2
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\Managed\Assembly-CSharp.dll
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\Managed\Assembly-CSharp.dll
+    projectPath: Library\PlayerDataCache\Data\Managed\Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\sharedassets0.assets
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\sharedassets0.assets
+    projectPath: Library\PlayerDataCache\Data\sharedassets0.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\sharedassets1.assets
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\sharedassets1.assets
+    projectPath: Library\PlayerDataCache\Data\sharedassets1.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\Data\sharedassets2.assets
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\Data\sharedassets2.assets
+    projectPath: Library\PlayerDataCache\Data\sharedassets2.assets
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\PlayerDataCache\ScriptLayoutHashes.txt
+    fullPath: C:\Projects\Elysium\Library\PlayerDataCache\ScriptLayoutHashes.txt
+    projectPath: Library\PlayerDataCache\ScriptLayoutHashes.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ProjectSettings.asset
+    fullPath: C:\Projects\Elysium\Library\ProjectSettings.asset
+    projectPath: Library\ProjectSettings.asset
     originalPath: 
     status: 3
     staged: 0
@@ -75,9 +555,57 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Projects\Elysium\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: C:\Projects\Elysium\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Projects\Elysium\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: C:\Projects\Elysium\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: C:\Projects\Elysium\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: C:\Projects\Elysium\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\Projects\Elysium\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
+    fullPath: C:\Projects\Elysium\obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings\ProjectSettings.asset
+    fullPath: C:\Projects\Elysium\ProjectSettings\ProjectSettings.asset
+    projectPath: ProjectSettings\ProjectSettings.asset
     originalPath: 
     status: 3
     staged: 0
@@ -87,15 +615,9 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-2027b8aca3641164aac84ae01b896469
-    fullPath: C:\Projects\Elysium\Temp\UnityTempFile-2027b8aca3641164aac84ae01b896469
-    projectPath: Temp\UnityTempFile-2027b8aca3641164aac84ae01b896469
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-2feb7df54a8f5754aa9def117ce2dfba
-    fullPath: C:\Projects\Elysium\Temp\UnityTempFile-2feb7df54a8f5754aa9def117ce2dfba
-    projectPath: Temp\UnityTempFile-2feb7df54a8f5754aa9def117ce2dfba
+  - path: Temp\UnityTempFile-047c9d3d13c04bf42b0ef3f6728501a0
+    fullPath: C:\Projects\Elysium\Temp\UnityTempFile-047c9d3d13c04bf42b0ef3f6728501a0
+    projectPath: Temp\UnityTempFile-047c9d3d13c04bf42b0ef3f6728501a0
     originalPath: 
     status: 1
     staged: 0
@@ -105,9 +627,9 @@ MonoBehaviour:
     originalPath: 
     status: 5
     staged: 0
-  - path: Temp\UnityTempFile-50373912af0b61d45b3286e12071df70
-    fullPath: C:\Projects\Elysium\Temp\UnityTempFile-50373912af0b61d45b3286e12071df70
-    projectPath: Temp\UnityTempFile-50373912af0b61d45b3286e12071df70
+  - path: Temp\UnityTempFile-419165c93f0a05442bd45e215f83ecbd
+    fullPath: C:\Projects\Elysium\Temp\UnityTempFile-419165c93f0a05442bd45e215f83ecbd
+    projectPath: Temp\UnityTempFile-419165c93f0a05442bd45e215f83ecbd
     originalPath: 
     status: 1
     staged: 0
@@ -129,21 +651,15 @@ MonoBehaviour:
     originalPath: 
     status: 5
     staged: 0
-  - path: Temp\UnityTempFile-ac660dc0dc2eaa84e89fc72ac53524cd
-    fullPath: C:\Projects\Elysium\Temp\UnityTempFile-ac660dc0dc2eaa84e89fc72ac53524cd
-    projectPath: Temp\UnityTempFile-ac660dc0dc2eaa84e89fc72ac53524cd
+  - path: Temp\UnityTempFile-bd3a89a7cf395db409baa1ecd67b66d9
+    fullPath: C:\Projects\Elysium\Temp\UnityTempFile-bd3a89a7cf395db409baa1ecd67b66d9
+    projectPath: Temp\UnityTempFile-bd3a89a7cf395db409baa1ecd67b66d9
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-cd3995e6647ce5e4f8e95c9ef6899f23
-    fullPath: C:\Projects\Elysium\Temp\UnityTempFile-cd3995e6647ce5e4f8e95c9ef6899f23
-    projectPath: Temp\UnityTempFile-cd3995e6647ce5e4f8e95c9ef6899f23
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-d83114d0c2a19da40969d656df08c2e0
-    fullPath: C:\Projects\Elysium\Temp\UnityTempFile-d83114d0c2a19da40969d656df08c2e0
-    projectPath: Temp\UnityTempFile-d83114d0c2a19da40969d656df08c2e0
+  - path: Temp\UnityTempFile-cc3c009404c33c84b9a2e410e050eaa4
+    fullPath: C:\Projects\Elysium\Temp\UnityTempFile-cc3c009404c33c84b9a2e410e050eaa4
+    projectPath: Temp\UnityTempFile-cc3c009404c33c84b9a2e410e050eaa4
     originalPath: 
     status: 1
     staged: 0
@@ -153,9 +669,21 @@ MonoBehaviour:
     originalPath: 
     status: 5
     staged: 0
+  - path: Temp\UnityTempFile-eb898ebf1f8eb474aa849314341c8373
+    fullPath: C:\Projects\Elysium\Temp\UnityTempFile-eb898ebf1f8eb474aa849314341c8373
+    projectPath: Temp\UnityTempFile-eb898ebf1f8eb474aa849314341c8373
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-efcce6cd0ad06a647a2da746e9536265
     fullPath: C:\Projects\Elysium\Temp\UnityTempFile-efcce6cd0ad06a647a2da746e9536265
     projectPath: Temp\UnityTempFile-efcce6cd0ad06a647a2da746e9536265
     originalPath: 
     status: 5
+    staged: 0
+  - path: Temp\UnityTempFile-f844bf0ab27c50a458a730adf9716530
+    fullPath: C:\Projects\Elysium\Temp\UnityTempFile-f844bf0ab27c50a458a730adf9716530
+    projectPath: Temp\UnityTempFile-f844bf0ab27c50a458a730adf9716530
+    originalPath: 
+    status: 1
     staged: 0

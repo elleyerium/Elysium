@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Projects/APK/1_22c(260119).apk
+C:/Projects/APK/1_25(120219).apk
 SceneListBegin?
 Assets/Scenes/main.unity
 Assets/Scenes/bots.unity
@@ -216,7 +216,7 @@ e0c08739307e76beaa1c95e2bbda4936 Assembly-CSharp.dll:BeardedManStudios.Forge.Net
 362c847978adb9cef4966ca1c5403c2b Assembly-CSharp.dll:.MoveCam
 a2efb0db652b8114d1ae7dd9a600d626 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar
 fe76270bd84ec3b6f2f6f92c69cf69da Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.AxisTouchButton
-3f7a817dc9a8772df8b453736127c239 Assembly-CSharp.dll:.buttons
+c9e36a123319e78c5be625333b841172 Assembly-CSharp.dll:.buttons
 b260549fb42270702b5492bc79c40488 Assembly-CSharp.dll:.ChatManager
 e6c1808dd23f8c189e37cf0df93eb058 Assembly-CSharp.dll:.Bots
 88e745da281bc889e248b64cf4d72a54 Assembly-CSharp-firstpass.dll:UnityStandardAssets.ImageEffects.SunShafts
@@ -224,6 +224,7 @@ e6c1808dd23f8c189e37cf0df93eb058 Assembly-CSharp.dll:.Bots
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ChatMaker
 a7a85e3660316548e6df72942099a49d Assembly-CSharp.dll:.MessageOverlay
 dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:.NetCam
+1e95435ab4d7912b6ec7fe3942a1563b Assembly-CSharp.dll:.SimpleAnimator
 a7d3c6c6948d99dd4116e659ddcf5ac4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.ButtonHandler
 764e412cf76755cfc9a49d5911acfda1 Assembly-CSharp.dll:.StylingManager
 3be022b67ff80cdf48ec4b846765a34b Assembly-CSharp.dll:BeardedManStudios.Forge.Networking.Unity.Lobby.LobbyManager
@@ -251,7 +252,6 @@ c0ad1fb5d400aa83cb257e5f6c3714cf Assembly-CSharp.dll:.OnClickDestroy
 b9efe2a0d1c9ba7bc46e66a07a897115 Assembly-CSharp.dll:.ServerSettings
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.ImageEffects.PostEffectsHelper
 fb2ac97018c2c9b8b721d1a47fc40206 Assembly-CSharp.dll:ExitGames.Demos.DemoAnimator.Launcher
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PhotonManager
 7e505534937f61090d2c4476602056ac Assembly-CSharp.dll:.BotSpawn
 e3db0de06ede87e84b88d4a2079f2b57 Assembly-CSharp.dll:ExitGames.UtilityScripts.TextButtonTransition
 b26b3a55de2a8cbeee573d45c8848f09 Assembly-CSharp-firstpass.dll:UnityStandardAssets.ImageEffects.ScreenSpaceAmbientOcclusion
@@ -372,7 +372,7 @@ bd391be401e6d3724720058620cce6e5 Assembly-CSharp.dll:.ToHubButton
 4b8b25ed60c1bb417f20991003ba0256 Assembly-CSharp.dll:.WorkerMenu
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.ImageEffects.PostEffectsBase
 604f5f55c1cc414f64da1990b36ff015 Assembly-CSharp.dll:.PhotonView
-b7417b37e0cd9321c10774df608eca48 Assembly-CSharp.dll:.Hidenuttons
+c0ff9e3f06b36c47e222c244b5e2b395 Assembly-CSharp.dll:.Hidenuttons
 7051e661e35a8cdce98ff9dc6bb211f9 Assembly-CSharp.dll:.MusicManager
 b2dc25029b6f083ffbbdf9df269f825a Assembly-CSharp.dll:.InRoomChat
 e2a8fd4524fc2a3a236b7e7720b544a6 Assembly-CSharp-firstpass.dll:UnityStandardAssets.ImageEffects.EdgeDetection
@@ -383,3 +383,4 @@ cc03d32d84fe7de61c1ff011ce358a0c Assembly-CSharp-firstpass.dll:UnityStandardAsse
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ClickDetector
 54a26a95db9c623b6eb6fc01ae3ef891 Assembly-CSharp.dll:.CubeExtra
 6263eb95a5e02ec60be579896cc09bd6 Assembly-CSharp.dll:.MultiplayerMenu
+6a5c247d57ef34c74ebddcebf4561255 Assembly-CSharp.dll:.SFXManager
