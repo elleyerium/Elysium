@@ -35,7 +35,6 @@ public class LazerShot : MonoBehaviour
              temp.y = 0.884f;
           ION_Cannon.size = temp;
         _cannonSprite= ION_Cannon.GetComponent<Sprite>();
-        _lazerfirstammo = Blastercount.Ammodownlazer;
     }
 
 void Update()
