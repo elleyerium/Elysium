@@ -667,13 +667,6 @@
               </e>
             </e>
           </e>
-          <e p="GitHub" t="Include">
-            <e p="Editor" t="Include">
-              <e p="credits.txt" t="Include" />
-              <e p="eula.txt" t="Include" />
-              <e p="ExtensionLoader.cs" t="Include" />
-            </e>
-          </e>
           <e p="Photon3Unity3D.xml" t="Include" />
           <e p="release_history.txt" t="Include" />
           <e p="WebSocket" t="Include">
