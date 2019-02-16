@@ -66,11 +66,11 @@
      <Compile Include="Assets\Standard Assets\Editor\ImageEffects\SunShaftsEditor.cs" />
      <Compile Include="Assets\Standard Assets\Editor\ImageEffects\TonemappingEditor.cs" />
      <Compile Include="Assets\Standard Assets\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
- <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/User/Desktop/master-Elysium/elysium/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/User/Desktop/master-Elysium/elysium/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>C:/Users/User/Desktop/master-Elysium/elysium/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

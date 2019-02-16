@@ -501,11 +501,11 @@
      <None Include="Assets\SimpleSpectrum\Demos\Music credit to Vexento - Check out his stuff!.txt" />
      <None Include="Assets\Photon Unity Networking\Demos\DemoRockPaperScissors\Assets\OpenSans\Apache License.txt" />
      <None Include="Assets\Photon Unity Networking\changelog.txt" />
- <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/User/Desktop/master-Elysium/elysium/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/User/Desktop/master-Elysium/elysium/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>C:/Users/User/Desktop/master-Elysium/elysium/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
