@@ -12,13 +12,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
+<<<<<<< HEAD
   lastUpdatedAtString: 2019-02-16T14:34:04.953+02:00
   initializedAtString: 2019-02-16T14:01:53.354+02:00
+=======
+  lastUpdatedAtString: 2019-02-16T14:24:48.007+02:00
+  initializedAtString: 2019-02-16T13:18:15.876+02:00
+>>>>>>> fa60607d530a508355eb4630311dd668013a1deb
   entries:
   - path: Assets\Plugins\Android\com.google.games.gpgs-plugin-support-0.9.50\aidl.meta
     fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Assets\Plugins\Android\com.google.games.gpgs-plugin-support-0.9.50\aidl.meta
     projectPath: Assets\Plugins\Android\com.google.games.gpgs-plugin-support-0.9.50\aidl.meta
     originalPath: 
+<<<<<<< HEAD
     status: 5
     staged: 0
   - path: Assets\Plugins\Android\com.google.games.gpgs-plugin-support-0.9.50\assets.meta
@@ -36,6 +42,13 @@ MonoBehaviour:
   - path: Library\assetDatabase3
     fullPath: C:\Users\User\Desktop\master-Elysium\elysium\Library\assetDatabase3
     projectPath: Library\assetDatabase3
+=======
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: C:\Projects\Elysium\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+>>>>>>> fa60607d530a508355eb4630311dd668013a1deb
     originalPath: 
     status: 3
     staged: 0
