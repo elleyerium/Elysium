@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-02-16T14:24:11.666+02:00
+  lastUpdatedAtString: 2019-02-16T14:24:48.007+02:00
   initializedAtString: 2019-02-16T13:18:15.876+02:00
   entries:
   - path: .gitignore
@@ -20,36 +20,6 @@ MonoBehaviour:
     projectPath: .gitignore
     originalPath: 
     status: 3
-    staged: 0
-  - path: APKs\Build22082018.rar
-    fullPath: C:\Projects\Elysium\APKs\Build22082018.rar
-    projectPath: APKs\Build22082018.rar
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\Ico.jpg
-    fullPath: C:\Projects\Elysium\Assets\Sprites\Ico.jpg
-    projectPath: Assets\Sprites\Ico.jpg
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\Ico.jpg.meta
-    fullPath: C:\Projects\Elysium\Assets\Sprites\Ico.jpg.meta
-    projectPath: Assets\Sprites\Ico.jpg.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\Stat.png
-    fullPath: C:\Projects\Elysium\Assets\Sprites\Stat.png
-    projectPath: Assets\Sprites\Stat.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\Stat.png.meta
-    fullPath: C:\Projects\Elysium\Assets\Sprites\Stat.png.meta
-    projectPath: Assets\Sprites\Stat.png.meta
-    originalPath: 
-    status: 1
     staged: 0
   - path: Library\gfu\cache\branches.yaml
     fullPath: C:\Projects\Elysium\Library\gfu\cache\branches.yaml

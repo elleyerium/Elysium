@@ -51,3 +51,6 @@ sysinfo.txt
 crashlytics-build.properties
 Elleyer.keystore
 xxx.xxx
+*.yaml
+*.yaml
+Library/gfu/cache/branches.yaml
