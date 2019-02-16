@@ -714,7 +714,6 @@
             <e p="LoginPage.cs" t="Include" />
             <e p="Online.cs" t="Include" />
             <e p="OnlineControl.cs" t="Include" />
-            <e p="PhotonManager.cs" t="Include" />
             <e p="Room" t="Include">
               <e p="LobbyCanvas.cs" t="Include" />
               <e p="MainCanvasManager.cs" t="Include" />
@@ -762,6 +761,7 @@
             <e p="Initiate.cs" t="Include" />
             <e p="MusicManager.cs" t="Include" />
             <e p="Scroll.cs" t="Include" />
+            <e p="SFXManager.cs" t="Include" />
             <e p="SimpleAnimator.cs" t="Include" />
             <e p="Skins.cs" t="Include" />
             <e p="TouchCursor.cs" t="Include" />

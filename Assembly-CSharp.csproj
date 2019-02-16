@@ -441,7 +441,6 @@
     <Compile Include="Assets\Scripts\Online\LoginPage.cs" />
     <Compile Include="Assets\Scripts\Online\Online.cs" />
     <Compile Include="Assets\Scripts\Online\OnlineControl.cs" />
-    <Compile Include="Assets\Scripts\Online\PhotonManager.cs" />
     <Compile Include="Assets\Scripts\Online\Room\LobbyCanvas.cs" />
     <Compile Include="Assets\Scripts\Online\Room\MainCanvasManager.cs" />
     <Compile Include="Assets\Scripts\Online\Room\RoomLayoutGroup.cs" />
@@ -479,6 +478,7 @@
     <Compile Include="Assets\Scripts\Visual\Initiate.cs" />
     <Compile Include="Assets\Scripts\Visual\MusicManager.cs" />
     <Compile Include="Assets\Scripts\Visual\Scroll.cs" />
+    <Compile Include="Assets\Scripts\Visual\SFXManager.cs" />
     <Compile Include="Assets\Scripts\Visual\SimpleAnimator.cs" />
     <Compile Include="Assets\Scripts\Visual\Skins.cs" />
     <Compile Include="Assets\Scripts\Visual\TouchCursor.cs" />
