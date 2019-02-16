@@ -618,55 +618,6 @@
           </e>
         </e>
         <e p="Plugins" t="Include">
-          <e p="Android" t="Include">
-            <e p="com.google.android.gms.play-services-auth-api-phone-license-11.6.2" t="Include">
-              <e p="AndroidManifest.xml" t="Include" />
-              <e p="third_party_licenses.txt" t="Include" />
-            </e>
-            <e p="com.google.android.gms.play-services-auth-base-license-11.6.2" t="Include">
-              <e p="AndroidManifest.xml" t="Include" />
-              <e p="third_party_licenses.txt" t="Include" />
-            </e>
-            <e p="com.google.android.gms.play-services-base-license-11.6.2" t="Include">
-              <e p="AndroidManifest.xml" t="Include" />
-              <e p="third_party_licenses.txt" t="Include" />
-            </e>
-            <e p="com.google.android.gms.play-services-basement-license-11.6.2" t="Include">
-              <e p="AndroidManifest.xml" t="Include" />
-              <e p="third_party_licenses.txt" t="Include" />
-            </e>
-            <e p="com.google.android.gms.play-services-drive-license-11.6.2" t="Include">
-              <e p="AndroidManifest.xml" t="Include" />
-              <e p="third_party_licenses.txt" t="Include" />
-            </e>
-            <e p="com.google.android.gms.play-services-games-license-11.6.2" t="Include">
-              <e p="AndroidManifest.xml" t="Include" />
-              <e p="third_party_licenses.txt" t="Include" />
-            </e>
-            <e p="com.google.android.gms.play-services-nearby-license-11.6.2" t="Include">
-              <e p="AndroidManifest.xml" t="Include" />
-              <e p="third_party_licenses.txt" t="Include" />
-            </e>
-            <e p="com.google.android.gms.play-services-tasks-license-11.6.2" t="Include">
-              <e p="AndroidManifest.xml" t="Include" />
-              <e p="third_party_licenses.txt" t="Include" />
-            </e>
-            <e p="com.google.games.gpgs-plugin-support-0.9.50" t="Include">
-              <e p="AndroidManifest.xml" t="Include" />
-              <e p="R.txt" t="Include" />
-              <e p="res" t="Include">
-                <e p="values" t="Include">
-                  <e p="values.xml" t="Include" />
-                </e>
-                <e p="values-v11" t="Include">
-                  <e p="values-v11.xml" t="Include" />
-                </e>
-                <e p="values-v14" t="Include">
-                  <e p="values-v14.xml" t="Include" />
-                </e>
-              </e>
-            </e>
-          </e>
           <e p="Photon3Unity3D.xml" t="Include" />
           <e p="release_history.txt" t="Include" />
           <e p="WebSocket" t="Include">
