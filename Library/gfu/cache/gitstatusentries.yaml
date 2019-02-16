@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-02-16T14:24:48.007+02:00
-  initializedAtString: 2019-02-16T13:18:15.876+02:00
+  lastUpdatedAtString: 2019-02-16T15:02:48.769+02:00
+  initializedAtString: 2019-02-16T15:01:58.332+02:00
   entries:
   - path: .gitignore
     fullPath: C:\Projects\Elysium\.gitignore
@@ -21,9 +21,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: C:\Projects\Elysium\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
+  - path: Library\assetDatabase3
+    fullPath: C:\Projects\Elysium\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\EditorInstance.json
+    fullPath: C:\Projects\Elysium\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
     originalPath: 
     status: 3
     staged: 0
@@ -48,6 +54,24 @@ MonoBehaviour:
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Projects\Elysium\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Projects\Elysium\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ProtocolInstance.json
+    fullPath: C:\Projects\Elysium\Library\ProtocolInstance.json
+    projectPath: Library\ProtocolInstance.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Projects\Elysium\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     status: 3
     staged: 0
