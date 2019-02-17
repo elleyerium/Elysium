@@ -82,7 +82,6 @@ public class LoginPage : MonoBehaviour {
     public void AsGuest()
     {
         //Scroll.enabled = true;
-        Connected.SetActive(false);
         loginpanel.SetActive(false);
         Guest.SetActive(true);
 
@@ -208,10 +207,7 @@ public class LoginPage : MonoBehaviour {
         {
             Connecting.SetActive(false);
         }
-        if (Connected.active)
-        {
-            Connected.SetActive(false);
-        }
+
         Connecting.SetActive(true);
         if (PhotonNetwork.connected)
         {
