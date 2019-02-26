@@ -2,19 +2,30 @@
 using System.Collections.Generic;
 using BeardedManStudios;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SFXManager : MonoBehaviour
 {
 
 	public AudioSource SFXSource;
-    public AudioClip buttonClick;
+    public AudioClip ClickUp, ClickBack;
 	public void PlaySound(AudioClip clip)
 	{
         SFXSource.PlayOneShot(clip);
 	}
 	
 	public void ClickSound()
-    {
-        SFXSource.PlayOneShot(buttonClick);
+	{
+		    string ButtonTagName = tag;
+		    Debug.Log(ButtonTagName);
+		    switch (ButtonTagName)
+		    {
+			   case "ClickUp":
+					SFXSource.PlayOneShot(ClickUp);
+				   break;
+			   case "ClickBack":
+				    SFXSource.PlayOneShot(ClickBack);
+				   break;
+		    }   
     }
 }
