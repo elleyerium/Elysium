@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using GooglePlayGames;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
@@ -130,12 +128,37 @@ public class MusicManager : MonoBehaviour
 		}
     }
 
-	void ChangeBackground()
+	public void FromLocalStorageClick()
+	{
+		DeviceMusicList.CallManager();
+	}
+	/*void ChangeBackground()
 	{
 		if (PlayerPrefs.GetString("NeedToChange") == "true")
 		{
 			if (SceneManager.GetActiveScene().name == "main")
 				Backgroung.r.material.SetTexture("_MainTex", backgrounds[backnum]);
+		}
+	}*/
+}
+
+public class DeviceMusicList : MonoBehaviour
+{
+	private static string DataPath = @"/music";
+	public static AudioClip[] AudioData;
+	public static void CallManager()
+	{	
+		if (Directory.Exists(DataPath))
+		{
+		    var FilesCount = Directory.GetFiles(DataPath).Count();
+			for (int i = 0; i < FilesCount; i++)
+			{
+				if (Directory.GetFiles(DataPath).Contains(".mp3"))
+				{
+					byte[] AudioBytes = new byte[1024];
+					//AudioData = AudioBytes.Join();
+				}
+			}			
 		}
 	}
 }
