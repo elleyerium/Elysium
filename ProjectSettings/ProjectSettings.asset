@@ -123,7 +123,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.26b
+  bundleVersion: 1.27
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -159,8 +159,8 @@ PlayerSettings:
     Android: com.Elleyer.Elysium
     Standalone: com.Company.ProductName
   buildNumber: {}
-  AndroidBundleVersionCode: 23
-  AndroidMinSdkVersion: 21
+  AndroidBundleVersionCode: 3
+  AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 

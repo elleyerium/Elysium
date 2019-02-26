@@ -12,6 +12,8 @@ TagManager:
   - botrocket
   - SkinsParent
   - cannon
+  - ClickUp
+  - ClickBack
   layers:
   - Default
   - TransparentFX
