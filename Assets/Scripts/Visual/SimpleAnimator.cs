@@ -6,15 +6,8 @@ using UnityEngine.UI;
 public class SimpleAnimator : MonoBehaviour
 {
 	public int time;
-	
-	
 	void Play (Transform transform)
 	{
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
 		
 	}
 }
