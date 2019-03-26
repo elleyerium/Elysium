@@ -41,7 +41,7 @@ public class LoginPage : MonoBehaviour {
     
     void Update()
     {
-        if (PhotonNetwork.connected == true)
+        if (PhotonNetwork.connected)
         {
            
             hellouser.text = (PlayerPrefs.GetString("username") + " #1");
@@ -203,12 +203,6 @@ public class LoginPage : MonoBehaviour {
     }
     private void OnDisconnectedFromPhoton()
     {
-        if (Connecting.active)
-        {
-            Connecting.SetActive(false);
-        }
-
-        Connecting.SetActive(true);
         if (PhotonNetwork.connected)
         {
             PhotonNetwork.Reconnect();
