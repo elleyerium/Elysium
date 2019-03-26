@@ -9,21 +9,21 @@ EditorBuildSettings:
     path: Assets/Scenes/main.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 0
-    path: Assets/Scenes/1_boss.unity
-    guid: 442edea5a184f5543a12245efe0f57f4
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/Scenes/bots.unity
     guid: 7f3b2bef3194a8c40867a4ec5b335228
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/deathmatch.unity
     guid: 42c9c350cd549714ab3db9cbda08df42
   - enabled: 0
-    path: Assets/Scenes/scores.unity
-    guid: c99189372dfbc324fb025c3ac36a3340
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/Scenes/styling.unity
     guid: d6035ecd06c4ccf4c8fd2c5b5a969022
   - enabled: 0
-    path: Assets/Scenes/team vs team.unity
+    path: Assets/Scenes/tvsteam.unity
     guid: cd5da73d5f61f204a9b1b4b927124a5d
   m_configObjects: {}
