@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using BeardedManStudios;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class SFXManager : MonoBehaviour
@@ -16,7 +17,7 @@ public class SFXManager : MonoBehaviour
 	
 	public void ClickSound()
 	{
-		    string ButtonTagName = tag;
+		    string ButtonTagName = EventSystem.current.currentSelectedGameObject.tag;
 		    Debug.Log(ButtonTagName);
 		    switch (ButtonTagName)
 		    {
