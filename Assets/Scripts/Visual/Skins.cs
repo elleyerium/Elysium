@@ -40,7 +40,7 @@ public class Skins : MonoBehaviour
 			Clone.transform.localScale = new Vector3(1, 1, 1);
 			var z = Clone.transform.position.z;
 			z = -55;
-			Destroy(Clone,8f);
+			Destroy(Clone,8);
 		}
 
 	}
@@ -52,14 +52,12 @@ public class Skins : MonoBehaviour
 			SkinPrice.text = "selected";
 			SkinPrice.color = Color.green;
 		}
-
 		if (PlayerPrefs.GetString("CurrentlySkin") != SkinName.text)
 		{
 			SkinPrice.color = Color.white;
 			SkinPrice.text = "select";
 		}
-
 		if ((PlayerPrefs.GetFloat("TotalScore") < price))
-			SkinPrice.text = "you need " + (price - PlayerPrefs.GetFloat("TotalScore")) + " points more";
+	    SkinPrice.text = "you need " + (price - PlayerPrefs.GetFloat("TotalScore")) + " points more";
 	}
 }
