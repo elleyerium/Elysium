@@ -6,12 +6,12 @@ public class FPSTarget: MonoBehaviour
 {
     [SerializeField]
     private Text FPS;
-    public int target = 60;
+    public int target;
     public float deltaTime;
 
     void Awake()
     {
-        QualitySettings.vSyncCount = 1;
+        QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = target;
     }
 
@@ -19,7 +19,7 @@ public class FPSTarget: MonoBehaviour
     {
         deltaTime += (Time.deltaTime - deltaTime) * 0.1f;
         float fps = 1.0f / deltaTime;
-        FPS.text = ( Mathf.Ceil(fps).ToString()+ " FPS ");
+        FPS.text = Mathf.Ceil(fps).ToString()+ " FPS ";
         if (Application.targetFrameRate != target)
             Application.targetFrameRate = target;
     }
