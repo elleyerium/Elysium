@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\Plugin.cs" />
+    <Compile Include="Assets\Editor\Window.cs" />
     <Compile Include="Assets\GooglePlayGames\Editor\ForceNoGpgsForIOS.cs" />
     <Compile Include="Assets\GooglePlayGames\Editor\GPGSAndroidSetupUI.cs" />
     <Compile Include="Assets\GooglePlayGames\Editor\GPGSDocsUI.cs" />
@@ -341,6 +343,18 @@
     </Reference>
     <Reference Include="ForgeNetworkingCommon">
       <HintPath>C:/Projects/Elysium/Assets/Bearded Man Studios Inc/Plugins/ForgeNetworkingCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetZip">
+      <HintPath>C:/Projects/Elysium/Assets/NuGet/Editor/DotNetZip.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGetForUnity">
+      <HintPath>C:/Projects/Elysium/Assets/NuGet/Editor/NuGetForUnity.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>C:/Projects/Elysium/Assets/Packages/Google.Protobuf.3.5.1/lib/net45/Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>C:/Projects/Elysium/Assets/Packages/MySql.Data.8.0.15/lib/net452/MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>C:/Projects/Elysium/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>

@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/bots.unity
     guid: 7f3b2bef3194a8c40867a4ec5b335228
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/deathmatch.unity
     guid: 42c9c350cd549714ab3db9cbda08df42
   - enabled: 0

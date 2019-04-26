@@ -46,7 +46,6 @@ namespace GooglePlayGames.Editor
 
         private static void setNoGPGS ()
         {
-            Debug.Log ("Forcing NO_GPGS to be defined for iOS builds.");
             string symbols = PlayerSettings.GetScriptingDefineSymbolsForGroup (BuildTargetGroup.iOS);
             if (string.IsNullOrEmpty (symbols)) {
                 symbols = "NO_GPGS";

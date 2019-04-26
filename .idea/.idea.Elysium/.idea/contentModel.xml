@@ -93,6 +93,10 @@
         <e p="Camera Aspect Ratio Rectifier" t="Include">
           <e p="cameraZoomController.cs" t="Include" />
         </e>
+        <e p="Editor" t="Include">
+          <e p="Plugin.cs" t="Include" />
+          <e p="Window.cs" t="Include" />
+        </e>
         <e p="GooglePlayGames" t="Include">
           <e p="BasicApi" t="Include">
             <e p="Achievement.cs" t="Include" />
@@ -349,6 +353,25 @@
             </e>
           </e>
           <e p="PluginVersion.cs" t="Include" />
+        </e>
+        <e p="NuGet" t="Include">
+          <e p="LICENSE.txt" t="Include" />
+        </e>
+        <e p="packages" t="Include">
+          <e p="Google.Protobuf.3.5.1" t="Include">
+            <e p="lib" t="Include">
+              <e p="net45" t="Include">
+                <e p="Google.Protobuf.xml" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="MySql.Data.8.0.15" t="Include">
+            <e p="lib" t="Include">
+              <e p="net452" t="Include">
+                <e p="MySql.Data.xml" t="Include" />
+              </e>
+            </e>
+          </e>
         </e>
         <e p="Photon Unity Networking" t="Include">
           <e p="changelog.txt" t="Include" />
@@ -659,19 +682,14 @@
             <e p="Minimap.cs" t="Include" />
           </e>
           <e p="Online" t="Include">
-            <e p="Client.cs" t="Include" />
-            <e p="ConnectMasterServer.cs" t="Include" />
-            <e p="Createroom.cs" t="Include" />
-            <e p="ElleyerGitHub.cs" t="Include" />
-            <e p="Lobby.cs" t="Include" />
-            <e p="LoginPage.cs" t="Include" />
-            <e p="Online.cs" t="Include" />
-            <e p="OnlineControl.cs" t="Include" />
-            <e p="Room" t="Include">
-              <e p="LobbyCanvas.cs" t="Include" />
-              <e p="MainCanvasManager.cs" t="Include" />
-              <e p="RoomLayoutGroup.cs" t="Include" />
-              <e p="RoomListing.cs" t="Include" />
+            <e p="Auth" t="Include">
+              <e p="Encryptor.cs" t="Include" />
+              <e p="Login.cs" t="Include" />
+              <e p="LoginPage.cs" t="Include" />
+              <e p="Register.cs" t="Include" />
+            </e>
+            <e p="Connector" t="Include">
+              <e p="ConnectMasterServer.cs" t="Include" />
             </e>
             <e p="SP Metric" t="Include">
               <e p="SPCounter.cs" t="Include" />
@@ -929,7 +947,9 @@
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
     </e>
     <e p="C:\Users\Elliot Alderson\.Rider2018.2\config\extensions" t="IncludeRecursive" />
     <e p="C:\Users\Elliot Alderson\.Rider2018.2\system\extResources" t="IncludeRecursive" />

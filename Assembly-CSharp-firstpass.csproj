@@ -373,6 +373,12 @@
     <Reference Include="ForgeNetworkingCommon">
       <HintPath>C:/Projects/Elysium/Assets/Bearded Man Studios Inc/Plugins/ForgeNetworkingCommon.dll</HintPath>
     </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>C:/Projects/Elysium/Assets/Packages/Google.Protobuf.3.5.1/lib/net45/Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>C:/Projects/Elysium/Assets/Packages/MySql.Data.8.0.15/lib/net452/MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="Photon3Unity3D">
       <HintPath>C:/Projects/Elysium/Assets/Plugins/Photon3Unity3D.dll</HintPath>
     </Reference>

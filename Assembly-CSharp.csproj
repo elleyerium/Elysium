@@ -440,18 +440,12 @@
     <Compile Include="Assets\Scripts\Input\TouchCursor.cs" />
     <Compile Include="Assets\Scripts\Input\WeaponSelector.cs" />
     <Compile Include="Assets\Scripts\Minimap\Minimap.cs" />
-    <Compile Include="Assets\Scripts\Online\Client.cs" />
-    <Compile Include="Assets\Scripts\Online\ConnectMasterServer.cs" />
-    <Compile Include="Assets\Scripts\Online\Createroom.cs" />
-    <Compile Include="Assets\Scripts\Online\ElleyerGitHub.cs" />
-    <Compile Include="Assets\Scripts\Online\Lobby.cs" />
-    <Compile Include="Assets\Scripts\Online\LoginPage.cs" />
-    <Compile Include="Assets\Scripts\Online\Online.cs" />
-    <Compile Include="Assets\Scripts\Online\OnlineControl.cs" />
-    <Compile Include="Assets\Scripts\Online\Room\LobbyCanvas.cs" />
-    <Compile Include="Assets\Scripts\Online\Room\MainCanvasManager.cs" />
-    <Compile Include="Assets\Scripts\Online\Room\RoomLayoutGroup.cs" />
-    <Compile Include="Assets\Scripts\Online\Room\RoomListing.cs" />
+    <Compile Include="Assets\Scripts\Online\Auth\Encryptor.cs" />
+    <Compile Include="Assets\Scripts\Online\Auth\Login.cs" />
+    <Compile Include="Assets\Scripts\Online\Auth\LoginPage.cs" />
+    <Compile Include="Assets\Scripts\Online\Auth\Register.cs" />
+    <Compile Include="Assets\Scripts\Online\Connector\ConnectMasterServer.cs" />
+    <Compile Include="Assets\Scripts\Online\Connector\TypeTags.cs" />
     <Compile Include="Assets\Scripts\Online\SP Metric\SPCounter.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\AmmoCounter.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Blastercount.cs" />
@@ -503,11 +497,14 @@
     <None Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\marcopolo-readme.txt" />
     <None Include="Assets\Photon Unity Networking\link.xml" />
     <None Include="Assets\SimpleSpectrum\SimpleSpectrum_DOCUMENTATION.txt" />
+    <None Include="Assets\Packages\MySql.Data.8.0.15\lib\net452\MySql.Data.xml" />
+    <None Include="Assets\Packages\Google.Protobuf.3.5.1\lib\net45\Google.Protobuf.xml" />
     <None Include="Assets\SimpleSpectrum\SimpleSpectrum_Changelog.txt" />
     <None Include="Assets\SimpleSpectrum\Misc\lightweightGradientLerpSprite.shader" />
     <None Include="Assets\SimpleSpectrum\Misc\lightweightGradientLerp.shader" />
     <None Include="Assets\Photon Unity Networking\Demos\DemoBoxes\Resources\eurof_tt.txt" />
     <None Include="Assets\SimpleSpectrum\Misc\SurfaceGradientLerp.shader" />
+    <None Include="Assets\NuGet\LICENSE.txt" />
     <None Include="Assets\GooglePlayGames\Plugins\Android\GooglePlayGamesManifest.plugin\AndroidManifest.xml" />
     <None Include="Assets\Photon Unity Networking\Demos\Shared Assets\Skin\3dText.shader" />
     <None Include="Assets\Photon Unity Networking\readme.txt" />
@@ -714,6 +711,12 @@
     </Reference>
     <Reference Include="ForgeNetworkingCommon">
       <HintPath>C:/Projects/Elysium/Assets/Bearded Man Studios Inc/Plugins/ForgeNetworkingCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>C:/Projects/Elysium/Assets/Packages/Google.Protobuf.3.5.1/lib/net45/Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>C:/Projects/Elysium/Assets/Packages/MySql.Data.8.0.15/lib/net452/MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
       <HintPath>C:/Projects/Elysium/Assets/Plugins/Photon3Unity3D.dll</HintPath>
