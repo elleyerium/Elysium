@@ -445,8 +445,13 @@
     <Compile Include="Assets\Scripts\Online\Auth\LoginPage.cs" />
     <Compile Include="Assets\Scripts\Online\Auth\Register.cs" />
     <Compile Include="Assets\Scripts\Online\Connector\ConnectMasterServer.cs" />
+    <Compile Include="Assets\Scripts\Online\Connector\ResponceReceiver.cs" />
     <Compile Include="Assets\Scripts\Online\Connector\TypeTags.cs" />
     <Compile Include="Assets\Scripts\Online\SP Metric\SPCounter.cs" />
+    <Compile Include="Assets\Scripts\Online\Statistics\Leaderboard\Leaderboards.cs" />
+    <Compile Include="Assets\Scripts\Online\Statistics\Leaderboard\ScoreSerialize.cs" />
+    <Compile Include="Assets\Scripts\Online\Statistics\Leaderboard\ScoresListing.cs" />
+    <Compile Include="Assets\Scripts\Online\Statistics\Scores.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\AmmoCounter.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Blastercount.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\BotDifficult.cs" />
@@ -463,7 +468,6 @@
     <Compile Include="Assets\Scripts\PlayerScripts\Missle.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\RestartonDeath.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Scoreinmenu.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\Scores.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\SkinsChecker.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Spacecontrol.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\StylingManager.cs" />
