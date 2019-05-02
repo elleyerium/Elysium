@@ -1,3 +1,4 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/signalr/signalr/badge?style=plastic)](https://www.codefactor.io/repository/github/elleyerium/Elysium)
 # Elysium
 Elysium Source (UnityEngine). This repository contains Elysium source code (Unity 3D)
 For install are required Unity Engine (2018.1.1f1), Vusial Studio 2017++/JetBrains Rider IDE, .Net Framework 4.x;
