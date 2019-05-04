@@ -24,10 +24,10 @@ public class Leaderboards : MonoBehaviour
         IEnumerator Updater()
         {
             if (!ConnectMasterServer.IsConnected)
-                {
-                    RequestLeaderBoard();
-                }
-            yield return new WaitForSeconds(2);
+            {
+                RequestLeaderBoard();
+                yield return new WaitForSeconds(2);
+            }
         }
 
         void RequestLeaderBoard()
@@ -35,7 +35,7 @@ public class Leaderboards : MonoBehaviour
             LoadScreen.SetActive(true);
             try
             {
-                    parent.transform.position = new Vector3(parent.transform.position.x, -1400, 0);
+                    parent.transform.position = new Vector3(parent.transform.position.x, 0, 0);
                     allData = ConnectMasterServer.Request(TypeOfTags.GetLeaderboardsRequest.ToString(),null).ToString();
                     Debug.Log(allData);
                     if(allData != null)
