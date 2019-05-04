@@ -1,20 +1,19 @@
 using UnityEngine;
 using System;
+using static Auth.Encryptor;
 
 namespace Auth
 {
     public class Register : MonoBehaviour
     {
         public static void RegisterRequest(string username, string password, string email)
-        {
-            string DecryptKey = "a2V5Z2VuZXJhdG9y";
+        {    
             string pass;
             try
             {
-                pass = Encryptor.EncryptString(DecryptKey, password);
-                ConnectMasterServer.Request($"{username} {pass} {email} ");
-                Debug.Log($"{username} {pass} {email}");
-
+                pass = EncryptString(DecryptKey, password);
+                var request = ConnectMasterServer.Request(TypeOfTags.RegistrationRequest.ToString(), $"{username} {pass} {email}");
+                Debug.Log(request);
             }
             catch (Exception ex)
             {
