@@ -3,25 +3,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Net.Sockets;
+using System.Runtime.CompilerServices;
 using System.Text;
+using System.Threading.Tasks;
 
 public class ConnectMasterServer : MonoBehaviour 
 {
-    const int PORT_NO = 5000;
-    const string SERVER_IP = "127.0.0.1";
+    public const int PORT_NO = 5000;
+    public static bool IsConnected;
+    public const string SERVER_IP = "192.168.0.106";
 
 
-    public static void Request(string request)
+    public static string Request(string tag, string data)
     {
-        TcpClient server = new TcpClient(SERVER_IP, PORT_NO);
-        NetworkStream nwStream = server.GetStream();
-        byte[] bytesToSend = ASCIIEncoding.ASCII.GetBytes(request);
-        nwStream.Write(bytesToSend, 0, bytesToSend.Length);
-        Debug.Log(request);
-        //byte[] bytesToRead = new byte[server.ReceiveBufferSize];
-        //nwStream.Read(bytesToRead, 0, bytesToRead.Length);
-        //string receive = ASCIIEncoding.ASCII.GetString(bytesToRead);
-        //Debug.Log(receive);
-        //server.Close();
+        TcpClient server = new TcpClient(SERVER_IP,PORT_NO);
+        if (server.Connected)
+            IsConnected = true;
+        if (!server.Connected)
+            IsConnected = false;
+        string responce = null;
+        try
+        {
+            NetworkStream nwStream = server.GetStream();
+            byte[] bytesToSend = ASCIIEncoding.ASCII.GetBytes($"{tag}|{data}");
+            nwStream.Write(bytesToSend, 0, bytesToSend.Length);
+            responce = ResponceReceiver.GetResponce(server);
+        }
+        catch (Exception ex)
+        {
+            Debug.Log(ex.ToString());
+        }
+        return responce;
     }
 }
