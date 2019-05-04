@@ -306,15 +306,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="ForgeNetworkingUnityEditor">
-      <HintPath>C:/Projects/Elysium/Assets/Bearded Man Studios Inc/Editor/ForgeNetworkingUnityEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="BeardedManStudios">
-      <HintPath>C:/Projects/Elysium/Assets/Bearded Man Studios Inc/Plugins/BeardedManStudios.dll</HintPath>
-    </Reference>
-    <Reference Include="ForgeNetworkingCommon">
-      <HintPath>C:/Projects/Elysium/Assets/Bearded Man Studios Inc/Plugins/ForgeNetworkingCommon.dll</HintPath>
-    </Reference>
     <Reference Include="DotNetZip">
       <HintPath>C:/Projects/Elysium/Assets/NuGet/Editor/DotNetZip.dll</HintPath>
     </Reference>
@@ -326,9 +317,6 @@
     </Reference>
     <Reference Include="MySql.Data">
       <HintPath>C:/Projects/Elysium/Assets/Packages/MySql.Data.8.0.15/lib/net452/MySql.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>C:/Projects/Elysium/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Google.IOSResolver_v1.2.61.0">
       <HintPath>C:/Projects/Elysium/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.61.0.dll</HintPath>

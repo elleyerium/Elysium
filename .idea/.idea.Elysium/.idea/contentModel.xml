@@ -9,87 +9,6 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Bearded Man Studios Inc" t="Include">
-          <e p="Editor" t="Include">
-            <e p="Resources" t="Include">
-              <e p="BMS_Forge_Editor" t="Include">
-                <e p="NetworkBehaviorTemplate.txt" t="Include" />
-                <e p="NetworkManagerTemplate.txt" t="Include" />
-                <e p="NetworkObjectFactoryTemplate.txt" t="Include" />
-                <e p="NetworkObjectTemplate.txt" t="Include" />
-                <e p="StandAloneNetworkBehaviorTemplate.txt" t="Include" />
-                <e p="version.txt" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="Examples" t="Include">
-            <e p="Cube Forge" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="CubeForgeGame.cs" t="Include" />
-                <e p="NetCam.cs" t="Include" />
-                <e p="Primitive.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Proximity" t="Include">
-              <e p="ExampleProximityPlayer.cs" t="Include" />
-              <e p="ExampleProximitySpawn.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Generated" t="Include">
-            <e p="NetworkManager.cs" t="Include" />
-            <e p="NetworkObjectFactory.cs" t="Include" />
-            <e p="UserGenerated" t="Include">
-              <e p="ChatManagerBehavior.cs" t="Include" />
-              <e p="ChatManagerNetworkObject.cs" t="Include" />
-              <e p="CubeForgeGameBehavior.cs" t="Include" />
-              <e p="CubeForgeGameNetworkObject.cs" t="Include" />
-              <e p="ExampleProximityPlayerBehavior.cs" t="Include" />
-              <e p="ExampleProximityPlayerNetworkObject.cs" t="Include" />
-              <e p="NetworkCameraBehavior.cs" t="Include" />
-              <e p="NetworkCameraNetworkObject.cs" t="Include" />
-              <e p="TestBehavior.cs" t="Include" />
-              <e p="TestNetworkObject.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Modules" t="Include">
-            <e p="Chat" t="Include">
-              <e p="ChatMaker.cs" t="Include" />
-              <e p="ChatManager.cs" t="Include" />
-            </e>
-            <e p="LobbySystem" t="Include">
-              <e p="LobbyManager.cs" t="Include" />
-              <e p="LobbyPlayer.cs" t="Include" />
-              <e p="LobbyPlayerItem.cs" t="Include" />
-            </e>
-            <e p="Stand Alone Chat" t="Include">
-              <e p="StandAloneChat.cs" t="Include" />
-            </e>
-            <e p="VOIP" t="Include">
-              <e p="VOIP.cs" t="Include" />
-              <e p="VoipStarter.cs" t="Include" />
-            </e>
-          </e>
-          <e p="Scripts" t="Include">
-            <e p="BMSUnityExtensions.cs" t="Include" />
-            <e p="InterpolateQuaternion.cs" t="Include" />
-            <e p="InterpolateVector2.cs" t="Include" />
-            <e p="InterpolateVector3.cs" t="Include" />
-            <e p="InterpolateVector4.cs" t="Include" />
-            <e p="MainThreadManager.cs" t="Include" />
-            <e p="Multiplayer Menu" t="Include">
-              <e p="MultiplayerMenu.cs" t="Include" />
-            </e>
-            <e p="NetworkBehavior.cs" t="Include" />
-            <e p="NetworkManager.cs" t="Include" />
-            <e p="NetworkObjectFactory.cs" t="Include" />
-            <e p="NetworkObjectFactoryBase.cs" t="Include" />
-            <e p="Server Browser" t="Include">
-              <e p="ServerBrowser.cs" t="Include" />
-              <e p="ServerBrowserItem.cs" t="Include" />
-            </e>
-            <e p="UnityObjectMapper.cs" t="Include" />
-          </e>
-        </e>
         <e p="Camera Aspect Ratio Rectifier" t="Include">
           <e p="cameraZoomController.cs" t="Include" />
         </e>
@@ -373,268 +292,6 @@
             </e>
           </e>
         </e>
-        <e p="Photon Unity Networking" t="Include">
-          <e p="changelog.txt" t="Include" />
-          <e p="Demos" t="Include">
-            <e p="Demo2DJumpAndRunWithPhysics" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="Demo2DJumpAndRun.cs" t="Include" />
-                <e p="JumpAndRunMovement.cs" t="Include" />
-              </e>
-            </e>
-            <e p="DemoBoxes" t="Include">
-              <e p="ColorPerPlayer.cs" t="Include" />
-              <e p="ColorPerPlayerApply.cs" t="Include" />
-              <e p="DemoBoxesGui.cs" t="Include" />
-              <e p="OnAwakePhysicsSettings.cs" t="Include" />
-              <e p="OnClickFlashRpc.cs" t="Include" />
-              <e p="OnDoubleclickDestroy.cs" t="Include" />
-              <e p="Resources" t="Include">
-                <e p="eurof_tt.txt" t="Include" />
-              </e>
-            </e>
-            <e p="DemoChangeOwner" t="Include">
-              <e p="ClickAndDrag.cs" t="Include" />
-              <e p="DemoOwnershipGui.cs" t="Include" />
-              <e p="HighlightOwnedGameObj.cs" t="Include" />
-              <e p="InstantiateCube.cs" t="Include" />
-              <e p="MaterialPerOwner.cs" t="Include" />
-              <e p="OnClickDisableObj.cs" t="Include" />
-              <e p="OnClickRequestOwnership.cs" t="Include" />
-              <e p="OnClickRightDestroy.cs" t="Include" />
-              <e p="ShowInfoOfPlayer.cs" t="Include" />
-            </e>
-            <e p="DemoChat" t="Include">
-              <e p="ChannelSelector.cs" t="Include" />
-              <e p="ChatAppIdCheckerUI.cs" t="Include" />
-              <e p="ChatGui.cs" t="Include" />
-              <e p="FriendItem.cs" t="Include" />
-              <e p="IgnoreUiRaycastWhenInactive.cs" t="Include" />
-              <e p="NamePickGui.cs" t="Include" />
-            </e>
-            <e p="DemoFriendsAndCustomAuth" t="Include">
-              <e p="GUICustomAuth.cs" t="Include" />
-              <e p="GUIFriendFinding.cs" t="Include" />
-              <e p="GUIFriendsInRoom.cs" t="Include" />
-              <e p="OnClickCallMethod.cs" t="Include" />
-            </e>
-            <e p="DemoHub" t="Include">
-              <e p="Editor" t="Include">
-                <e p="PunStartup.cs" t="Include" />
-              </e>
-              <e p="HubGui.cs" t="Include" />
-              <e p="MoveCam.cs" t="Include" />
-              <e p="Scripts" t="Include">
-                <e p="DemoHubManager.cs" t="Include" />
-                <e p="ToDemoHubButton.cs" t="Include" />
-              </e>
-              <e p="ToHubButton.cs" t="Include" />
-            </e>
-            <e p="DemoMecanim" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="DemoMecanimGUI.cs" t="Include" />
-              </e>
-            </e>
-            <e p="DemoPickup" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="MessageOverlay.cs" t="Include" />
-                <e p="OnCollideSwitchTeam.cs" t="Include" />
-                <e p="OnPickedUpScript.cs" t="Include" />
-                <e p="PickupCamera.cs" t="Include" />
-                <e p="PickupController.cs" t="Include" />
-                <e p="PickupDemoGui.cs" t="Include" />
-                <e p="PickupTriggerForward.cs" t="Include" />
-              </e>
-            </e>
-            <e p="DemoRockPaperScissors" t="Include">
-              <e p="Assets" t="Include">
-                <e p="OpenSans" t="Include">
-                  <e p="Apache License.txt" t="Include" />
-                </e>
-              </e>
-              <e p="Scripts" t="Include">
-                <e p="RpsCore.cs" t="Include" />
-                <e p="RpsDebug.cs" t="Include" />
-                <e p="RpsDemoConnect.cs" t="Include" />
-              </e>
-            </e>
-            <e p="DemoRPGMovement" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="DemoRPGMovement.cs" t="Include" />
-                <e p="RPGCamera.cs" t="Include" />
-                <e p="RPGMovement.cs" t="Include" />
-              </e>
-            </e>
-            <e p="DemoSynchronization" t="Include">
-              <e p="CubeExtra.cs" t="Include" />
-              <e p="CubeInter.cs" t="Include" />
-              <e p="CubeLerp.cs" t="Include" />
-              <e p="DragToMove.cs" t="Include" />
-              <e p="IELdemo.cs" t="Include" />
-            </e>
-            <e p="DemoWorker" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="Game" t="Include">
-                  <e p="Player" t="Include">
-                    <e p="ThirdPersonCamera.cs" t="Include" />
-                    <e p="ThirdPersonController.cs" t="Include" />
-                    <e p="ThirdPersonNetwork.cs" t="Include" />
-                  </e>
-                </e>
-                <e p="WorkerInGame.cs" t="Include" />
-                <e p="WorkerMenu.cs" t="Include" />
-              </e>
-            </e>
-            <e p="MarcoPolo-Tutorial" t="Include">
-              <e p="AudioRpc.cs" t="Include" />
-              <e p="ClickDetector.cs" t="Include" />
-              <e p="GameLogic.cs" t="Include" />
-              <e p="marcopolo-readme.txt" t="Include" />
-              <e p="Monstergame" t="Include">
-                <e p="Resources" t="Include">
-                  <e p="Scripts" t="Include">
-                    <e p="myThirdPersonController.cs" t="Include" />
-                  </e>
-                </e>
-              </e>
-              <e p="NetworkCharacter.cs" t="Include" />
-              <e p="OnClickLoadSomething.cs" t="Include" />
-              <e p="RandomMatchmaker.cs" t="Include" />
-            </e>
-            <e p="PunBasics-Tutorial" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="CameraWork.cs" t="Include" />
-                <e p="GameManager.cs" t="Include" />
-                <e p="Launcher.cs" t="Include" />
-                <e p="LoaderAnime.cs" t="Include" />
-                <e p="PlayerAnimatorManager.cs" t="Include" />
-                <e p="PlayerManager.cs" t="Include" />
-                <e p="PlayerNameInputField.cs" t="Include" />
-                <e p="PlayerUI.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Shared Assets" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="IdleRunJump.cs" t="Include" />
-                <e p="PlayerDiamond.cs" t="Include" />
-                <e p="PlayerVariables.cs" t="Include" />
-              </e>
-              <e p="Skin" t="Include">
-                <e p="3dText.shader" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="Editor" t="Include">
-            <e p="PhotonNetwork" t="Include">
-              <e p="AccountService.cs" t="Include" />
-              <e p="CullAreaEditor.cs" t="Include" />
-              <e p="PhotonConverter.cs" t="Include" />
-              <e p="PhotonEditor.cs" t="Include" />
-              <e p="PhotonEditorUtils.cs" t="Include" />
-              <e p="PhotonGUI.cs" t="Include" />
-              <e p="PhotonViewHandler.cs" t="Include" />
-              <e p="PhotonViewInspector.cs" t="Include" />
-              <e p="PunSceneSettings.cs" t="Include" />
-              <e p="ReorderableListResources.cs" t="Include" />
-              <e p="ServerSettingsInspector.cs" t="Include" />
-              <e p="Views" t="Include">
-                <e p="PhotonAnimatorViewEditor.cs" t="Include" />
-                <e p="PhotonRigidbody2DViewEditor.cs" t="Include" />
-                <e p="PhotonRigidbodyViewEditor.cs" t="Include" />
-                <e p="PhotonTransformViewEditor.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="link.xml" t="Include" />
-          <e p="Plugins" t="Include">
-            <e p="PhotonNetwork" t="Include">
-              <e p="CustomTypes.cs" t="Include" />
-              <e p="Enums.cs" t="Include" />
-              <e p="Extensions.cs" t="Include" />
-              <e p="FriendInfo.cs" t="Include" />
-              <e p="GizmoType.cs" t="Include" />
-              <e p="LoadbalancingPeer.cs" t="Include" />
-              <e p="NetworkingPeer.cs" t="Include" />
-              <e p="PhotonClasses.cs" t="Include" />
-              <e p="PhotonHandler.cs" t="Include" />
-              <e p="PhotonLagSimulationGui.cs" t="Include" />
-              <e p="PhotonNetwork.cs" t="Include" />
-              <e p="PhotonPlayer.cs" t="Include" />
-              <e p="PhotonStatsGui.cs" t="Include" />
-              <e p="PhotonStreamQueue.cs" t="Include" />
-              <e p="PhotonView.cs" t="Include" />
-              <e p="PingCloudRegions.cs" t="Include" />
-              <e p="Room.cs" t="Include" />
-              <e p="RoomInfo.cs" t="Include" />
-              <e p="RPC.cs" t="Include" />
-              <e p="ServerSettings.cs" t="Include" />
-              <e p="SocketUdp.cs" t="Include" />
-              <e p="SocketWebTcp.cs" t="Include" />
-              <e p="Views" t="Include">
-                <e p="PhotonAnimatorView.cs" t="Include" />
-                <e p="PhotonRigidbody2DView.cs" t="Include" />
-                <e p="PhotonRigidbodyView.cs" t="Include" />
-                <e p="PhotonTransformView.cs" t="Include" />
-                <e p="PhotonTransformViewPositionControl.cs" t="Include" />
-                <e p="PhotonTransformViewPositionModel.cs" t="Include" />
-                <e p="PhotonTransformViewRotationControl.cs" t="Include" />
-                <e p="PhotonTransformViewRotationModel.cs" t="Include" />
-                <e p="PhotonTransformViewScaleControl.cs" t="Include" />
-                <e p="PhotonTransformViewScaleModel.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="readme.txt" t="Include" />
-          <e p="UtilityScripts" t="Include">
-            <e p="ConnectAndJoinRandom.cs" t="Include" />
-            <e p="CullArea.cs" t="Include" />
-            <e p="InputToEvent.cs" t="Include" />
-            <e p="InRoomChat.cs" t="Include" />
-            <e p="ManualPhotonViewAllocator.cs" t="Include" />
-            <e p="MoveByKeys.cs" t="Include" />
-            <e p="NetworkCullingHandler.cs" t="Include" />
-            <e p="OnClickDestroy.cs" t="Include" />
-            <e p="OnClickInstantiate.cs" t="Include" />
-            <e p="OnJoinedInstantiate.cs" t="Include" />
-            <e p="OnStartDelete.cs" t="Include" />
-            <e p="PhotonPlayer" t="Include">
-              <e p="Editor" t="Include">
-                <e p="PlayerRoomIndexingInspector.cs" t="Include" />
-                <e p="PunTeamsInspector.cs" t="Include" />
-              </e>
-              <e p="PlayerRoomIndexing.cs" t="Include" />
-            </e>
-            <e p="PickupItem.cs" t="Include" />
-            <e p="PickupItemSimple.cs" t="Include" />
-            <e p="PickupItemSyncer.cs" t="Include" />
-            <e p="PointedAtGameObjectInfo.cs" t="Include" />
-            <e p="PunPlayerScores.cs" t="Include" />
-            <e p="PunTeams.cs" t="Include" />
-            <e p="PunTurnManager.cs" t="Include" />
-            <e p="QuitOnEscapeOrBack.cs" t="Include" />
-            <e p="ShowStatusWhenConnecting.cs" t="Include" />
-            <e p="SmoothSyncMovement.cs" t="Include" />
-            <e p="SupportLogger.cs" t="Include" />
-            <e p="TimeKeeper.cs" t="Include" />
-            <e p="UI" t="Include">
-              <e p="ButtonInsideScrollList.cs" t="Include" />
-              <e p="TextButtonTransition.cs" t="Include" />
-              <e p="TextToggleIsOnTransition.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="PhotonChatApi" t="Include">
-          <e p="ChatChannel.cs" t="Include" />
-          <e p="ChatClient.cs" t="Include" />
-          <e p="ChatDisconnectCause.cs" t="Include" />
-          <e p="ChatEventCode.cs" t="Include" />
-          <e p="ChatOperationCode.cs" t="Include" />
-          <e p="ChatParameterCode.cs" t="Include" />
-          <e p="ChatPeer.cs" t="Include" />
-          <e p="ChatState.cs" t="Include" />
-          <e p="ChatUserStatus.cs" t="Include" />
-          <e p="IChatClientListener.cs" t="Include" />
-        </e>
         <e p="PlayServicesResolver" t="Include">
           <e p="Editor" t="Include">
             <e p="play-services-resolver_v1.2.61.0.txt" t="Include" />
@@ -690,9 +347,24 @@
             </e>
             <e p="Connector" t="Include">
               <e p="ConnectMasterServer.cs" t="Include" />
+              <e p="ResponceReceiver.cs" t="Include" />
+              <e p="TypeTags.cs" t="Include" />
+            </e>
+            <e p="Notifications" t="Include">
+              <e p="NofEnum.cs" t="Include" />
+              <e p="NotificationPrefab.cs" t="Include" />
+              <e p="NotificationsCreator.cs" t="Include" />
             </e>
             <e p="SP Metric" t="Include">
               <e p="SPCounter.cs" t="Include" />
+            </e>
+            <e p="Statistics" t="Include">
+              <e p="Leaderboard" t="Include">
+                <e p="Leaderboards.cs" t="Include" />
+                <e p="ScoreSerialize.cs" t="Include" />
+                <e p="ScoresListing.cs" t="Include" />
+              </e>
+              <e p="Scores.cs" t="Include" />
             </e>
           </e>
           <e p="PlayerScripts" t="Include">
@@ -712,7 +384,6 @@
             <e p="Missle.cs" t="Include" />
             <e p="RestartonDeath.cs" t="Include" />
             <e p="Scoreinmenu.cs" t="Include" />
-            <e p="Scores.cs" t="Include" />
             <e p="SkinsChecker.cs" t="Include" />
             <e p="Spacecontrol.cs" t="Include" />
             <e p="StylingManager.cs" t="Include" />
