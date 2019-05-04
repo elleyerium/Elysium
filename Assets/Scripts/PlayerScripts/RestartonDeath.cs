@@ -27,7 +27,7 @@ public class RestartonDeath : MonoBehaviour
 
     void SaveToDataBase()
     {
-        Scores.SerializeScore();
+        //Scores.SerializeScore();
         PlayerPrefs.SetFloat("TotalScore", (PlayerPrefs.GetFloat("TotalScore") + Scores.Currently_score));
     }
     void SendData()

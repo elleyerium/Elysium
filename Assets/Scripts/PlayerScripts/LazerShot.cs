@@ -126,7 +126,6 @@ void Update()
         if(Time.time > lazernextFire)
         {
             lazernextFire = Time.time + 1;
-            GameObject lazer = PhotonNetwork.Instantiate("PlayerBlaster", lazer1.position, lazer1.rotation, 0);
             lazer.SetActive(true);
             
         }

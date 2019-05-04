@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using BeardedManStudios;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Scoreinmenu : MonoBehaviour
 {
-    private int Count = 10;
+    /*private int Count = 10;
     public GameObject[] TextPrefab;
     public GameObject prefabForCreate;
     public Transform ScoreParent;
@@ -26,7 +25,7 @@ public class Scoreinmenu : MonoBehaviour
             if (PlayerPrefs.HasKey("Position" + Prefabs))
                 TextPrefab[Prefabs].GetComponent<Text>().text = PlayerPrefs.GetString("Position" + Prefabs);
         }
-    }
+    }*/
 }
 
 
