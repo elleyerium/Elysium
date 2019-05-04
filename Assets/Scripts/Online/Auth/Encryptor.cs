@@ -8,6 +8,7 @@ namespace Auth
 {  
     public class Encryptor : MonoBehaviour
     {
+        public static string DecryptKey = "a2V5Z2VuZXJhdG9y";
         public static string EncryptString(string key, string plainText)
         {
             byte[] iv = new byte[16];
