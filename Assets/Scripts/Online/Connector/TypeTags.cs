@@ -1,16 +1,13 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using ExitGames.Client.Photon;
 using UnityEngine;
-
-public class TypeTags : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+public enum TypeOfTags
+{
+	RegistrationRequest = 0,
+	LoginRequest = 1,
+	SetScoreRequest = 2,
+	GetScoreRequest = 3,
+	GetLeaderboardsRequest = 4
 }
