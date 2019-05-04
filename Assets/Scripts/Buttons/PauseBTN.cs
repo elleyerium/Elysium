@@ -40,17 +40,9 @@ public class PauseBTN : MonoBehaviour
         Initiate.Fade("Main", Color.black, 2.5f);
         Time.timeScale = 1;
 
-        if (PhotonNetwork.inRoom)
-        {
-            PhotonNetwork.LeaveRoom();
-        }
 }
     public void Exit()
     {
-        if (PhotonNetwork.inRoom || PhotonNetwork.connected)
-        {
-            PhotonNetwork.LeaveRoom();
-        }
         Application.Quit();
         PlayerPrefs.Save();
     }

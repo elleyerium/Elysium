@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 using System;
-using BeardedManStudios;
 
 [Serializable]
 public class Settings : MonoBehaviour
@@ -35,7 +34,6 @@ public class Settings : MonoBehaviour
     void Update()
     {
         SensitivityValue = Sensitivity.value;
-        Ping.text = "Ping : " + PhotonNetwork.GetPing() + " ms";
         SensText.text = "Joystick sensitivity value is " + Sensitivity.value.ToString("F2") +"x";
     }
     public void Back()
@@ -85,6 +83,5 @@ public class Settings : MonoBehaviour
     }
     public void LogOut()
     {
-        PhotonNetwork.Disconnect();
     }
 }

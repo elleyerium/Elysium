@@ -16,7 +16,6 @@ public class Hidenuttons : MonoBehaviour
         gamemodechoose.SetActive(false);
         lobby.SetActive(true);
         allbuttons.SetActive(false);
-        PhotonNetwork.JoinLobby(TypedLobby.Default);
 
     }
     public void Offline()
