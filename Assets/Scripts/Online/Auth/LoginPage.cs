@@ -16,50 +16,29 @@ public class LoginPage : MonoBehaviour {
     public string pass, confirm;
     public GameObject Guest, waystoconnect, loginpanel, bordersignin, borderregister, gamemenu, Choose;
     public GameObject connectedtoaccount, Connected, Connecting, Disconnected;
-    public GameObject ErrorManager;
-    public Text hellouser;
+    public GameObject ErrorManager,textObj;
+    public Text hellouser, message, status;
     private string errorInfo;
     public int ID;
     [SerializeField] private Animation ErrorAnim;
-    void Awake()
-    {
-        PhotonNetwork.automaticallySyncScene = true;     
-    }
+    
     void Start()
     {
-        errorInfo = "Waiting some data...";
-        Debug.Log(PlayerPrefs.GetString("username"));
-        Debug.Log(PlayerPrefs.GetString("password"));
-        if (PlayerPrefs.HasKey("username") && PlayerPrefs.HasKey("password"))
-        {
-            PhotonNetwork.AuthValues = new AuthenticationValues();
-            PhotonNetwork.AuthValues.AuthType = CustomAuthenticationType.Custom;
-            PhotonNetwork.AuthValues.AddAuthParameter("username", PlayerPrefs.GetString("username"));
-            PhotonNetwork.AuthValues.AddAuthParameter("password", PlayerPrefs.GetString("password"));
-            PhotonNetwork.ConnectUsingSettings("0.5");
-        }
-    }
-    
-    void Update()
-    {
-        if (PhotonNetwork.connected)
-        {           
-            hellouser.text = (PlayerPrefs.GetString("username") + " #1");
-            loginpanel.SetActive(false);
-        }
+        NotificationsCreator.NewNofication(TypeOfNofications.Warning.ToString(), "You need to update your client for multiplayer!");
+        //LoginAttempt();
     }
 
     private void Username()
     {
-        userID = username_input.text.ToString();
-        RegisterID = registerusername_input.text.ToString();
-        email = email_input.text.ToString();
+        userID = username_input.text;
+        RegisterID = registerusername_input.text;
+        email = email_input.text;
     }
     private void Password()
     {
-        pass = password_input.text.ToString();
-        registerpass = registerpass_input.text.ToString();
-        confirm = confirm_input.text.ToString();
+        pass = password_input.text;
+        registerpass = registerpass_input.text;
+        confirm = confirm_input.text;
     }
     public void Register()
     {
@@ -84,14 +63,13 @@ public class LoginPage : MonoBehaviour {
         //Scroll.enabled = true;
         loginpanel.SetActive(false);
         Guest.SetActive(true);
+        NotificationsCreator.NewNofication(TypeOfNofications.Info.ToString(), "You currently playing as guest. If you want to enjoy multiplayer actions, you have to login.");
 
     }
     public void LogOut()
     {
-        //Scroll.enabled = false;
         PlayerPrefs.DeleteKey("username");
         PlayerPrefs.DeleteKey("password");
-        PhotonNetwork.Disconnect();
         loginpanel.SetActive(true);
         username_input.text = "";
         password_input.text = "";
@@ -149,19 +127,30 @@ public class LoginPage : MonoBehaviour {
     }
     public void LoginAttempt()
     {
-
-        PlayerPrefs.SetString("username", userID);
-        PlayerPrefs.SetString("password", pass);
-
-        PhotonNetwork.AuthValues = new AuthenticationValues();
-        PhotonNetwork.AuthValues.AuthType = CustomAuthenticationType.Custom;
-        PhotonNetwork.AuthValues.AddAuthParameter("username", userID);
-        PhotonNetwork.AuthValues.AddAuthParameter("password", pass);
-        PhotonNetwork.ConnectUsingSettings("0.5");
-        Debug.Log(PlayerPrefs.GetString("username"));
-        Debug.Log(PlayerPrefs.GetString("password"));
-        
-
+        string Responce;
+/*        if (!PlayerPrefs.HasKey("username") || !PlayerPrefs.HasKey("password"))
+        {*/
+            Responce = Login.LoginAction(username_input.text,password_input.text);
+        //}
+/*        else
+        {
+            Responce = Login.LoginAction(PlayerPrefs.GetString("username"), PlayerPrefs.GetString("password"));
+            PlayerPrefs.SetString("username", userID);
+            PlayerPrefs.SetString("password", pass);
+        }*/
+        Debug.Log(Responce);
+        if (Responce.Contains("logged in!"))
+        {
+            PlayerPrefs.SetString("username", userID);
+            PlayerPrefs.SetString("password", pass);
+            hellouser.text = PlayerPrefs.GetString("username");
+            loginpanel.SetActive(false);
+            NotificationsCreator.NewNofication(TypeOfNofications.Info.ToString(),
+                $"{hellouser.text}, welcome again!. Saved session time : {System.DateTime.Now.ToString()}");
+            Debug.Log("logged");
+        }
+        if(Responce.Contains("Failed to login!"))
+                status.text = "Failed to connect!"; 
     }
 
     private void GotError()
@@ -183,19 +172,5 @@ public class LoginPage : MonoBehaviour {
         window.transform.SetParent(Choose.transform);
         window.transform.localPosition = new Vector3(-405, -555);
         Destroy(window, 4f);
-    }
-
-    void OnCustomAuthenticationFailed(string debugMessage)
-    {
-        errorInfo = "WrongData";
-        GotError();
-        Debug.Log("Wrong data");
-    }
-    private void OnDisconnectedFromPhoton()
-    {
-        if (PhotonNetwork.connected)
-        {
-            PhotonNetwork.Reconnect();
-        }
     }
 }
