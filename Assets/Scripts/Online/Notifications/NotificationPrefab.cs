@@ -7,6 +7,7 @@ public class NotificationPrefab : MonoBehaviour
 {
 	public GameObject Type, NoficationText;
 	public Sprite Warning_sprite, Info_sprite;
+	public AudioClip DeleteFX;
 	public void NoficationSettings(string NofType, string NofText)
 	{
 		switch (NofType)
@@ -23,7 +24,7 @@ public class NotificationPrefab : MonoBehaviour
 
 	public void DeleteNotification()
 	{
+		NotificationsCreator.Source.PlayOneShot(DeleteFX);
 		Destroy(gameObject);
-		//NotificationsCreator.StaticCountText.text = NotificationsCreator.transformInstance.childCount - 1;
 	}
 }

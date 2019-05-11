@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class NotificationsCreator : MonoBehaviour
 {
+	public static AudioSource Source;
 	public static int CountOfNotifications;
 	public Text CountText;
 	public static Text StaticCountText;
@@ -21,6 +22,7 @@ public class NotificationsCreator : MonoBehaviour
 		transformInstance = parent;
 		PrefabInstance = Prefab;
 		StaticCountText = CountText;
+		Source = gameObject.GetComponent<AudioSource>();
 		StartCoroutine("Updater");
 		Actions();
 	}
@@ -40,7 +42,16 @@ public class NotificationsCreator : MonoBehaviour
 	{
 		ShowNofications.onClick.AddListener(() => UI.SetActive(true));
 		HideNotifications.onClick.AddListener(() => UI.SetActive(false));
-		DeleteNotifications.onClick.AddListener(() => Destroy(GameObject.FindWithTag("Notification")));
+		DeleteNotifications.onClick.AddListener(() => DestroyNotifications());
+
+	}
+
+	void DestroyNotifications()
+	{
+		for (int i = 0; i < transformInstance.transform.childCount; i++)
+		{
+			Destroy(transformInstance.transform.GetChild(i).gameObject);
+		}
 	}
 	public static void NewNofication(string Type, string Text)
 	{
@@ -50,5 +61,6 @@ public class NotificationsCreator : MonoBehaviour
 		nofication.GetComponent<NotificationPrefab>().NoficationSettings(Type, Text);
 		CountOfNotifications++;
 		StaticCountText.text = transformInstance.childCount.ToString();
+		Source.Play();
 	}
 }
