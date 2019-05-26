@@ -11,7 +11,7 @@ public class Leaderboards : MonoBehaviour
     {
         private List<ScoresListing> Listing = new List<ScoresListing>();
         private string allData,username,score;
-        private bool IsLoading = true;
+        private bool ScoreFormed;
         public GameObject LoadScreen, playerPrefab;
         public Transform parent;
         private Task RequestTast;
@@ -25,8 +25,14 @@ public class Leaderboards : MonoBehaviour
         {
             if (!ConnectMasterServer.IsConnected)
             {
+                ConnectMasterServer.Connect();
+                yield return new WaitForSeconds(5);
+            }
+
+            if (ConnectMasterServer.IsConnected && !ScoreFormed)
+            {
                 RequestLeaderBoard();
-                yield return new WaitForSeconds(2);
+                StopCoroutine(Updater());
             }
         }
 
@@ -36,11 +42,8 @@ public class Leaderboards : MonoBehaviour
             try
             {
                     parent.transform.position = new Vector3(parent.transform.position.x, 0, 0);
-                    allData = ConnectMasterServer.Request(TypeOfTags.GetLeaderboardsRequest.ToString(),null).ToString();
+                    allData = ConnectMasterServer.Request(TypeOfTags.GetLeaderboardsRequest.ToString(),null);
                     Debug.Log(allData);
-                    if(allData != null)
-                        IsLoading = false;     
-                     Debug.Log(allData + " " + IsLoading);
                     string[] clearArray = allData.Split('|');  
                 
                 for (int i = 0; i < clearArray.Length; i++)
@@ -52,7 +55,6 @@ public class Leaderboards : MonoBehaviour
                     Listing.Add(new ScoresListing(i,username,Convert.ToInt32(score)));                                    
                     ScoresListing listing = Listing[i];
                     SetScorePrefab(listing);
-                    IsLoading = false;
                     LoadScreen.SetActive(false);
                 }
             }
@@ -64,9 +66,10 @@ public class Leaderboards : MonoBehaviour
 
         void SetScorePrefab(ScoresListing listing)
         {
-            GameObject ScoreData = Instantiate(playerPrefab);
-            ScoreData.GetComponent<ScoreSerialize>().SetScore($"#{listing.id + 1}", listing.Username, listing.Score.ToString());
+            GameObject scoreData = Instantiate(playerPrefab);
+            scoreData.GetComponent<ScoreSerialize>().SetScore($"#{listing.id + 1}", listing.Username, listing.Score.ToString());
             Debug.Log($"{listing.id + 1} {listing.Username} {listing.Score}");
-            ScoreData.transform.SetParent(parent.transform);
+            scoreData.transform.SetParent(parent.transform);
+            ScoreFormed = true;
         }
     }
