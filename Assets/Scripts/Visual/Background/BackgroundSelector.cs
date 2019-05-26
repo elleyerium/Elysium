@@ -12,7 +12,7 @@ public class BackgroundSelector : MonoBehaviour
 	public void  Select() 
 	{
 		PlayerPrefs.SetString("BackgroundName", Backname.text);
-		Backgroung.r.material.SetTexture("_MainTex", BackSprite );		
+		//Background.r.material.SetTexture("_MainTex", BackSprite );		
 	}
 
 	void Update()

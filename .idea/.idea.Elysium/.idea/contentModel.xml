@@ -129,18 +129,41 @@
           </e>
           <e p="Tests" t="Include">
             <e p="Splash.cs" t="Include" />
+            <e p="Visual" t="Include">
+              <e p="UI" t="Include">
+                <e p="ImageWrapperTestCase.cs" t="Include" />
+              </e>
+            </e>
           </e>
           <e p="Visual" t="Include">
-            <e p="Background.cs" t="Include" />
-            <e p="BackgroundChecker.cs" t="Include" />
-            <e p="BackgroundSelector.cs" t="Include" />
-            <e p="FaderStart.cs" t="Include" />
-            <e p="FollowUV.cs" t="Include" />
+            <e p="Background" t="Include">
+              <e p="Background.cs" t="Include" />
+              <e p="BackgroundChecker.cs" t="Include" />
+              <e p="BackgroundSelector.cs" t="Include" />
+              <e p="FaderStart.cs" t="Include" />
+              <e p="FollowUV.cs" t="Include" />
+            </e>
             <e p="Initiate.cs" t="Include" />
-            <e p="MusicManager.cs" t="Include" />
+            <e p="Media" t="Include">
+              <e p="audioProperties.cs" t="Include" />
+              <e p="deviceMusicListing.cs" t="Include" />
+              <e p="musicController.cs" t="Include" />
+              <e p="MusicManager.cs" t="Include" />
+              <e p="serverMusicListing.cs" t="Include" />
+              <e p="VideoPlayer.cs" t="Include" />
+            </e>
             <e p="SFXManager.cs" t="Include" />
             <e p="SimpleAnimator.cs" t="Include" />
             <e p="Skins.cs" t="Include" />
+            <e p="Text" t="Include">
+              <e p="CharSplitter.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="ImageWrapper.cs" t="Include" />
+              <e p="Lerping.cs" t="Include" />
+              <e p="ScrollUI.cs" t="Include" />
+              <e p="uiClickActions.cs" t="Include" />
+            </e>
             <e p="Vizualizer.cs" t="Include" />
           </e>
         </e>
