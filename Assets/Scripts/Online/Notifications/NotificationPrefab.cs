@@ -24,7 +24,12 @@ public class NotificationPrefab : MonoBehaviour
 
 	public void DeleteNotification()
 	{
+		Lerping Lerp = gameObject.AddComponent<Lerping>();
 		NotificationsCreator.Source.PlayOneShot(DeleteFX);
-		Destroy(gameObject);
+		StartCoroutine(Lerp.LerpAction(transform,0,1,0.5f));
+		if (NotificationsCreator.CountOfNotifications == 0)
+		{
+			
+		}
 	}
 }
