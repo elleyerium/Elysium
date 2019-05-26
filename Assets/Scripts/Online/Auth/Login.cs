@@ -16,7 +16,7 @@ public class Login : MonoBehaviour
 		try
 		{
 			var Encrypted = EncryptString(DecryptKey, password);
-			Result = ConnectMasterServer.Request(TypeOfTags.LoginRequest.ToString(), $"{username} {Encrypted}").ToString();
+			Result = ConnectMasterServer.Request(TypeOfTags.LoginRequest.ToString(), $"{username} {Encrypted}");
 		}
 		catch (Exception ex)
 		{

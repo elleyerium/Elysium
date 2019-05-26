@@ -24,8 +24,7 @@ public class LoginPage : MonoBehaviour {
     
     void Start()
     {
-        NotificationsCreator.NewNofication(TypeOfNofications.Warning.ToString(), "You need to update your client for multiplayer!");
-        //LoginAttempt();
+        ConnectMasterServer.Connect();
     }
 
     private void Username()
@@ -128,16 +127,10 @@ public class LoginPage : MonoBehaviour {
     public void LoginAttempt()
     {
         string Responce;
-/*        if (!PlayerPrefs.HasKey("username") || !PlayerPrefs.HasKey("password"))
-        {*/
-            Responce = Login.LoginAction(username_input.text,password_input.text);
-        //}
-/*        else
-        {
-            Responce = Login.LoginAction(PlayerPrefs.GetString("username"), PlayerPrefs.GetString("password"));
-            PlayerPrefs.SetString("username", userID);
-            PlayerPrefs.SetString("password", pass);
-        }*/
+        if (!ConnectMasterServer.IsConnected)
+             ConnectMasterServer.Connect();
+        Responce = Login.LoginAction(username_input.text,password_input.text);
+
         Debug.Log(Responce);
         if (Responce.Contains("logged in!"))
         {
