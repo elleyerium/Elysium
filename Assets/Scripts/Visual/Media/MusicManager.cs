@@ -16,28 +16,36 @@ public class MusicManager : MonoBehaviour
 	public string scenename;
 	public static bool IsPlaying, IsPaused, isMoving;
 	private int TrackNum, temp, backnum;
-	public static Text Trackname;
+	public Text Trackname;
 	public Sprite play, pause;
 	public Texture[] backgrounds, starfield;
 	public GameObject _musicManager;
 	public AudioClip click, pauseclick;
 	public AudioClip[] music;
 	public AudioSource _publicSource, sfxsource;
-	[SerializeField] Text availableList,trackName;
+	[SerializeField] private Text availableList;
 
 	void Start()
 	{
-		Trackname = trackName;
-		temp = Random.Range(0, music.Count());
+		musicController.listedMusic = new List<AudioClip>();
+
+		foreach (AudioClip song in music)
+		{
+			musicController.listedMusic.Add(song);
+			musicController.alreadyIndex++;
+			Debug.Log("Listed!");
+		}
+		temp = Random.Range(0, musicController.listedMusic.Count-1);
 		backnum = Random.Range(0, backgrounds.Count());
-	    TrackNum = temp+1;
+		musicController.position = temp;
 		availableList.text = TrackNum + " of " + music.Length;
-		Trackname.text = music[temp].name;
+		Trackname.text = $"{musicController.listedMusic[temp].name} ";
 		IsPlaying = true;
 		IsPaused = false;
-		_publicSource.clip = music[temp];
+		_publicSource.clip = musicController.listedMusic[temp];
 		_publicSource.Play();
-		timearea.maxValue = music[temp].length;
+		StartCoroutine(TextDisplay());
+		timearea.maxValue = musicController.listedMusic[temp].length;
 	}
 	void Update ()
 	{
@@ -45,6 +53,31 @@ public class MusicManager : MonoBehaviour
 		   Next();
 		if (!isMoving)
 		timearea.value = _publicSource.time;
+	}
+
+	IEnumerator TextDisplay()
+	{
+		Debug.Log(Trackname.preferredWidth);
+		if (Trackname.preferredWidth > Trackname.gameObject.GetComponent<RectTransform>().rect.width)
+		{
+			Trackname.alignment = TextAnchor.MiddleLeft;
+			while (Trackname.text != null)
+			{
+				Trackname.text += Trackname.text[0];
+				Trackname.text = Trackname.text.Remove(0, 1);
+				Debug.Log("Removed!");
+				yield return new WaitForSeconds(0.2f);
+			}
+		}
+
+		if (Trackname.text == null || Trackname.preferredWidth <
+		    Trackname.gameObject.GetComponent<RectTransform>().rect.width)
+		{
+			Debug.Log("Smaller or eq");
+			Trackname.alignment = TextAnchor.MiddleLeft;
+			StopAllCoroutines();
+		}
+		else Debug.Log("null TextDisplay");
 	}
 
 	public void SliderPointerDown()
@@ -63,50 +96,55 @@ public class MusicManager : MonoBehaviour
 	public void Previous()
 	{
 		sfxsource.PlayOneShot(click);
-		TrackNum--;
+
 		temp--;
 		backnum--;
-		if (temp == -1)
+		musicController.position--;
+		availableList.text = musicController.position + " of " + musicController.listedMusic.Count;
+/*		if (Trackname.text.Length <=0)
 		{
-			temp = Convert.ToInt32(music.Length) -1 ;
-			TrackNum = temp+1;
-		}
-		if (backnum == -1)
+			Play(musicController.position, musicController.trackName);
+			Debug.Log("Track name is null!");
+		}*/
+		if(musicController.position >= 0)
 		{
-			backnum = Convert.ToInt32(backgrounds.Length) -1;
+			Play(musicController.position, musicController.listedMusic[musicController.position].name);
+			Debug.Log("if");
 		}
-
-		availableList.text = TrackNum + " of " + music.Length;
-		Play();
+		else
+		{
+			Debug.Log("else");
+			musicController.position = musicController.listedMusic.Count-1;
+			Play(musicController.position, musicController.listedMusic[musicController.position].name);
+		}
 	}
 	public void Next()
 	{
 		sfxsource.PlayOneShot(click);
-		TrackNum++;
+		musicController.position++;
+
 		temp++;
 		backnum++;
-		if (temp == music.Length)
-		{
-		    temp = 0;
-			TrackNum = temp + 1;
-		}
-		if (backnum == backgrounds.Length)
-		{
-			backnum = 0;
-		}
-		availableList.text = TrackNum + " of " + music.Length;
-		Play();
-	}
 
-	 public void Play()
+		if(musicController.position >= musicController.listedMusic.Count)
+		{
+			musicController.position = 0;
+			Play(musicController.position, musicController.listedMusic[musicController.position].name);
+			Debug.Log("track name is not a null!");
+		}
+		else Play(musicController.position, musicController.listedMusic[musicController.position].name);
+
+	}
+	 public void Play(int pos, string nameOfTrack)
 	{
+		StopAllCoroutines();
+		Trackname.text = nameOfTrack;
 			state.sprite = pause;
 		_publicSource.time = 0;
-			_publicSource.clip = music[temp];
-			timearea.maxValue = music[temp].length;
+			_publicSource.clip = musicController.listedMusic[pos];
+			timearea.maxValue = musicController.listedMusic[pos].length;
 			_publicSource.Stop();
-			Trackname.text = music[temp].name;
-		_publicSource.clip = music[temp];
+		StartCoroutine(TextDisplay());
 		_publicSource.Play();
 	}
 
