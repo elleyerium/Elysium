@@ -10,7 +10,7 @@ public class musicController : MonoBehaviour
 	[SerializeField] private serverMusicListing ServerMusicListing;
 	[SerializeField] private MusicManager MusicManager;
 	[SerializeField] private Button[] actions;
-	public static List<AudioClip> listedMusic;
+	public static List<string> listedMusic;
 	public static int alreadyIndex = -1;
 	public static int position;
 	public static bool devicemode;
