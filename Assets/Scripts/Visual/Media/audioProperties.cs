@@ -14,10 +14,7 @@ namespace Visual.Media
 		[SerializeField] private serverMusicListing serverMusicListing;
 		[SerializeField] private MusicManager _musicManager;
 		[SerializeField] private GameObject Name;
-		[SerializeField] private GameObject length;
-		public string TrackName { get; set; }
-		public string TrackLength { get; set; }
-		public AudioClip trackToPlay;
+		public string Path { get; set; }
 		private Button eventButton;
 		private AudioSource musicSource;
 		private int thisIndex;
@@ -26,35 +23,23 @@ namespace Visual.Media
 		{
 			_musicManager = FindObjectOfType<MusicManager>();
 			eventButton = gameObject.GetComponent<Button>();
-			eventButton.onClick.AddListener(() => SelectClip(trackToPlay, thisIndex));
+			eventButton.onClick.AddListener(() => SelectClip(Path));
 			Debug.Log(thisIndex);
 		}
 
-		void SelectClip(AudioClip temp, int Arraypos)
+		void SelectClip(string thisPath)
 		{
-			musicController.position = Arraypos+1;
-			musicSource = _musicManager.GetComponent<AudioSource>();
-			musicSource.clip = temp;
-			Debug.Log(thisIndex);
-			_musicManager.Play(musicController.position, TrackName);
+			StartCoroutine(DeviceMusicListing.RequestSong(thisPath, true, thisIndex));
+			Debug.Log("Clicked!");
 		}
-		public void SetProperties (string trackName,List<AudioClip> list, int index)
+		public void SetProperties (string trackName,List<string> list, int index)
 		{
-			trackToPlay = list[index];
 			thisIndex =  musicController.alreadyIndex;
 			Debug.Log(thisIndex);
 			musicController.listedMusic.Add(list[index]);
-			trackToPlay.name = trackName;
 			musicController.alreadyIndex++;
-			TrackName = trackName + " ";
 			Debug.Log(trackName);
-			TimeSpan t = TimeSpan.FromSeconds(list[index].length);
-			TrackLength = string.Format("{0:D2}m:{1:D2}s",
-				t.Minutes,
-				t.Seconds);
-			Name.GetComponent<Text>().text = TrackName;
-			length.GetComponent<Text>().text = TrackLength;
-			Debug.Log(list[index].loadType);
+			Name.GetComponent<Text>().text = System.IO.Path.GetFileNameWithoutExtension(Path);
 		}
 	}
 }

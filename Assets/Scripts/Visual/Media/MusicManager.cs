@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using Visual.Media;
 using Random = UnityEngine.Random;
 
 public class MusicManager : MonoBehaviour
@@ -21,36 +22,43 @@ public class MusicManager : MonoBehaviour
 	public Texture[] backgrounds, starfield;
 	public GameObject _musicManager;
 	public AudioClip click, pauseclick;
-	public AudioClip[] music;
+	public string[] installedTracks = new string[3];
 	public AudioSource _publicSource, sfxsource;
 	[SerializeField] private Text availableList;
-
+	[SerializeField] private deviceMusicListing DeviceMusicListing;
 	void Start()
 	{
-		musicController.listedMusic = new List<AudioClip>();
+		installedTracks = Directory.GetFiles(@"Assets/Resources/Songs/Menu");
+		var list = installedTracks.ToList();
+		Debug.Log(installedTracks.Length);
+		musicController.listedMusic = new List<string>();
 
-		foreach (AudioClip song in music)
+		foreach (string song in installedTracks)
 		{
-			musicController.listedMusic.Add(song);
-			musicController.alreadyIndex++;
-			Debug.Log("Listed!");
+			if (Path.GetExtension(song) == ".mp3")
+			{
+				musicController.listedMusic.Add(song);
+				musicController.alreadyIndex++;
+				Debug.Log(song);
+			}
+			else list.Remove(song);
 		}
+		installedTracks = new string[list.Count];
 		temp = Random.Range(0, musicController.listedMusic.Count-1);
-		backnum = Random.Range(0, backgrounds.Count());
 		musicController.position = temp;
-		availableList.text = TrackNum + " of " + music.Length;
-		Trackname.text = $"{musicController.listedMusic[temp].name} ";
 		IsPlaying = true;
 		IsPaused = false;
-		_publicSource.clip = musicController.listedMusic[temp];
-		_publicSource.Play();
+		Debug.Log($"Songs/Menu/{Path.GetFileNameWithoutExtension(list[temp])}");
+		var clip = Resources.Load<AudioClip>($"Songs/Menu/{Path.GetFileNameWithoutExtension(list[temp])}");
+		Play(clip);
+		Trackname.text = _publicSource.clip.name;
 		StartCoroutine(TextDisplay());
-		timearea.maxValue = musicController.listedMusic[temp].length;
+		timearea.maxValue = _publicSource.clip.length;
 	}
 	void Update ()
 	{
 		if (!_publicSource.isPlaying && !IsPaused)
-		   Next();
+		  // Next();
 		if (!isMoving)
 		timearea.value = _publicSource.time;
 	}
@@ -65,7 +73,6 @@ public class MusicManager : MonoBehaviour
 			{
 				Trackname.text += Trackname.text[0];
 				Trackname.text = Trackname.text.Remove(0, 1);
-				Debug.Log("Removed!");
 				yield return new WaitForSeconds(0.2f);
 			}
 		}
@@ -96,56 +103,57 @@ public class MusicManager : MonoBehaviour
 	public void Previous()
 	{
 		sfxsource.PlayOneShot(click);
-
-		temp--;
-		backnum--;
 		musicController.position--;
-		availableList.text = musicController.position + " of " + musicController.listedMusic.Count;
+		if (musicController.position > installedTracks.Length)
+			StartCoroutine(DeviceMusicListing.RequestSong(Path.GetFileNameWithoutExtension(musicController.listedMusic[musicController.position]), true,
+				musicController.position));
+		if (musicController.position < installedTracks.Length)
+			StartCoroutine(DeviceMusicListing.RequestSong(Path.GetFileNameWithoutExtension(musicController.listedMusic[musicController.position]), false,
+				musicController.position));
 /*		if (Trackname.text.Length <=0)
 		{
 			Play(musicController.position, musicController.trackName);
 			Debug.Log("Track name is null!");
-		}*/
+		}
 		if(musicController.position >= 0)
 		{
 			Play(musicController.position, musicController.listedMusic[musicController.position].name);
 			Debug.Log("if");
-		}
-		else
-		{
-			Debug.Log("else");
-			musicController.position = musicController.listedMusic.Count-1;
-			Play(musicController.position, musicController.listedMusic[musicController.position].name);
-		}
+		}*/
+		//else
+		//{
+			//DeviceMusicListing.RequestSong(musicController.listedMusic[musicController.position]);
+		//}
 	}
 	public void Next()
 	{
+		StopAllCoroutines();
 		sfxsource.PlayOneShot(click);
 		musicController.position++;
-
-		temp++;
-		backnum++;
-
-		if(musicController.position >= musicController.listedMusic.Count)
-		{
-			musicController.position = 0;
-			Play(musicController.position, musicController.listedMusic[musicController.position].name);
-			Debug.Log("track name is not a null!");
-		}
-		else Play(musicController.position, musicController.listedMusic[musicController.position].name);
-
+		Debug.Log(musicController.listedMusic[musicController.position]);
+		Debug.Log("cur pos is " + musicController.position);
+		Debug.Log("Installed tracks length is " + installedTracks.Length);
+		if (musicController.position >= installedTracks.Length)
+			StartCoroutine(DeviceMusicListing.RequestSong(deviceMusicListing.DataPath + Path.GetFileName(musicController.listedMusic[musicController.position]), true,
+				musicController.position+1));
+		if (musicController.position < installedTracks.Length)
+			StartCoroutine(DeviceMusicListing.RequestSong(Path.GetFileNameWithoutExtension(musicController.listedMusic[musicController.position]), false,
+				musicController.position));
 	}
-	 public void Play(int pos, string nameOfTrack)
+	 public void Play(AudioClip clip)
 	{
 		StopAllCoroutines();
-		Trackname.text = nameOfTrack;
-			state.sprite = pause;
+		_publicSource.Stop();
+		state.sprite = pause;
+	   _publicSource.clip = clip;
+		Trackname.text = clip.name;
 		_publicSource.time = 0;
-			_publicSource.clip = musicController.listedMusic[pos];
-			timearea.maxValue = musicController.listedMusic[pos].length;
-			_publicSource.Stop();
+		timearea.maxValue = clip.length;
 		StartCoroutine(TextDisplay());
-		_publicSource.Play();
+		if(_publicSource.clip.length <=0)
+			Next();
+	    else
+			_publicSource.Play();
 	}
 
 	public void State()
