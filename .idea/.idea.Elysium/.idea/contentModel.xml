@@ -168,6 +168,7 @@
           </e>
           <e p="Blur" t="Include">
             <e p="blur.shader" t="Include" />
+            <e p="MaskedUIBlur.shader" t="Include" />
           </e>
         </e>
         <e p="SimpleSpectrum" t="Include">

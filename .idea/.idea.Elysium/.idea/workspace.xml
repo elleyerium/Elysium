@@ -11,368 +11,70 @@
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Plugin.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Plugin.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Window.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Window.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NuGet.config.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NuGet.config.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Media/Audio/trackPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Media/Audio/trackPrefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Networking/Notification.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Networking/Notification.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/Buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/Buttons/BackButton.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/Buttons/BackButton.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/Buttons/ButtonClick.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/Buttons/ButtonClick.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/Buttons/ChangeSound.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/Buttons/ChangeSound.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/Buttons/Pause.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/Buttons/Pause.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/Game Background.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/Game Background/Background (2).mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/Game Background/Background (2).mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/Menu/Clicks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/Menu/Clicks/Notification.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/Menu/Clicks/Notification.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/BlasterSound.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/BlasterSound.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/BotDestroy.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/BotDestroy.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/Cannon_loop.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/Cannon_loop.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/DeadSound.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/DeadSound.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/Dead_Sound.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/Dead_Sound.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/Engine.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/Engine.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/Future Weapons 2 - Source - Laser Source_3 (2).mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/Future Weapons 2 - Source - Laser Source_3 (2).mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/HitBotRocket.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/HitBotRocket.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/Laser_End.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/Laser_End.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/ReBorn.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/ReBorn.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/Rocket missile.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/Rocket missile.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/Rocket_hit.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/Rocket_hit.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/botlzr.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/botlzr.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/death.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/death.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/lowhp.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/lowhp.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/pausesound.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/pausesound.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/playerlazer.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Songs/SFX/playerlazer.mp3.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/Joystick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Input/Joystick.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Visual/Media/MusicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Visual/Media/MusicManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Visual/Media/VideoPlayer.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Visual/Media/audioProperties.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Visual/Media/audioProperties.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Visual/Media/deviceMusicListing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Visual/Media/deviceMusicListing.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Visual/Media/musicController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Visual/Media/musicController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/BackMove/Hidden_BackShader.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/BackMove/Hidden_BackShader.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Buttons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Buttons/BackButton.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Buttons/BackButton.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Buttons/ButtonClick.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Buttons/ButtonClick.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Buttons/ChangeSound.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Buttons/ChangeSound.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Buttons/Pause.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Buttons/Pause.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Game Background.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Game Background/Background (2).mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Game Background/Background (2).mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Menu.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Menu/Clicks.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Menu/Clicks/Notification.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Menu/Clicks/Notification.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Menu/Darby - Cognizant.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Menu/Darby - Cognizant.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Menu/Invaders Of Nine - Apocalypse.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Menu/Invaders Of Nine - Apocalypse.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Menu/MGR 7TH - Over It.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Menu/MGR 7TH - Over It.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Menu/Michael Jan - Glide.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Menu/Michael Jan - Glide.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Menu/Xavi - Here I Stand.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/Menu/Xavi - Here I Stand.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/BlasterSound.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/BlasterSound.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/BotDestroy.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/BotDestroy.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/Cannon_loop.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/Cannon_loop.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/DeadSound.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/DeadSound.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/Dead_Sound.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/Dead_Sound.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/Engine.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/Engine.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/Future Weapons 2 - Source - Laser Source_3 (2).mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/Future Weapons 2 - Source - Laser Source_3 (2).mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/HitBotRocket.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/HitBotRocket.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/Laser_End.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/Laser_End.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/ReBorn.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/ReBorn.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/Rocket missile.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/Rocket missile.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/Rocket_hit.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/Rocket_hit.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/botlzr.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/botlzr.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/death.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/death.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/lowhp.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/lowhp.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/pausesound.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/pausesound.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/playerlazer.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Songs/SFX/playerlazer.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/AntialiasingEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/AntialiasingEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/BloomAndFlaresEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/BloomAndFlaresEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/BloomEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/BloomEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/CameraMotionBlurEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/CameraMotionBlurEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/ColorCorrectionLookupEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/ColorCorrectionLookupEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/CreaseShadingEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/CreaseShadingEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/DepthOfFieldEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/DepthOfFieldEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/EdgeDetectionEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/EdgeDetectionEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/NoiseAndGrainEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/NoiseAndGrainEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/SunShaftsEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/SunShaftsEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/TonemappingEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/TonemappingEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionEffect.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionEffect.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/FisheyeShader.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/FisheyeShader.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/RadialBlur.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/RadialBlur.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceRaytrace.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceRaytrace.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/SepiaToneEffect.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/SepiaToneEffect.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/VortexEffect.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/VortexEffect.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/Bokeh34.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/Bokeh34.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/Noise.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/Noise.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/grayscale ramp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Textures/grayscale ramp.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/packages.config.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/packages.config.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elysium.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Elysium.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/AssetImportState" beforeDir="false" afterPath="$PROJECT_DIR$/Library/AssetImportState" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
@@ -512,24 +214,24 @@
     <session id="-1583620637">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="96" />
+          <entry key="project.closed" value="98" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="10" />
           <entry key="project.open.time.11" value="9" />
           <entry key="project.open.time.12" value="5" />
           <entry key="project.open.time.13" value="10" />
           <entry key="project.open.time.14" value="5" />
-          <entry key="project.open.time.15" value="6" />
+          <entry key="project.open.time.15" value="7" />
           <entry key="project.open.time.16" value="7" />
           <entry key="project.open.time.17" value="2" />
-          <entry key="project.open.time.18" value="5" />
+          <entry key="project.open.time.18" value="6" />
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.22" value="3" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.26" value="2" />
           <entry key="project.open.time.27" value="2" />
           <entry key="project.open.time.29" value="2" />
@@ -542,19 +244,19 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="8" />
-          <entry key="project.opened" value="105" />
+          <entry key="project.opened" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="60292" />
+          <entry key="cs" value="62002" />
           <entry key="shader" value="34" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="60292" />
+          <entry key="C#" value="62002" />
           <entry key="ShaderLab" value="34" />
           <entry key="XML" value="6" />
         </counts>
@@ -564,8 +266,8 @@
           <entry key="asmdef" value="1" />
           <entry key="config" value="1" />
           <entry key="controller" value="1" />
-          <entry key="cs" value="347" />
-          <entry key="shader" value="6" />
+          <entry key="cs" value="350" />
+          <entry key="shader" value="7" />
           <entry key="sln" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -573,10 +275,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="AsmDef" value="1" />
-          <entry key="C#" value="347" />
+          <entry key="C#" value="350" />
           <entry key="Config" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="ShaderLab" value="6" />
+          <entry key="ShaderLab" value="7" />
           <entry key="Solution File" value="1" />
           <entry key="XML" value="2" />
         </counts>
@@ -585,50 +287,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Visual/Media/audioProperties.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-              <folding>
-                <marker date="1559069494997" expanded="false" signature="6:150" ph="..." />
-                <marker date="1559069494997" expanded="true" signature="174:1280" ph="{...}" />
-                <marker date="1559069494997" expanded="true" signature="222:1278" ph="{...}" />
-                <marker date="1559069494997" expanded="true" signature="579:777" ph="{...}" />
-                <marker date="1559069494997" expanded="true" signature="813:925" ph="{...}" />
-                <marker date="1559069494997" expanded="true" signature="1001:1275" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Visual/Media/deviceMusicListing.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+            <state relative-caret-position="-1170">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
               <folding>
-                <marker date="1559082497772" expanded="false" signature="6:263" ph="..." />
-                <marker date="1559082497772" expanded="true" signature="287:3817" ph="{...}" />
-                <marker date="1559082497772" expanded="true" signature="291:382" ph="/// Public class for &lt;c&gt;initialize&lt;/c&gt; device music listing. ... " />
-                <marker date="1559082497772" expanded="true" signature="431:3815" ph="{...}" />
-                <marker date="1559082497772" expanded="false" signature="700:773" ph="/// Call device listing manager by path. ... " />
-                <marker date="1559082497772" expanded="true" signature="801:1675" ph="{...}" />
-                <marker date="1559082497772" expanded="true" signature="1025:1512" ph="{...}" />
-                <marker date="1559082497772" expanded="true" signature="1124:1424" ph="{...}" />
-                <marker date="1559082497772" expanded="true" signature="1537:1616" ph="{...}" />
-                <marker date="1559082497772" expanded="true" signature="1620:1671" ph="/* } ... */" />
-                <marker date="1559082497772" expanded="true" signature="1755:2757" ph="{...}" />
-                <marker date="1559082497772" expanded="true" signature="1815:2753" ph="{...}" />
-                <marker date="1559082497772" expanded="true" signature="1939:2718" ph="{...}" />
-                <marker date="1559082497772" expanded="true" signature="2068:2498" ph="{...}" />
-                <marker date="1559082497772" expanded="true" signature="2117:2403" ph="{...}" />
-                <marker date="1559082497772" expanded="true" signature="2432:2489" ph="{...}" />
-                <marker date="1559082497772" expanded="true" signature="2510:2614" ph="{...}" />
-                <marker date="1559082497772" expanded="true" signature="2830:3472" ph="{...}" />
-                <marker date="1559082497772" expanded="true" signature="2852:3244" ph="{...}" />
-                <marker date="1559082497772" expanded="true" signature="3264:3468" ph="{...}" />
-                <marker date="1559082497772" expanded="true" signature="3542:3812" ph="{...}" />
+                <marker date="1559169529890" expanded="false" signature="6:263" ph="..." />
+                <marker date="1559169529890" expanded="true" signature="287:3987" ph="{...}" />
+                <marker date="1559169529890" expanded="true" signature="291:382" ph="/// Public class for &lt;c&gt;initialize&lt;/c&gt; device music listing. ... " />
+                <marker date="1559169529890" expanded="true" signature="431:3985" ph="{...}" />
+                <marker date="1559169529890" expanded="true" signature="704:777" ph="/// Call device listing manager by path. ... " />
+                <marker date="1559169529890" expanded="true" signature="805:1699" ph="{...}" />
+                <marker date="1559169529890" expanded="true" signature="1029:1536" ph="{...}" />
+                <marker date="1559169529890" expanded="true" signature="1128:1448" ph="{...}" />
+                <marker date="1559169529890" expanded="true" signature="1561:1640" ph="{...}" />
+                <marker date="1559169529890" expanded="true" signature="1644:1695" ph="/* } ... */" />
+                <marker date="1559169529890" expanded="true" signature="1779:2747" ph="{...}" />
+                <marker date="1559169529890" expanded="true" signature="1839:2743" ph="{...}" />
+                <marker date="1559169529890" expanded="true" signature="1963:2708" ph="{...}" />
+                <marker date="1559169529890" expanded="true" signature="2092:2488" ph="{...}" />
+                <marker date="1559169529890" expanded="true" signature="2113:2393" ph="{...}" />
+                <marker date="1559169529890" expanded="true" signature="2422:2479" ph="{...}" />
+                <marker date="1559169529890" expanded="true" signature="2500:2604" ph="{...}" />
+                <marker date="1559169529890" expanded="true" signature="2820:3613" ph="{...}" />
+                <marker date="1559169529890" expanded="true" signature="2842:3341" ph="{...}" />
+                <marker date="1559169529890" expanded="true" signature="3360:3609" ph="{...}" />
+                <marker date="1559169529890" expanded="true" signature="3683:3982" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -637,52 +322,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Visual/Media/MusicManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="145" column="29" selection-start-line="145" selection-start-column="29" selection-end-line="145" selection-end-column="29" />
+            <state relative-caret-position="2142">
+              <caret line="127" column="153" selection-start-line="127" selection-start-column="153" selection-end-line="127" selection-end-column="153" />
               <folding>
-                <marker date="1559081086984" expanded="false" signature="6:205" ph="..." />
-                <marker date="1559081086984" expanded="true" signature="248:5203" ph="{...}" />
-                <marker date="1559081086984" expanded="true" signature="885:1821" ph="{...}" />
-                <marker date="1559081086984" expanded="true" signature="1132:1319" ph="{...}" />
-                <marker date="1559081086984" expanded="true" signature="1178:1288" ph="{...}" />
-                <marker date="1559081086984" expanded="false" signature="1837:1959" ph="{...}" />
-                <marker date="1559081086984" expanded="false" signature="1987:2640" ph="{...}" />
-                <marker date="1559081086984" expanded="true" signature="2125:2359" ph="{...}" />
-                <marker date="1559081086984" expanded="true" signature="2211:2355" ph="{...}" />
-                <marker date="1559081086984" expanded="true" signature="2488:2599" ph="{...}" />
-                <marker date="1559081086984" expanded="false" signature="2674:2720" ph="{...}" />
-                <marker date="1559081086984" expanded="false" signature="2752:2836" ph="{...}" />
-                <marker date="1559081086984" expanded="true" signature="2861:3812" ph="{...}" />
-                <marker date="1559081086984" expanded="true" signature="3394:3696" ph="/* if (Trackname.text.Length &lt;=0) ... */" />
-                <marker date="1559081086984" expanded="true" signature="3699:3809" ph="/* else ... */" />
-                <marker date="1559081086984" expanded="true" signature="3832:4599" ph="{...}" />
-                <marker date="1559081086984" expanded="true" signature="4634:4948" ph="{...}" />
-                <marker date="1559081086984" expanded="false" signature="4970:5201" ph="{...}" />
-                <marker date="1559081086984" expanded="true" signature="4990:5106" ph="{...}" />
-                <marker date="1559081086984" expanded="true" signature="5113:5195" ph="{...}" />
+                <marker date="1559169252185" expanded="false" signature="6:205" ph="..." />
+                <marker date="1559169252185" expanded="true" signature="248:5278" ph="{...}" />
+                <marker date="1559169252185" expanded="true" signature="753:1952" ph="{...}" />
+                <marker date="1559169252185" expanded="true" signature="911:994" ph="{...}" />
+                <marker date="1559169252185" expanded="true" signature="1156:1351" ph="{...}" />
+                <marker date="1559169252185" expanded="true" signature="1164:1211" ph="/* if (Path.GetExtension(song) == &quot;.mp3&quot;) ... */" />
+                <marker date="1559169252185" expanded="true" signature="1315:1347" ph="/* } ... */" />
+                <marker date="1559169252185" expanded="true" signature="1535:1701" ph="/* Debug.Log(temp + &quot; &quot; + list.Count); //Get count of tracks by path ... */" />
+                <marker date="1559169252185" expanded="true" signature="1968:2087" ph="{...}" />
+                <marker date="1559169252185" expanded="true" signature="2115:2823" ph="{...}" />
+                <marker date="1559169252185" expanded="true" signature="2281:2542" ph="{...}" />
+                <marker date="1559169252185" expanded="true" signature="2393:2538" ph="{...}" />
+                <marker date="1559169252185" expanded="true" signature="2671:2782" ph="{...}" />
+                <marker date="1559169252185" expanded="true" signature="2857:2903" ph="{...}" />
+                <marker date="1559169252185" expanded="true" signature="2935:3019" ph="{...}" />
+                <marker date="1559169252185" expanded="true" signature="3044:3813" ph="{...}" />
+                <marker date="1559169252185" expanded="true" signature="3238:3326" ph="{...}" />
+                <marker date="1559169252185" expanded="true" signature="3833:4581" ph="{...}" />
+                <marker date="1559169252185" expanded="true" signature="4616:5023" ph="{...}" />
+                <marker date="1559169252185" expanded="false" signature="5045:5276" ph="{...}" />
+                <marker date="1559169252185" expanded="true" signature="5065:5181" ph="{...}" />
+                <marker date="1559169252185" expanded="true" signature="5188:5270" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Visual/Media/musicController.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Visual/Media/audioProperties.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-200">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="594">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
-                <marker date="1559044740771" expanded="false" signature="6:120" ph="..." />
-                <marker date="1559044740771" expanded="true" signature="166:2205" ph="{...}" />
-                <marker date="1559044740771" expanded="true" signature="732:1038" ph="{...}" />
-                <marker date="1559044740771" expanded="true" signature="1058:1065" ph="{...}" />
-                <marker date="1559044740771" expanded="true" signature="1084:1126" ph="{...}" />
-                <marker date="1559044740771" expanded="true" signature="1146:1235" ph="{...}" />
-                <marker date="1559044740771" expanded="true" signature="1266:2203" ph="{...}" />
-                <marker date="1559044740771" expanded="true" signature="1354:1750" ph="{...}" />
-                <marker date="1559044740771" expanded="true" signature="1395:1587" ph="{...}" />
-                <marker date="1559044740771" expanded="true" signature="1672:1743" ph="{...}" />
-                <marker date="1559044740771" expanded="true" signature="1793:2146" ph="{...}" />
-                <marker date="1559044740771" expanded="true" signature="2066:2138" ph="{...}" />
+                <marker date="1559168891626" expanded="false" signature="6:150" ph="..." />
+                <marker date="1559168891626" expanded="true" signature="174:1030" ph="{...}" />
+                <marker date="1559168891626" expanded="true" signature="222:1028" ph="{...}" />
+                <marker date="1559168891626" expanded="true" signature="491:611" ph="{...}" />
+                <marker date="1559168891626" expanded="true" signature="647:800" ph="{...}" />
+                <marker date="1559168891626" expanded="true" signature="876:1025" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -746,6 +427,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/ExthensionMethods.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BotScripts/Spawnedbothp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Visual/Media/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Blur/MaskedUIBlur.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/97A637BF-5181-46CF-AD16-41885C6A2DEE/0c/c9c3a8e5/IPointerUpHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Input/TouchCursor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" root0="FORCE_HIGHLIGHTING" />
@@ -803,7 +485,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/link.xml" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Online/LoginPage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Online/ConnectMasterServer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Online/Auth/Encryptor.cs" />
@@ -851,6 +532,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Buttons/Settings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Input/Joystick.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Visual/Media/musicController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Shaders/Blur/MaskedUIBlur.shader" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Visual/Media/audioProperties.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Visual/Media/MusicManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Visual/Media/deviceMusicListing.cs" />
@@ -876,6 +558,132 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Elysium" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Elysium" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Elysium" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Elysium" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Elysium" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Online" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Elysium" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Online" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Auth" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Elysium" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Online" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Connector" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Elysium" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Online" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Notifications" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Elysium" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Online" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="SP Metric" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Elysium" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Online" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Statistics" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Elysium" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="PlayerScripts" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Elysium" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Visual" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Elysium" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Visual" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Background" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Elysium" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Visual" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Media" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Elysium" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Visual" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Text" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -911,36 +719,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Elysium" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Elysium" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Elysium" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Elysium" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="FileSystemExplorer" />
     </panes>
   </component>
@@ -970,9 +748,9 @@
     </option>
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="5432">
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="5432" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -1161,6 +939,9 @@
       <workItem from="1558960617539" duration="32148000" />
       <workItem from="1559042606552" duration="8659000" />
       <workItem from="1559057754015" duration="16481000" />
+      <workItem from="1559084257135" duration="5965000" />
+      <workItem from="1559121074196" duration="9264000" />
+      <workItem from="1559136298679" duration="21089000" />
     </task>
     <task id="LOCAL-00001" summary="Different changes and fixes.">
       <created>1539467956034</created>
@@ -1194,7 +975,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="921641000" />
+    <option name="totallyTimeSpent" value="957959000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1209,14 +990,14 @@
     <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887386" visible="true" weight="0.20238096" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887386" weight="0.20238096" />
       <window_info id="Structure" order="1" sideWeight="0.5011261" side_tool="true" weight="0.26344743" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Stacktrace" order="0" weight="0.32995495" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.32939914" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49872935" weight="0.07188841" />
@@ -1236,34 +1017,6 @@
       <window_info anchor="right" id="Database" order="4" weight="0.3294621" />
       <window_info anchor="right" id="Unit Tests Coverage" order="5" weight="0.3294621" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49887386" visible="true" weight="0.20238096" />
-      <window_info id="Structure" order="1" sideWeight="0.5011261" side_tool="true" weight="0.26344743" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Stacktrace" order="0" weight="0.32995495" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32939914" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49872935" weight="0.07188841" />
-      <window_info anchor="bottom" id="NuGet" order="8" show_stripe_button="false" weight="0.32995495" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.34763947" />
-      <window_info anchor="bottom" id="Unity" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" order="13" weight="0.32995495" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32995495" />
-      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50127065" side_tool="true" weight="0.17117117" />
-      <window_info anchor="bottom" id="Build" order="16" weight="0.32821724" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.3294621" />
-      <window_info anchor="right" id="Database" order="4" weight="0.3294621" />
-      <window_info anchor="right" id="Unit Tests Coverage" order="5" weight="0.3294621" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1316,7 +1069,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Online/Notifications/NoficationsCreator.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Online/Connector/TypeTags.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -1551,10 +1303,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Blur/MaskedUIBlur.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Visual/Media/musicController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="144">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding>
             <marker date="1559044740771" expanded="false" signature="6:120" ph="..." />
             <marker date="1559044740771" expanded="true" signature="166:2205" ph="{...}" />
@@ -1574,74 +1333,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Visual/Media/audioProperties.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="594">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
-            <marker date="1559069494997" expanded="false" signature="6:150" ph="..." />
-            <marker date="1559069494997" expanded="true" signature="174:1280" ph="{...}" />
-            <marker date="1559069494997" expanded="true" signature="222:1278" ph="{...}" />
-            <marker date="1559069494997" expanded="true" signature="579:777" ph="{...}" />
-            <marker date="1559069494997" expanded="true" signature="813:925" ph="{...}" />
-            <marker date="1559069494997" expanded="true" signature="1001:1275" ph="{...}" />
+            <marker date="1559168891626" expanded="false" signature="6:150" ph="..." />
+            <marker date="1559168891626" expanded="true" signature="174:1030" ph="{...}" />
+            <marker date="1559168891626" expanded="true" signature="222:1028" ph="{...}" />
+            <marker date="1559168891626" expanded="true" signature="491:611" ph="{...}" />
+            <marker date="1559168891626" expanded="true" signature="647:800" ph="{...}" />
+            <marker date="1559168891626" expanded="true" signature="876:1025" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Visual/Media/MusicManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="145" column="29" selection-start-line="145" selection-start-column="29" selection-end-line="145" selection-end-column="29" />
+        <state relative-caret-position="2142">
+          <caret line="127" column="153" selection-start-line="127" selection-start-column="153" selection-end-line="127" selection-end-column="153" />
           <folding>
-            <marker date="1559081086984" expanded="false" signature="6:205" ph="..." />
-            <marker date="1559081086984" expanded="true" signature="248:5203" ph="{...}" />
-            <marker date="1559081086984" expanded="true" signature="885:1821" ph="{...}" />
-            <marker date="1559081086984" expanded="true" signature="1132:1319" ph="{...}" />
-            <marker date="1559081086984" expanded="true" signature="1178:1288" ph="{...}" />
-            <marker date="1559081086984" expanded="false" signature="1837:1959" ph="{...}" />
-            <marker date="1559081086984" expanded="false" signature="1987:2640" ph="{...}" />
-            <marker date="1559081086984" expanded="true" signature="2125:2359" ph="{...}" />
-            <marker date="1559081086984" expanded="true" signature="2211:2355" ph="{...}" />
-            <marker date="1559081086984" expanded="true" signature="2488:2599" ph="{...}" />
-            <marker date="1559081086984" expanded="false" signature="2674:2720" ph="{...}" />
-            <marker date="1559081086984" expanded="false" signature="2752:2836" ph="{...}" />
-            <marker date="1559081086984" expanded="true" signature="2861:3812" ph="{...}" />
-            <marker date="1559081086984" expanded="true" signature="3394:3696" ph="/* if (Trackname.text.Length &lt;=0) ... */" />
-            <marker date="1559081086984" expanded="true" signature="3699:3809" ph="/* else ... */" />
-            <marker date="1559081086984" expanded="true" signature="3832:4599" ph="{...}" />
-            <marker date="1559081086984" expanded="true" signature="4634:4948" ph="{...}" />
-            <marker date="1559081086984" expanded="false" signature="4970:5201" ph="{...}" />
-            <marker date="1559081086984" expanded="true" signature="4990:5106" ph="{...}" />
-            <marker date="1559081086984" expanded="true" signature="5113:5195" ph="{...}" />
+            <marker date="1559169252185" expanded="false" signature="6:205" ph="..." />
+            <marker date="1559169252185" expanded="true" signature="248:5278" ph="{...}" />
+            <marker date="1559169252185" expanded="true" signature="753:1952" ph="{...}" />
+            <marker date="1559169252185" expanded="true" signature="911:994" ph="{...}" />
+            <marker date="1559169252185" expanded="true" signature="1156:1351" ph="{...}" />
+            <marker date="1559169252185" expanded="true" signature="1164:1211" ph="/* if (Path.GetExtension(song) == &quot;.mp3&quot;) ... */" />
+            <marker date="1559169252185" expanded="true" signature="1315:1347" ph="/* } ... */" />
+            <marker date="1559169252185" expanded="true" signature="1535:1701" ph="/* Debug.Log(temp + &quot; &quot; + list.Count); //Get count of tracks by path ... */" />
+            <marker date="1559169252185" expanded="true" signature="1968:2087" ph="{...}" />
+            <marker date="1559169252185" expanded="true" signature="2115:2823" ph="{...}" />
+            <marker date="1559169252185" expanded="true" signature="2281:2542" ph="{...}" />
+            <marker date="1559169252185" expanded="true" signature="2393:2538" ph="{...}" />
+            <marker date="1559169252185" expanded="true" signature="2671:2782" ph="{...}" />
+            <marker date="1559169252185" expanded="true" signature="2857:2903" ph="{...}" />
+            <marker date="1559169252185" expanded="true" signature="2935:3019" ph="{...}" />
+            <marker date="1559169252185" expanded="true" signature="3044:3813" ph="{...}" />
+            <marker date="1559169252185" expanded="true" signature="3238:3326" ph="{...}" />
+            <marker date="1559169252185" expanded="true" signature="3833:4581" ph="{...}" />
+            <marker date="1559169252185" expanded="true" signature="4616:5023" ph="{...}" />
+            <marker date="1559169252185" expanded="false" signature="5045:5276" ph="{...}" />
+            <marker date="1559169252185" expanded="true" signature="5065:5181" ph="{...}" />
+            <marker date="1559169252185" expanded="true" signature="5188:5270" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Visual/Media/deviceMusicListing.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+        <state relative-caret-position="-1170">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding>
-            <marker date="1559082497772" expanded="false" signature="6:263" ph="..." />
-            <marker date="1559082497772" expanded="true" signature="287:3817" ph="{...}" />
-            <marker date="1559082497772" expanded="true" signature="291:382" ph="/// Public class for &lt;c&gt;initialize&lt;/c&gt; device music listing. ... " />
-            <marker date="1559082497772" expanded="true" signature="431:3815" ph="{...}" />
-            <marker date="1559082497772" expanded="false" signature="700:773" ph="/// Call device listing manager by path. ... " />
-            <marker date="1559082497772" expanded="true" signature="801:1675" ph="{...}" />
-            <marker date="1559082497772" expanded="true" signature="1025:1512" ph="{...}" />
-            <marker date="1559082497772" expanded="true" signature="1124:1424" ph="{...}" />
-            <marker date="1559082497772" expanded="true" signature="1537:1616" ph="{...}" />
-            <marker date="1559082497772" expanded="true" signature="1620:1671" ph="/* } ... */" />
-            <marker date="1559082497772" expanded="true" signature="1755:2757" ph="{...}" />
-            <marker date="1559082497772" expanded="true" signature="1815:2753" ph="{...}" />
-            <marker date="1559082497772" expanded="true" signature="1939:2718" ph="{...}" />
-            <marker date="1559082497772" expanded="true" signature="2068:2498" ph="{...}" />
-            <marker date="1559082497772" expanded="true" signature="2117:2403" ph="{...}" />
-            <marker date="1559082497772" expanded="true" signature="2432:2489" ph="{...}" />
-            <marker date="1559082497772" expanded="true" signature="2510:2614" ph="{...}" />
-            <marker date="1559082497772" expanded="true" signature="2830:3472" ph="{...}" />
-            <marker date="1559082497772" expanded="true" signature="2852:3244" ph="{...}" />
-            <marker date="1559082497772" expanded="true" signature="3264:3468" ph="{...}" />
-            <marker date="1559082497772" expanded="true" signature="3542:3812" ph="{...}" />
+            <marker date="1559169529890" expanded="false" signature="6:263" ph="..." />
+            <marker date="1559169529890" expanded="true" signature="287:3987" ph="{...}" />
+            <marker date="1559169529890" expanded="true" signature="291:382" ph="/// Public class for &lt;c&gt;initialize&lt;/c&gt; device music listing. ... " />
+            <marker date="1559169529890" expanded="true" signature="431:3985" ph="{...}" />
+            <marker date="1559169529890" expanded="true" signature="704:777" ph="/// Call device listing manager by path. ... " />
+            <marker date="1559169529890" expanded="true" signature="805:1699" ph="{...}" />
+            <marker date="1559169529890" expanded="true" signature="1029:1536" ph="{...}" />
+            <marker date="1559169529890" expanded="true" signature="1128:1448" ph="{...}" />
+            <marker date="1559169529890" expanded="true" signature="1561:1640" ph="{...}" />
+            <marker date="1559169529890" expanded="true" signature="1644:1695" ph="/* } ... */" />
+            <marker date="1559169529890" expanded="true" signature="1779:2747" ph="{...}" />
+            <marker date="1559169529890" expanded="true" signature="1839:2743" ph="{...}" />
+            <marker date="1559169529890" expanded="true" signature="1963:2708" ph="{...}" />
+            <marker date="1559169529890" expanded="true" signature="2092:2488" ph="{...}" />
+            <marker date="1559169529890" expanded="true" signature="2113:2393" ph="{...}" />
+            <marker date="1559169529890" expanded="true" signature="2422:2479" ph="{...}" />
+            <marker date="1559169529890" expanded="true" signature="2500:2604" ph="{...}" />
+            <marker date="1559169529890" expanded="true" signature="2820:3613" ph="{...}" />
+            <marker date="1559169529890" expanded="true" signature="2842:3341" ph="{...}" />
+            <marker date="1559169529890" expanded="true" signature="3360:3609" ph="{...}" />
+            <marker date="1559169529890" expanded="true" signature="3683:3982" ph="{...}" />
           </folding>
         </state>
       </provider>
