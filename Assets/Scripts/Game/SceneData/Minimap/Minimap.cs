@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Game.Graphics.UI;
 namespace Game.SceneData.Minimap
 {
     public class Minimap : MonoBehaviour {
