@@ -24,7 +24,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2019_1_4;UNITY_2019_1;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2019_1_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_SCRIPTING_GC_WBARRIERS;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_1_4;UNITY_2019_1;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT;MOBILE_INPUT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -55,115 +55,129 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Camera Aspect Ratio Rectifier\cameraZoomController.cs" />
-    <Compile Include="Assets\Scripts\BotScripts\BotLazer.cs" />
-    <Compile Include="Assets\Scripts\BotScripts\Botlazershooting.cs" />
-    <Compile Include="Assets\Scripts\BotScripts\BotMove.cs" />
-    <Compile Include="Assets\Scripts\BotScripts\Bots.cs" />
-    <Compile Include="Assets\Scripts\BotScripts\Botshooting.cs" />
-    <Compile Include="Assets\Scripts\BotScripts\BotSpawn.cs" />
-    <Compile Include="Assets\Scripts\BotScripts\Drophp.cs" />
-    <Compile Include="Assets\Scripts\BotScripts\HealthBar.cs" />
-    <Compile Include="Assets\Scripts\BotScripts\Healthbox.cs" />
-    <Compile Include="Assets\Scripts\BotScripts\Misslebotscript.cs" />
-    <Compile Include="Assets\Scripts\BotScripts\Spawnedbothp.cs" />
-    <Compile Include="Assets\Scripts\Buttons\buttons.cs" />
-    <Compile Include="Assets\Scripts\Buttons\FillAnimator.cs" />
-    <Compile Include="Assets\Scripts\Buttons\FPSTarget.cs" />
-    <Compile Include="Assets\Scripts\Buttons\Hidenuttons.cs" />
-    <Compile Include="Assets\Scripts\Buttons\PauseBTN.cs" />
-    <Compile Include="Assets\Scripts\Buttons\Settings.cs" />
-    <Compile Include="Assets\Scripts\Input\ChangeMusicVolume.cs" />
-    <Compile Include="Assets\Scripts\Input\Joystick.cs" />
-    <Compile Include="Assets\Scripts\Input\Player2DControl.cs" />
-    <Compile Include="Assets\Scripts\Input\Scroll.cs" />
-    <Compile Include="Assets\Scripts\Input\StickGenerator.cs" />
-    <Compile Include="Assets\Scripts\Input\TouchCursor.cs" />
-    <Compile Include="Assets\Scripts\Input\WeaponSelector.cs" />
-    <Compile Include="Assets\Scripts\Minimap\Minimap.cs" />
-    <Compile Include="Assets\Scripts\Online\Auth\Encryptor.cs" />
-    <Compile Include="Assets\Scripts\Online\Auth\Login.cs" />
-    <Compile Include="Assets\Scripts\Online\Auth\LoginPage.cs" />
-    <Compile Include="Assets\Scripts\Online\Auth\Register.cs" />
-    <Compile Include="Assets\Scripts\Online\Connector\ConnectMasterServer.cs" />
-    <Compile Include="Assets\Scripts\Online\Connector\ResponceReceiver.cs" />
-    <Compile Include="Assets\Scripts\Online\Connector\TypeTags.cs" />
-    <Compile Include="Assets\Scripts\Online\Notifications\NofEnum.cs" />
-    <Compile Include="Assets\Scripts\Online\Notifications\NotificationPrefab.cs" />
-    <Compile Include="Assets\Scripts\Online\Notifications\NotificationsCreator.cs" />
-    <Compile Include="Assets\Scripts\Online\SP Metric\SPCounter.cs" />
-    <Compile Include="Assets\Scripts\Online\Statistics\Leaderboard\Leaderboards.cs" />
-    <Compile Include="Assets\Scripts\Online\Statistics\Leaderboard\ScoreSerialize.cs" />
-    <Compile Include="Assets\Scripts\Online\Statistics\Leaderboard\ScoresListing.cs" />
-    <Compile Include="Assets\Scripts\Online\Statistics\Scores.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\AmmoCounter.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\Blastercount.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\BotDifficult.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\Camerafollow.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\Cannon.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\Enemy.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\ExthensionMethods.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\Filllazer.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\FollowCamOnline.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\HealthbarScript.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\Lazermove.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\LazerShot.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\lowhpWarning.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\Missle.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\RestartonDeath.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\Scoreinmenu.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\SkinsChecker.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\Spacecontrol.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\StylingManager.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\WeaponChecker.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\Camera Aspect Ratio Rectifier\cameraZoomController.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\Plugins\WebSocket\WebSocket.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\SimpleSpectrum\Demos\Demo Assets\SoundFileOpener.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\SimpleSpectrum\Scripts\OutputVolume.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\SimpleSpectrum\Scripts\SimpleSpectrum.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\Standard Assets\Steamworks.NET\SteamManager.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\TouchJoysticks\Scripts\DualJoystickPlayerController.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\TouchJoysticks\Scripts\DualJoystickTouchContoller.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\TouchJoysticks\Scripts\LeftJoystick.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\TouchJoysticks\Scripts\LeftJoystickPlayerController.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\TouchJoysticks\Scripts\LeftJoystickTouchContoller.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\TouchJoysticks\Scripts\RightJoystick.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\TouchJoysticks\Scripts\RightJoystickPlayerController.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\TouchJoysticks\Scripts\RightJoystickTouchContoller.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\TouchJoysticks\Scripts\SingleJoystick.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\TouchJoysticks\Scripts\SingleJoystickPlayerController.cs" />
+    <Compile Include="Assets\Resources\UnityAssets\TouchJoysticks\Scripts\SingleJoystickTouchController.cs" />
+    <Compile Include="Assets\Scripts\Audio\Effects\ChangeMusicVolume.cs" />
+    <Compile Include="Assets\Scripts\Audio\Effects\SFXManager.cs" />
+    <Compile Include="Assets\Scripts\Audio\Tracks\audioProperties.cs" />
+    <Compile Include="Assets\Scripts\Audio\Tracks\deviceMusicListing.cs" />
+    <Compile Include="Assets\Scripts\Audio\Tracks\musicController.cs" />
+    <Compile Include="Assets\Scripts\Audio\Tracks\MusicManager.cs" />
+    <Compile Include="Assets\Scripts\Audio\Tracks\serverMusicListing.cs" />
+    <Compile Include="Assets\Scripts\Game\AI\Data\Bots.cs" />
+    <Compile Include="Assets\Scripts\Game\AI\Data\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Game\AI\Health\Drophp.cs" />
+    <Compile Include="Assets\Scripts\Game\AI\Health\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\Game\AI\Health\Healthbox.cs" />
+    <Compile Include="Assets\Scripts\Game\AI\Initiate\BotSpawn.cs" />
+    <Compile Include="Assets\Scripts\Game\AI\Initiate\Spawnedbothp.cs" />
+    <Compile Include="Assets\Scripts\Game\AI\Positions\BotMove.cs" />
+    <Compile Include="Assets\Scripts\Game\AI\Weapon\BotLazer.cs" />
+    <Compile Include="Assets\Scripts\Game\AI\Weapon\Botlazershooting.cs" />
+    <Compile Include="Assets\Scripts\Game\AI\Weapon\Botshooting.cs" />
+    <Compile Include="Assets\Scripts\Game\AI\Weapon\Misslebotscript.cs" />
+    <Compile Include="Assets\Scripts\Game\Appearance\Styling\Skins.cs" />
+    <Compile Include="Assets\Scripts\Game\Appearance\Styling\SkinsChecker.cs" />
+    <Compile Include="Assets\Scripts\Game\Appearance\Styling\StylingManager.cs" />
+    <Compile Include="Assets\Scripts\Game\Appearance\Styling\WeaponChecker.cs" />
+    <Compile Include="Assets\Scripts\Game\Difficult\BotDifficult.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\Effects\FillAnimator.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\Effects\ImageWrapper.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\Effects\Initiate.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\Effects\Lerping.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\Effects\Scroll.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\Text\CharSplitter.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\Background\Background.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\Background\BackgroundChecker.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\Background\BackgroundSelector.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\Background\FaderStart.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\Background\FollowUV.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\Buttons\buttons.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\Buttons\Hidenuttons.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\ScrollUI.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\uiClickActions.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\Vizualizer.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Connector\Auth\Encryptor.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Connector\Auth\Login.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Connector\Auth\LoginPage.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Connector\Auth\Register.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Connector\ConnectMasterServer.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Connector\ResponceReceiver.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Connector\TypeTags.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Notifications\NofEnum.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Notifications\NotificationPrefab.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Notifications\NotificationsCreator.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Statistics\Leaderboard\Leaderboards.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Statistics\Leaderboard\ScoreSerialize.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Statistics\Leaderboard\ScoresListing.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Statistics\User\SpacePoints\SPCounter.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\CameraProperties\Camerafollow.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\CameraProperties\FollowCamOnline.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Controller\Player2DControl.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Controller\Spacecontrol.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Health\HealthbarScript.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Scoring\LocalScoringByDifficulty.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Scoring\Scoreinmenu.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Weapon\AmmoCounter.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Weapon\Blastercount.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Weapon\Cannon.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Weapon\Lazermove.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Weapon\LazerShot.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Weapon\Missle.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Weapon\WeaponSelector.cs" />
+    <Compile Include="Assets\Scripts\Game\SceneData\Actions\lowhpWarning.cs" />
+    <Compile Include="Assets\Scripts\Game\SceneData\Actions\PauseBTN.cs" />
+    <Compile Include="Assets\Scripts\Game\SceneData\Actions\RestartonDeath.cs" />
+    <Compile Include="Assets\Scripts\Game\SceneData\Minimap\Minimap.cs" />
+    <Compile Include="Assets\Scripts\Input\Stick\Joystick.cs" />
+    <Compile Include="Assets\Scripts\Input\Stick\StickGenerator.cs" />
+    <Compile Include="Assets\Scripts\Input\Stick\TouchCursor.cs" />
+    <Compile Include="Assets\Scripts\Preferences\ClientSettings\Performance\FPSTarget.cs" />
+    <Compile Include="Assets\Scripts\Preferences\Settings.cs" />
     <Compile Include="Assets\Scripts\Tests\Splash.cs" />
     <Compile Include="Assets\Scripts\Tests\Visual\UI\ImageWrapperTestCase.cs" />
-    <Compile Include="Assets\Scripts\Visual\Background\Background.cs" />
-    <Compile Include="Assets\Scripts\Visual\Background\BackgroundChecker.cs" />
-    <Compile Include="Assets\Scripts\Visual\Background\BackgroundSelector.cs" />
-    <Compile Include="Assets\Scripts\Visual\Background\FaderStart.cs" />
-    <Compile Include="Assets\Scripts\Visual\Background\FollowUV.cs" />
-    <Compile Include="Assets\Scripts\Visual\Initiate.cs" />
-    <Compile Include="Assets\Scripts\Visual\Media\audioProperties.cs" />
-    <Compile Include="Assets\Scripts\Visual\Media\deviceMusicListing.cs" />
-    <Compile Include="Assets\Scripts\Visual\Media\musicController.cs" />
-    <Compile Include="Assets\Scripts\Visual\Media\MusicManager.cs" />
-    <Compile Include="Assets\Scripts\Visual\Media\serverMusicListing.cs" />
-    <Compile Include="Assets\Scripts\Visual\SFXManager.cs" />
-    <Compile Include="Assets\Scripts\Visual\SimpleAnimator.cs" />
-    <Compile Include="Assets\Scripts\Visual\Skins.cs" />
-    <Compile Include="Assets\Scripts\Visual\Text\CharSplitter.cs" />
-    <Compile Include="Assets\Scripts\Visual\UI\ImageWrapper.cs" />
-    <Compile Include="Assets\Scripts\Visual\UI\Lerping.cs" />
-    <Compile Include="Assets\Scripts\Visual\UI\ScrollUI.cs" />
-    <Compile Include="Assets\Scripts\Visual\UI\uiClickActions.cs" />
-    <Compile Include="Assets\Scripts\Visual\Vizualizer.cs" />
-    <Compile Include="Assets\SimpleSpectrum\Demos\Demo Assets\SoundFileOpener.cs" />
-    <Compile Include="Assets\SimpleSpectrum\Scripts\OutputVolume.cs" />
-    <Compile Include="Assets\SimpleSpectrum\Scripts\SimpleSpectrum.cs" />
-    <Compile Include="Assets\TouchJoysticks\Scripts\DualJoystickPlayerController.cs" />
-    <Compile Include="Assets\TouchJoysticks\Scripts\DualJoystickTouchContoller.cs" />
-    <Compile Include="Assets\TouchJoysticks\Scripts\LeftJoystick.cs" />
-    <Compile Include="Assets\TouchJoysticks\Scripts\LeftJoystickPlayerController.cs" />
-    <Compile Include="Assets\TouchJoysticks\Scripts\LeftJoystickTouchContoller.cs" />
-    <Compile Include="Assets\TouchJoysticks\Scripts\RightJoystick.cs" />
-    <Compile Include="Assets\TouchJoysticks\Scripts\RightJoystickPlayerController.cs" />
-    <Compile Include="Assets\TouchJoysticks\Scripts\RightJoystickTouchContoller.cs" />
-    <Compile Include="Assets\TouchJoysticks\Scripts\SingleJoystick.cs" />
-    <Compile Include="Assets\TouchJoysticks\Scripts\SingleJoystickPlayerController.cs" />
-    <Compile Include="Assets\TouchJoysticks\Scripts\SingleJoystickTouchController.cs" />
-    <None Include="Assets\Shaders\Blur\MaskedUIBlur.shader" />
-    <None Include="Assets\SimpleSpectrum\SimpleSpectrum_DOCUMENTATION.txt" />
-    <None Include="Assets\Packages\MySql.Data.8.0.15\lib\net452\MySql.Data.xml" />
-    <None Include="Assets\Packages\Google.Protobuf.3.5.1\lib\net45\Google.Protobuf.xml" />
-    <None Include="Assets\SimpleSpectrum\SimpleSpectrum_Changelog.txt" />
-    <None Include="Assets\SimpleSpectrum\Misc\lightweightGradientLerpSprite.shader" />
-    <None Include="Assets\SimpleSpectrum\Misc\lightweightGradientLerp.shader" />
-    <None Include="Assets\SimpleSpectrum\Misc\SurfaceGradientLerp.shader" />
-    <None Include="Assets\NuGet\LICENSE.txt" />
-    <None Include="Assets\Shaders\Blur\blur.shader" />
-    <None Include="Assets\SimpleSpectrum\Demos\Music credit to Vexento - Check out his stuff!.txt" />
-    <None Include="Assets\Shaders\BackMove\NewUnlitShader.shader" />
+    <None Include="Assets\Resources\Shaders\Blur\MaskedUIBlur.shader" />
+    <None Include="Assets\Resources\Packages\NAudio.1.9.0\lib\net35\NAudio.xml" />
+    <None Include="Assets\Resources\UnityAssets\SimpleSpectrum\SimpleSpectrum_DOCUMENTATION.txt" />
+    <None Include="Assets\Resources\Packages\MySql.Data.8.0.15\lib\net452\MySql.Data.xml" />
+    <None Include="Assets\Resources\UnityAssets\Plugins\Photon3Unity3D.xml" />
+    <None Include="Assets\Resources\Packages\Google.Protobuf.3.5.1\lib\net45\Google.Protobuf.xml" />
+    <None Include="Assets\Resources\UnityAssets\Plugins\release_history.txt" />
+    <None Include="Assets\Resources\UnityAssets\SimpleSpectrum\SimpleSpectrum_Changelog.txt" />
+    <None Include="Assets\Resources\UnityAssets\SimpleSpectrum\Misc\lightweightGradientLerpSprite.shader" />
+    <None Include="Assets\Resources\UnityAssets\SimpleSpectrum\Misc\lightweightGradientLerp.shader" />
+    <None Include="Assets\Resources\UnityAssets\Standard Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\Resources\UnityAssets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Resources\UnityAssets\SimpleSpectrum\Misc\SurfaceGradientLerp.shader" />
+    <None Include="Assets\Resources\Packages\NuGet\LICENSE.txt" />
+    <None Include="Assets\Resources\Shaders\Blur\blur.shader" />
+    <None Include="Assets\Resources\UnityAssets\SimpleSpectrum\Demos\Music credit to Vexento - Check out his stuff!.txt" />
+    <None Include="Assets\Resources\Shaders\BackMove\NewUnlitShader.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Projects/Elysium/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -226,12 +240,6 @@
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
       <HintPath>C:/Program Files/Unity/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterInputModule">
-      <HintPath>C:/Program Files/Unity/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterRendererModule">
-      <HintPath>C:/Program Files/Unity/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>C:/Program Files/Unity/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
@@ -390,16 +398,19 @@
       <HintPath>C:/Program Files/Unity/2019.1.4f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>C:/Projects/Elysium/Assets/Packages/Google.Protobuf.3.5.1/lib/net45/Google.Protobuf.dll</HintPath>
+      <HintPath>C:/Projects/Elysium/Assets/Resources/Packages/Google.Protobuf.3.5.1/lib/net45/Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data">
-      <HintPath>C:/Projects/Elysium/Assets/Packages/MySql.Data.8.0.15/lib/net452/MySql.Data.dll</HintPath>
+      <HintPath>C:/Projects/Elysium/Assets/Resources/Packages/MySql.Data.8.0.15/lib/net452/MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio">
+      <HintPath>C:/Projects/Elysium/Assets/Resources/Packages/NAudio.1.9.0/lib/net35/NAudio.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>C:/Projects/Elysium/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+      <HintPath>C:/Projects/Elysium/Assets/Resources/UnityAssets/Plugins/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>C:/Projects/Elysium/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+      <HintPath>C:/Projects/Elysium/Assets/Resources/UnityAssets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>C:/Projects/Elysium/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
@@ -764,12 +775,6 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/Unity/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{614A9570-DBFC-0302-411A-FDEC31DC009C}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

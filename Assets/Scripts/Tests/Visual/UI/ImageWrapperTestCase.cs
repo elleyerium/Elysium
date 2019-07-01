@@ -1,4 +1,5 @@
 using System.Collections;
+using Game.Graphics.UI;
 using UnityEngine;
 
 namespace Tests.Visual.UI
