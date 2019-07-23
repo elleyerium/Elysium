@@ -16,7 +16,7 @@ namespace Audio.Tracks
 	   public static int position;
 	   public static bool devicemode;
 	   public static string trackName = "Empty test";
-	   private RectTransform rect;
+	   [SerializeField] private RectTransform rect;
 	   public float height = 820;
 	   public float basic;
 	   public float currently;
@@ -29,7 +29,7 @@ namespace Audio.Tracks
    		actions[0].onClick.AddListener(() => ServerLoad());
    		actions[1].onClick.AddListener(() => DeviceLoad());
    		actions[2].onClick.AddListener(() => List());
-   		rect = gameObject.GetComponent<RectTransform>();
+   		//rect = gameObject.GetComponent<RectTransform>();
    	}
 
 	void ServerLoad()

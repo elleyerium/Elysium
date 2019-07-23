@@ -33,30 +33,24 @@ namespace Audio.Tracks
 		for (int i = 0; i < clips.Length; i++)
 		{
 			installedTracks[i] = clips[i].name;
-			//Debug.Log(installedTracks[i]);
 		}
 
-		//Debug.Log(clips.Length);
-		var list = installedTracks.ToList();
+		//var list = installedTracks.ToList();
 		musicController.listedMusic = new List<string>();
 
 		foreach (var song in installedTracks)
 		{
-			//if (Path.GetExtension(song) == ".mp3")
-			//{
 				musicController.listedMusic.Add(song);
 				musicController.alreadyIndex++;
 				Debug.Log(song);
-			//}
-			//else list.Remove(song);
 		}
 
-		installedTracks = new string[list.Count];
+		//installedTracks = new string[list.Count];
 		temp = Random.Range(0, musicController.listedMusic.Count);
 		musicController.position = temp;
 		IsPlaying = true;
 		IsPaused = false;
-		AudioClip clip = (AudioClip)UnityEngine.Resources.Load($"Audio/Songs/Menu/{Path.GetFileNameWithoutExtension(list[temp])}");
+		AudioClip clip = clips[temp];
 		Play(clip);
 		Trackname.text = _publicSource.clip.name;
 		StartCoroutine(TextDisplay());
@@ -157,7 +151,8 @@ namespace Audio.Tracks
 			StartCoroutine(DeviceMusicListing.RequestSong(Path.GetFileNameWithoutExtension(musicController.listedMusic[musicController.position]), false,
 				musicController.position));
 	}
-	 public void Play(AudioClip clip)
+
+	public void Play(AudioClip clip)
 	{
 		_publicSource.Stop();
 		state.sprite = pause;
