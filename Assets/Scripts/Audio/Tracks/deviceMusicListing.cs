@@ -31,7 +31,6 @@ namespace Audio.Tracks
 		{
 			Permission.RequestUserPermission(Permission.ExternalStorageRead);
 			Permission.RequestUserPermission(Permission.ExternalStorageWrite);
-
 			DataPath = input.text.Length > 1 ? DataPath = input.text : DataPath;
 				try
 				{
@@ -106,7 +105,7 @@ namespace Audio.Tracks
 
 					musicController.position = temp;
 					Debug.Log(path + " is ur path");
-					WWW www = new WWW($"file://{path}");
+					var www = new WWW($"file://{path}");
 					yield return www;
 					var clip = www.GetAudioClip(false, true);
 					clip.name = Path.GetFileNameWithoutExtension(www.url);
@@ -119,16 +118,16 @@ namespace Audio.Tracks
 				{
 					Debug.Log("Click user--"); //Got click by user
 					var clip = UnityEngine.Resources.Load<AudioClip>(
-						$"Songs/Menu/{Path.GetFileNameWithoutExtension(musicController.listedMusic[temp])}");
+						$"Audio/Songs/Menu/{Path.GetFileNameWithoutExtension(musicController.listedMusic[temp])}");
 					_musicManager.Play(clip);
 					StopAllCoroutines();
 				}
 		}
 
-		void InitializeSong(string song, int index,List<string> audioList)
+		private void InitializeSong(string song, int index,List<string> audioList)
 		{
-			GameObject TrackID = Instantiate(trackPrefab, parent.transform);
-			audioProperties properties = TrackID.GetComponent<audioProperties>();
+			var trackId = Instantiate(trackPrefab, parent.transform);
+			var properties = trackId.GetComponent<audioProperties>();
 			properties.DeviceMusicListing = this;
 			properties.Path = song;
 			properties.Index = index;
