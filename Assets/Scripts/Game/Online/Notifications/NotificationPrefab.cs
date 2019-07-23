@@ -9,11 +9,12 @@ namespace Game.Online.Notifications
 	public class NotificationPrefab : MonoBehaviour
 	{
 		public GameObject Type, NoficationText;
-		public Sprite Warning_sprite, Info_sprite;
+		[SerializeField] private Sprite Warning_sprite, Info_sprite;
 		public AudioClip DeleteFX;
-		public void NoficationSettings(string NofType, string NofText)
+
+		public void NotificationSettings(string nofType, string nofText)
 		{
-			switch (NofType)
+			switch (nofType)
 			{
 				case "Warning":
 					Type.GetComponent<Image>().sprite = Warning_sprite;
@@ -22,7 +23,7 @@ namespace Game.Online.Notifications
 					Type.GetComponent<Image>().sprite = Info_sprite;
 					break;
 			}
-			NoficationText.GetComponent<Text>().text = NofText;
+			NoficationText.GetComponent<Text>().text = nofText;
 		}
 
 		public void DeleteNotification()
@@ -30,10 +31,6 @@ namespace Game.Online.Notifications
 			Lerping Lerp = gameObject.AddComponent<Lerping>();
 			NotificationsCreator.Source.PlayOneShot(DeleteFX);
 			StartCoroutine(Lerp.LerpAction(transform,0,1,0.5f));
-			if (NotificationsCreator.CountOfNotifications == 0)
-			{
-
-			}
 		}
 	}
 }

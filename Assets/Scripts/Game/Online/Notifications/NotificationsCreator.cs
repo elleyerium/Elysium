@@ -49,13 +49,13 @@ namespace Game.Online.Notifications
 			yield return new WaitForSeconds(0.1f);
 	    }
     }
-	void Actions()
+	private void Actions()
 	{
 		ShowNofications.onClick.AddListener(() => fader.OnClickProfile());
-		ShowNofications.onClick.AddListener(mainAction);
-		DeleteNotifications.onClick.AddListener(() => DestroyNotifications());
+		ShowNofications.onClick.AddListener(MainAction);
+		DeleteNotifications.onClick.AddListener(DestroyNotifications);
 	}
-	void mainAction()
+	private void MainAction()
 	{
 		if (ui_panel.activeSelf)
 		{
@@ -63,15 +63,14 @@ namespace Game.Online.Notifications
 			Debug.Log("Done, action is falseSetter");
 			return;
 		}
-		if (!ui_panel.activeSelf)
+	    if (!ui_panel.activeSelf)
 		{
 			ui_panel.SetActive(true);
 			Debug.Log("Done, action is trueSetter");
 		}
 	}
-	void DestroyNotifications()
+	private void DestroyNotifications()
 	{
-		Coroutine cor = null;
 			for (int i = 0; i < transformInstance.transform.childCount; i++)
 			{
 				Debug.Log(true);
@@ -79,12 +78,12 @@ namespace Game.Online.Notifications
 			    StartCoroutine(lerp.LerpAction(temp, 0, 1, 0.5f));
 			}
 	}
-	public static void NewNofication(string Type, string Text)
+	public static void NewNotification(string type, string text)
 	{
-		Debug.Log($"{Type} {Text}");
-		GameObject nofication = Instantiate(PrefabInstance);
-		nofication.transform.SetParent(transformInstance);
-		nofication.GetComponent<NotificationPrefab>().NoficationSettings(Type, Text);
+		Debug.Log($"{type} {text}");
+		GameObject notification = Instantiate(PrefabInstance);
+		notification.transform.SetParent(transformInstance);
+		notification.GetComponent<NotificationPrefab>().NotificationSettings(type, text);
 		CountOfNotifications++;
 		StaticCountText.text = transformInstance.childCount.ToString();
 		Source.Play();
