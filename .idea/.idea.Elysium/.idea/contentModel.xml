@@ -199,6 +199,14 @@
                   <e p="buttons.cs" t="Include" />
                   <e p="Hidenuttons.cs" t="Include" />
                 </e>
+                <e p="Menu" t="Include">
+                  <e p="MusicPlayerUi.cs" t="Include" />
+                  <e p="WindowAnimations.cs" t="Include" />
+                </e>
+                <e p="Scale" t="Include">
+                  <e p="ScaleComponent.cs" t="Include" />
+                  <e p="UI_Scaler.cs" t="Include" />
+                </e>
                 <e p="ScrollUI.cs" t="Include" />
                 <e p="uiClickActions.cs" t="Include" />
                 <e p="Vizualizer.cs" t="Include" />

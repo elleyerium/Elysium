@@ -119,6 +119,10 @@
     <Compile Include="Assets\Scripts\Game\Graphics\UI\Background\FollowUV.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\Buttons\buttons.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\Buttons\Hidenuttons.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\Menu\MusicPlayerUi.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\Menu\WindowAnimations.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\Scale\ScaleComponent.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\Scale\UI_Scaler.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\ScrollUI.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\uiClickActions.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\Vizualizer.cs" />
