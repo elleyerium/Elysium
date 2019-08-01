@@ -240,7 +240,7 @@ MonoBehaviour:
   Type: {fileID: 1365082172254226}
   NoficationText: {fileID: 1953617607259642}
   Warning_sprite: {fileID: 21300000, guid: 1c0480255f9f2d04c8a57b5b9214c08f, type: 3}
-  Info_sprite: {fileID: 21300000, guid: fb6be184e4b6a5047873e97dc18f529c, type: 3}
+  Info_sprite: {fileID: 21300000, guid: e2f602a59fce9e040b803c183a1880ea, type: 3}
   DeleteFX: {fileID: 8300000, guid: 5e266aa3127d541419d35a6c6d5e7b84, type: 3}
 --- !u!1 &1777029554716694
 GameObject:
