@@ -2,8 +2,9 @@ using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityStandardAssets.CrossPlatformInput;
 
-namespace UnityStandardAssets.CrossPlatformInput
+namespace Resources.UnityAssets.Standard_Assets.CrossPlatformInput.Scripts
 {
 	[RequireComponent(typeof(Image))]
 	public class TouchPad : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
@@ -121,9 +122,9 @@ namespace UnityStandardAssets.CrossPlatformInput
             if (controlStyle == ControlStyle.Swipe)
             {
                 m_Center = m_PreviousTouchPos;
-                m_PreviousTouchPos = Input.touches[m_Id].position;
+                m_PreviousTouchPos = UnityEngine.Input.touches[m_Id].position;
             }
-            Vector2 pointerDelta = new Vector2(Input.touches[m_Id].position.x - m_Center.x , Input.touches[m_Id].position.y - m_Center.y).normalized;
+            Vector2 pointerDelta = new Vector2(UnityEngine.Input.touches[m_Id].position.x - m_Center.x , UnityEngine.Input.touches[m_Id].position.y - m_Center.y).normalized;
             pointerDelta.x *= Xsensitivity;
             pointerDelta.y *= Ysensitivity;
 #else
