@@ -42,15 +42,14 @@ namespace Preferences
         SensitivityValue = Sensitivity.value;
         SensText.text = "Joystick sensitivity value is " + Sensitivity.value.ToString("F2") +"x";
     }
-    public void Back()
+/*    public void Back()
     {
         PlayerPrefs.SetFloat("Sensitivity", SensitivityValue);
         AllItems.SetActive(true);
         MusicManagerUI.SetActive(true);
         MusicManagerPanel.SetActive(true);
         gameObject.SetActive(false);
-
-    }
+    }*/
     public void Particleoff()
     {
         if (Checkboxparticle.isOn)
