@@ -29,7 +29,7 @@ namespace Game.Online.Connector
             catch (Exception ex)
             {
                 Debug.Log(ex);
-                NotificationsCreator.NewNofication(TypeOfNofications.Warning.ToString(),
+                NotificationsCreator.NewNotification(TypeOfNofications.Warning.ToString(),
                     "Something wrong with your connection. Gonna try again in 30s.");
                 Mentoried = true;
             }
