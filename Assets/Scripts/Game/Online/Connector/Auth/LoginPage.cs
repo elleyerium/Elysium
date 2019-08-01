@@ -60,7 +60,7 @@ namespace Game.Online.Connector.Auth
         //Scroll.enabled = true;
         loginpanel.SetActive(false);
         Guest.SetActive(true);
-        NotificationsCreator.NewNofication(TypeOfNofications.Info.ToString(), "You currently playing as guest. If you want to enjoy multiplayer actions, you have to login.");
+        NotificationsCreator.NewNotification(TypeOfNofications.Info.ToString(), "You currently playing as guest. If you want to enjoy multiplayer actions, you have to login.");
 
     }
     public void LogOut()
@@ -136,7 +136,7 @@ namespace Game.Online.Connector.Auth
                 PlayerPrefs.SetString("password", pass);
                 hellouser.text = PlayerPrefs.GetString("username");
                 loginpanel.SetActive(false);
-                NotificationsCreator.NewNofication(TypeOfNofications.Info.ToString(),
+                NotificationsCreator.NewNotification(TypeOfNofications.Info.ToString(),
                     $"{hellouser.text}, welcome again!. Saved session time : {System.DateTime.Now.ToString()}");
                 Debug.Log("logged");
             }
