@@ -196,12 +196,15 @@
                   <e p="FollowUV.cs" t="Include" />
                 </e>
                 <e p="Buttons" t="Include">
-                  <e p="buttons.cs" t="Include" />
+                  <e p="ButtonTracker.cs" t="Include" />
                   <e p="Hidenuttons.cs" t="Include" />
                 </e>
                 <e p="Menu" t="Include">
-                  <e p="MusicPlayerUi.cs" t="Include" />
-                  <e p="WindowAnimations.cs" t="Include" />
+                  <e p="Animations" t="Include">
+                    <e p="AnimDirection.cs" t="Include" />
+                    <e p="MusicPlayerUi.cs" t="Include" />
+                    <e p="WindowAnimations.cs" t="Include" />
+                  </e>
                 </e>
                 <e p="Scale" t="Include">
                   <e p="ScaleComponent.cs" t="Include" />
@@ -308,9 +311,7 @@
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
     <e p="C:\Users\Elliot Alderson\.Rider2018.2\config\extensions" t="IncludeRecursive" />
     <e p="C:\Users\Elliot Alderson\.Rider2018.2\system\extResources" t="IncludeRecursive" />

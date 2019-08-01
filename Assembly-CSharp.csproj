@@ -117,10 +117,11 @@
     <Compile Include="Assets\Scripts\Game\Graphics\UI\Background\BackgroundSelector.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\Background\FaderStart.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\Background\FollowUV.cs" />
-    <Compile Include="Assets\Scripts\Game\Graphics\UI\Buttons\buttons.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\Buttons\ButtonTracker.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\Buttons\Hidenuttons.cs" />
-    <Compile Include="Assets\Scripts\Game\Graphics\UI\Menu\MusicPlayerUi.cs" />
-    <Compile Include="Assets\Scripts\Game\Graphics\UI\Menu\WindowAnimations.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\Menu\Animations\AnimDirection.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\Menu\Animations\MusicPlayerUi.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\Menu\Animations\WindowAnimations.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\Scale\ScaleComponent.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\Scale\UI_Scaler.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\ScrollUI.cs" />
