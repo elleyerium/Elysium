@@ -5,11 +5,12 @@ using UnityEngine;
 using System.IO;
 using System.Linq;
 using System.Security.AccessControl;
+using JetBrains.Annotations;
 using UnityEditor;
 using UnityEngine.UI;
 using UnityEngine.Android;
 using UnityEngine.Networking;
-using NAudio;
+using NLayer;
 
 namespace Audio.Tracks
 {
@@ -23,25 +24,30 @@ namespace Audio.Tracks
 		[SerializeField] private Transform parent;
 		[SerializeField] private MusicManager _musicManager;
 		public static string DataPath = @"/sdcard/music";
+		private AudioSource _audioSource;
 
 		/// <summary>
 		/// Call device listing manager by path.
 		/// </summary>
-		public void CallManager()
+
+		private void Start()
 		{
+			_audioSource = _musicManager.GetComponent<AudioSource>();
 			Permission.RequestUserPermission(Permission.ExternalStorageRead);
 			Permission.RequestUserPermission(Permission.ExternalStorageWrite);
+		}
+		public void CallManager()
+		{
 			DataPath = input.text.Length > 1 ? DataPath = input.text : DataPath;
 				try
 				{
-					Debug.Log(Path.GetPathRoot(Application.dataPath));
 					if (Directory.Exists(DataPath))
 					{
 						debug.text = DataPath;
-						var FilesCount = Directory.GetFiles(DataPath).Count();
-						availableDevice.text = "Available tracks : " + FilesCount;
+						var filesCount = Directory.GetFiles(DataPath).Count();
+						availableDevice.text = "Available tracks : " + filesCount;
 						//List<string> audioList = new List<string>(FilesCount);
-						StartCoroutine(LoadSong($"{DataPath}", FilesCount, musicController.listedMusic));
+						StartCoroutine(LoadSong($"{DataPath}", filesCount, musicController.listedMusic));
 					}
 
 					if (!Directory.Exists(DataPath))
@@ -69,20 +75,22 @@ namespace Audio.Tracks
 						{
 							if (Path.GetExtension(song) == ".mp3" || Path.GetExtension(song) == ".ogg" || Path.GetExtension(song) == ".wav" )
 							{
-								try
-								{
+							//	try
+							//	{
 									audioList.Add(song);
 									Debug.Log(song);
-									InitializeSong(song, index,audioList);
+									var mpeg = new MpegFile(song);
+									InitializeSong(song, index, audioList, mpeg.Duration);
 									debug.text = "Not null";
 									if(debug.gameObject.activeInHierarchy && !loaded)
 										debug.gameObject.SetActive(false);
 									index++;
-								}
-								catch (Exception ex)
-								{
-									debug.text = ex.ToString();
-								}
+							//	}
+							//	catch (Exception ex)
+							//	{
+								//	debug.text = ex.ToString();
+								//	Debug.Log(ex);
+							//	}
 							}
 							else
 							{
@@ -100,18 +108,24 @@ namespace Audio.Tracks
 		{
 				if (userMusic)
 				{
-					if (_musicManager.GetComponent<AudioSource>().clip != null && musicController.position >= 4)
-						Destroy(_musicManager.GetComponent<AudioSource>().clip);
+					if (_audioSource.clip != null && musicController.position >= 4)
+						Destroy(_audioSource.clip);
 
 					musicController.position = temp;
-					Debug.Log(path + " is ur path");
-					var www = new WWW($"file://{path}");
-					yield return www;
-					var clip = www.GetAudioClip(false, true);
-					clip.name = Path.GetFileNameWithoutExtension(www.url);
+
+					var mp3Clip = new MpegFile(path);
+					var clip = AudioClip.Create(path, (int) mp3Clip.Length/sizeof(float)/mp3Clip.Channels, mp3Clip.Channels, mp3Clip.SampleRate, true,
+						data => {
+							var actualReadCount = mp3Clip.ReadSamples(data, 0, data.Length);
+						}, position => {
+							mp3Clip = new MpegFile(path);
+						});
+					yield return clip;
+					clip.name = Path.GetFileNameWithoutExtension(path);
+					_audioSource.clip = clip;
 					_musicManager.Play(clip);
-					www.Dispose();
 					StopAllCoroutines();
+
 				}
 
 				if (!userMusic)
@@ -124,14 +138,14 @@ namespace Audio.Tracks
 				}
 		}
 
-		private void InitializeSong(string song, int index,List<string> audioList)
+		private void InitializeSong(string song, int index,List<string> audioList, TimeSpan length)
 		{
 			var trackId = Instantiate(trackPrefab, parent.transform);
 			var properties = trackId.GetComponent<audioProperties>();
 			properties.DeviceMusicListing = this;
 			properties.Path = song;
 			properties.Index = index;
-			properties.SetProperties(song, audioList, index);
+			properties.SetProperties(song, audioList, index, length);
 		}
 	}
 }
