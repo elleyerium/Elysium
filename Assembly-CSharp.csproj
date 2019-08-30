@@ -426,6 +426,9 @@
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>C:/Projects/Elysium/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
+    <Reference Include="NLayer">
+      <HintPath>C:/Projects/Elysium/Assets/Packages/NLayer.1.12.0/lib/net35/NLayer.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
     </Reference>

@@ -311,7 +311,9 @@
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
     </e>
     <e p="C:\Users\Elliot Alderson\.Rider2018.2\config\extensions" t="IncludeRecursive" />
     <e p="C:\Users\Elliot Alderson\.Rider2018.2\system\extResources" t="IncludeRecursive" />

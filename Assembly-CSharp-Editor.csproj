@@ -346,6 +346,9 @@
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>C:/Projects/Elysium/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
+    <Reference Include="NLayer">
+      <HintPath>C:/Projects/Elysium/Assets/Packages/NLayer.1.12.0/lib/net35/NLayer.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
     </Reference>
