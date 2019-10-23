@@ -80,7 +80,7 @@ namespace Preferences
     public void NetworkSettings()
     {
         Ping ping = new Ping();
-        ping.Send(ConnectMasterServer.SERVER_IP);
+        //ping.Send(ConnectMasterServer.ServerIp);
         ModeNetwork = true;
         ModeVisual = false;
         ModeStats = false;
@@ -96,10 +96,11 @@ namespace Preferences
         PingReply reply;
         string data = "pingrequest";
         byte[] buffer = Encoding.ASCII.GetBytes (data);
+/*
 
         if (ConnectMasterServer.IsConnected)
         {
-            reply = ping.Send(ConnectMasterServer.SERVER_IP, 250, buffer);
+            reply = ping.Send(ConnectMasterServer.ServerIp, 250, buffer);
             Debug.Log("Connected!");
             if (reply.Status == IPStatus.Success)
             {
@@ -107,14 +108,14 @@ namespace Preferences
                 Ping.text = $"Network latency(ping): {reply.RoundtripTime.ToString()} ms";
             }
             else Ping.text = "Ping more than 150 ms!";
-        }
+        }*/
         yield return new WaitForSeconds(5);
     }
 
 
     public void LogOut()
     {
-        ConnectMasterServer.Disconnect();
+        //ConnectMasterServer.Disconnect();
     }
   }
 }

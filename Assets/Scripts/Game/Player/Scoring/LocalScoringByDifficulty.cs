@@ -38,8 +38,8 @@ namespace Game.Player.Scoring
 
         public static void GetScores(string username)
         {
-            ConnectMasterServer connector = new ConnectMasterServer();
-            connector.Request(username, TypeOfTags.GetScoreRequest.ToString());
+            //ConnectMasterServer connector = new ConnectMasterServer(); //TODO: fix
+            //connector.Request(username, TypeOfTags.GetScoreRequest.ToString());
         }
     }
 }

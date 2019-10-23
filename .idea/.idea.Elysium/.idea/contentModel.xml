@@ -198,6 +198,7 @@
                 <e p="Buttons" t="Include">
                   <e p="ButtonTracker.cs" t="Include" />
                   <e p="Hidenuttons.cs" t="Include" />
+                  <e p="MenuButton.cs" t="Include" />
                 </e>
                 <e p="Menu" t="Include">
                   <e p="Animations" t="Include">
@@ -205,6 +206,8 @@
                     <e p="MusicPlayerUi.cs" t="Include" />
                     <e p="WindowAnimations.cs" t="Include" />
                   </e>
+                  <e p="ButtonSystemParams.cs" t="Include" />
+                  <e p="ScrollTracker.cs" t="Include" />
                 </e>
                 <e p="Scale" t="Include">
                   <e p="ScaleComponent.cs" t="Include" />
@@ -216,15 +219,14 @@
               </e>
             </e>
             <e p="Online" t="Include">
-              <e p="Connector" t="Include">
+              <e p="Manager" t="Include">
                 <e p="Auth" t="Include">
+                  <e p="AuthProvider.cs" t="Include" />
                   <e p="Encryptor.cs" t="Include" />
-                  <e p="Login.cs" t="Include" />
                   <e p="LoginPage.cs" t="Include" />
-                  <e p="Register.cs" t="Include" />
                 </e>
-                <e p="ConnectMasterServer.cs" t="Include" />
-                <e p="ResponceReceiver.cs" t="Include" />
+                <e p="ConnectionProvider.cs" t="Include" />
+                <e p="Response.cs" t="Include" />
                 <e p="TypeTags.cs" t="Include" />
               </e>
               <e p="Notifications" t="Include">
@@ -238,11 +240,9 @@
                   <e p="ScoreSerialize.cs" t="Include" />
                   <e p="ScoresListing.cs" t="Include" />
                 </e>
-                <e p="User" t="Include">
-                  <e p="SpacePoints" t="Include">
-                    <e p="SPCounter.cs" t="Include" />
-                  </e>
-                </e>
+              </e>
+              <e p="Users" t="Include">
+                <e p="Avatar.cs" t="Include" />
               </e>
             </e>
             <e p="Player" t="Include">

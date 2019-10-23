@@ -119,28 +119,30 @@
     <Compile Include="Assets\Scripts\Game\Graphics\UI\Background\FollowUV.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\Buttons\ButtonTracker.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\Buttons\Hidenuttons.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\Buttons\MenuButton.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\Menu\Animations\AnimDirection.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\Menu\Animations\MusicPlayerUi.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\Menu\Animations\WindowAnimations.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\Menu\ButtonSystemParams.cs" />
+    <Compile Include="Assets\Scripts\Game\Graphics\UI\Menu\ScrollTracker.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\Scale\ScaleComponent.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\Scale\UI_Scaler.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\ScrollUI.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\uiClickActions.cs" />
     <Compile Include="Assets\Scripts\Game\Graphics\UI\Vizualizer.cs" />
-    <Compile Include="Assets\Scripts\Game\Online\Connector\Auth\Encryptor.cs" />
-    <Compile Include="Assets\Scripts\Game\Online\Connector\Auth\Login.cs" />
-    <Compile Include="Assets\Scripts\Game\Online\Connector\Auth\LoginPage.cs" />
-    <Compile Include="Assets\Scripts\Game\Online\Connector\Auth\Register.cs" />
-    <Compile Include="Assets\Scripts\Game\Online\Connector\ConnectMasterServer.cs" />
-    <Compile Include="Assets\Scripts\Game\Online\Connector\ResponceReceiver.cs" />
-    <Compile Include="Assets\Scripts\Game\Online\Connector\TypeTags.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Manager\Auth\AuthProvider.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Manager\Auth\Encryptor.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Manager\Auth\LoginPage.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Manager\ConnectionProvider.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Manager\Response.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Manager\TypeTags.cs" />
     <Compile Include="Assets\Scripts\Game\Online\Notifications\NofEnum.cs" />
     <Compile Include="Assets\Scripts\Game\Online\Notifications\NotificationPrefab.cs" />
     <Compile Include="Assets\Scripts\Game\Online\Notifications\NotificationsCreator.cs" />
     <Compile Include="Assets\Scripts\Game\Online\Statistics\Leaderboard\Leaderboards.cs" />
     <Compile Include="Assets\Scripts\Game\Online\Statistics\Leaderboard\ScoreSerialize.cs" />
     <Compile Include="Assets\Scripts\Game\Online\Statistics\Leaderboard\ScoresListing.cs" />
-    <Compile Include="Assets\Scripts\Game\Online\Statistics\User\SpacePoints\SPCounter.cs" />
+    <Compile Include="Assets\Scripts\Game\Online\Users\Avatar.cs" />
     <Compile Include="Assets\Scripts\Game\Player\CameraProperties\Camerafollow.cs" />
     <Compile Include="Assets\Scripts\Game\Player\CameraProperties\FollowCamOnline.cs" />
     <Compile Include="Assets\Scripts\Game\Player\Controller\Player2DControl.cs" />
@@ -402,6 +404,9 @@
     <Reference Include="nunit.framework">
       <HintPath>C:/Program Files/Unity/2019.1.4f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="NLayer">
+      <HintPath>C:/Projects/Elysium/Assets/Packages/NLayer.1.12.0/lib/net35/NLayer.dll</HintPath>
+    </Reference>
     <Reference Include="Google.Protobuf">
       <HintPath>C:/Projects/Elysium/Assets/Resources/Packages/Google.Protobuf.3.5.1/lib/net45/Google.Protobuf.dll</HintPath>
     </Reference>
@@ -425,9 +430,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>C:/Projects/Elysium/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="NLayer">
-      <HintPath>C:/Projects/Elysium/Assets/Packages/NLayer.1.12.0/lib/net35/NLayer.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/2019.1.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

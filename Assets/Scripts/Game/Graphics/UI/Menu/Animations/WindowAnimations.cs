@@ -21,7 +21,6 @@ namespace Game.Graphics.UI.Menu.Animations
             var timer = 0f;
             var tempPos = to.transform.position;
             var randomNum = (Direction)Random.Range(0,4);
-            Debug.Log(randomNum);
 
             while (timer <= pbSpeed)
             {
@@ -38,21 +37,17 @@ namespace Game.Graphics.UI.Menu.Animations
                 switch (randomNum)
                 {
                     case Direction.Down:
-                        Debug.Log("Now we are moving to down!");
                         to.transform.position = new Vector3(tempPos.x,Mathf.Lerp(tempPos.y + _startValue, tempPos.y, pbSpeed * timer),0);
                         Debug.Log(to.transform.position);
                         break;
                     case Direction.Up:
-                        Debug.Log("Now we are moving to up!");
                         to.transform.position = new Vector3(tempPos.x,Mathf.Lerp(tempPos.y - _startValue, tempPos.y, pbSpeed * timer),0);
                         break;
                     case Direction.Left:
                         Debug.Log("Now we are moving to left!");
                         to.transform.position= new Vector3(Mathf.Lerp(tempPos.x + _startValue, tempPos.x, pbSpeed * timer), tempPos.y, 0);
-                        Debug.Log(to.transform.position);
                         break;
                     case Direction.Right:
-                        Debug.Log("Now we are moving to right!");
                         to.transform.position = new Vector3(Mathf.Lerp(tempPos.x -_startValue, tempPos.x, pbSpeed * timer), tempPos.y, 0);
                         break;
                     default:

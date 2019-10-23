@@ -42,7 +42,7 @@ namespace Game.Graphics.UI.Menu.Animations
                 }
                 catch (NullReferenceException ex)
                 {
-                    Debug.Log(ex.ToString());
+                    //Debug.Log(ex.ToString()); TODO: FIX
                 }
             }
         }

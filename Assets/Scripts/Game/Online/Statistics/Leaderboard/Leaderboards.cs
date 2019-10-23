@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.Timers;
 using Game.Online.Connector;
 using Game.Online.Connector.Auth;
+using Game.Online.Manager;
 
 namespace Game.Online.Statistics.Leaderboard
 {
@@ -20,12 +21,13 @@ namespace Game.Online.Statistics.Leaderboard
         public Transform parent;
         private Task RequestTast;
         [SerializeField] private Text _attention;
+        [SerializeField] private ConnectionProvider _provider;
 
         public void CheckStatus()
         {
             Debug.Log("simple");
 
-            if (!Login.Logged && !ConnectMasterServer.IsConnected)
+            /*if (!Login.Logged && !ConnectMasterServer.IsConnected)
             {
                 _attention.text = "You should be logged in!";
                 Debug.Log("if");
@@ -35,7 +37,7 @@ namespace Game.Online.Statistics.Leaderboard
                 _attention.gameObject.SetActive(false);
                 Debug.Log("else if");
                 RequestLeaderBoard();
-            }
+            }*/
         }
 
         void RequestLeaderBoard()
@@ -43,9 +45,8 @@ namespace Game.Online.Statistics.Leaderboard
             //LoadScreen.SetActive(true);
             try
             {
-                ConnectMasterServer connector = new ConnectMasterServer();
                     parent.transform.position = new Vector3(parent.transform.position.x, 0, 0);
-                    allData = connector.Request(TypeOfTags.GetLeaderboardsRequest.ToString(),null);
+                    allData = _provider.SendData();
                     Debug.Log(allData);
                     string[] clearArray = allData.Split('|');
 
