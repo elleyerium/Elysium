@@ -1,69 +1,110 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+using Game.Online.Manager.Auth;
 using UnityEngine;
-using System.Net.Sockets;
-using System.Net;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-using Game.Online.Notifications;
+using LiteNetLib;
+using LiteNetLib.Utils;
 
 namespace Game.Online.Manager
 {
     public class ConnectionProvider : MonoBehaviour
     {
-        public const int Port = 27015;
-        public bool IsConnected, Mentioned;
-        public const string ServerIp = "127.0.0.1";
-        public TcpClient Server = new TcpClient();
+        private const int Port = 27015;
+        private const string ServerIp = "127.0.0.1";
+        public NetManager Client;
+        private readonly EventBasedNetListener _listener = new EventBasedNetListener();
+        private bool _isConnected;
+        private AuthProvider _authProvider;
 
-        public async Task Connect()
+        public void Init(AuthProvider authProvider)
         {
-            try
-            {
-                await Server.ConnectAsync(ServerIp, Port);
-                Debug.Log(Server.Client.LocalEndPoint);
-            }
-            catch (Exception ex)
-            {
-                Debug.Log(ex);
-                NotificationsCreator.NewNotification(TypeOfNofications.Warning.ToString(),
-                    "Something wrong with your connection. Gonna try again in 30s.");
-                Mentioned = true;
-            }
-            finally
-            {
-                if (Server.Connected)
-                    IsConnected = true;
-                if (!Server.Connected)
-                    IsConnected = false;
-                Debug.Log(IsConnected);
-            }
+            _authProvider = authProvider;
         }
 
-        public void Disconnect()
+        public void Connect(NetDataWriter writer)
         {
-            if (Server.Connected)
+            if (_isConnected)
             {
-                Server.Client.Disconnect(false);
-                IsConnected = false;
-                Debug.Log("Disconnected!");
+                Disconnect(Client.FirstPeer);
+                Debug.Log("Disconnected");
             }
+
+            Client = new NetManager(_listener);
+            Client.Start();
+            Client.Connect(ServerIp /* host ip or name */, Port /* port */, writer /* text key or NetDataWriter */);
+
+            _listener.NetworkReceiveEvent += (fromPeer, dataReader, deliveryMethod) =>
+            {
+                try
+                {
+                    switch ((MessageType)dataReader.GetByte())
+                    {
+                        case MessageType.AuthorizationResponse:
+                            Debug.Log($"{dataReader.GetString()}");
+                            break;
+                        case MessageType.UserConnected:
+                            Debug.Log($"connected name: {dataReader.GetString()}, id: {dataReader.GetUInt()}");
+                            break;
+                        case MessageType.UserDisconnected:
+                            Debug.Log($"disconnected id: {dataReader.GetUInt()}");
+                            break;
+                        case MessageType.GetConcurrentUsersResponse:
+                            Debug.Log("List of available players :");
+                            var count = dataReader.GetUInt();
+                            for (var i = 0; i < count; i++)
+                            {
+                                Debug.Log($"{dataReader.GetString()} / {dataReader.GetUInt()}");
+                            }
+                            break;
+                        default:
+                            throw new ArgumentOutOfRangeException();
+                    }
+                    dataReader.Recycle();
+                }
+                catch (Exception ex)
+                {
+                    // ignored
+                }
+            };
+
+            _listener.PeerDisconnectedEvent += (peer, info) =>
+            {
+                Debug.Log($"{peer.EndPoint} just disconnected : {info.Reason}");
+                Client.Stop();
+            };
+
+            _listener.PeerConnectedEvent += peer =>
+            {
+                _isConnected = true;
+
+            };
         }
 
-        public void SendData(byte[] buffer)
+        public void Disconnect(NetPeer peer)
         {
-            if (!IsConnected)
+            peer.Disconnect();
+        }
+
+        #region SendMessage
+
+        public void SendMessage(MessageType messageType, NetDataWriter writer)
+        {
+            var data = writer.CopyData();
+            writer.Reset();
+            writer.Put((byte)messageType);
+            writer.Put(data);
+            Client.FirstPeer.Send(writer, DeliveryMethod.ReliableOrdered);
+        }
+
+        #endregion
+
+        private void Update()
+        {
+            if (Client == null || !Client.IsRunning)
                 return;
-            try
+            Client.PollEvents();
+            if (UnityEngine.Input.GetMouseButtonDown(1))
             {
-                var nwStream = Server.GetStream();
-                nwStream.Write(buffer, 0, buffer.Length);
-            }
-            catch (Exception ex)
-            {
-                Debug.Log(ex.ToString());
+                SendMessage(MessageType.GetConcurrentUsers, new NetDataWriter());
             }
         }
     }
