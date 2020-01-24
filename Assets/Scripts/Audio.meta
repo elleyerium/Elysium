@@ -1,8 +1,189 @@
-fileFormatVersion: 2
-guid: d1752f7f2af573c448a5a05eeab8bdfc
-folderAsset: yes
-DefaultImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+# For more information on configuration, see:
+#   * Official English Documentation: http://nginx.org/en/docs/
+#   * Official Russian Documentation: http://nginx.org/ru/docs/
+
+user apache;
+error_log  /var/log/nginx/error.log;
+#error_log  /var/log/nginx/error.log  notice;
+#error_log  /var/log/nginx/error.log  info;
+
+pid        /var/run/nginx.pid;
+
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    include       /etc/nginx/mime.types;
+    default_type  application/octet-stream;
+
+    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
+
+#   log_format main '$remote_addr - $remote_user [$time_local] $host $request "$status" $body_bytes_sent "$http_referer" ' 
+#     '"$http_user_agent" "$http_x_forwarded_for" "$server_port"';
+
+
+#    access_log  /var/log/nginx/access.log  main;
+    access_log  off;
+
+    sendfile        on;
+    #tcp_nopush     on;
+
+    #keepalive_timeout  0;
+    keepalive_timeout  65;
+
+    server_tokens off;
+    gzip  on;
+    gzip_types text/plain text/css application/json application/x-javascript text/xml application/xml application/xml+rss text/javascript application/javascript;
+    gzip_comp_level 5;
+    
+    # Load config files from the /etc/nginx/conf.d directory
+    # The default server is in conf.d/default.conf
+    include /etc/nginx/conf.d/*.conf;
+
+	include /usr/local/ispmgr/etc/nginx.domain;
+	client_max_body_size 64M;
+	log_format isp '$bytes_sent $request_length';
+	server {
+		server_name odindoma.com.ua www.odindoma.com.ua;
+                listen 5.187.7.172;
+		listen 5.187.7.172:443;
+                ssl on;
+		charset UTF-8;
+		set $root_path /var/www/homealone/data/www/odindoma.com.ua;
+		location ~* ^.+\.(jpg|jpeg|gif|png|svg|js|css|mp3|ogg|mpe?g|avi|zip|gz|bz2?|rar|swf)$ {
+                expires 7d;
+                gzip on;
+                gzip_min_length 1000;
+                gzip_proxied any;
+                gzip_types text/plain text/xml application/xml application/x-javascript text/javascript text/css text/json;
+                gzip_disable "msie6";
+                gzip_comp_level 6;
+			root $root_path;
+			access_log /var/www/nginx-logs/homealone isp;
+			access_log /var/www/httpd-logs/odindoma.com.ua.access.log ;
+			error_page 404 = @fallback;
+		}
+		location / {
+			proxy_pass http://5.187.7.172:81;
+			proxy_redirect http://5.187.7.172:81/ /;
+			proxy_set_header Host $host;
+			proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+			proxy_set_header X-Forwarded-Proto $scheme;
+			proxy_set_header X-Real-IP $remote_addr;
+		}
+		location ~* ^/(webstat|awstats|webmail|myadmin|pgadmin)/ {
+			proxy_pass http://5.187.7.172:81;
+			proxy_redirect http://5.187.7.172:81/ /;
+			proxy_set_header Host $host;
+			proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+			proxy_set_header X-Forwarded-Proto $scheme;
+			proxy_set_header X-Real-IP $remote_addr;
+		}
+		location @fallback {
+			proxy_pass http://5.187.7.172:81;
+			proxy_set_header Host $host;
+			proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+			proxy_set_header X-Forwarded-Proto $scheme;
+			proxy_set_header X-Real-IP $remote_addr;
+		}
+		location ^~ /webstat/ {
+			auth_basic "Restricted area";
+			auth_basic_user_file /var/www/homealone/data/etc/793346.passwd;
+			try_files $uri @fallback;
+		}
+		include /usr/local/ispmgr/etc/nginx.inc;
+		disable_symlinks if_not_owner from=$root_path;
+	}
+	server {
+		server_name m.odindoma.com.ua www.m.odindoma.com.ua;
+		listen 5.187.7.172;
+		listen 5.187.7.172:443 ssl;
+		set $root_path /var/www/homealone/data/www/m.odindoma.com.ua;
+		location ~* ^.+\.(jpg|jpeg|gif|png|svg|js|css|mp3|ogg|mpe?g|avi|zip|gz|bz2?|rar|swf)$ {
+			root $root_path;
+			access_log /var/www/nginx-logs/homealone isp;
+			access_log /var/www/httpd-logs/m.odindoma.com.ua.access.log ;
+			error_page 404 = @fallback;
+		}
+		location / {
+			proxy_pass http://5.187.7.172:81;
+			proxy_redirect http://5.187.7.172:81/ /;
+			proxy_set_header Host $host;
+			proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+			proxy_set_header X-Forwarded-Proto $scheme;
+			proxy_set_header X-Real-IP $remote_addr;
+		}
+		location ~* ^/(webstat|awstats|webmail|myadmin|pgadmin)/ {
+			proxy_pass http://5.187.7.172:81;
+			proxy_redirect http://5.187.7.172:81/ /;
+			proxy_set_header Host $host;
+			proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+			proxy_set_header X-Forwarded-Proto $scheme;
+			proxy_set_header X-Real-IP $remote_addr;
+		}
+		location @fallback {
+			proxy_pass http://5.187.7.172:81;
+			proxy_set_header Host $host;
+			proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+			proxy_set_header X-Forwarded-Proto $scheme;
+			proxy_set_header X-Real-IP $remote_addr;
+		}
+		location ^~ /webstat/ {
+			auth_basic "Restricted area";
+			auth_basic_user_file /var/www/homealone/data/etc/800512.passwd;
+			try_files $uri @fallback;
+		}
+		include /usr/local/ispmgr/etc/nginx.inc;
+		charset UTF-8;
+		disable_symlinks if_not_owner from=$root_path;
+		ssl_certificate /var/www/httpd-cert/homealone/main.certificate.chained.crt;
+		ssl_certificate_key /var/www/httpd-cert/homealone/main.certificate.key;
+	}
+	server {
+		server_name update.odindoma.com.ua www.update.odindoma.com.ua;
+		listen 5.187.7.172;
+		charset UTF-8;
+		set $root_path /var/www/front_end/data/www/update.odindoma.com.ua;
+		location ~* ^.+\.(jpg|jpeg|gif|png|svg|js|css|mp3|ogg|mpe?g|avi|zip|gz|bz2?|rar|swf)$ {
+			root $root_path;
+			access_log /var/www/nginx-logs/front_end isp;
+			access_log /var/www/httpd-logs/update.odindoma.com.ua.access.log ;
+			error_page 404 = @fallback;
+		}
+		location / {
+			proxy_pass http://5.187.7.172:81;
+			proxy_redirect http://5.187.7.172:81/ /;
+			proxy_set_header Host $host;
+			proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+			proxy_set_header X-Forwarded-Proto $scheme;
+			proxy_set_header X-Real-IP $remote_addr;
+		}
+		location ~* ^/(webstat|awstats|webmail|myadmin|pgadmin)/ {
+			proxy_pass http://5.187.7.172:81;
+			proxy_redirect http://5.187.7.172:81/ /;
+			proxy_set_header Host $host;
+			proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+			proxy_set_header X-Forwarded-Proto $scheme;
+			proxy_set_header X-Real-IP $remote_addr;
+		}
+		location @fallback {
+			proxy_pass http://5.187.7.172:81;
+			proxy_set_header Host $host;
+			proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+			proxy_set_header X-Forwarded-Proto $scheme;
+			proxy_set_header X-Real-IP $remote_addr;
+		}
+		location ^~ /webstat/ {
+			auth_basic "Restricted area";
+			auth_basic_user_file /var/www/front_end/data/etc/1313531.passwd;
+			try_files $uri @fallback;
+		}
+		include /usr/local/ispmgr/etc/nginx.inc;
+	}
+        
+}

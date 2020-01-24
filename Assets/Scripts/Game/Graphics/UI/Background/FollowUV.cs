@@ -10,12 +10,12 @@ namespace Game.Graphics.UI.Background
 		public static Material mat;
 
 
-		void Update ()
+		void Update () //TODO: Fix
 		{
 
-			MeshRenderer mr = GetComponent<MeshRenderer>();
-			Material mat = mr.material;
-			Vector2 offset = mat.mainTextureOffset;
+			var mr = GetComponent<MeshRenderer>();
+			var mat = mr.material;
+			var offset = mat.mainTextureOffset;
 
 			offset.x = transform.position.x / transform.localScale.x / parralax;
 			offset.y = transform.position.y / transform.localScale.y / parralax;

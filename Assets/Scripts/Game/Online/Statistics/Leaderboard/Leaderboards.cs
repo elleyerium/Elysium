@@ -6,8 +6,6 @@ using UnityEngine.UI;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Timers;
-using Game.Online.Connector;
-using Game.Online.Connector.Auth;
 using Game.Online.Manager;
 
 namespace Game.Online.Statistics.Leaderboard
@@ -40,13 +38,13 @@ namespace Game.Online.Statistics.Leaderboard
             }*/
         }
 
-        void RequestLeaderBoard()
+        /*void RequestLeaderBoard()
         {
             //LoadScreen.SetActive(true);
             try
             {
                     parent.transform.position = new Vector3(parent.transform.position.x, 0, 0);
-                    allData = _provider.SendData();
+                    allData = _provider.SendData(null);
                     Debug.Log(allData);
                     string[] clearArray = allData.Split('|');
 
@@ -66,7 +64,7 @@ namespace Game.Online.Statistics.Leaderboard
             {
                 Debug.Log(ex + " ex here!");
             }
-        }
+        }*/
 
         void SetScorePrefab(ScoresListing listing)
         {

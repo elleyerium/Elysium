@@ -1,12 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="\app" t="IncludeRecursive" />
-    <e p="\cc1752a3" t="IncludeRecursive" />
     <e p="C:\Projects\Elysium" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Coffee" t="Include">
+          <e p="UIExtensions" t="Include">
+            <e p="SoftMaskForUGUI" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Coffee.SoftMaskForUGUI.asmdef" t="Include" />
+                <e p="Editor" t="Include">
+                  <e p="Coffee.SoftMaskForUGUI.Editor.asmdef" t="Include" />
+                  <e p="SoftMaskableEditor.cs" t="Include" />
+                  <e p="SoftMaskEditor.cs" t="Include" />
+                  <e p="Utils.cs" t="Include" />
+                </e>
+                <e p="SoftMask.cs" t="Include" />
+                <e p="SoftMaskable.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="Resources" t="Include">
+                  <e p="SoftMask.shader" t="Include" />
+                  <e p="UI-Default-SoftMask.shader" t="Include" />
+                </e>
+                <e p="TMP_SDF (SoftMaskable).shader" t="Include" />
+                <e p="TMP_SDF-Mobile (SoftMaskable).shader" t="Include" />
+                <e p="TMP_Sprite (SoftMaskable).shader" t="Include" />
+              </e>
+              <e p="SoftMask.cginc" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="packages" t="Include">
+          <e p="DOTween" t="Include">
+            <e p="Modules" t="Include">
+              <e p="DOTweenModuleAudio.cs" t="Include" />
+              <e p="DOTweenModulePhysics.cs" t="Include" />
+              <e p="DOTweenModulePhysics2D.cs" t="Include" />
+              <e p="DOTweenModuleSprite.cs" t="Include" />
+              <e p="DOTweenModuleUI.cs" t="Include" />
+              <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+              <e p="DOTweenModuleUtils.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+          </e>
+          <e p="LiteNetLib.0.8.3.1" t="Include">
+            <e p="lib" t="Include">
+              <e p="net35" t="Include">
+                <e p="LiteNetLib.xml" t="Include" />
+              </e>
+            </e>
+            <e p="LICENSE.txt" t="Include" />
+          </e>
+        </e>
         <e p="Resources" t="Include">
           <e p="packages" t="Include">
             <e p="Google.Protobuf.3.5.1" t="Include">
@@ -41,88 +88,6 @@
             <e p="Blur" t="Include">
               <e p="blur.shader" t="Include" />
               <e p="MaskedUIBlur.shader" t="Include" />
-            </e>
-          </e>
-          <e p="UnityAssets" t="Include">
-            <e p="Camera Aspect Ratio Rectifier" t="Include">
-              <e p="cameraZoomController.cs" t="Include" />
-            </e>
-            <e p="Plugins" t="Include">
-              <e p="Photon3Unity3D.xml" t="Include" />
-              <e p="release_history.txt" t="Include" />
-              <e p="WebSocket" t="Include">
-                <e p="WebSocket.cs" t="Include" />
-              </e>
-            </e>
-            <e p="SimpleSpectrum" t="Include">
-              <e p="Demos" t="Include">
-                <e p="Demo Assets" t="Include">
-                  <e p="SoundFileOpener.cs" t="Include" />
-                </e>
-                <e p="Music credit to Vexento - Check out his stuff!.txt" t="Include" />
-              </e>
-              <e p="Misc" t="Include">
-                <e p="lightweightGradientLerp.shader" t="Include" />
-                <e p="lightweightGradientLerpSprite.shader" t="Include" />
-                <e p="SurfaceGradientLerp.shader" t="Include" />
-              </e>
-              <e p="Scripts" t="Include">
-                <e p="Editor" t="Include">
-                  <e p="OutputVolumeEditor.cs" t="Include" />
-                  <e p="SimpleSpectrumEditor.cs" t="Include" />
-                </e>
-                <e p="OutputVolume.cs" t="Include" />
-                <e p="SimpleSpectrum.cs" t="Include" />
-              </e>
-              <e p="SimpleSpectrum_Changelog.txt" t="Include" />
-              <e p="SimpleSpectrum_DOCUMENTATION.txt" t="Include" />
-            </e>
-            <e p="Standard Assets" t="Include">
-              <e p="CrossPlatformInput" t="Include">
-                <e p="CrossPlatformInputGuidelines.txt" t="Include" />
-                <e p="Scripts" t="Include">
-                  <e p="AxisTouchButton.cs" t="Include" />
-                  <e p="ButtonHandler.cs" t="Include" />
-                  <e p="CrossPlatformInputManager.cs" t="Include" />
-                  <e p="InputAxisScrollbar.cs" t="Include" />
-                  <e p="MobileControlRig.cs" t="Include" />
-                  <e p="PlatformSpecific" t="Include">
-                    <e p="MobileInput.cs" t="Include" />
-                    <e p="StandaloneInput.cs" t="Include" />
-                  </e>
-                  <e p="TiltInput.cs" t="Include" />
-                  <e p="TouchPad.cs" t="Include" />
-                  <e p="VirtualInput.cs" t="Include" />
-                </e>
-              </e>
-              <e p="Editor" t="Include">
-                <e p="CrossPlatformInput" t="Include">
-                  <e p="CrossPlatformInputInitialize.cs" t="Include" />
-                </e>
-              </e>
-              <e p="Fonts" t="Include">
-                <e p="OpenSans" t="Include">
-                  <e p="License!.txt" t="Include" />
-                </e>
-              </e>
-              <e p="Steamworks.NET" t="Include">
-                <e p="SteamManager.cs" t="Include" />
-              </e>
-            </e>
-            <e p="TouchJoysticks" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="DualJoystickPlayerController.cs" t="Include" />
-                <e p="DualJoystickTouchContoller.cs" t="Include" />
-                <e p="LeftJoystick.cs" t="Include" />
-                <e p="LeftJoystickPlayerController.cs" t="Include" />
-                <e p="LeftJoystickTouchContoller.cs" t="Include" />
-                <e p="RightJoystick.cs" t="Include" />
-                <e p="RightJoystickPlayerController.cs" t="Include" />
-                <e p="RightJoystickTouchContoller.cs" t="Include" />
-                <e p="SingleJoystick.cs" t="Include" />
-                <e p="SingleJoystickPlayerController.cs" t="Include" />
-                <e p="SingleJoystickTouchController.cs" t="Include" />
-              </e>
             </e>
           </e>
         </e>
@@ -226,9 +191,8 @@
                   <e p="LoginPage.cs" t="Include" />
                 </e>
                 <e p="ConnectionProvider.cs" t="Include" />
-                <e p="Response.cs" t="Include" />
-                <e p="TypeTags.cs" t="Include" />
               </e>
+              <e p="MEssageType.cs" t="Include" />
               <e p="Notifications" t="Include">
                 <e p="NofEnum.cs" t="Include" />
                 <e p="NotificationPrefab.cs" t="Include" />
@@ -306,17 +270,99 @@
             </e>
           </e>
         </e>
+        <e p="UnityAssets" t="Include">
+          <e p="Camera Aspect Ratio Rectifier" t="Include">
+            <e p="cameraZoomController.cs" t="Include" />
+          </e>
+          <e p="Plugins" t="Include">
+            <e p="Photon3Unity3D.xml" t="Include" />
+            <e p="release_history.txt" t="Include" />
+            <e p="WebSocket" t="Include">
+              <e p="WebSocket.cs" t="Include" />
+            </e>
+          </e>
+          <e p="SimpleSpectrum" t="Include">
+            <e p="Demos" t="Include">
+              <e p="Demo Assets" t="Include">
+                <e p="SoundFileOpener.cs" t="Include" />
+              </e>
+              <e p="Music credit to Vexento - Check out his stuff!.txt" t="Include" />
+            </e>
+            <e p="Misc" t="Include">
+              <e p="lightweightGradientLerp.shader" t="Include" />
+              <e p="lightweightGradientLerpSprite.shader" t="Include" />
+              <e p="SurfaceGradientLerp.shader" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Editor" t="Include">
+                <e p="OutputVolumeEditor.cs" t="Include" />
+                <e p="SimpleSpectrumEditor.cs" t="Include" />
+              </e>
+              <e p="OutputVolume.cs" t="Include" />
+              <e p="SimpleSpectrum.cs" t="Include" />
+            </e>
+            <e p="SimpleSpectrum_Changelog.txt" t="Include" />
+            <e p="SimpleSpectrum_DOCUMENTATION.txt" t="Include" />
+          </e>
+          <e p="Standard Assets" t="Include">
+            <e p="CrossPlatformInput" t="Include">
+              <e p="CrossPlatformInputGuidelines.txt" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="AxisTouchButton.cs" t="Include" />
+                <e p="ButtonHandler.cs" t="Include" />
+                <e p="CrossPlatformInputManager.cs" t="Include" />
+                <e p="InputAxisScrollbar.cs" t="Include" />
+                <e p="MobileControlRig.cs" t="Include" />
+                <e p="PlatformSpecific" t="Include">
+                  <e p="MobileInput.cs" t="Include" />
+                  <e p="StandaloneInput.cs" t="Include" />
+                </e>
+                <e p="TiltInput.cs" t="Include" />
+                <e p="TouchPad.cs" t="Include" />
+                <e p="VirtualInput.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Editor" t="Include">
+              <e p="CrossPlatformInput" t="Include">
+                <e p="CrossPlatformInputInitialize.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Fonts" t="Include">
+              <e p="OpenSans" t="Include">
+                <e p="License!.txt" t="Include" />
+              </e>
+            </e>
+            <e p="Steamworks.NET" t="Include">
+              <e p="SteamManager.cs" t="Include" />
+            </e>
+          </e>
+          <e p="TouchJoysticks" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="DualJoystickPlayerController.cs" t="Include" />
+              <e p="DualJoystickTouchContoller.cs" t="Include" />
+              <e p="LeftJoystick.cs" t="Include" />
+              <e p="LeftJoystickPlayerController.cs" t="Include" />
+              <e p="LeftJoystickTouchContoller.cs" t="Include" />
+              <e p="RightJoystick.cs" t="Include" />
+              <e p="RightJoystickPlayerController.cs" t="Include" />
+              <e p="RightJoystickTouchContoller.cs" t="Include" />
+              <e p="SingleJoystick.cs" t="Include" />
+              <e p="SingleJoystickPlayerController.cs" t="Include" />
+              <e p="SingleJoystickTouchController.cs" t="Include" />
+            </e>
+          </e>
+        </e>
       </e>
+      <e p="Coffee.SoftMaskForUGUI.csproj" t="IncludeRecursive" />
+      <e p="Coffee.SoftMaskForUGUI.Editor.csproj" t="IncludeRecursive" />
       <e p="Elysium.sln" t="IncludeFlat" />
-      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\Elliot Alderson\.Rider2018.2\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\Elliot Alderson\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Elliot Alderson\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_Elysium.-1897028773.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Elliot Alderson\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Elliot Alderson\.Rider2019.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Elliot Alderson\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Elliot Alderson\.Rider2019.3\system\resharper-host\Local\Transient\ReSharperHost\v193\SolutionCaches\_Elysium.-1897028773.00" t="ExcludeRecursive" />
   </component>
 </project>

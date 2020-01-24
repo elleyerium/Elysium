@@ -35,12 +35,14 @@ namespace Game.Online.Manager.Auth
         RegisterID = registerusername_input.text;
         email = email_input.text;
     }
+
     private void Password()
     {
         pass = password_input.text;
         registerpass = registerpass_input.text;
         confirm = confirm_input.text;
     }
+
     public void Register()
     {
         registerinputs.SetActive(true);
@@ -50,6 +52,7 @@ namespace Game.Online.Manager.Auth
         bordersignin.SetActive(false);
         borderregister.SetActive(true);
     }
+
     public void SignIn()
     {
         registerinputs.SetActive(false);
@@ -59,6 +62,7 @@ namespace Game.Online.Manager.Auth
         bordersignin.SetActive(true);
         borderregister.SetActive(false);
     }
+
     public void AsGuest()
     {
         //Scroll.enabled = true;
@@ -94,41 +98,15 @@ namespace Game.Online.Manager.Auth
             Debug.Log("Password less than 8 Symbols");
         }
             if (confirm != registerpass)
-        {
-            errorInfo = "PassDontmatch";
-            GotError();
-            Debug.Log("Passwords do not match");
-        }
+            {
+                errorInfo = "PassDontmatch";
+                GotError();
+                Debug.Log("Passwords do not match");
+            }
     }
     public void LoginAttempt()
     {
-/*            string Responce;
-            Responce = Login.LoginAction(username_input.text, password_input.text);
-            Debug.Log(Responce);
-            if (Responce.Contains("logged in!"))
-            {
-                Login.Logged = true;
-                PlayerPrefs.SetString("username", userID);
-                PlayerPrefs.SetString("password", pass);
-                hellouser.text = PlayerPrefs.GetString("username");
-                loginpanel.SetActive(false);
-                NotificationsCreator.NewNotification(TypeOfNofications.Info.ToString(),
-                    $"{hellouser.text}, welcome again!. Saved session time : {System.DateTime.Now.ToString()}");
-                Debug.Log("logged");
-            }
-
-            if (Responce.Contains("Failed to login!"))
-                status.text = "Failed to connect!";
-        }
-        else if (!ConnectMasterServer.IsConnected)
-        {
-            //ConnectMasterServer.Connect();
-            var connector = FindObjectOfType<ConnectMasterServer>();
-            var type = connector.Request(TypeOfTags.GetClientID.ToString(), null);
-            Debug.Log(type);
-            ConnectMasterServer.idReceived = true;
-            LoginAttempt();
-        }*/
+        _authProvider.LoginAction(username_input.text,password_input.text);
     }
 
     private void GotError()

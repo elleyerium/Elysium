@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using Game.Difficult;
-using Game.Online.Connector;
 using UnityEngine;
 using UnityEngine.Experimental.PlayerLoop;
 using UnityEngine.UI;

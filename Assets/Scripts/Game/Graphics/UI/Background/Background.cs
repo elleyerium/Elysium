@@ -11,7 +11,7 @@ namespace Game.Graphics.UI.Background
         public Material material;
         void Update ()
         {
-            Vector2 offset = new Vector2(Time.time * Speed, Time.time * 0.2f);
+            var offset = new Vector2(Time.time * Speed, Time.time * 0.2f);
             material.mainTextureOffset = offset;
         }
     }

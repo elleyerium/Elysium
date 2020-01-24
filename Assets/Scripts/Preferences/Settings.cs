@@ -6,7 +6,6 @@ using System.IO;
 using System;
 using System.Net.NetworkInformation;
 using System.Text;
-using Game.Online.Connector;
 using Ping = System.Net.NetworkInformation.Ping;
 
 namespace Preferences
