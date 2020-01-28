@@ -162,11 +162,16 @@
                 </e>
                 <e p="Buttons" t="Include">
                   <e p="ButtonTracker.cs" t="Include" />
+                  <e p="Custom" t="Include">
+                    <e p="DelayedButton.cs" t="Include" />
+                    <e p="JumpingButton.cs" t="Include" />
+                    <e p="MenuButton.cs" t="Include" />
+                  </e>
                   <e p="Hidenuttons.cs" t="Include" />
-                  <e p="MenuButton.cs" t="Include" />
                 </e>
                 <e p="Menu" t="Include">
                   <e p="Animations" t="Include">
+                    <e p="Animation.cs" t="Include" />
                     <e p="AnimDirection.cs" t="Include" />
                     <e p="MusicPlayerUi.cs" t="Include" />
                     <e p="WindowAnimations.cs" t="Include" />
@@ -174,13 +179,21 @@
                   <e p="ButtonSystemParams.cs" t="Include" />
                   <e p="ScrollTracker.cs" t="Include" />
                 </e>
-                <e p="Scale" t="Include">
-                  <e p="ScaleComponent.cs" t="Include" />
-                  <e p="UI_Scaler.cs" t="Include" />
+                <e p="Screen" t="Include">
+                  <e p="AuthScreen.cs" t="Include" />
+                  <e p="ChatScreen.cs" t="Include" />
+                  <e p="MenuScreen.cs" t="Include" />
+                  <e p="NotificationScreen.cs" t="Include" />
+                  <e p="OnlineScreen.cs" t="Include" />
+                  <e p="Screen.cs" t="Include" />
+                  <e p="ScreenManager.cs" t="Include" />
+                  <e p="ScreenScaler.cs" t="Include" />
+                  <e p="SettingsScreen.cs" t="Include" />
+                  <e p="UserProfileInfoScreen.cs" t="Include" />
+                  <e p="Window" t="Include">
+                    <e p="Window.cs" t="Include" />
+                  </e>
                 </e>
-                <e p="ScrollUI.cs" t="Include" />
-                <e p="uiClickActions.cs" t="Include" />
-                <e p="Vizualizer.cs" t="Include" />
               </e>
             </e>
             <e p="Online" t="Include">
@@ -188,7 +201,6 @@
                 <e p="Auth" t="Include">
                   <e p="AuthProvider.cs" t="Include" />
                   <e p="Encryptor.cs" t="Include" />
-                  <e p="LoginPage.cs" t="Include" />
                 </e>
                 <e p="ConnectionProvider.cs" t="Include" />
               </e>
@@ -261,14 +273,7 @@
             </e>
             <e p="Settings.cs" t="Include" />
           </e>
-          <e p="Tests" t="Include">
-            <e p="Splash.cs" t="Include" />
-            <e p="Visual" t="Include">
-              <e p="UI" t="Include">
-                <e p="ImageWrapperTestCase.cs" t="Include" />
-              </e>
-            </e>
-          </e>
+          <e p="Test.cs" t="Include" />
         </e>
         <e p="UnityAssets" t="Include">
           <e p="Camera Aspect Ratio Rectifier" t="Include">

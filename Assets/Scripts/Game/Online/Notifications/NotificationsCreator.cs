@@ -17,15 +17,12 @@ namespace Game.Online.Notifications
 	public static GameObject PrefabInstance;
 	public Transform parent;
 	public static Transform transformInstance;
-	private uiClickActions fader;
 	private float DeletionDelay;
 	private Lerping lerp;
 
 	void Start()
 	{
 		lerp = gameObject.AddComponent<Lerping>();
-	    fader = gameObject.AddComponent<uiClickActions>();
-		fader.Panel = ui_all;
 		CountOfNotifications = parent.childCount;
 		transformInstance = parent;
 		PrefabInstance = Prefab;
@@ -51,7 +48,7 @@ namespace Game.Online.Notifications
     }
 	private void Actions()
 	{
-		ShowNofications.onClick.AddListener(() => fader.OnClickProfile());
+		//ShowNofications.onClick.AddListener(() => fader.OnClickProfile());
 		ShowNofications.onClick.AddListener(MainAction);
 		DeleteNotifications.onClick.AddListener(DestroyNotifications);
 	}

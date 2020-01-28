@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Game.Graphics.UI.Buttons;
+using Game.Graphics.UI.Buttons.Custom;
 using UnityEngine;
 
 namespace Game.Graphics.UI.Menu
@@ -53,18 +53,6 @@ namespace Game.Graphics.UI.Menu
         internal MenuButton GetButtonWithActiveFocus()
         {
             return FindObjectsOfType<MenuButton>().FirstOrDefault(x => x.IsFocused);
-        }
-
-        // Start is called before the first frame update
-        void Start()
-        {
-
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
         }
     }
 

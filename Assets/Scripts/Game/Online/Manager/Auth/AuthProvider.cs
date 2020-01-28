@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using Game.Graphics.UI.Screen;
 using LiteNetLib.Utils;
 using UnityEngine;
 
@@ -9,7 +10,6 @@ namespace Game.Online.Manager.Auth
     {
         [SerializeField] private ConnectionProvider _connectionProvider;
 
-        [SerializeField] private LoginPage _loginPage;
         //1st byte
 
         private void Start()

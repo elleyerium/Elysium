@@ -4,10 +4,8 @@ using UnityEngine.UI;
 
 namespace Preferences.ClientSettings.Performance
 {
-    public class FPSTarget: MonoBehaviour
+    public class FpsTarget: MonoBehaviour
     {
-        [SerializeField]
-        private Text FPS;
         public int target;
         public float deltaTime;
 
@@ -21,7 +19,6 @@ namespace Preferences.ClientSettings.Performance
         {
             deltaTime += (Time.deltaTime - deltaTime) * 0.1f;
             float fps = 1.0f / deltaTime;
-            FPS.text = Mathf.Ceil(fps).ToString()+ " FPS ";
             if (Application.targetFrameRate != target)
                 Application.targetFrameRate = target;
         }
