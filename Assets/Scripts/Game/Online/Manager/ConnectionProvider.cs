@@ -1,37 +1,30 @@
 ﻿using System;
+using Game.Graphics.UI.Screen;
 using Game.Online.Manager.Auth;
 using UnityEngine;
 using LiteNetLib;
 using LiteNetLib.Utils;
+using Screen = Game.Graphics.UI.Screen.Screen;
 
 namespace Game.Online.Manager
 {
     public class ConnectionProvider : MonoBehaviour
     {
-        private const int Port = 27015;
         private const string ServerIp = "127.0.0.1";
+        private const int Port = 27015;
         public NetManager Client;
         private readonly EventBasedNetListener _listener = new EventBasedNetListener();
+        private AuthScreen _authScreen;
         private bool _isConnected;
-        private AuthProvider _authProvider;
 
         public void Init(AuthProvider authProvider)
         {
-            _authProvider = authProvider;
+            _authScreen = (AuthScreen)ScreenManager.Instance.GetScreen(ScreenType.AuthScreen);
+            _authScreen.AuthProvider = authProvider;
         }
 
-        public void Connect(NetDataWriter writer)
+        private void Start()
         {
-            if (_isConnected)
-            {
-                Disconnect(Client.FirstPeer);
-                Debug.Log("Disconnected");
-            }
-
-            Client = new NetManager(_listener);
-            Client.Start();
-            Client.Connect(ServerIp /* host ip or name */, Port /* port */, writer /* text key or NetDataWriter */);
-
             _listener.NetworkReceiveEvent += (fromPeer, dataReader, deliveryMethod) =>
             {
                 try
@@ -60,7 +53,7 @@ namespace Game.Online.Manager
                     }
                     dataReader.Recycle();
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     // ignored
                 }
@@ -75,8 +68,19 @@ namespace Game.Online.Manager
             _listener.PeerConnectedEvent += peer =>
             {
                 _isConnected = true;
-
+                Debug.Log("peer connected");
+                ScreenManager.Instance.ChangeScreen(ScreenManager.Instance.GetScreen(ScreenType.MainScreen));
             };
+        }
+
+        public void Connect(NetDataWriter writer)
+        {
+            if (_isConnected)
+                Disconnect(Client.FirstPeer);
+
+            Client = new NetManager(_listener);
+            Client.Start();
+            Client.Connect(ServerIp /* host ip or name */, Port /* port */, writer /* text key or NetDataWriter */);
         }
 
         public void Disconnect(NetPeer peer)
