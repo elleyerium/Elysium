@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using Game.Graphics.Effects;
 using Game.Graphics.UI.Background;
 using Game.Graphics.UI.Menu.Animations;
+using Game.Graphics.UI.Screen;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Game.Graphics.UI.Buttons
 {
@@ -13,14 +15,26 @@ namespace Game.Graphics.UI.Buttons
           [SerializeField] private WindowAnimations _windowsAnimations;
           private float _playbackSpeed = 2f;
 
+          public void WebScreen() =>
+               ScreenManager.Instance.ChangeScreen(ScreenManager.Instance.GetScreen(ScreenType.WebScreen));
+
+          public void NotificationsScreen() =>
+               ScreenManager.Instance.ChangeScreen(ScreenManager.Instance.GetScreen(ScreenType.NotificationsScreen));
+
+          public void UserInfoScreen() =>
+               ScreenManager.Instance.ChangeScreen(ScreenManager.Instance.GetScreen(ScreenType.ProfileInfoScreen));
+
+          public void SettingsScreen() =>
+               ScreenManager.Instance.ChangeScreen(ScreenManager.Instance.GetScreen(ScreenType.SettingsScreen));
+
+          public void HomeScreen() =>
+               ScreenManager.Instance.ChangeScreen(ScreenManager.Instance.GetScreen(ScreenType.MainScreen));
           public void StartGame()=>
           StartCoroutine(_windowsAnimations.Animate(_mainMenu, _selectableScreen, _playbackSpeed));
 
           public void Rating() =>
           Application.OpenURL("https://play.google.com/store/apps/details?id=com.Elleyer.Elysium");
 
-          public void Settings()=>
-          StartCoroutine(_windowsAnimations.Animate(_mainMenu, _settings, _playbackSpeed));
 
           public void Scores()=>
           StartCoroutine(_windowsAnimations.Animate(_mainMenu, _ranking, _playbackSpeed));
@@ -44,7 +58,7 @@ namespace Game.Graphics.UI.Buttons
           StartCoroutine(_windowsAnimations.Animate(_ranking, _mainMenu, _playbackSpeed));
 
           public void BackSettings()=>
-          StartCoroutine(_windowsAnimations.Animate(_settings, _mainMenu, _playbackSpeed));
+               ScreenManager.Instance.ChangeScreen(ScreenManager.Instance.GetScreen(ScreenType.MainScreen));
 
           public void BackSelectableScreen()=>
           StartCoroutine(_windowsAnimations.Animate(_selectableScreen, _mainMenu, _playbackSpeed));
