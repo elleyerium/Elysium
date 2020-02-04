@@ -2,51 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09e27a89-22b8-4832-b11f-b2fd6921f66b" name="Default Changelist" comment="Bot spawning/shooting fix">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/WindowButtonHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/WindowButtonHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/WindowManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/WindowManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Users/PlayerType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Users/PlayerType.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat/ChatHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat/ChatHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat/Message.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat/Message.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/User.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserPlaceholders.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserPlaceholders.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Elysium/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Elysium/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Elysium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Elysium/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/LICENSE.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/LICENSE.txt.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/lib.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/lib.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/lib/net35.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/lib/net35.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/lib/net35/LiteNetLib.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/lib/net35/LiteNetLib.xml.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Shaders/BackMove/Hidden_BackShader.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Shaders/BackMove/Hidden_BackShader.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/AuthScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/AuthScreen.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/ChatScreen.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/ChatScreen.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/Window.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/Window.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/ConnectionProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/ConnectionProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/MessageType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/MessageType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics/Leaderboard.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics/Leaderboard/Leaderboards.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics/Leaderboard/Leaderboards.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics/Leaderboard/ScoreSerialize.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics/Leaderboard/ScoreSerialize.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics/Leaderboard/ScoresListing.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics/Leaderboard/ScoresListing.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -238,7 +196,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat/ChatHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat/Message.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/Window.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/WindowManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserSerializedTemplate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserPlaceholders.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/PlayerStatistics.cs" />
@@ -246,6 +203,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/User.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/ConnectionProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/WindowManager.cs" />
       </list>
     </option>
   </component>
@@ -517,7 +475,7 @@
       <workItem from="1580077686361" duration="3011000" />
       <workItem from="1580135382109" duration="22245000" />
       <workItem from="1580403960432" duration="1652000" />
-      <workItem from="1580747716391" duration="27262000" />
+      <workItem from="1580747716391" duration="28299000" />
     </task>
     <task id="LOCAL-00001" summary="Different changes and fixes.">
       <created>1539467956034</created>
@@ -575,14 +533,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Bot spawning/shooting fix" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="589" y="347" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1580815923822">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="589" y="347" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1680.1020@0.0.1680.1020" timestamp="1580815923822" />
     <state x="642" y="211" key="RiderGenerateDialog" timestamp="1580781049440">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
     <state x="642" y="211" key="RiderGenerateDialog/0.0.1680.1020@0.0.1680.1020" timestamp="1580781049440" />
-    <state x="341" y="153" key="SettingsEditor" timestamp="1580139470052">
+    <state x="341" y="153" key="SettingsEditor" timestamp="1580815919354">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state x="341" y="153" key="SettingsEditor/0.0.1680.1020@0.0.1680.1020" timestamp="1580139470052" />
+    <state x="341" y="153" key="SettingsEditor/0.0.1680.1020@0.0.1680.1020" timestamp="1580815919354" />
     <state x="131" y="106" width="1496" height="836" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1579988975146">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
