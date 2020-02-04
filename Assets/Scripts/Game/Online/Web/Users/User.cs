@@ -4,6 +4,7 @@ namespace Game.Online.Web.Users
 {
     public class User : INetSerializable
     {
+        public uint Id;
         public string Username;
         public uint Rank;
         public ushort Level;
@@ -18,6 +19,7 @@ namespace Game.Online.Web.Users
 
         public void Deserialize(NetDataReader reader)
         {
+            Id = reader.GetUInt();
             Username = reader.GetString();
             Rank = reader.GetUInt();
             Level = reader.GetUShort();

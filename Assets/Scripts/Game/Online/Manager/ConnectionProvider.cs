@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Xml.Linq;
 using Game.Graphics.UI.Screen;
 using Game.Online.Manager.Auth;
 using Game.Online.Users;
@@ -24,6 +26,7 @@ namespace Game.Online.Manager
         private AuthScreen _authScreen;
         private bool _isConnected;
         public List<uint> ConnectedPeersId = new List<uint>();
+        public uint LocalId;
 
         public void Init(AuthProvider authProvider)
         {
@@ -35,50 +38,70 @@ namespace Game.Online.Manager
         {
             _listener.NetworkReceiveEvent += (fromPeer, dataReader, deliveryMethod) =>
             {
-                try
+                using (var writer = new NetDataWriter())
                 {
-                    switch ((MessageType)dataReader.GetByte())
+                    try
                     {
-                        case MessageType.AuthorizationResponse: //We got auth response
-                            //SendMessage(MessageType.GetPlayerStats, new NetDataWriter());
-                            //SendMessage(MessageType.GetAvatar, new NetDataWriter());
-                            break;
-                        case MessageType.UserConnected: //new user just connected
-                            Debug.Log($"connected name: {dataReader.GetString()}, id: {dataReader.GetUInt()}");
-                            break;
-                        case MessageType.UserDisconnected: //user just disconnected
-                            Debug.Log($"disconnected id: {dataReader.GetUInt()}");
-                            break;
-                        case MessageType.LeaderboardsResponse: //we got leaderboards response
-                            break;
-                        case MessageType.GetConcurrentUsersResponse: //we got concurrent users response
-                            var count = dataReader.GetUInt();
-                            UserHandler.UpdateHeader(count);
-                            for (var i = 0; i < count; i++)
-                            {
-                                ConnectedPeersId.Add(dataReader.GetUInt());
-                            }
-                            break;
-                        case MessageType.UpdateProfileSettingsResponse: //We got UpdateProfileSettingsResponse response
-                            break;
-                        case MessageType.PlayerStatsResponse: //We got player stats response
-                            var user = dataReader.Get<User>();
-                            UserHandler.AddUser(user);
-                            break;
-                        case MessageType.GetAvatarResponse: //We got avatar response
-                            break;
-                        case MessageType.IncomingChatMessage: //We got incoming chat message
-                            ChatHandler.ReceiveMessage(dataReader.GetString(), dataReader.GetString(),
-                                (PlayerType)Enum.Parse(typeof(PlayerType), dataReader.GetString()));
-                            break;
-                        default:
-                            throw new ArgumentOutOfRangeException();
+                        switch ((MessageType)dataReader.GetByte())
+                        {
+                            case MessageType.AuthorizationResponse: //We got auth response
+                                dataReader.GetString();
+                                LocalId = dataReader.GetUInt();
+                                Debug.Log(LocalId);
+                                //SendMessage(MessageType.GetPlayerStats, new NetDataWriter());
+                                //SendMessage(MessageType.GetAvatar, new NetDataWriter());
+                                break;
+                            case MessageType.UserConnected: //new user just connected
+                                dataReader.GetString();
+                                var connId = dataReader.GetUInt();
+                                if(connId == LocalId)
+                                    return;
+                                writer.Put(connId);
+                                SendMessage(MessageType.GetPlayerStats, writer);
+                                //UserHandler.UpdateUserState(UserHandler.Users.FirstOrDefault(x => x.Id == connectedId), UserStare.Online);
+                                break;
+                            case MessageType.UserDisconnected: //user just disconnected
+                                UserHandler.RemoveUser(
+                                    UserHandler.Users.FirstOrDefault(x => x.Id == dataReader.GetUInt()));
+                                break;
+                            case MessageType.LeaderboardsResponse: //we got leaderboards response
+                                break;
+                            case MessageType.GetConcurrentUsersResponse: //we got concurrent users response
+                                var count = dataReader.GetUInt();
+                                UserHandler.UpdateHeader(count);
+                                Debug.Log(count);
+                                for (var i = 0; i < count; i++)
+                                {
+                                    var message = dataReader.GetUInt();
+                                    //writer.Put(message);
+                                    ConnectedPeersId.Add(message);
+                                    //SendMessage(MessageType.GetPlayerStats, writer);
+                                }
+                                break;
+                            case MessageType.UpdateProfileSettingsResponse: //We got UpdateProfileSettingsResponse response
+                                break;
+                            case MessageType.PlayerStatsResponse: //We got player stats response
+                                var user = dataReader.Get<User>();
+                                UserHandler.AddUser(user);
+                                break;
+                            case MessageType.GetAvatarResponse: //We got avatar response
+                                break;
+                            case MessageType.IncomingChatMessage: //We got incoming chat message
+                                ChatHandler.ReceiveMessage(dataReader.GetString(), dataReader.GetString(),
+                                    (PlayerType)Enum.Parse(typeof(PlayerType), dataReader.GetString()));
+                                break;
+                            default:
+                                throw new ArgumentOutOfRangeException();
+                        }
+
+                        dataReader.Recycle();
                     }
-                    dataReader.Recycle();
-                }
-                catch (Exception)
-                {
-                    // ignored
+                    catch (Exception)
+                    {
+                        // ignored
+                    }
+                    writer.Reset();
+                    writer.Dispose();
                 }
             };
 
@@ -116,6 +139,7 @@ namespace Game.Online.Manager
 
         public static void SendMessage(MessageType messageType, NetDataWriter writer)
         {
+            Debug.Log($"sent {messageType.ToString()}");
             var data = writer.CopyData();
             writer.Reset();
             writer.Put((byte)messageType);
@@ -130,10 +154,6 @@ namespace Game.Online.Manager
             if (_client == null || !_client.IsRunning)
                 return;
             _client.PollEvents();
-            if (UnityEngine.Input.GetMouseButtonDown(1))
-            {
-                SendMessage(MessageType.GetConcurrentUsers, new NetDataWriter());
-            }
         }
     }
 }

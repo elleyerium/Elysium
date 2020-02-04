@@ -10151,8 +10151,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -20, y: -20}
+  m_AnchoredPosition: {x: 10, y: 0}
+  m_SizeDelta: {x: 0.0000009536743, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &230085482
 GameObject:
@@ -18207,7 +18207,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -28.924988}
+  m_AnchoredPosition: {x: 0, y: -28.925018}
   m_SizeDelta: {x: 0, y: -57.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &636033678
@@ -21151,8 +21151,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -20, y: -20}
+  m_AnchoredPosition: {x: -0.000019073486, y: 0}
+  m_SizeDelta: {x: -0.000037193, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &810549249
 GameObject:
@@ -23846,8 +23846,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9209988fd3d1fcd428b81143f4754c24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: 2000
-  deltaTime: 0.0045954464
 --- !u!114 &923163872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32184,6 +32182,7 @@ MonoBehaviour:
   ChatHandler: {fileID: 1840944457}
   UserHandler: {fileID: 209032659}
   ConnectedPeersId: 
+  LocalId: 0
 --- !u!114 &1290575425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42861,7 +42860,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0.0009765625}
+  m_AnchoredPosition: {x: 0, y: 0.0007324219}
   m_SizeDelta: {x: -0.00012207, y: 0}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1789398312

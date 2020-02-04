@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Projects\Elysium" t="IncludeRecursive">
+    <e p="C:\Users\User\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\User\.Rider2019.3\system\resharper-host\Local\Transient\ReSharperHost\v193\SolutionCaches\_Elysium.2000840905.00" t="ExcludeRecursive" />
+    <e p="C:\Users\User\Desktop\Elysium-master\Elysium" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -400,9 +402,5 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\Elliot Alderson\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
-    <e p="C:\Users\Elliot Alderson\.Rider2019.3\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\Elliot Alderson\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Elliot Alderson\.Rider2019.3\system\resharper-host\Local\Transient\ReSharperHost\v193\SolutionCaches\_Elysium.-1897028773.00" t="ExcludeRecursive" />
   </component>
 </project>

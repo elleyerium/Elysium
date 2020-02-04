@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using Boo.Lang;
 using Game.Online.Manager;
@@ -21,7 +22,7 @@ namespace Game.Online.Web.Users
 
         public void AddUser(User user)
         {
-            if(Users.Any(x => x.Username == user.Username))
+            if(Users.Any(x => x.Id == user.Id))
                 return;
             Users.Add(user);
             var userObject = Instantiate(_userPrefab, Parent, true);
@@ -29,9 +30,30 @@ namespace Game.Online.Web.Users
             userPlaceholders.Init(user.Username, user.Score.ToString(), user.Rank.ToString(), user.SpacePoints.ToString());
         }
 
-        public void UpdateUserState(User user)
+        public void RemoveUser(User user)
         {
-
+            Users.Remove(user);
         }
+
+        public void UpdateUserState(User user, UserStare userStare)
+        {
+            switch (userStare)
+            {
+                case UserStare.Offline:
+                    Users.Remove(user);
+                    break;
+                case UserStare.Online:
+                    AddUser(user);
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(userStare), userStare, null);
+            }
+        }
+    }
+
+    public enum UserStare
+    {
+        Offline,
+        Online
     }
 }
