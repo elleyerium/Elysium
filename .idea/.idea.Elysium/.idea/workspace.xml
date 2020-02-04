@@ -2,78 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09e27a89-22b8-4832-b11f-b2fd6921f66b" name="Default Changelist" comment="Bot spawning/shooting fix">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/Custom.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/Custom/DelayedButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/Custom/DelayedButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/Custom/JumpingButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/Custom/JumpingButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/Animations/Animation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/Animations/Animation.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/AuthScreen.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/AuthScreen.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/ChatScreen.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/ChatScreen.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/MenuScreen.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/MenuScreen.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/NotificationScreen.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/NotificationScreen.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/OnlineScreen.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/OnlineScreen.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Screen.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Screen.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/ScreenManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/ScreenManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/ScreenScaler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/ScreenScaler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/SettingsScreen.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/SettingsScreen.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/UserProfileInfoScreen.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/UserProfileInfoScreen.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/Window.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/Window.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/WindowButtonHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/WindowButtonHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/WindowManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/WindowManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Users/PlayerType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Users/PlayerType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat/ChatHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat/ChatHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat/Message.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat/Message.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/User.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserPlaceholders.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserPlaceholders.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Elysium/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Elysium/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Elysium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Elysium/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/LICENSE.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/LICENSE.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/lib.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/lib.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/lib/net35.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/lib/net35.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/lib/net35/LiteNetLib.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/lib/net35/LiteNetLib.xml.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Shaders/BackMove/Hidden_BackShader.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Shaders/BackMove/Hidden_BackShader.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Shaders/Blur/blur.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Shaders/Blur/blur.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Shaders/Blur/blurMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Shaders/Blur/blurMaterial.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/ButtonTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/ButtonTracker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/MenuButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/Custom/MenuButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/MenuButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/Custom/MenuButton.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/ButtonSystemParams.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/ButtonSystemParams.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/ScrollTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/ScrollTracker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Scale.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Scale/ScaleComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Scale/ScaleComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Scale/UI_Scaler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Scale/UI_Scaler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/ScrollUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/ScrollUI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Vizualizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Vizualizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/uiClickActions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/uiClickActions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Chat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/Auth/AuthProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/Auth/AuthProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/Auth/LoginPage.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/Auth/LoginPage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/AuthScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/AuthScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/ChatScreen.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/ChatScreen.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/Window.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/Window.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/ConnectionProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/ConnectionProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Notifications/NotificationsCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Notifications/NotificationsCreator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Preferences/ClientSettings/Performance/FPSTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Preferences/ClientSettings/Performance/FPSTarget.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tests.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tests/Buttons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tests/Splash.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tests/Splash.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tests/Visual.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tests/Visual/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tests/Visual/UI/ImageWrapperTestCase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tests/Visual/UI/ImageWrapperTestCase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/MessageType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/MessageType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics/Leaderboard.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics/Leaderboard/Leaderboards.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics/Leaderboard/Leaderboards.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics/Leaderboard/ScoreSerialize.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics/Leaderboard/ScoreSerialize.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics/Leaderboard/ScoresListing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics/Leaderboard/ScoresListing.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,19 +80,21 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/Tracks/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/Tracks/musicController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat/ChatHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1AF3266F-ED08-452A-BFE7-21684A687A52/5a/d8f7f9be/ScrollRect.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Input/Stick/Joystick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/Tracks/serverMusicListing.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Test.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/Custom/DelayedButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/Effects/SFXManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/Effects/ChangeMusicVolume.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AI/Weapon/BotLazer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Preferences/Settings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/UserProfileInfoScreen.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/WindowButtonHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Preferences/ClientSettings/Performance/FpsTarget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AI/Data/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AI/Data/Bots.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserPlaceholders.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AI/Health/Drophp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AI/Health/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AI/Health/Healthbox.cs" root0="FORCE_HIGHLIGHTING" />
@@ -143,11 +119,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/Auth/Encryptor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Input/Stick/TouchCursor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Input/Stick/StickGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics/Leaderboard/Leaderboards.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics/Leaderboard/ScoresListing.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics/Leaderboard/ScoreSerialize.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/Animations/AnimDirection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Notifications/NofEnum.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/Hidenuttons.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/Animations/Animation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/MenuScreen.cs" root0="FORCE_HIGHLIGHTING" />
@@ -156,6 +131,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Player/Weapon/Missle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Player/Weapon/LazerShot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/NotificationScreen.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat/Message.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Player/Weapon/WeaponSelector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UnityAssets/Plugins/WebSocket/WebSocket.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Player/Weapon/Lazermove.cs" root0="FORCE_HIGHLIGHTING" />
@@ -170,6 +146,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Coffee/UIExtensions/SoftMaskForUGUI/Shaders/TMP_SDF-Mobile (SoftMaskable).shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/ButtonSystemParams.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/ScrollTracker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/WindowManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/Animations/MusicPlayerUi.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/Animations/WindowAnimations.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Coffee/UIExtensions/SoftMaskForUGUI/Scripts/SoftMaskable.cs" root0="FORCE_HIGHLIGHTING" />
@@ -197,6 +174,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D91C9DD7-2E7E-43CA-ACAF-56C08F388C09/31/91d3e7f6/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/Effects/Initiate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/ScreenScaler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Users/PlayerType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/Effects/ImageWrapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/Effects/Lerping.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/Effects/Scroll.cs" root0="FORCE_HIGHLIGHTING" />
@@ -206,7 +185,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/SceneData/Actions/RestartonDeath.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/SceneData/Actions/PauseBTN.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/SceneData/Actions/lowhpWarning.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/ChatScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Appearance/Styling/SkinsChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Appearance/Styling/WeaponChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Appearance/Styling/StylingManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -217,25 +195,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Audio/Tracks/audioProperties.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/Animations/WindowAnimations.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Connector/Auth/Login.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Appearance/Styling/StylingManager.cs" />
-        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1AF3266F-ED08-452A-BFE7-21684A687A52/5a/d8f7f9be/ScrollRect.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/Animations/MusicPlayerUi.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/MenuButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Connector/ResponceReceiver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Connector/Auth/Register.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Connector/Auth/LoginPage.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Connector/ConnectMasterServer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/Response.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/Auth/Login.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/Auth/Register.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/Auth/Encryptor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Users/Avatar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Users/MouseTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/MEssageType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/MessageType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Statistics/Leaderboard/Leaderboards.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Player/Scoring/LocalScoringByDifficulty.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Preferences/Settings.cs" />
@@ -261,13 +226,26 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/SettingsScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/Animations/Animation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/Custom/DelayedButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/ConnectionProvider.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/AuthScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/UserProfileInfoScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Screen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/ButtonTracker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/ScreenManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/AuthScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utils/ScaleGrid.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/MessageType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Users/PlayerType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat/ChatHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat/Message.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/Window.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/WindowManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserSerializedTemplate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserPlaceholders.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/PlayerStatistics.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/WindowButtonHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/User.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/ConnectionProvider.cs" />
       </list>
     </option>
   </component>
@@ -537,7 +515,9 @@
       <workItem from="1579900724760" duration="37300000" />
       <workItem from="1580071768739" duration="5901000" />
       <workItem from="1580077686361" duration="3011000" />
-      <workItem from="1580135382109" duration="19196000" />
+      <workItem from="1580135382109" duration="22245000" />
+      <workItem from="1580403960432" duration="1652000" />
+      <workItem from="1580747716391" duration="27262000" />
     </task>
     <task id="LOCAL-00001" summary="Different changes and fixes.">
       <created>1539467956034</created>
@@ -595,10 +575,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Bot spawning/shooting fix" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="642" y="211" key="RiderGenerateDialog" timestamp="1580146704414">
+    <state x="642" y="211" key="RiderGenerateDialog" timestamp="1580781049440">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state x="642" y="211" key="RiderGenerateDialog/0.0.1680.1020@0.0.1680.1020" timestamp="1580146704414" />
+    <state x="642" y="211" key="RiderGenerateDialog/0.0.1680.1020@0.0.1680.1020" timestamp="1580781049440" />
     <state x="341" y="153" key="SettingsEditor" timestamp="1580139470052">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>

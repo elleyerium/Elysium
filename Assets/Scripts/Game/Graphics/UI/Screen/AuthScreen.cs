@@ -17,7 +17,6 @@ namespace Game.Graphics.UI.Screen
 
         private void Start()
         {
-            //ScreenManager.Instance.ChangeScreen(this);
             _authorize.Init(6f,
                 LoadingAnimation, () => AuthProvider.LoginAction(_username.text, _password.text),
                 () => HideThenShow(6f, LoginHolders));
