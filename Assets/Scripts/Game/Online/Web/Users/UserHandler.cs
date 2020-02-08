@@ -13,6 +13,7 @@ namespace Game.Online.Web.Users
         public Transform Parent;
         public List<User> Users = new List<User>();
         public Text Header;
+        private List<UserPlaceholders> _placeholders = new List<UserPlaceholders>();
 
 
         public void UpdateHeader(uint usersCount)
@@ -27,12 +28,16 @@ namespace Game.Online.Web.Users
             Users.Add(user);
             var userObject = Instantiate(_userPrefab, Parent, true);
             var userPlaceholders = userObject.GetComponent<UserPlaceholders>();
-            userPlaceholders.Init(user.Username, user.Score.ToString(), user.Rank.ToString(), user.SpacePoints.ToString());
+            _placeholders.Add(userPlaceholders);
+            userPlaceholders.Init(user, user.Username, user.Score.ToString(), user.Rank.ToString(), user.SpacePoints.ToString());
         }
 
         public void RemoveUser(User user)
         {
             Users.Remove(user);
+            var pHolder = _placeholders.FirstOrDefault(x => x.User == user);
+            Destroy(pHolder.gameObject);
+            _placeholders.Remove(pHolder);
         }
 
         public void UpdateUserState(User user, UserStare userStare)
