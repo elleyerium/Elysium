@@ -38,13 +38,11 @@ namespace Game.Graphics.UI.Menu.Animations
                 {
                     case Direction.Down:
                         to.transform.position = new Vector3(tempPos.x,Mathf.Lerp(tempPos.y + _startValue, tempPos.y, pbSpeed * timer),0);
-                        Debug.Log(to.transform.position);
                         break;
                     case Direction.Up:
                         to.transform.position = new Vector3(tempPos.x,Mathf.Lerp(tempPos.y - _startValue, tempPos.y, pbSpeed * timer),0);
                         break;
                     case Direction.Left:
-                        Debug.Log("Now we are moving to left!");
                         to.transform.position= new Vector3(Mathf.Lerp(tempPos.x + _startValue, tempPos.x, pbSpeed * timer), tempPos.y, 0);
                         break;
                     case Direction.Right:

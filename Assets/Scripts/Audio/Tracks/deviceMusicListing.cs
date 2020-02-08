@@ -112,16 +112,16 @@ namespace Audio.Tracks
 						Destroy(_audioSource.clip);
 
 					musicController.position = temp;
-
 					var mp3Clip = new MpegFile(path);
-					var clip = AudioClip.Create(path, (int) mp3Clip.Length/sizeof(float)/mp3Clip.Channels, mp3Clip.Channels, mp3Clip.SampleRate, true,
-						data => {
-							var actualReadCount = mp3Clip.ReadSamples(data, 0, data.Length);
-						}, position => {
+					var clip = AudioClip.Create(path,
+						(int) mp3Clip.Length/sizeof(float)/mp3Clip.Channels, mp3Clip.Channels,
+						mp3Clip.SampleRate, true,
+						data => { mp3Clip.ReadSamples(data, 0, data.Length); },
+						position => {
 							mp3Clip = new MpegFile(path);
 						});
 					yield return clip;
-					clip.name = Path.GetFileNameWithoutExtension(path);
+					clip.name = Path.GetFileNameWithoutExtension(path) ?? throw new Exception();
 					_audioSource.clip = clip;
 					_musicManager.Play(clip);
 					StopAllCoroutines();

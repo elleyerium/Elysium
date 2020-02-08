@@ -52,7 +52,6 @@ namespace Game.Difficult
         public void Back()
         {
             Panel.SetActive(false);
-
         }
     }
 }

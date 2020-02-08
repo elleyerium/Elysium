@@ -16,7 +16,6 @@ namespace Game.Graphics.UI.Menu
     }
     public class ButtonSystemParams : MonoBehaviour
     {
-        [SerializeField] private ScrollTracker _scrollTracker;
 
         public void ChangeFocus(MenuButton button)
         {
@@ -29,7 +28,6 @@ namespace Game.Graphics.UI.Menu
                 }
             }
             button.IsFocused = true;
-            _scrollTracker.ScrollWithoutQueue(button.Type);
             Debug.Log($"Currently focused {button.gameObject.name}");
         }
 

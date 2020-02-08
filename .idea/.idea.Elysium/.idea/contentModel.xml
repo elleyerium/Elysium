@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\User\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\User\.Rider2019.3\system\resharper-host\Local\Transient\ReSharperHost\v193\SolutionCaches\_Elysium.2000840905.00" t="ExcludeRecursive" />
-    <e p="C:\Users\User\Desktop\Elysium-master\Elysium" t="IncludeRecursive">
+    <e p="C:\Projects\Elysium" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -210,11 +208,10 @@
                     <e p="WindowAnimations.cs" t="Include" />
                   </e>
                   <e p="ButtonSystemParams.cs" t="Include" />
-                  <e p="ScrollTracker.cs" t="Include" />
                 </e>
                 <e p="Screen" t="Include">
                   <e p="AuthScreen.cs" t="Include" />
-                  <e p="MenuScreen.cs" t="Include" />
+                  <e p="Cursor.cs" t="Include" />
                   <e p="NotificationScreen.cs" t="Include" />
                   <e p="OnlineScreen.cs" t="Include" />
                   <e p="Screen.cs" t="Include" />
@@ -223,6 +220,8 @@
                   <e p="SettingsScreen.cs" t="Include" />
                   <e p="UserProfileInfoScreen.cs" t="Include" />
                   <e p="Window" t="Include">
+                    <e p="MenuWindow.cs" t="Include" />
+                    <e p="WebWindow.cs" t="Include" />
                     <e p="Window.cs" t="Include" />
                     <e p="WindowManager.cs" t="Include" />
                   </e>
@@ -236,6 +235,7 @@
                   <e p="Encryptor.cs" t="Include" />
                 </e>
                 <e p="ConnectionProvider.cs" t="Include" />
+                <e p="PlayerStatistics.cs" t="Include" />
               </e>
               <e p="MEssageType.cs" t="Include" />
               <e p="Notifications" t="Include">
@@ -402,5 +402,9 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
+    <e p="C:\Users\Elliot Alderson\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Elliot Alderson\.Rider2019.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Elliot Alderson\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Elliot Alderson\.Rider2019.3\system\resharper-host\Local\Transient\ReSharperHost\v193\SolutionCaches\_Elysium.-1897028773.00" t="ExcludeRecursive" />
   </component>
 </project>

@@ -54,6 +54,7 @@ namespace Game.Graphics.UI.Screen
 
         public void ChangeScreen(Screen screen)
         {
+            Debug.Log(screen.gameObject.name);
             if (_prevScreen == _authScreen)
                 _prevScreen = _mainScreen;
             var activeScreen = Screens.FirstOrDefault(x => x.IsActive);

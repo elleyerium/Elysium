@@ -25,7 +25,7 @@ TagManager:
   - 
   - 
   - UserHeaderUI
-  - 
+  - Overlay
   - 
   - 
   - 
@@ -49,6 +49,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Overlay
+    uniqueID: 3361811599
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: AuthScreen
+    uniqueID: 2409660887
     locked: 0

@@ -27,7 +27,6 @@ namespace Game.Graphics.UI.Screen
                 group.gameObject.SetActive(true);
                 group.interactable = group.blocksRaycasts = true;
                 DOTween.To(() => group.alpha, x => group.alpha = x, 1f, time);
-
             }
         }
 
