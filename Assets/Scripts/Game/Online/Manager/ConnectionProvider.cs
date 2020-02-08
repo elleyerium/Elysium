@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
+using Game.Graphics.UI.Buttons;
 using Game.Graphics.UI.Screen;
 using Game.Online.Manager.Auth;
 using Game.Online.Users;
@@ -17,6 +18,7 @@ namespace Game.Online.Manager
 {
     public class ConnectionProvider : MonoBehaviour
     {
+        public WindowButtonHandler WindowButtonHandler;
         public ChatHandler ChatHandler;
         public UserHandler UserHandler;
         private const string ServerIp = "127.0.0.1";
@@ -63,6 +65,7 @@ namespace Game.Online.Manager
                             case MessageType.UserDisconnected: //user just disconnected
                                 UserHandler.RemoveUser(
                                     UserHandler.Users.FirstOrDefault(x => x.Id == dataReader.GetUInt()));
+                                UserHandler.UpdateHeader((uint)UserHandler.Users.Count);
                                 break;
                             case MessageType.LeaderboardsResponse: //we got leaderboards response
                                 break;
@@ -116,7 +119,9 @@ namespace Game.Online.Manager
                 _isConnected = true;
                 SendMessage(MessageType.GetConcurrentUsers, new NetDataWriter());
                 Debug.Log("peer connected");
+                //ScreenManager.Instance.ChangeScreen();
                 ScreenManager.Instance.ChangeScreen(ScreenManager.Instance.GetScreen(ScreenType.MainScreen));
+                WindowButtonHandler.ShowMainWindow();
             };
         }
 
