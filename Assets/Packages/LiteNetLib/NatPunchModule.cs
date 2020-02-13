@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
-using LiteNetLib.Utils;
+using Packages.LiteNetLib.Utils;
 
 //Some code parts taken from lidgren-network-gen3
-namespace LiteNetLib
+namespace Packages.LiteNetLib
 {
     public interface INatPunchListener
     {

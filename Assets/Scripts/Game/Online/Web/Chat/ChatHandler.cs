@@ -4,6 +4,7 @@ using Game.Online.Users;
 using LiteNetLib.Utils;
 using UnityEngine;
 using UnityEngine.UI;
+using NetDataWriter = Packages.LiteNetLib.Utils.NetDataWriter;
 
 namespace Game.Online.Web.Chat
 {

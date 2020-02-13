@@ -3,6 +3,7 @@ using Game.Online;
 using Game.Online.Manager;
 using LiteNetLib.Utils;
 using UnityEngine;
+using NetDataWriter = Packages.LiteNetLib.Utils.NetDataWriter;
 
 namespace Game.Graphics.UI.Buttons
 {

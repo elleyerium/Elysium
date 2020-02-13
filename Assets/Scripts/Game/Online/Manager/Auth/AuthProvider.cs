@@ -3,6 +3,7 @@ using System.IO;
 using Game.Graphics.UI.Screen;
 using LiteNetLib.Utils;
 using UnityEngine;
+using NetDataWriter = Packages.LiteNetLib.Utils.NetDataWriter;
 
 namespace Game.Online.Manager.Auth
 {

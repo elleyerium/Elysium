@@ -1,10 +1,8 @@
-using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using UnityStandardAssets.CrossPlatformInput;
 
-namespace Resources.UnityAssets.Standard_Assets.CrossPlatformInput.Scripts
+namespace UnityAssets.Standard_Assets.CrossPlatformInput.Scripts
 {
 	[RequireComponent(typeof(Image))]
 	public class TouchPad : MonoBehaviour, IPointerDownHandler, IPointerUpHandler

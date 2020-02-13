@@ -5,7 +5,6 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-using UnityStandardAssets.CrossPlatformInput;
 
 namespace Input.Stick
 {

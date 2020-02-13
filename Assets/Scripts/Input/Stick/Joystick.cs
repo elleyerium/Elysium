@@ -1,9 +1,9 @@
 using System;
+using UnityAssets.Standard_Assets.CrossPlatformInput.Scripts;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using UnityStandardAssets.CrossPlatformInput;
 
 namespace Input.Stick
 {

@@ -1,4 +1,4 @@
-﻿namespace LiteNetLib
+﻿namespace Packages.LiteNetLib
 {
     public sealed class NetStatistics
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace LiteNetLib
+namespace Packages.LiteNetLib
 {
     internal sealed class NetPacketPool
     {

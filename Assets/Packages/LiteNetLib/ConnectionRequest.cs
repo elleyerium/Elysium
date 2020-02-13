@@ -1,8 +1,8 @@
 ﻿using System.Net;
 using System.Threading;
-using LiteNetLib.Utils;
+using Packages.LiteNetLib.Utils;
 
-namespace LiteNetLib
+namespace Packages.LiteNetLib
 {
     public enum ConnectionRequestType
     {

@@ -8,8 +8,6 @@ namespace Game.Online
         GetConcurrentUsersResponse = 4,
         UserConnected = 6, //Broadcast
         UserDisconnected = 8, //Broadcast
-        LeaderboardsRequest = 9,
-        LeaderboardsResponse = 10,
         GetPlayerStats = 11,
         PlayerStatsResponse = 12,
         SendChatMessage = 13,

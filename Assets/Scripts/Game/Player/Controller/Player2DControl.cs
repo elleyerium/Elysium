@@ -1,8 +1,8 @@
 ﻿using Game.Difficult;
 using Game.Player.Weapon;
 using Preferences;
+using UnityAssets.Standard_Assets.CrossPlatformInput.Scripts;
 using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
 using UnityEngine.UI;
 
 namespace Game.Player.Controller

@@ -1,7 +1,6 @@
-﻿using System;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 
-namespace LiteNetLib
+namespace Packages.LiteNetLib
 {
     public enum NetLogLevel
     {

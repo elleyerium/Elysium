@@ -2,7 +2,7 @@ using System;
 using System.Net;
 using System.Text;
 
-namespace LiteNetLib.Utils
+namespace Packages.LiteNetLib.Utils
 {
     public class NetDataWriter : IDisposable
     {

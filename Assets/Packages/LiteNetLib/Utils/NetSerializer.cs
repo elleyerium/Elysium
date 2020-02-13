@@ -1,9 +1,9 @@
 ﻿using System;
-using System.Reflection;
 using System.Collections.Generic;
 using System.Net;
+using System.Reflection;
 
-namespace LiteNetLib.Utils
+namespace Packages.LiteNetLib.Utils
 {
     public class InvalidTypeException : ArgumentException
     {

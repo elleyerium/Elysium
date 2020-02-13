@@ -42,7 +42,7 @@ namespace Audio.Tracks
 		{
 				musicController.listedMusic.Add(song);
 				musicController.alreadyIndex++;
-				Debug.Log(song);
+				//Debug.Log(song);
 		}
 
 		//installedTracks = new string[list.Count];
@@ -78,7 +78,7 @@ namespace Audio.Tracks
 
 	IEnumerator TextDisplay()
 	{
-		Debug.Log("Case preferred Width : " + Trackname.preferredWidth);
+		//Debug.Log("Case preferred Width : " + Trackname.preferredWidth);
 		if (Trackname.preferredWidth > Trackname.gameObject.GetComponent<RectTransform>().rect.width)
 		{
 			Trackname.text += " ";
@@ -94,7 +94,7 @@ namespace Audio.Tracks
 		if (Trackname.text == null || Trackname.preferredWidth <
 		    Trackname.gameObject.GetComponent<RectTransform>().rect.width)
 		{
-			Debug.Log("Smaller or eq");
+			//Debug.Log("Smaller or eq");
 			Trackname.alignment = TextAnchor.MiddleLeft;
 			StopAllCoroutines();
 		}
@@ -104,14 +104,14 @@ namespace Audio.Tracks
 	public void SliderPointerDown()
 	{
 		isMoving = true;
-		Debug.Log("Down");
+		//Debug.Log("Down");
 	}
 
 	public void SliderPointerUp()
 	{
 		isMoving = false;
 		_publicSource.time = timearea.value;
-		Debug.Log("Up");
+		//Debug.Log("Up");
 	}
 
 	public void Previous()

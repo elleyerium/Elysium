@@ -83,6 +83,13 @@
             </e>
             <e p="LICENSE.txt" t="Include" />
           </e>
+          <e p="Newtonsoft.Json.12.0.3" t="Include">
+            <e p="lib" t="Include">
+              <e p="net45" t="Include">
+                <e p="Newtonsoft.Json.xml" t="Include" />
+              </e>
+            </e>
+          </e>
         </e>
         <e p="Resources" t="Include">
           <e p="packages" t="Include">
@@ -229,6 +236,25 @@
               </e>
             </e>
             <e p="Online" t="Include">
+              <e p="API" t="Include">
+                <e p="ApiManager.cs" t="Include" />
+                <e p="IAPIProvider.cs" t="Include" />
+                <e p="Requests" t="Include">
+                  <e p="APIAvatarRequest.cs" t="Include" />
+                  <e p="APIConfigRequest.cs" t="Include" />
+                  <e p="APILeaderboardsRequest.cs" t="Include" />
+                  <e p="APIPlayerInfoRequest.cs" t="Include" />
+                  <e p="APIRequest.cs" t="Include" />
+                  <e p="APISettingsRequest.cs" t="Include" />
+                  <e p="IAPIRequest.cs" t="Include" />
+                </e>
+                <e p="Responses" t="Include">
+                  <e p="APIResponse.cs" t="Include" />
+                  <e p="Avatar.cs" t="Include" />
+                  <e p="Leaderboards.cs" t="Include" />
+                  <e p="PlayerInfo.cs" t="Include" />
+                </e>
+              </e>
               <e p="Manager" t="Include">
                 <e p="Auth" t="Include">
                   <e p="AuthProvider.cs" t="Include" />

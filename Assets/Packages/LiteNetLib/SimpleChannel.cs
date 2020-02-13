@@ -1,4 +1,4 @@
-namespace LiteNetLib
+namespace Packages.LiteNetLib
 {
     internal sealed class SimpleChannel : BaseChannel
     {

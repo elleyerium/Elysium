@@ -1,7 +1,7 @@
 using System.Net;
 using System.Net.Sockets;
 
-namespace LiteNetLib
+namespace Packages.LiteNetLib
 {
     /// <summary>
     /// Type of message that you receive in OnNetworkReceiveUnconnected event

@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Game.AI.Data
+namespace Game.AI.Health
 {
 	public class Healthbox : MonoBehaviour {
 

@@ -1,4 +1,4 @@
-﻿namespace LiteNetLib.Utils
+﻿namespace Packages.LiteNetLib.Utils
 {
     public interface INetSerializable
     {

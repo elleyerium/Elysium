@@ -9,9 +9,9 @@ using System.Diagnostics;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
-using LiteNetLib.Utils;
+using Packages.LiteNetLib.Utils;
 
-namespace LiteNetLib
+namespace Packages.LiteNetLib
 {
     public class NetPacketReader : NetDataReader
     {

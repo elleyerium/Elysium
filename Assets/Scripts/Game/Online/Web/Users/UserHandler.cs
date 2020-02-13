@@ -27,6 +27,7 @@ namespace Game.Online.Web.Users
                 return;
             Users.Add(user);
             var userObject = Instantiate(_userPrefab, Parent, true);
+            userObject.transform.localScale = new Vector3(1,1,1);
             var userPlaceholders = userObject.GetComponent<UserPlaceholders>();
             _placeholders.Add(userPlaceholders);
             userPlaceholders.Init(user, user.Username, user.Score.ToString(), user.Rank.ToString(), user.SpacePoints.ToString());

@@ -3,7 +3,7 @@ using System;
 using System.Runtime.Intrinsics.X86;
 #endif
 
-namespace LiteNetLib.Utils
+namespace Packages.LiteNetLib.Utils
 {
     //Implemenatation from Crc32.NET
     public static class CRC32C

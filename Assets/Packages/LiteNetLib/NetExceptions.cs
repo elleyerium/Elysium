@@ -1,5 +1,6 @@
 ﻿using System;
-namespace LiteNetLib
+
+namespace Packages.LiteNetLib
 {
     public class InvalidPacketException: ArgumentException
     {

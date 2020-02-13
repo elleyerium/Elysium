@@ -10,60 +10,61 @@ if this joystick is set to stay in a fixed position
 
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
 
-public class SingleJoystickTouchController : MonoBehaviour
+namespace UnityAssets.TouchJoysticks.Scripts
 {
-    public Image singleJoystickBackgroundImage; // background image of the single joystick (the joystick's handle (knob) is a child of this image and moves along with it)
-    public bool singleJoyStickAlwaysVisible = false; // value from single joystick that determines if the single joystick should be always visible or not
-
-    private Image singleJoystickHandleImage; // handle (knob) image of the single joystick
-    private SingleJoystick singleJoystick; // script component attached to the single joystick's background image
-    private int singleSideFingerID = 0; // unique finger id for touches on the left-side half of the screen
-
-    void Start()
+    public class SingleJoystickTouchController : MonoBehaviour
     {
-        if (singleJoystickBackgroundImage.GetComponent<SingleJoystick>() == null)
-        {
-            Debug.LogError("There is no joystick attached to this script.");
-        }
-        else
-        {
-            singleJoystick = singleJoystickBackgroundImage.GetComponent<SingleJoystick>(); // gets the single joystick script
-            singleJoystickBackgroundImage.enabled = singleJoyStickAlwaysVisible; // sets single joystick background image to be always visible or not
-        }
+        public Image singleJoystickBackgroundImage; // background image of the single joystick (the joystick's handle (knob) is a child of this image and moves along with it)
+        public bool singleJoyStickAlwaysVisible = false; // value from single joystick that determines if the single joystick should be always visible or not
 
-        if (singleJoystick.transform.GetChild(0).GetComponent<Image>() == null)
-        {
-            Debug.LogError("There is no joystick handle (knob) attached to this script.");
-        }
-        else
-        {
-            singleJoystickHandleImage = singleJoystick.transform.GetChild(0).GetComponent<Image>(); // gets the handle (knob) image of the single joystick
-            singleJoystickHandleImage.enabled = singleJoyStickAlwaysVisible; // sets single joystick handle (knob) image to be always visible or not
-        }
-    }
+        private Image singleJoystickHandleImage; // handle (knob) image of the single joystick
+        private SingleJoystick singleJoystick; // script component attached to the single joystick's background image
+        private int singleSideFingerID = 0; // unique finger id for touches on the left-side half of the screen
 
-    void Update()
-    {
-        // can move code from FixedUpdate() to Update() if your controlled object does not use physics
-        // can move code from Update() to FixedUpdate() if your controlled object does use physics
-        // can see which one works best for your project
-    }
-
-    void FixedUpdate()
-    {
-        // if the screen has been touched
-        if (UnityEngine.Input.touchCount > 0)
+        void Start()
         {
-            Touch[] myTouches = UnityEngine.Input.touches; // gets all the touches and stores them in an array
-
-            // loops through all the current touches
-            for (int i = 0; i < UnityEngine.Input.touchCount; i++)
+            if (singleJoystickBackgroundImage.GetComponent<SingleJoystick>() == null)
             {
-                // if this touch just started (finger is down for the first time), for this particular touch
-                if (myTouches[i].phase == TouchPhase.Began)
+                Debug.LogError("There is no joystick attached to this script.");
+            }
+            else
+            {
+                singleJoystick = singleJoystickBackgroundImage.GetComponent<SingleJoystick>(); // gets the single joystick script
+                singleJoystickBackgroundImage.enabled = singleJoyStickAlwaysVisible; // sets single joystick background image to be always visible or not
+            }
+
+            if (singleJoystick.transform.GetChild(0).GetComponent<Image>() == null)
+            {
+                Debug.LogError("There is no joystick handle (knob) attached to this script.");
+            }
+            else
+            {
+                singleJoystickHandleImage = singleJoystick.transform.GetChild(0).GetComponent<Image>(); // gets the handle (knob) image of the single joystick
+                singleJoystickHandleImage.enabled = singleJoyStickAlwaysVisible; // sets single joystick handle (knob) image to be always visible or not
+            }
+        }
+
+        void Update()
+        {
+            // can move code from FixedUpdate() to Update() if your controlled object does not use physics
+            // can move code from Update() to FixedUpdate() if your controlled object does use physics
+            // can see which one works best for your project
+        }
+
+        void FixedUpdate()
+        {
+            // if the screen has been touched
+            if (UnityEngine.Input.touchCount > 0)
+            {
+                Touch[] myTouches = UnityEngine.Input.touches; // gets all the touches and stores them in an array
+
+                // loops through all the current touches
+                for (int i = 0; i < UnityEngine.Input.touchCount; i++)
                 {
+                    // if this touch just started (finger is down for the first time), for this particular touch
+                    if (myTouches[i].phase == TouchPhase.Began)
+                    {
                         singleSideFingerID = myTouches[i].fingerId; // stores the unique id for this touch that happened on the left-side half of the screen
 
                         // if the single joystick will drag with any touch (single joystick is not set to stay in a fixed position)
@@ -99,18 +100,19 @@ public class SingleJoystickTouchController : MonoBehaviour
                                 }
                             }
                         }
-                }
+                    }
 
 
-                // if this touch has ended (finger is up and now off of the screen), for this particular touch
-                if (myTouches[i].phase == TouchPhase.Ended)
-                {
-                    // if this touch is the touch that began on the left half of the screen
-                    if (myTouches[i].fingerId == singleSideFingerID)
+                    // if this touch has ended (finger is up and now off of the screen), for this particular touch
+                    if (myTouches[i].phase == TouchPhase.Ended)
                     {
-                        // makes the single joystick disappear or stay visible
-                        singleJoystickBackgroundImage.enabled = singleJoyStickAlwaysVisible;
-                        singleJoystickHandleImage.enabled = singleJoyStickAlwaysVisible;
+                        // if this touch is the touch that began on the left half of the screen
+                        if (myTouches[i].fingerId == singleSideFingerID)
+                        {
+                            // makes the single joystick disappear or stay visible
+                            singleJoystickBackgroundImage.enabled = singleJoyStickAlwaysVisible;
+                            singleJoystickHandleImage.enabled = singleJoyStickAlwaysVisible;
+                        }
                     }
                 }
             }

@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-
+using UnityAssets.SimpleSpectrum.Scripts;
 using UnityEngine;
 using UnityEditor;
 

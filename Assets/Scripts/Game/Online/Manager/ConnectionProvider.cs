@@ -12,6 +12,11 @@ using LiteNetLib.Utils;
 using Game.Online.Web;
 using Game.Online.Web.Chat;
 using Game.Online.Web.Users;
+using DeliveryMethod = Packages.LiteNetLib.DeliveryMethod;
+using EventBasedNetListener = Packages.LiteNetLib.EventBasedNetListener;
+using NetDataWriter = Packages.LiteNetLib.Utils.NetDataWriter;
+using NetManager = Packages.LiteNetLib.NetManager;
+using NetPeer = Packages.LiteNetLib.NetPeer;
 using Screen = Game.Graphics.UI.Screen.Screen;
 
 namespace Game.Online.Manager
@@ -66,8 +71,6 @@ namespace Game.Online.Manager
                                 UserHandler.RemoveUser(
                                     UserHandler.Users.FirstOrDefault(x => x.Id == dataReader.GetUInt()));
                                 UserHandler.UpdateHeader((uint)UserHandler.Users.Count);
-                                break;
-                            case MessageType.LeaderboardsResponse: //we got leaderboards response
                                 break;
                             case MessageType.GetConcurrentUsersResponse: //we got concurrent users response
                                 var count = dataReader.GetUInt();

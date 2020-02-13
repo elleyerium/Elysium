@@ -1,6 +1,6 @@
 using System;
 
-namespace LiteNetLib
+namespace Packages.LiteNetLib
 {
     internal sealed class ReliableChannel : BaseChannel
     {

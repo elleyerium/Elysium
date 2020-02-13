@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LiteNetLib.Utils
+namespace Packages.LiteNetLib.Utils
 {
     public class NetPacketProcessor
     {

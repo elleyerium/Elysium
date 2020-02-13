@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace LiteNetLib
+namespace Packages.LiteNetLib
 {
     internal abstract class BaseChannel
     {

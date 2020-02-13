@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-namespace LiteNetLib.Utils
+namespace Packages.LiteNetLib.Utils
 {
     public static class FastBitConverter
     {

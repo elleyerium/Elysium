@@ -5,9 +5,9 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Net;
-using LiteNetLib.Utils;
+using Packages.LiteNetLib.Utils;
 
-namespace LiteNetLib
+namespace Packages.LiteNetLib
 {
     /// <summary>
     /// Peer connection state

@@ -1,7 +1,7 @@
 using System;
-using LiteNetLib.Utils;
+using Packages.LiteNetLib.Utils;
 
-namespace LiteNetLib
+namespace Packages.LiteNetLib
 {
     internal enum PacketProperty : byte
     {

@@ -10,7 +10,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 
-namespace LiteNetLib
+namespace Packages.LiteNetLib
 {
     internal interface INetSocketListener
     {

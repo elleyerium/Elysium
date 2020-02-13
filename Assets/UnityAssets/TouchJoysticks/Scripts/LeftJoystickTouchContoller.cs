@@ -14,61 +14,62 @@ this script also optionally keeps the joystick always visible
 
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
 
-public class LeftJoystickTouchContoller : MonoBehaviour
+namespace UnityAssets.TouchJoysticks.Scripts
 {
-    public Image leftJoystickBackgroundImage; // background image of the left joystick (the joystick's handle (knob) is a child of this image and moves along with it)
-    public bool leftJoyStickAlwaysVisible = false; // value from left joystick that determines if the left joystick should be always visible or not
-
-    private Image leftJoystickHandleImage; // handle (knob) image of the left joystick
-    private LeftJoystick leftJoystick; // script component attached to the left joystick's background image
-    private int leftSideFingerID = 0; // unique finger id for touches on the left-side half of the screen
-
-    void Start()
+    public class LeftJoystickTouchContoller : MonoBehaviour
     {
+        public Image leftJoystickBackgroundImage; // background image of the left joystick (the joystick's handle (knob) is a child of this image and moves along with it)
+        public bool leftJoyStickAlwaysVisible = false; // value from left joystick that determines if the left joystick should be always visible or not
 
-        if (leftJoystickBackgroundImage.GetComponent<LeftJoystick>() == null)
-        {
-            Debug.LogError("There is no LeftJoystick script attached to the Left Joystick game object.");
-        }
-        else
-        {
-            leftJoystick = leftJoystickBackgroundImage.GetComponent<LeftJoystick>(); // gets the left joystick script
-            leftJoystickBackgroundImage.enabled = leftJoyStickAlwaysVisible; // sets left joystick background image to be always visible or not
-        }
+        private Image leftJoystickHandleImage; // handle (knob) image of the left joystick
+        private LeftJoystick leftJoystick; // script component attached to the left joystick's background image
+        private int leftSideFingerID = 0; // unique finger id for touches on the left-side half of the screen
 
-        if (leftJoystick.transform.GetChild(0).GetComponent<Image>() == null)
+        void Start()
         {
-            Debug.LogError("There is no left joystick handle image attached to this script.");
-        }
-        else
-        {
-            leftJoystickHandleImage = leftJoystick.transform.GetChild(0).GetComponent<Image>(); // gets the handle (knob) image of the left joystick
-            leftJoystickHandleImage.enabled = leftJoyStickAlwaysVisible; // sets left joystick handle (knob) image to be always visible or not
-        }
-    }
 
-    void Update()
-    {
-        // can move code from FixedUpdate() to Update() if your controlled object does not use physics
-        // can move code from Update() to FixedUpdate() if your controlled object does use physics
-        // can see which one works best for your project
-    }
-
-    void FixedUpdate()
-    {
-        // if the screen has been touched
-        if (UnityEngine.Input.touchCount > 0)
-        {
-            Touch[] myTouches = UnityEngine.Input.touches; // gets all the touches and stores them in an array
-
-            // loops through all the current touches
-            for (int i = 0; i < UnityEngine.Input.touchCount; i++)
+            if (leftJoystickBackgroundImage.GetComponent<LeftJoystick>() == null)
             {
-                // if this touch just started (finger is down for the first time), for this particular touch
-                if (myTouches[i].phase == TouchPhase.Began)
+                Debug.LogError("There is no LeftJoystick script attached to the Left Joystick game object.");
+            }
+            else
+            {
+                leftJoystick = leftJoystickBackgroundImage.GetComponent<LeftJoystick>(); // gets the left joystick script
+                leftJoystickBackgroundImage.enabled = leftJoyStickAlwaysVisible; // sets left joystick background image to be always visible or not
+            }
+
+            if (leftJoystick.transform.GetChild(0).GetComponent<Image>() == null)
+            {
+                Debug.LogError("There is no left joystick handle image attached to this script.");
+            }
+            else
+            {
+                leftJoystickHandleImage = leftJoystick.transform.GetChild(0).GetComponent<Image>(); // gets the handle (knob) image of the left joystick
+                leftJoystickHandleImage.enabled = leftJoyStickAlwaysVisible; // sets left joystick handle (knob) image to be always visible or not
+            }
+        }
+
+        void Update()
+        {
+            // can move code from FixedUpdate() to Update() if your controlled object does not use physics
+            // can move code from Update() to FixedUpdate() if your controlled object does use physics
+            // can see which one works best for your project
+        }
+
+        void FixedUpdate()
+        {
+            // if the screen has been touched
+            if (UnityEngine.Input.touchCount > 0)
+            {
+                Touch[] myTouches = UnityEngine.Input.touches; // gets all the touches and stores them in an array
+
+                // loops through all the current touches
+                for (int i = 0; i < UnityEngine.Input.touchCount; i++)
                 {
+                    // if this touch just started (finger is down for the first time), for this particular touch
+                    if (myTouches[i].phase == TouchPhase.Began)
+                    {
                         // if this touch is on the left-side half of screen
                         if (myTouches[i].position.x < Screen.width / 2)
                         {
@@ -110,15 +111,16 @@ public class LeftJoystickTouchContoller : MonoBehaviour
                         }
                     }
 
-                // if this touch has ended (finger is up and now off of the screen), for this particular touch
-                if (myTouches[i].phase == TouchPhase.Ended)
-                {
-                    // if this touch is the touch that began on the left half of the screen
-                    if (myTouches[i].fingerId == leftSideFingerID)
+                    // if this touch has ended (finger is up and now off of the screen), for this particular touch
+                    if (myTouches[i].phase == TouchPhase.Ended)
                     {
-                        // makes the left joystick disappear or stay visible
-                        leftJoystickBackgroundImage.enabled = leftJoyStickAlwaysVisible;
-                        leftJoystickHandleImage.enabled = leftJoyStickAlwaysVisible;
+                        // if this touch is the touch that began on the left half of the screen
+                        if (myTouches[i].fingerId == leftSideFingerID)
+                        {
+                            // makes the left joystick disappear or stay visible
+                            leftJoystickBackgroundImage.enabled = leftJoyStickAlwaysVisible;
+                            leftJoystickHandleImage.enabled = leftJoyStickAlwaysVisible;
+                        }
                     }
                 }
             }

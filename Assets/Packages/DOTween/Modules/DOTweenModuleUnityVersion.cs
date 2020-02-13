@@ -1,13 +1,13 @@
 ﻿// Author: Daniele Giardini - http://www.demigiant.com
 // Created: 2018/07/13
 
-using System;
-using UnityEngine;
+using DG.Tweening;
 using DG.Tweening.Core;
 using DG.Tweening.Plugins.Options;
+using UnityEngine;
 
 #pragma warning disable 1591
-namespace DG.Tweening
+namespace Packages.DOTween.Modules
 {
     /// <summary>
     /// Shortcuts/functions that are not strictly related to specific Modules
@@ -26,7 +26,7 @@ namespace DG.Tweening
         /// <param name="gradient">The gradient to use</param><param name="duration">The duration of the tween</param>
         public static Sequence DOGradientColor(this Material target, Gradient gradient, float duration)
         {
-            Sequence s = DOTween.Sequence();
+            Sequence s = DG.Tweening.DOTween.Sequence();
             GradientColorKey[] colors = gradient.colorKeys;
             int len = colors.Length;
             for (int i = 0; i < len; ++i) {
@@ -51,7 +51,7 @@ namespace DG.Tweening
         /// <param name="duration">The duration of the tween</param>
         public static Sequence DOGradientColor(this Material target, Gradient gradient, string property, float duration)
         {
-            Sequence s = DOTween.Sequence();
+            Sequence s = DG.Tweening.DOTween.Sequence();
             GradientColorKey[] colors = gradient.colorKeys;
             int len = colors.Length;
             for (int i = 0; i < len; ++i) {
@@ -187,7 +187,7 @@ namespace DG.Tweening
                 if (Debugger.logPriority > 0) Debugger.LogMissingMaterialProperty(propertyID);
                 return null;
             }
-            TweenerCore<Vector2, Vector2, VectorOptions> t = DOTween.To(() => target.GetTextureOffset(propertyID), x => target.SetTextureOffset(propertyID, x), endValue, duration);
+            TweenerCore<Vector2, Vector2, VectorOptions> t = DG.Tweening.DOTween.To(() => target.GetTextureOffset(propertyID), x => target.SetTextureOffset(propertyID, x), endValue, duration);
             t.SetTarget(target);
             return t;
         }
@@ -203,7 +203,7 @@ namespace DG.Tweening
                 if (Debugger.logPriority > 0) Debugger.LogMissingMaterialProperty(propertyID);
                 return null;
             }
-            TweenerCore<Vector2, Vector2, VectorOptions> t = DOTween.To(() => target.GetTextureScale(propertyID), x => target.SetTextureScale(propertyID, x), endValue, duration);
+            TweenerCore<Vector2, Vector2, VectorOptions> t = DG.Tweening.DOTween.To(() => target.GetTextureScale(propertyID), x => target.SetTextureScale(propertyID, x), endValue, duration);
             t.SetTarget(target);
             return t;
         }

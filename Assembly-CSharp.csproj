@@ -148,6 +148,19 @@
      <Compile Include="Assets\Scripts\Game\Graphics\UI\Screen\Window\WebWindow.cs" />
      <Compile Include="Assets\Scripts\Game\Graphics\UI\Screen\Window\Window.cs" />
      <Compile Include="Assets\Scripts\Game\Graphics\UI\Screen\Window\WindowManager.cs" />
+     <Compile Include="Assets\Scripts\Game\Online\API\APIManager.cs" />
+     <Compile Include="Assets\Scripts\Game\Online\API\IAPIProvider.cs" />
+     <Compile Include="Assets\Scripts\Game\Online\API\Requests\APIAvatarRequest.cs" />
+     <Compile Include="Assets\Scripts\Game\Online\API\Requests\APIConfigRequest.cs" />
+     <Compile Include="Assets\Scripts\Game\Online\API\Requests\APILeaderboardsRequest.cs" />
+     <Compile Include="Assets\Scripts\Game\Online\API\Requests\APIPlayerInfoRequest.cs" />
+     <Compile Include="Assets\Scripts\Game\Online\API\Requests\APIRequest.cs" />
+     <Compile Include="Assets\Scripts\Game\Online\API\Requests\APISettingsRequest.cs" />
+     <Compile Include="Assets\Scripts\Game\Online\API\Requests\IAPIRequest.cs" />
+     <Compile Include="Assets\Scripts\Game\Online\API\Responses\APIResponse.cs" />
+     <Compile Include="Assets\Scripts\Game\Online\API\Responses\Avatar.cs" />
+     <Compile Include="Assets\Scripts\Game\Online\API\Responses\Leaderboards.cs" />
+     <Compile Include="Assets\Scripts\Game\Online\API\Responses\PlayerInfo.cs" />
      <Compile Include="Assets\Scripts\Game\Online\Manager\Auth\AuthProvider.cs" />
      <Compile Include="Assets\Scripts\Game\Online\Manager\Auth\Encryptor.cs" />
      <Compile Include="Assets\Scripts\Game\Online\Manager\ConnectionProvider.cs" />
@@ -226,6 +239,7 @@
      <None Include="Assets\Resources\Packages\Google.Protobuf.3.5.1\lib\net45\Google.Protobuf.xml" />
      <None Include="Assets\UnityAssets\Plugins\release_history.txt" />
      <None Include="Assets\UnityAssets\SimpleSpectrum\SimpleSpectrum_Changelog.txt" />
+     <None Include="Assets\Packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.xml" />
      <None Include="Assets\UnityAssets\SimpleSpectrum\Misc\lightweightGradientLerpSprite.shader" />
      <None Include="Assets\UnityAssets\SimpleSpectrum\Misc\lightweightGradientLerp.shader" />
      <None Include="Assets\Coffee\UIExtensions\SoftMaskForUGUI\SoftMask.cginc" />
@@ -505,6 +519,9 @@
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>C:/Projects/Elysium/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>C:/Projects/Elysium/Assets/Packages/Newtonsoft.Json.12.0.3/lib/net45/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/2019.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
