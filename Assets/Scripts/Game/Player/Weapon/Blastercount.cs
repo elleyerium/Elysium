@@ -11,7 +11,7 @@ namespace Game.Player.Weapon
         public static Text lazercount;
 
 
-        void Start ()
+        /*void Start ()
         {
             if (BotDifficult.noob)
                 Ammodownlazer = 120;
@@ -20,7 +20,7 @@ namespace Game.Player.Weapon
             if (BotDifficult.impossible)
                 Ammodownlazer = 60;
             lazercount = GetComponent<Text>();
-        }
+        }*/
 
 
         void Update ()

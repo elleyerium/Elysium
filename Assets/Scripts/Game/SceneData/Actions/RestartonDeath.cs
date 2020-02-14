@@ -58,9 +58,9 @@ namespace Game.SceneData.Actions
     {
         SendData();
         SaveToDataBase();
-        BotDifficult.abitharder = false;
+        /*BotDifficult.abitharder = false;
         BotDifficult.noob = false;
-        BotDifficult.impossible = false;
+        BotDifficult.impossible = false;*/
         Bots.botCounter = 0;
         Initiate.Fade("Main", Color.black, 2.5f);
         Time.timeScale = 1;

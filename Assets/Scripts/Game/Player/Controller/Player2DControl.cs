@@ -81,14 +81,14 @@ namespace Game.Player.Controller
     {
         if (Time.time >= nextFire && AmmoCounter.AmmodownRocket > 0)
         {
-            IsReloading = true;
+            /*IsReloading = true;
             if(BotDifficult.noob)
                 nextFire = Time.time + 3;
             if (BotDifficult.abitharder)
                 nextFire = Time.time + 4;
             if (BotDifficult.impossible)
                 nextFire = Time.time + 5;
-            reloadRate = nextFire - Time.time;
+            reloadRate = nextFire - Time.time;*/
 
             GameObject clone = Instantiate(shot, rPos01.position, rPos01.rotation);
             GameObject clone2 = Instantiate(shot1, rPos02.position, rPos02.rotation);

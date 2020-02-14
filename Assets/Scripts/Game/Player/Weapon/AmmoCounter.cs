@@ -16,12 +16,12 @@ namespace Game.Player.Weapon
 
         void Start ()
         {
-            if (BotDifficult.noob)
+            /*if (BotDifficult.noob)
                 AmmodownRocket = 100;
             if (BotDifficult.abitharder)
                 AmmodownRocket = 50;
             if (BotDifficult.impossible)
-                AmmodownRocket = 30;
+                AmmodownRocket = 30;*/
 
 
             rocketcount = GetComponent<Text>();

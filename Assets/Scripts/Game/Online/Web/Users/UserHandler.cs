@@ -12,13 +12,14 @@ namespace Game.Online.Web.Users
         [SerializeField] private GameObject _userPrefab;
         public Transform Parent;
         public List<User> Users = new List<User>();
+        public uint OnlineCount;
         public Text Header;
         private List<UserPlaceholders> _placeholders = new List<UserPlaceholders>();
 
 
         public void UpdateHeader(uint usersCount)
         {
-            Header.text = $"online - {usersCount.ToString()}";
+            Header.text = $"online - {OnlineCount}";
         }
 
         public void AddUser(User user)
@@ -39,6 +40,8 @@ namespace Game.Online.Web.Users
             var pHolder = _placeholders.FirstOrDefault(x => x.User == user);
             Destroy(pHolder.gameObject);
             _placeholders.Remove(pHolder);
+            OnlineCount--;
+            UpdateHeader(OnlineCount);
         }
 
         public void UpdateUserState(User user, UserStare userStare)
