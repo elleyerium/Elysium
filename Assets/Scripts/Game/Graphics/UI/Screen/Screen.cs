@@ -54,6 +54,10 @@ namespace Game.Graphics.UI.Screen
         ProfileInfoScreen,
         MainScreen,
         NotificationsScreen,
-        SettingsScreen
+        SettingsScreen,
+        LobbyScreen,
+        LeaderboardsScreen,
+        ModeSelectorScreen,
+        StylingScreen
     }
 }
