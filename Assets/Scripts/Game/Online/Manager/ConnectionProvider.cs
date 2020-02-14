@@ -26,6 +26,7 @@ namespace Game.Online.Manager
         public WindowButtonHandler WindowButtonHandler;
         public ChatHandler ChatHandler;
         public UserHandler UserHandler;
+        public LobbyScreen LobbyScreen;
         private const string ServerIp = "127.0.0.1";
         private const int Port = 27015;
         private static NetManager _client;
@@ -61,6 +62,8 @@ namespace Game.Online.Manager
                             case MessageType.UserConnected: //new user just connected
                                 dataReader.GetString();
                                 var connId = dataReader.GetUInt();
+                                UserHandler.OnlineCount++;
+                                UserHandler.UpdateHeader(UserHandler.OnlineCount);
                                 if(connId == LocalId)
                                     return;
                                 writer.Put(connId);
@@ -70,7 +73,8 @@ namespace Game.Online.Manager
                             case MessageType.UserDisconnected: //user just disconnected
                                 UserHandler.RemoveUser(
                                     UserHandler.Users.FirstOrDefault(x => x.Id == dataReader.GetUInt()));
-                                UserHandler.UpdateHeader((uint)UserHandler.Users.Count);
+                                UserHandler.OnlineCount--;
+                                UserHandler.UpdateHeader(UserHandler.OnlineCount);
                                 break;
                             case MessageType.GetConcurrentUsersResponse: //we got concurrent users response
                                 var count = dataReader.GetUInt();
@@ -90,7 +94,7 @@ namespace Game.Online.Manager
                                 var user = dataReader.Get<User>();
                                 UserHandler.AddUser(user);
                                 break;
-                            case MessageType.GetAvatarResponse: //We got avatar response
+                            case MessageType.NewRoomAvailable: //We got avatar response
                                 break;
                             case MessageType.IncomingChatMessage: //We got incoming chat message
                                 ChatHandler.ReceiveMessage(dataReader.GetString(), dataReader.GetString(),
@@ -124,7 +128,7 @@ namespace Game.Online.Manager
                 Debug.Log("peer connected");
                 //ScreenManager.Instance.ChangeScreen();
                 ScreenManager.Instance.ChangeScreen(ScreenManager.Instance.GetScreen(ScreenType.MainScreen));
-                WindowButtonHandler.ShowMainWindow();
+                //WindowButtonHandler.ShowMainWindow();
             };
         }
 
