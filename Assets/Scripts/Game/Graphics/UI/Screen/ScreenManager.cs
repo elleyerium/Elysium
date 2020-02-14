@@ -7,10 +7,11 @@ namespace Game.Graphics.UI.Screen
 {
     public class ScreenManager : MonoBehaviour
     {
-        [SerializeField] private Screen _authScreen, _webScreen, _profileInfoScreen, _mainScreen, _notificationsScreen, _settingsScreen;
+        [SerializeField] private Screen _authScreen, _webScreen, _profileInfoScreen, _mainScreen, _notificationsScreen, _settingsScreen, _lobbyScreen;
+        [SerializeField] private Screen _leaderboardsScreen, _modeSelectorScreen, _stylingScreen;
         private Screen _prevScreen;
         public static ScreenManager Instance;
-        public List<Screen> Screens;
+        public List<Screen> Screens = new List<Screen>();
 
         private void Awake()
         {
@@ -29,6 +30,10 @@ namespace Game.Graphics.UI.Screen
             Screens.Add(_mainScreen);
             Screens.Add(_notificationsScreen);
             Screens.Add(_settingsScreen);
+            Screens.Add(_leaderboardsScreen);
+            Screens.Add(_modeSelectorScreen);
+            Screens.Add(_stylingScreen);
+            Screens.Add(_lobbyScreen);
         }
 
         public Screen GetScreen(ScreenType screenType)
@@ -47,6 +52,14 @@ namespace Game.Graphics.UI.Screen
                     return _notificationsScreen;
                 case ScreenType.SettingsScreen:
                     return _settingsScreen;
+                case ScreenType.LobbyScreen:
+                    return _lobbyScreen;
+                case ScreenType.LeaderboardsScreen:
+                    return _leaderboardsScreen;
+                case ScreenType.ModeSelectorScreen:
+                    return _modeSelectorScreen;
+                case ScreenType.StylingScreen:
+                    return _stylingScreen;
                 default:
                     throw new ArgumentOutOfRangeException(nameof(screenType), screenType, null);
             }
