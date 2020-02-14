@@ -14,8 +14,8 @@ namespace Game.Online
         IncomingChatMessage = 14, //Broadcast
         UpdateProfileSettings = 15,
         UpdateProfileSettingsResponse = 16,
-        GetAvatar = 17,
-        GetAvatarResponse = 18
+        CreateRoom = 17,
+        NewRoomAvailable = 18
     }
 
     public enum ProfileSettingsMessage
