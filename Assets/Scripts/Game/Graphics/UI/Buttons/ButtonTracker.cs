@@ -12,11 +12,9 @@ namespace Game.Graphics.UI.Buttons
 {
      public class ButtonTracker : MonoBehaviour
      {
-          [SerializeField] private CanvasGroup _mainMenu, _selectableScreen, _styling, _ranking, _settings, _rooms, _diffPanel;
-          [SerializeField] private WindowAnimations _windowsAnimations;
           [SerializeField] private WindowButtonHandler _buttonHandler;
           [SerializeField] private BotDifficult _botDifficult;
-          private float _playbackSpeed = 2f;
+          [SerializeField] private GameProvider _gameProvider;
 
           public void WebScreen() =>
                ScreenManager.Instance.ChangeScreen(ScreenManager.Instance.GetScreen(ScreenType.WebScreen));
@@ -33,34 +31,32 @@ namespace Game.Graphics.UI.Buttons
           public void HomeScreen() =>
                ScreenManager.Instance.ChangeScreen(ScreenManager.Instance.GetScreen(ScreenType.MainScreen));
 
-          public void ShowRooms()=>
-          StartCoroutine(_windowsAnimations.Animate(_selectableScreen, _rooms, _playbackSpeed));
+          public void LeaderboardsScreen() =>
+               ScreenManager.Instance.ChangeScreen(ScreenManager.Instance.GetScreen(ScreenType.LeaderboardsScreen));
 
-          public void ShowDiff()=>
-               _buttonHandler.ShowGameModeOfflineWindow();
+          public void StylingScreen() =>
+               ScreenManager.Instance.ChangeScreen(ScreenManager.Instance.GetScreen(ScreenType.StylingScreen));
+
+          public void LobbyScreen()=>
+               ScreenManager.Instance.ChangeScreen(ScreenManager.Instance.GetScreen(ScreenType.LobbyScreen));
+
+          /*public void ShowDiff()=>
+               //_buttonHandler.ShowGameModeOfflineWindow();*/ //TODO: FIX
 
           public void PlayOffline()
           {
+               //_gameProvider.SetOfflineHost(new BotDifficult(DifficultRate.Easy));
                Initiate.Fade("Bots", Color.black, 1f);
-               _botDifficult.Play();
+               //_botDifficult.Play();
           }
 
-          public void BackStyling() =>
-               _buttonHandler.ShowMainWindow();
+          public void ModeSelectorScreen()=>
+               ScreenManager.Instance.ChangeScreen(ScreenManager.Instance.GetScreen(ScreenType.ModeSelectorScreen));
 
-          public void BackRanking()=>
-               _buttonHandler.ShowMainWindow();
+          public void DiffSelectorScreen()=>
+               ScreenManager.Instance.ChangeScreen(ScreenManager.Instance.GetScreen(ScreenType.DiffSelectorScreen));
 
-          public void BackSettings()=>
-               ScreenManager.Instance.ChangeScreen(ScreenManager.Instance.GetScreen(ScreenType.MainScreen));
-
-          public void BackSelectableScreen()=>
-               _buttonHandler.ShowMainWindow();
-
-          public void BackRooms()=>
-          StartCoroutine(_windowsAnimations.Animate(_rooms, _selectableScreen, _playbackSpeed));
-
-          public void BackDiff()=>
-               _buttonHandler.ShowGameModeWindow();
+          /*public void BackDiff()=>
+               _buttonHandler.ShowGameModeWindow();*/
      }
 }

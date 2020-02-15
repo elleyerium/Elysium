@@ -178,6 +178,9 @@
             <e p="Difficult" t="Include">
               <e p="BotDifficult.cs" t="Include" />
             </e>
+            <e p="GameContainer.cs" t="Include" />
+            <e p="GameHost.cs" t="Include" />
+            <e p="GameProvider.cs" t="Include" />
             <e p="Graphics" t="Include">
               <e p="Effects" t="Include">
                 <e p="FillAnimator.cs" t="Include" />
@@ -205,6 +208,7 @@
                     <e p="MenuButton.cs" t="Include" />
                   </e>
                   <e p="Hidenuttons.cs" t="Include" />
+                  <e p="OnlineViewButtons.cs" t="Include" />
                   <e p="WindowButtonHandler.cs" t="Include" />
                 </e>
                 <e p="Menu" t="Include">
@@ -219,6 +223,7 @@
                 <e p="Screen" t="Include">
                   <e p="AuthScreen.cs" t="Include" />
                   <e p="Cursor.cs" t="Include" />
+                  <e p="LobbyScreen.cs" t="Include" />
                   <e p="NotificationScreen.cs" t="Include" />
                   <e p="OnlineScreen.cs" t="Include" />
                   <e p="Screen.cs" t="Include" />
@@ -261,14 +266,20 @@
                   <e p="Encryptor.cs" t="Include" />
                 </e>
                 <e p="ConnectionProvider.cs" t="Include" />
-                <e p="PlayerStatistics.cs" t="Include" />
               </e>
               <e p="MEssageType.cs" t="Include" />
+              <e p="Multiplayer" t="Include">
+                <e p="Lobby" t="Include">
+                  <e p="Lobby.cs" t="Include" />
+                  <e p="Room.cs" t="Include" />
+                </e>
+              </e>
               <e p="Notifications" t="Include">
                 <e p="NofEnum.cs" t="Include" />
                 <e p="NotificationPrefab.cs" t="Include" />
                 <e p="NotificationsCreator.cs" t="Include" />
               </e>
+              <e p="Player.cs" t="Include" />
               <e p="Users" t="Include">
                 <e p="Avatar.cs" t="Include" />
                 <e p="PlayerType.cs" t="Include" />

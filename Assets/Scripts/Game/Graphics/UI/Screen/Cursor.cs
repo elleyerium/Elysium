@@ -10,7 +10,6 @@ namespace Game.Graphics.UI.Screen
         {
             var converted = _camera.ScreenToWorldPoint(UnityEngine.Input.mousePosition);
             transform.position = new Vector3(converted.x, converted.y, 0f);
-            //Debug.Log(transform.position);
         }
 
     }

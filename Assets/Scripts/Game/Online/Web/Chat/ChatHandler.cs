@@ -1,7 +1,7 @@
 using System;
 using Game.Online.Manager;
 using Game.Online.Users;
-using LiteNetLib.Utils;
+using Packages.LiteNetLib.Utils;
 using UnityEngine;
 using UnityEngine.UI;
 using NetDataWriter = Packages.LiteNetLib.Utils.NetDataWriter;

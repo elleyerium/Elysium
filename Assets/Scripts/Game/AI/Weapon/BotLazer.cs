@@ -27,7 +27,7 @@ namespace Game.AI.Weapon
         void OnTriggerEnter2D(Collider2D col)
         {
 
-            if (col.gameObject.tag == "player")
+            /*if (col.gameObject.tag == "player")
             {
                 if (BotDifficult.impossible)
                     HealthbarScript.health -= 30;
@@ -36,7 +36,7 @@ namespace Game.AI.Weapon
                 if (BotDifficult.noob)
                     HealthbarScript.health -= 10;
                 Destroy(botlazer);
-            }
+            }*/
 
             if(col.gameObject.tag == "border")
                 Destroy(botlazer);

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using Game.Online.Manager;
-using LiteNetLib.Utils;
+using Packages.LiteNetLib.Utils;
 using UnityEngine;
 
 namespace Game.Online.Multiplayer.Lobby
@@ -20,12 +20,18 @@ namespace Game.Online.Multiplayer.Lobby
 
         public void Serialize(NetDataWriter writer)
         {
-            throw new System.NotImplementedException();
+            writer.Put(RoomName);
+            writer.Put(Owner.Id);
+            writer.Put(MinPlayers);
+            writer.Put(MaxPlayers);
         }
 
         public void Deserialize(NetDataReader reader)
         {
-            //Owner =
+            //Owner = writer.Put(RoomName);
+            RoomName = reader.GetString();
+            MinPlayers = reader.GetInt();
+            MaxPlayers = reader.GetInt();
         }
     }
 }

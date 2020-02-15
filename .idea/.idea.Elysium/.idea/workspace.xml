@@ -2,117 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09e27a89-22b8-4832-b11f-b2fd6921f66b" name="Default Changelist" comment="Bot spawning/shooting fix">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/APIManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/ApiManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/IAPIProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/IAPIProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/APIAvatarRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/APIAvatarRequest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/APIConfigRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/APIConfigRequest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/APILeaderboardsRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/APILeaderboardsRequest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/APIPlayerInfoRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/APIPlayerInfoRequest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/APIRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/APIRequest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/APISettingsRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/APISettingsRequest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/IAPIRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/IAPIRequest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Responses.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Responses/APIResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Responses/APIResponse.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Responses/Avatar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Responses/Avatar.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Responses/Leaderboards.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Responses/Leaderboards.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Responses/PlayerInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Responses/PlayerInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/GameContainer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/GameContainer.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Elysium/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Elysium/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Elysium/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Elysium/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Elysium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Elysium/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/DOTween/Modules/DOTweenModuleAudio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/DOTween/Modules/DOTweenModuleAudio.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/DOTween/Modules/DOTweenModulePhysics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/DOTween/Modules/DOTweenModulePhysics.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/DOTween/Modules/DOTweenModulePhysics2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/DOTween/Modules/DOTweenModulePhysics2D.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/DOTween/Modules/DOTweenModuleSprite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/DOTween/Modules/DOTweenModuleSprite.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/DOTween/Modules/DOTweenModuleUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/DOTween/Modules/DOTweenModuleUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/DOTween/Modules/DOTweenModuleUnityVersion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/DOTween/Modules/DOTweenModuleUnityVersion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/DOTween/Modules/DOTweenModuleUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/DOTween/Modules/DOTweenModuleUtils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/BaseChannel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/BaseChannel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/ConnectionRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/ConnectionRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/INetEventListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/INetEventListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NatPunchModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NatPunchModule.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetConstants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetConstants.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetDebug.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetDebug.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetExceptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetExceptions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetPacket.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetPacket.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetPacketPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetPacketPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetPeer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetPeer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetSocket.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetSocket.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetStatistics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetStatistics.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/NetUtils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/ReliableChannel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/ReliableChannel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/SequencedChannel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/SequencedChannel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/SimpleChannel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/SimpleChannel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/Utils/CRC32C.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/Utils/CRC32C.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/Utils/FastBitConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/Utils/FastBitConverter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/Utils/INetSerializable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/Utils/INetSerializable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/Utils/NetDataReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/Utils/NetDataReader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/Utils/NetDataWriter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/Utils/NetDataWriter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/Utils/NetPacketProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/Utils/NetPacketProcessor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/Utils/NetSerializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/Utils/NetSerializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/Utils/NtpPacket.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/Utils/NtpPacket.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/Utils/NtpRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/LiteNetLib/Utils/NtpRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Networking/Users/Profile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Networking/Users/Profile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/LICENSE.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/LiteNetLib.0.8.3.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/LiteNetLib.0.8.3.1.nupkg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/lib.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/lib/net35.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/lib/net35/LiteNetLib.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/lib/net35/LiteNetLib.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/lib/net35/LiteNetLib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/LiteNetLib.0.8.3.1/lib/net35/LiteNetLib.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Explosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Explosion.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Main Camera (1).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Main Camera (1).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Materials/Background1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Materials/Background1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Bots (2).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Bots (2).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Networking/Chat/Message.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Networking/Chat/Message.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/New Physics Material 2D.physicsMaterial2D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/New Physics Material 2D.physicsMaterial2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Spaceship.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Spaceship.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Visualizer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Visualizer.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Shaders/BackMove/Hidden_BackShader.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Shaders/BackMove/Hidden_BackShader.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Logos/Preview_Movies/previewBlaster.mp4.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Logos/Preview_Movies/previewBlaster.mp4.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Logos/Preview_Movies/previewLazer.mp4.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Logos/Preview_Movies/previewLazer.mp4.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Logos/Preview_Movies/previewRocket.mp4.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Logos/Preview_Movies/previewRocket.mp4.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/bots.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/bots.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Audio/Tracks/MusicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Audio/Tracks/MusicManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AI/Health/Healthbox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/AI/Health/Healthbox.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AI/Data/Bots.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/AI/Data/Bots.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AI/Positions/BotMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/AI/Positions/BotMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AI/Weapon/BotLazer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/AI/Weapon/BotLazer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AI/Weapon/Botshooting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/AI/Weapon/Botshooting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AI/Weapon/Misslebotscript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/AI/Weapon/Misslebotscript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Difficult/BotDifficult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Difficult/BotDifficult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/GameHost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/GameHost.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/GameProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/GameProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/ButtonTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/ButtonTracker.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/WindowButtonHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/WindowButtonHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Cursor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Cursor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/LobbyScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/LobbyScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Screen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Screen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/ScreenManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/ScreenManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/Window.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/Window.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/WindowManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/WindowManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/IGameHost.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/IGameHost.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/Auth/AuthProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/Auth/AuthProvider.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/ConnectionProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/ConnectionProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/MessageType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/MessageType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/PlayerStatistics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/PlayerStatistics.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Multiplayer/Lobby/Lobby.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Multiplayer/Lobby/Lobby.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Multiplayer/Lobby/Room.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Multiplayer/Lobby/Room.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat/ChatHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat/ChatHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Player/Controller/Player2DControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Player/Controller/Player2DControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Player/Controller/Spacecontrol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Player/Controller/Spacecontrol.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/Stick/Joystick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Input/Stick/Joystick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/Stick/StickGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Input/Stick/StickGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/Camera Aspect Ratio Rectifier/cameraZoomController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/Camera Aspect Ratio Rectifier/cameraZoomController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/SimpleSpectrum/Demos/Demo Assets/SoundFileOpener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/SimpleSpectrum/Demos/Demo Assets/SoundFileOpener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/SimpleSpectrum/Scripts/Editor/OutputVolumeEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/SimpleSpectrum/Scripts/Editor/OutputVolumeEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/SimpleSpectrum/Scripts/Editor/SimpleSpectrumEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/SimpleSpectrum/Scripts/Editor/SimpleSpectrumEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/SimpleSpectrum/Scripts/OutputVolume.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/SimpleSpectrum/Scripts/OutputVolume.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/SimpleSpectrum/Scripts/SimpleSpectrum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/SimpleSpectrum/Scripts/SimpleSpectrum.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/DualJoystickPlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/DualJoystickPlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/DualJoystickTouchContoller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/DualJoystickTouchContoller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/LeftJoystick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/LeftJoystick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/LeftJoystickPlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/LeftJoystickPlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/LeftJoystickTouchContoller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/LeftJoystickTouchContoller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/RightJoystick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/RightJoystick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/RightJoystickPlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/RightJoystickPlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/RightJoystickTouchContoller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/RightJoystickTouchContoller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/SingleJoystick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/SingleJoystick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/SingleJoystickPlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/SingleJoystickPlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/SingleJoystickTouchController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityAssets/TouchJoysticks/Scripts/SingleJoystickTouchController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserPlaceholders.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserPlaceholders.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Player/Weapon/Blastercount.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Player/Weapon/Blastercount.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Player/Weapon/LazerShot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Player/Weapon/LazerShot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/SceneData/Actions/lowhpWarning.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/SceneData/Actions/lowhpWarning.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elysium.sln.DotSettings" beforeDir="false" afterPath="$PROJECT_DIR$/Elysium.sln.DotSettings" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,6 +127,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/Custom/DelayedButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/Effects/SFXManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/Effects/ChangeMusicVolume.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/GameProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AI/Weapon/BotLazer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Preferences/Settings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/UserProfileInfoScreen.cs" root0="FORCE_HIGHLIGHTING" />
@@ -171,6 +139,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserPlaceholders.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AI/Health/Drophp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Responses/APIResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/LobbyScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AI/Health/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AI/Health/Healthbox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Cursor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -184,6 +153,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/Window.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AI/Initiate/Spawnedbothp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/API.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/Custom/JumpingButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AI/Positions/BotMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Notifications/NotificationPrefab.cs" root0="FORCE_HIGHLIGHTING" />
@@ -192,6 +162,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/SceneData/Minimap/Minimap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Users/Avatar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/SettingsScreen.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/OnlineViewButtons.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/ConnectionProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Responses/Avatar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Responses/PlayerInfo.cs" root0="FORCE_HIGHLIGHTING" />
@@ -199,7 +170,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/Auth/Encryptor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Input/Stick/TouchCursor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Input/Stick/StickGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/GameContainer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Packages/LiteNetLib/Utils/INetSerializable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/Animations/AnimDirection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Notifications/NofEnum.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/User.cs" root0="FORCE_HIGHLIGHTING" />
@@ -221,11 +194,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Player/Controller/Spacecontrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/MessageType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Player/CameraProperties/FollowCamOnline.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/SpriteGlow/Assets/SpriteGlow/Runtime/SpriteGlowEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Player/CameraProperties/Camerafollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/GameHost.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CFAFC873-2420-4D76-AA16-5BC115D2D394/bc/f91abfee/UnityWebRequest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Coffee/UIExtensions/SoftMaskForUGUI/Shaders/TMP_SDF-Mobile (SoftMaskable).shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/ButtonSystemParams.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/WebWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Multiplayer/Lobby/Lobby.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/Animations/MusicPlayerUi.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/Animations/WindowAnimations.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Coffee/UIExtensions/SoftMaskForUGUI/Scripts/SoftMaskable.cs" root0="FORCE_HIGHLIGHTING" />
@@ -236,6 +212,7 @@
     <setting file="file://C:/Program Files/Unity/2019.2.14f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/GraphicRaycaster.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D91C9DD7-2E7E-43CA-ACAF-56C08F388C09/b4/9b35c5ad/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/35B14027-6B2F-460C-88E9-BBFD32CEFF37/03/ac4dfd59/Thread.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Multiplayer/Lobby/Room.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Background/BackgroundChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Background/BackgroundSelector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/Editor/Editor.asmdef" root0="FORCE_HIGHLIGHTING" />
@@ -250,6 +227,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/97A637BF-5181-46CF-AD16-41885C6A2DEE/90/45eaef51/IPointerClickHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/AuthScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/Text/CharSplitter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Online/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/Effects/FillAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D91C9DD7-2E7E-43CA-ACAF-56C08F388C09/31/91d3e7f6/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Graphics/Effects/Initiate.cs" root0="FORCE_HIGHLIGHTING" />
@@ -285,57 +263,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/Animations/Animation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/Custom/DelayedButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/UserProfileInfoScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/AuthScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Utils/ScaleGrid.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Users/PlayerType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat/ChatHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat/Message.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserSerializedTemplate.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/PlayerStatistics.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/User.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserPlaceholders.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Screen.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/MenuScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/WindowButtonHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/WindowManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/MenuWindow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/WebWindow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/ScreenManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/Window.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/ButtonSystemParams.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/Animations/WindowAnimations.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/ScrollTracker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Audio/Tracks/deviceMusicListing.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Difficult/BotDifficult.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/ButtonTracker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Cursor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/ApiManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/MessageType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/ConnectionProvider.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Response/Leaderboards.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Response/Avatar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Users/Avatar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Audio/Tracks/MusicManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Response/PlayerInfo.cs" />
-        <option value="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/APISettingsRequest.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/APILeaderboardsRequest.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/IAPIRequest.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/APIConfigRequest.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/IAPIProvider.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/APIAvatarRequest.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/APIPlayerInfoRequest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Requests/APIRequest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Responses/PlayerInfo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Responses/Leaderboards.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Responses/Avatar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/APIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/API/Responses/APIResponse.cs" />
+        <option value="$PROJECT_DIR$/Assets/UnityAssets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/PlayerStatistics.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Multiplayer/Lobby.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/IGameHost.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/OnlineViewButtons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Player/Controller/Player2DControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Player/Health/HealthbarScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Player/Weapon/AmmoCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/SceneData/Actions/PauseBTN.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/SceneData/Actions/RestartonDeath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/AI/Weapon/BotLazer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/AI/Weapon/Botshooting.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/AI/Weapon/Misslebotscript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Menu/Animations/Animation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Cursor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/LobbyWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/WindowManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/MessageType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Player/Scoring/LocalScoringByDifficulty.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/LobbyWindowManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Window/Window.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/LobbyScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Multiplayer/Lobby/Room.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Multiplayer/Lobby/Lobby.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/ConnectionProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Manager/Auth/AuthProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Chat/ChatHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/User.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Web/Users/UserPlaceholders.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/WindowButtonHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/AI/Data/Bots.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/AI/Positions/BotMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Online/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/Screen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Screen/ScreenManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameHost.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameContainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Difficult/BotDifficult.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Player/Weapon/LazerShot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Player/Weapon/Blastercount.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/SceneData/Actions/lowhpWarning.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Graphics/UI/Buttons/ButtonTracker.cs" />
       </list>
     </option>
   </component>
@@ -612,6 +590,12 @@
       <workItem from="1581362636461" duration="6185000" />
       <workItem from="1581374876864" duration="8095000" />
       <workItem from="1581428281083" duration="17390000" />
+      <workItem from="1581588958717" duration="20806000" />
+      <workItem from="1581689345903" duration="1289000" />
+      <workItem from="1581701463757" duration="122000" />
+      <workItem from="1581702116394" duration="655000" />
+      <workItem from="1581709460384" duration="218000" />
+      <workItem from="1581710705854" duration="22335000" />
     </task>
     <task id="LOCAL-00001" summary="Different changes and fixes.">
       <created>1539467956034</created>
@@ -673,10 +657,10 @@
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
     <state x="589" y="347" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1680.1020@0.0.1680.1020" timestamp="1580815923822" />
-    <state x="642" y="211" key="RiderGenerateDialog" timestamp="1581526078570">
+    <state x="642" y="211" key="RiderGenerateDialog" timestamp="1581795001950">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state x="642" y="211" key="RiderGenerateDialog/0.0.1680.1020@0.0.1680.1020" timestamp="1581526078570" />
+    <state x="642" y="211" key="RiderGenerateDialog/0.0.1680.1020@0.0.1680.1020" timestamp="1581795001950" />
     <state x="341" y="153" key="SettingsEditor" timestamp="1580815919354">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
@@ -693,10 +677,10 @@
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
     <state x="507" y="242" width="701" height="536" key="find.popup/0.0.1680.1020@0.0.1680.1020" timestamp="1580891710151" />
-    <state x="503" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1581524365823">
+    <state x="503" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1581722161747">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state x="503" y="220" width="672" height="678" key="search.everywhere.popup/0.0.1680.1020@0.0.1680.1020" timestamp="1581524365823" />
+    <state x="503" y="220" width="672" height="678" key="search.everywhere.popup/0.0.1680.1020@0.0.1680.1020" timestamp="1581722161747" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -705,19 +689,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Game/AI/Weapon/BotLazer.cs</url>
-          <line>30</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Game/AI/Weapon/BotLazer.cs" initialLine="28">
-            <startOffsets>
-              <option value="667" />
-            </startOffsets>
-            <endOffsets>
-              <option value="668" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

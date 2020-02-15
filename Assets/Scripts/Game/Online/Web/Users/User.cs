@@ -1,4 +1,4 @@
-using LiteNetLib.Utils;
+using Packages.LiteNetLib.Utils;
 using INetSerializable = Packages.LiteNetLib.Utils.INetSerializable;
 using NetDataReader = Packages.LiteNetLib.Utils.NetDataReader;
 using NetDataWriter = Packages.LiteNetLib.Utils.NetDataWriter;

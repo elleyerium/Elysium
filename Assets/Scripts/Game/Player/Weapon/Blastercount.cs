@@ -11,16 +11,16 @@ namespace Game.Player.Weapon
         public static Text lazercount;
 
 
-        /*void Start ()
+        void Start ()
         {
-            if (BotDifficult.noob)
+            if (BotDifficult.DifficultRate == DifficultRate.Easy)
                 Ammodownlazer = 120;
-            if (BotDifficult.abitharder)
+            if (BotDifficult.DifficultRate == DifficultRate.Medium)
                 Ammodownlazer = 90;
-            if (BotDifficult.impossible)
+            if (BotDifficult.DifficultRate == DifficultRate.Hard)
                 Ammodownlazer = 60;
             lazercount = GetComponent<Text>();
-        }*/
+        }
 
 
         void Update ()

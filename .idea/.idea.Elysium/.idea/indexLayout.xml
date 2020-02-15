@@ -3,16 +3,22 @@
   <component name="ContentModelUserStore">
     <attachedFolders />
     <explicitIncludes>
+      <Path>Library/PackageCache/com.elringus.spriteglow@ddd68f4c885bbe788f9ccfc21b6038a16f9b43f1</Path>
       <Path>Library/PackageCache/com.unity.ads@2.0.8</Path>
-      <Path>Library/PackageCache/com.unity.analytics@3.3.2</Path>
+      <Path>Library/PackageCache/com.unity.analytics@3.3.5</Path>
       <Path>Library/PackageCache/com.unity.collab-proxy@1.2.16</Path>
       <Path>Library/PackageCache/com.unity.ext.nunit@1.0.0</Path>
-      <Path>Library/PackageCache/com.unity.ide.rider@1.1.0</Path>
-      <Path>Library/PackageCache/com.unity.ide.vscode@1.1.2</Path>
-      <Path>Library/PackageCache/com.unity.multiplayer-hlapi@1.0.2</Path>
+      <Path>Library/PackageCache/com.unity.ide.rider@1.1.4</Path>
+      <Path>Library/PackageCache/com.unity.ide.vscode@1.1.4</Path>
+      <Path>Library/PackageCache/com.unity.multiplayer-hlapi@1.0.4</Path>
+      <Path>Library/PackageCache/com.unity.postprocessing@2.3.0</Path>
       <Path>Library/PackageCache/com.unity.purchasing@2.0.6</Path>
-      <Path>Library/PackageCache/com.unity.test-framework@1.0.13</Path>
+      <Path>Library/PackageCache/com.unity.render-pipelines.core@7.1.8</Path>
+      <Path>Library/PackageCache/com.unity.render-pipelines.universal@7.1.8</Path>
+      <Path>Library/PackageCache/com.unity.shadergraph@7.1.8</Path>
+      <Path>Library/PackageCache/com.unity.test-framework@1.1.11</Path>
       <Path>Library/PackageCache/com.unity.textmeshpro@2.0.1</Path>
+      <Path>Library/PackageCache/com.unity.timeline@1.2.10</Path>
       <Path>Library/PackageCache/com.unity.xr.legacyinputhelpers@2.0.2</Path>
       <Path>Library/PackageCache/nuget.mono-cecil@0.1.5-preview</Path>
       <Path>Packages</Path>

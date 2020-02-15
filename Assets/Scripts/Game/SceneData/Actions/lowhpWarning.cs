@@ -9,7 +9,7 @@ namespace Game.SceneData.Actions
         public float Offmessage;
 
         void Update() {
-            if (HealthbarScript.health >= 20)
+            /*if (HealthbarScript.health >= 20)
             {
                 lowhpmessage.SetActive(false);
             }
@@ -17,7 +17,7 @@ namespace Game.SceneData.Actions
             {
                 lowhpmessage.SetActive(true);
                 Offmessageclass();
-            }
+            }*/
         }
         public void Offmessageclass()
         {

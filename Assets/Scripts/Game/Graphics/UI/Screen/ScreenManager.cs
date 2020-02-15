@@ -8,7 +8,7 @@ namespace Game.Graphics.UI.Screen
     public class ScreenManager : MonoBehaviour
     {
         [SerializeField] private Screen _authScreen, _webScreen, _profileInfoScreen, _mainScreen, _notificationsScreen, _settingsScreen, _lobbyScreen;
-        [SerializeField] private Screen _leaderboardsScreen, _modeSelectorScreen, _stylingScreen;
+        [SerializeField] private Screen _leaderboardsScreen, _modeSelectorScreen, _stylingScreen, _diffScreen;
         private Screen _prevScreen;
         public static ScreenManager Instance;
         public List<Screen> Screens = new List<Screen>();
@@ -34,6 +34,7 @@ namespace Game.Graphics.UI.Screen
             Screens.Add(_modeSelectorScreen);
             Screens.Add(_stylingScreen);
             Screens.Add(_lobbyScreen);
+            Screens.Add(_diffScreen);
         }
 
         public Screen GetScreen(ScreenType screenType)
@@ -60,6 +61,8 @@ namespace Game.Graphics.UI.Screen
                     return _modeSelectorScreen;
                 case ScreenType.StylingScreen:
                     return _stylingScreen;
+                case ScreenType.DiffSelectorScreen:
+                    return _diffScreen;
                 default:
                     throw new ArgumentOutOfRangeException(nameof(screenType), screenType, null);
             }

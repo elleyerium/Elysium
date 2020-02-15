@@ -1,57 +1,49 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Game.Graphics.Effects;
-using Game.Player.Scoring;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using System;
 
 namespace Game.Difficult
 {
-    public class BotDifficult : MonoBehaviour {
-        public static bool noob, abitharder,impossible;
-        public Slider Difficult;
-        public GameObject Panel;
+    public class BotDifficult
+    {
+        public float DamageMultiplier { get; }
+        public float BlasterReloadDelay { get; }
+        public float MissileReloadDelay { get; }
+        public float ScoreMultiplier { get; }
 
-        public void Play()
+        public static DifficultRate DifficultRate;
+
+        public BotDifficult(DifficultRate difficultRate)
         {
-            if (Difficult.value == 1)
+            DifficultRate = difficultRate;
+            switch (difficultRate)
             {
-                abitharder = false;
-                impossible = false;
-                noob = true;
-                if (noob)
-                    LocalScoringByDifficulty.ScoreMultipliyer = 0.3f;
+                case DifficultRate.Easy:
+                    DamageMultiplier = 1.0f;
+                    BlasterReloadDelay = 1.0f;
+                    MissileReloadDelay = 2f;
+                    ScoreMultiplier = 1.0f;
+                    break;
+                case DifficultRate.Medium:
+                    DamageMultiplier = 0.9f;
+                    BlasterReloadDelay = 1.2f;
+                    MissileReloadDelay = 2.5f;
+                    ScoreMultiplier = 1.2f;
+                    break;
+                case DifficultRate.Hard:
+                    DamageMultiplier = 0.8f;
+                    BlasterReloadDelay = 1.5f;
+                    MissileReloadDelay = 3f;
+                    ScoreMultiplier = 1.5f;
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(difficultRate), difficultRate, null);
             }
-            if(Difficult.value == 2)
-            {
-                abitharder = true;
-                noob = false;
-                impossible = false;
-                abitharder = true;
-                if (abitharder)
-                    LocalScoringByDifficulty.ScoreMultipliyer = 1.1f;
-            }
-            if(Difficult.value == 3)
-            {
-                abitharder = false;
-                noob = false;
-                impossible = true;
-                if (impossible)
-                    LocalScoringByDifficulty.ScoreMultipliyer = 2.3f;
-            }
-
-            if (abitharder == false && noob == false && impossible == false)
-            {
-                LocalScoringByDifficulty.ScoreMultipliyer = 1.1f;
-            }
-
-            Initiate.Fade("bots", Color.black, 4.5f);
-            PlayerPrefs.SetInt("Play Counter", PlayerPrefs.GetInt("Play Counter") + 1);
         }
+    }
 
-        public void Back()
-        {
-            Panel.SetActive(false);
-        }
+    public enum DifficultRate
+    {
+        Easy,
+        Medium,
+        Hard
     }
 }

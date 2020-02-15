@@ -13,13 +13,14 @@ namespace Game.AI.Data
         public static int botCounter =0;
         public Transform Spawn1;
         public Transform Spawn2;
+        [SerializeField] private Transform _enemyParent;
         public GameObject Botprefabclone;
         [SerializeField]
         private float SpawnDelay, SpawnMultiplier;
 
         public void Update()
         {
-            Alive.text = ("bots alive : " + botCounter);
+            Alive.text = "bots alive : " + botCounter;
 
             if (Time.time >= SpawnMultiplier && botCounter <=20)
             {
@@ -28,14 +29,13 @@ namespace Game.AI.Data
                 SpawnIt();
                 botCounter += 2;
                 Debug.Log(botCounter);
-
             }
 
         }
         public void SpawnIt()
         {
-            GameObject SpawnItbot1 = Instantiate(Botprefabclone, Spawn1.position, Spawn1.rotation) as GameObject;
-            GameObject SpawnItbot2 = Instantiate(Botprefabclone, Spawn2.position, Spawn2.rotation) as GameObject;
+            var SpawnItbot1 = Instantiate(Botprefabclone, Spawn1.position, Spawn1.rotation, _enemyParent);
+            var SpawnItbot2 = Instantiate(Botprefabclone, Spawn2.position, Spawn2.rotation, _enemyParent);
             Debug.Log("Spawned from pos1");
             //Alive_Counter += 2;
         }

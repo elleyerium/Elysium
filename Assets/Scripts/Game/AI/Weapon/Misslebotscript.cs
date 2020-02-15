@@ -52,12 +52,12 @@ namespace Game.AI.Weapon
             {
                 Instantiate(Explosion, col.transform.position, col.transform.rotation);
                 Explosion.Play();
-                if (BotDifficult.impossible)
+                /*if (BotDifficult.impossible)
                     HealthbarScript.health -= 15;
                 if(BotDifficult.abitharder)
                     HealthbarScript.health -= 5;
                 if (BotDifficult.noob)
-                    HealthbarScript.health -= 2;
+                    HealthbarScript.health -= 2;*/
 
                 Destroy(missle);
             }

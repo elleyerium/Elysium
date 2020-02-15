@@ -20,12 +20,12 @@ namespace Game.AI.Weapon
         {
             if (Vector3.Distance(bot.transform.position, player.transform.position) < range && Time.time > nextrocket)
             {
-                if (BotDifficult.noob)
+                /*if (BotDifficult.noob)
                     nextrocket = Time.time + Random.Range(6, 7);
                 if (BotDifficult.abitharder)
                     nextrocket = Time.time + Random.Range(8, 9);
                 if (BotDifficult.impossible)
-                    nextrocket = Time.time + Random.Range(9, 10);
+                    nextrocket = Time.time + Random.Range(9, 10);*/
 
                 GameObject clone = Instantiate(shot1, pos1.position, pos1.rotation);
                 GameObject clone2 = Instantiate(shot1, pos2.position, pos2.rotation);

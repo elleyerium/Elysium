@@ -75,12 +75,12 @@ namespace Game.Player.Weapon
     else if (Blastercount.Ammodownlazer < _lazerfirstammo && !pointerDown)
         {
 
-            /*if (BotDifficult.noob)
+            if (BotDifficult.DifficultRate == DifficultRate.Easy)
                 ammo = (Blastercount.Ammodownlazer += 2 * Time.deltaTime).ToString("F2");
-            if (BotDifficult.abitharder)
+            if (BotDifficult.DifficultRate == DifficultRate.Medium)
                 ammo = (Blastercount.Ammodownlazer += 3 * Time.deltaTime).ToString("F2");
-            if (BotDifficult.impossible)
-                ammo = (Blastercount.Ammodownlazer += 4 * Time.deltaTime).ToString("F2");*/
+            if (BotDifficult.DifficultRate == DifficultRate.Hard)
+                ammo = (Blastercount.Ammodownlazer += 4 * Time.deltaTime).ToString("F2");
 
             Blastercount.Ammodownlazer = float.Parse(ammo);
             LaserFill.fillAmount = Blastercount.Ammodownlazer / _lazerfirstammo;

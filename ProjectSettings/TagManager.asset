@@ -15,6 +15,8 @@ TagManager:
   - ClickUp
   - ClickBack
   - Notification
+  - Overlay
+  - GameCanvasGroup
   layers:
   - Default
   - TransparentFX

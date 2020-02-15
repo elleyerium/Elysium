@@ -7,9 +7,9 @@ namespace Game.AI.Positions
     public class BotMove : MonoBehaviour
     {
         public GameObject target;
-        float range = 2000f;
-        float speed = 700f;
-        float rotspeed = 200f;
+        float range = 25f;
+        float speed = 10f;
+        float rotspeed = 360f;
         public GameObject player;
         public GameObject bot;
         Rigidbody2D botbody;
@@ -20,7 +20,6 @@ namespace Game.AI.Positions
         {
             botbody = GetComponent<Rigidbody2D>();
             target = GameObject.FindGameObjectWithTag("player");
-
         }
 
         void FixedUpdate()
@@ -43,10 +42,9 @@ namespace Game.AI.Positions
                     float value = Vector3.Cross(movetotarget, transform.up).z;
                     botbody.angularVelocity = Random.Range(100, 250) * value;
                     botbody.velocity = speed * transform.up;
-                    if (Vector3.Distance(bot.transform.position, target.transform.position) <= 200)
+                    if (Vector3.Distance(bot.transform.position, target.transform.position) <= 5)
                     {
                         botbody.angularVelocity = 0;
-
                     }
                 }
 
@@ -56,7 +54,7 @@ namespace Game.AI.Positions
                     movetotarget.Normalize();
                     float value = Vector3.Cross(movetotarget, transform.right).z;
                     botbody.angularVelocity = Random.Range(1f, 1000f) * value;
-                    botbody.velocity = Random.Range(1f, 1000f) * transform.up;
+                    botbody.velocity = speed * transform.up;
                 }
             }
         }

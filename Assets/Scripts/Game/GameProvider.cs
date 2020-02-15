@@ -7,22 +7,16 @@ namespace Game
 {
     public class GameProvider : MonoBehaviour
     {
-        public void SetGameProvider(GameType gameType, Room room)
+        public GameObject GameContainerPrefab;
+
+        public void SetOnlineHost(Room room, Online.Player player)
         {
-            IGameHost gameHost;
-            /*switch (gameType)
-            {
-                case GameType.Offline:
-                    gameHost = new GameHost();
-                    gameHost.CreateHost(new BotDifficult(DifficultRate.Easy));
-                    break;
-                case GameType.Online:
-                    gameHost = new GameHost();
-                    gameHost.CreateHost(room);
-                    break;
-                default:
-                    throw new ArgumentOutOfRangeException(nameof(gameType), gameType, null);
-            }*/
+            var gamehost = new GameHost(room, player, GameContainerPrefab);
+        }
+
+        public void SetOfflineHost(BotDifficult difficult)
+        {
+            var gamehost = new GameHost(difficult, GameContainerPrefab);
         }
     }
 }

@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 using Game.Graphics.UI.Screen;
-using LiteNetLib.Utils;
+using Packages.LiteNetLib.Utils;
 using UnityEngine;
 using NetDataWriter = Packages.LiteNetLib.Utils.NetDataWriter;
 

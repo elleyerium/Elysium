@@ -22,7 +22,7 @@ namespace Game.Graphics.UI.Screen
             {
                 MinPlayers = 2,
                 MaxPlayers = 14,
-                Owner = new Online.Player("elleyer", 41),
+                Owner = _connectionProvider.GetLocalPlayer(),
                 RoomName = "Elleyer's awesome room"
             }));
         }

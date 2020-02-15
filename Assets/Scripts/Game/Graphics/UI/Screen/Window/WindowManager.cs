@@ -5,7 +5,7 @@ namespace Game.Graphics.UI.Screen.Window
 {
     public class WindowManager : MonoBehaviour
     {
-        protected void Show(Window window)
+        public static void Show(Window window)
         {
             if (window.IsActive)
                 return;
@@ -15,7 +15,7 @@ namespace Game.Graphics.UI.Screen.Window
             DOTween.To(() => window.CanvasGroup.alpha, x => window.CanvasGroup.alpha = x, 1f, 0.3f);
         }
 
-        protected void Hide(Window window)
+        public static void Hide(Window window)
         {
             if (!window.IsActive)
                 return;

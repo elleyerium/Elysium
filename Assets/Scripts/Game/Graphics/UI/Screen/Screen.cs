@@ -58,6 +58,7 @@ namespace Game.Graphics.UI.Screen
         LobbyScreen,
         LeaderboardsScreen,
         ModeSelectorScreen,
+        DiffSelectorScreen,
         StylingScreen
     }
 }

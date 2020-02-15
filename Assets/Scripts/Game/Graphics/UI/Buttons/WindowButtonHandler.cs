@@ -1,7 +1,8 @@
+using Game.Graphics.UI.Screen;
 using Game.Graphics.UI.Screen.Window;
 using Game.Online;
 using Game.Online.Manager;
-using LiteNetLib.Utils;
+using Packages.LiteNetLib.Utils;
 using UnityEngine;
 using NetDataWriter = Packages.LiteNetLib.Utils.NetDataWriter;
 
@@ -39,7 +40,7 @@ namespace Game.Graphics.UI.Buttons
 
         #region MenuScreen
 
-        public void ShowMainWindow() => _menuWindow.ChangeWindow(MenuWindowType.Main);
+        /*public void ShowMainWindow() => _menuWindow.ChangeWindow(MenuWindowType.Main);
 
         public void ShowRankingWindow()
         {
@@ -50,9 +51,27 @@ namespace Game.Graphics.UI.Buttons
 
         public void ShowGameModeWindow() => _menuWindow.ChangeWindow(MenuWindowType.GameMode);
 
-        public void ShowGameModeOfflineWindow() => _menuWindow.ChangeWindow(MenuWindowType.GameModeOffline);
+        public void ShowGameModeOfflineWindow() => _menuWindow.ChangeWindow(MenuWindowType.GameModeOffline);*/
 
         public void ShowGameModeOnlineWindow() => _menuWindow.ChangeWindow(MenuWindowType.GameModeOnline);
+
+       #endregion
+
+       #region LobbyScreen
+
+       public void ShowCreateRoomWindow()
+       {
+       }
+
+       public void ShowRoomInfoWindow()
+       {
+       }
+
+       public void BackToSelectorWindow(LobbyScreen screen)
+       {
+           Screen.Screen.HideOrShowScreen(0.5f, screen);
+           //ShowGameModeWindow();
+       }
 
        #endregion
     }

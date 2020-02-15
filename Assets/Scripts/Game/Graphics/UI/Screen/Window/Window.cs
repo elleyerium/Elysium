@@ -6,6 +6,5 @@ namespace Game.Graphics.UI.Screen.Window
     {
         public bool IsActive;
         public CanvasGroup CanvasGroup;
-
     }
 }

@@ -7,16 +7,11 @@ using Game.Graphics.UI.Screen;
 using Game.Online.Manager.Auth;
 using Game.Online.Users;
 using UnityEngine;
-using LiteNetLib;
-using LiteNetLib.Utils;
 using Game.Online.Web;
 using Game.Online.Web.Chat;
 using Game.Online.Web.Users;
-using DeliveryMethod = Packages.LiteNetLib.DeliveryMethod;
-using EventBasedNetListener = Packages.LiteNetLib.EventBasedNetListener;
-using NetDataWriter = Packages.LiteNetLib.Utils.NetDataWriter;
-using NetManager = Packages.LiteNetLib.NetManager;
-using NetPeer = Packages.LiteNetLib.NetPeer;
+using Packages.LiteNetLib;
+using Packages.LiteNetLib.Utils;
 using Screen = Game.Graphics.UI.Screen.Screen;
 
 namespace Game.Online.Manager
@@ -34,6 +29,7 @@ namespace Game.Online.Manager
         private AuthScreen _authScreen;
         private bool _isConnected;
         public List<uint> ConnectedPeersId = new List<uint>();
+        public List<Player> Players = new List<Player>();
         public uint LocalId;
 
         public void Init(AuthProvider authProvider)
@@ -53,11 +49,7 @@ namespace Game.Online.Manager
                         switch ((MessageType)dataReader.GetByte())
                         {
                             case MessageType.AuthorizationResponse: //We got auth response
-                                dataReader.GetString();
-                                LocalId = dataReader.GetUInt();
-                                Debug.Log(LocalId);
-                                //SendMessage(MessageType.GetPlayerStats, new NetDataWriter());
-                                //SendMessage(MessageType.GetAvatar, new NetDataWriter());
+                                Players.Add(new Player(dataReader.GetString(), dataReader.GetUInt(), true));
                                 break;
                             case MessageType.UserConnected: //new user just connected
                                 dataReader.GetString();
@@ -146,6 +138,8 @@ namespace Game.Online.Manager
         {
             peer.Disconnect();
         }
+
+        public Player GetLocalPlayer() => Players.FirstOrDefault(x => x.IsLocal);
 
         #region SendMessage
 
